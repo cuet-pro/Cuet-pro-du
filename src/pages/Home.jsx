@@ -2,7 +2,7 @@ import { useState, useMemo } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import { colleges } from '../data/colleges';
 import { programs } from '../data/programs';
-import { offerings } from '../data/offerings';
+import { offerings } from '../data/cutoffsData';
 import './Home.css';
 
 export function Home() {
@@ -37,8 +37,8 @@ export function Home() {
   // Stats calculation
   const totalColleges = colleges.length;
   const totalCourses = programs.length;
-  const totalSeats = offerings.reduce((sum, off) => sum + off.totalSeats, 0);
-  const dataYear = offerings.length > 0 ? offerings[0].year : 'N/A';
+  const totalSeats = offerings.reduce((sum, off) => sum + (off.seats?.total || 0), 0);
+  const dataYear = '2026';
 
   const formatNumber = (num) => {
     return new Intl.NumberFormat('en-IN').format(num);
@@ -97,15 +97,15 @@ export function Home() {
       {/* Stats Bar */}
       <div className="home-stats-bar">
         <div className="stat-item">
-          <span className="stat-value">91</span>
+          <span className="stat-value">{totalColleges}</span>
           <span className="stat-label">Colleges</span>
         </div>
         <div className="stat-item">
-          <span className="stat-value">262+</span>
+          <span className="stat-value">{totalCourses}+</span>
           <span className="stat-label">Programs</span>
         </div>
         <div className="stat-item">
-          <span className="stat-value">2025</span>
+          <span className="stat-value">{dataYear}</span>
           <span className="stat-label">Academic Data</span>
         </div>
       </div>

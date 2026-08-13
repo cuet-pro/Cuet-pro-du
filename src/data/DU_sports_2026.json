@@ -1,0 +1,3901 @@
+[
+ {
+  "collegeId": "acharya-narendra-dev-college",
+  "collegeName": "Acharya Narendra Dev College",
+  "sport": "Athletics",
+  "men": 4,
+  "women": 4
+ },
+ {
+  "collegeId": "acharya-narendra-dev-college",
+  "collegeName": "Acharya Narendra Dev College",
+  "sport": "Badminton",
+  "men": 2,
+  "women": 2
+ },
+ {
+  "collegeId": "acharya-narendra-dev-college",
+  "collegeName": "Acharya Narendra Dev College",
+  "sport": "Chess",
+  "men": 1,
+  "women": 1
+ },
+ {
+  "collegeId": "acharya-narendra-dev-college",
+  "collegeName": "Acharya Narendra Dev College",
+  "sport": "Cricket",
+  "men": 4,
+  "women": 0
+ },
+ {
+  "collegeId": "acharya-narendra-dev-college",
+  "collegeName": "Acharya Narendra Dev College",
+  "sport": "Football",
+  "men": 3,
+  "women": 0
+ },
+ {
+  "collegeId": "acharya-narendra-dev-college",
+  "collegeName": "Acharya Narendra Dev College",
+  "sport": "Volleyball",
+  "men": 2,
+  "women": 3
+ },
+ {
+  "collegeId": "aditi-mahavidyalaya-w",
+  "collegeName": "Aditi Mahavidyalaya (W)",
+  "sport": "Athletics",
+  "men": 0,
+  "women": 3
+ },
+ {
+  "collegeId": "aditi-mahavidyalaya-w",
+  "collegeName": "Aditi Mahavidyalaya (W)",
+  "sport": "Boxing",
+  "men": 0,
+  "women": 2
+ },
+ {
+  "collegeId": "aditi-mahavidyalaya-w",
+  "collegeName": "Aditi Mahavidyalaya (W)",
+  "sport": "Chess",
+  "men": 0,
+  "women": 1
+ },
+ {
+  "collegeId": "aditi-mahavidyalaya-w",
+  "collegeName": "Aditi Mahavidyalaya (W)",
+  "sport": "Cricket",
+  "men": 0,
+  "women": 2
+ },
+ {
+  "collegeId": "aditi-mahavidyalaya-w",
+  "collegeName": "Aditi Mahavidyalaya (W)",
+  "sport": "Judo",
+  "men": 0,
+  "women": 3
+ },
+ {
+  "collegeId": "aditi-mahavidyalaya-w",
+  "collegeName": "Aditi Mahavidyalaya (W)",
+  "sport": "Kabaddi",
+  "men": 0,
+  "women": 4
+ },
+ {
+  "collegeId": "aditi-mahavidyalaya-w",
+  "collegeName": "Aditi Mahavidyalaya (W)",
+  "sport": "Kho-Kho",
+  "men": 0,
+  "women": 3
+ },
+ {
+  "collegeId": "aditi-mahavidyalaya-w",
+  "collegeName": "Aditi Mahavidyalaya (W)",
+  "sport": "Taekwondo",
+  "men": 0,
+  "women": 3
+ },
+ {
+  "collegeId": "aditi-mahavidyalaya-w",
+  "collegeName": "Aditi Mahavidyalaya (W)",
+  "sport": "Volleyball",
+  "men": 0,
+  "women": 3
+ },
+ {
+  "collegeId": "aditi-mahavidyalaya-w",
+  "collegeName": "Aditi Mahavidyalaya (W)",
+  "sport": "Weightlifting",
+  "men": 0,
+  "women": 3
+ },
+ {
+  "collegeId": "aditi-mahavidyalaya-w",
+  "collegeName": "Aditi Mahavidyalaya (W)",
+  "sport": "Wrestling",
+  "men": 0,
+  "women": 3
+ },
+ {
+  "collegeId": "aryabhatta-college",
+  "collegeName": "Aryabhatta College",
+  "sport": "Cricket",
+  "men": 4,
+  "women": 0
+ },
+ {
+  "collegeId": "aryabhatta-college",
+  "collegeName": "Aryabhatta College",
+  "sport": "Gymnastics",
+  "men": 1,
+  "women": 1
+ },
+ {
+  "collegeId": "aryabhatta-college",
+  "collegeName": "Aryabhatta College",
+  "sport": "Kabaddi",
+  "men": 8,
+  "women": 0
+ },
+ {
+  "collegeId": "aryabhatta-college",
+  "collegeName": "Aryabhatta College",
+  "sport": "Kho-Kho",
+  "men": 5,
+  "women": 0
+ },
+ {
+  "collegeId": "aryabhatta-college",
+  "collegeName": "Aryabhatta College",
+  "sport": "Volleyball",
+  "men": 6,
+  "women": 0
+ },
+ {
+  "collegeId": "atma-ram-sanatan-dharma-college",
+  "collegeName": "Atma Ram Sanatan Dharma College",
+  "sport": "Archery",
+  "men": 2,
+  "women": 0
+ },
+ {
+  "collegeId": "atma-ram-sanatan-dharma-college",
+  "collegeName": "Atma Ram Sanatan Dharma College",
+  "sport": "Badminton",
+  "men": 1,
+  "women": 0
+ },
+ {
+  "collegeId": "atma-ram-sanatan-dharma-college",
+  "collegeName": "Atma Ram Sanatan Dharma College",
+  "sport": "Basketball",
+  "men": 6,
+  "women": 0
+ },
+ {
+  "collegeId": "atma-ram-sanatan-dharma-college",
+  "collegeName": "Atma Ram Sanatan Dharma College",
+  "sport": "Cricket",
+  "men": 8,
+  "women": 0
+ },
+ {
+  "collegeId": "atma-ram-sanatan-dharma-college",
+  "collegeName": "Atma Ram Sanatan Dharma College",
+  "sport": "Football",
+  "men": 7,
+  "women": 0
+ },
+ {
+  "collegeId": "atma-ram-sanatan-dharma-college",
+  "collegeName": "Atma Ram Sanatan Dharma College",
+  "sport": "Gymnastics",
+  "men": 2,
+  "women": 1
+ },
+ {
+  "collegeId": "atma-ram-sanatan-dharma-college",
+  "collegeName": "Atma Ram Sanatan Dharma College",
+  "sport": "Shooting",
+  "men": 2,
+  "women": 1
+ },
+ {
+  "collegeId": "atma-ram-sanatan-dharma-college",
+  "collegeName": "Atma Ram Sanatan Dharma College",
+  "sport": "Squash",
+  "men": 0,
+  "women": 1
+ },
+ {
+  "collegeId": "atma-ram-sanatan-dharma-college",
+  "collegeName": "Atma Ram Sanatan Dharma College",
+  "sport": "Table Tennis",
+  "men": 1,
+  "women": 0
+ },
+ {
+  "collegeId": "atma-ram-sanatan-dharma-college",
+  "collegeName": "Atma Ram Sanatan Dharma College",
+  "sport": "Volleyball",
+  "men": 6,
+  "women": 6
+ },
+ {
+  "collegeId": "bhagini-nivedita-college-w",
+  "collegeName": "Bhagini Nivedita College (W)",
+  "sport": "Athletics",
+  "men": 0,
+  "women": 5
+ },
+ {
+  "collegeId": "bhagini-nivedita-college-w",
+  "collegeName": "Bhagini Nivedita College (W)",
+  "sport": "Basketball",
+  "men": 0,
+  "women": 5
+ },
+ {
+  "collegeId": "bhagini-nivedita-college-w",
+  "collegeName": "Bhagini Nivedita College (W)",
+  "sport": "Boxing",
+  "men": 0,
+  "women": 2
+ },
+ {
+  "collegeId": "bhagini-nivedita-college-w",
+  "collegeName": "Bhagini Nivedita College (W)",
+  "sport": "Chess",
+  "men": 0,
+  "women": 2
+ },
+ {
+  "collegeId": "bhagini-nivedita-college-w",
+  "collegeName": "Bhagini Nivedita College (W)",
+  "sport": "Fencing",
+  "men": 0,
+  "women": 2
+ },
+ {
+  "collegeId": "bhagini-nivedita-college-w",
+  "collegeName": "Bhagini Nivedita College (W)",
+  "sport": "Kabaddi",
+  "men": 0,
+  "women": 2
+ },
+ {
+  "collegeId": "bhagini-nivedita-college-w",
+  "collegeName": "Bhagini Nivedita College (W)",
+  "sport": "Volleyball",
+  "men": 0,
+  "women": 2
+ },
+ {
+  "collegeId": "bhagini-nivedita-college-w",
+  "collegeName": "Bhagini Nivedita College (W)",
+  "sport": "Wrestling",
+  "men": 0,
+  "women": 2
+ },
+ {
+  "collegeId": "bharati-college-w",
+  "collegeName": "Bharati College (W)",
+  "sport": "Boxing",
+  "men": 0,
+  "women": 3
+ },
+ {
+  "collegeId": "bharati-college-w",
+  "collegeName": "Bharati College (W)",
+  "sport": "Cricket",
+  "men": 0,
+  "women": 3
+ },
+ {
+  "collegeId": "bharati-college-w",
+  "collegeName": "Bharati College (W)",
+  "sport": "Football",
+  "men": 0,
+  "women": 7
+ },
+ {
+  "collegeId": "bharati-college-w",
+  "collegeName": "Bharati College (W)",
+  "sport": "Hockey",
+  "men": 0,
+  "women": 11
+ },
+ {
+  "collegeId": "bharati-college-w",
+  "collegeName": "Bharati College (W)",
+  "sport": "Kho-Kho",
+  "men": 0,
+  "women": 7
+ },
+ {
+  "collegeId": "bharati-college-w",
+  "collegeName": "Bharati College (W)",
+  "sport": "Softball",
+  "men": 0,
+  "women": 5
+ },
+ {
+  "collegeId": "bharati-college-w",
+  "collegeName": "Bharati College (W)",
+  "sport": "Table Tennis",
+  "men": 0,
+  "women": 2
+ },
+ {
+  "collegeId": "bharati-college-w",
+  "collegeName": "Bharati College (W)",
+  "sport": "Taekwondo",
+  "men": 0,
+  "women": 4
+ },
+ {
+  "collegeId": "bharati-college-w",
+  "collegeName": "Bharati College (W)",
+  "sport": "Volleyball",
+  "men": 0,
+  "women": 5
+ },
+ {
+  "collegeId": "bhaskaracharya-college-of-applied-sciences",
+  "collegeName": "Bhaskaracharya College of Applied Sciences",
+  "sport": "Athletics",
+  "men": 2,
+  "women": 1
+ },
+ {
+  "collegeId": "bhaskaracharya-college-of-applied-sciences",
+  "collegeName": "Bhaskaracharya College of Applied Sciences",
+  "sport": "Badminton",
+  "men": 0,
+  "women": 1
+ },
+ {
+  "collegeId": "bhaskaracharya-college-of-applied-sciences",
+  "collegeName": "Bhaskaracharya College of Applied Sciences",
+  "sport": "Chess",
+  "men": 1,
+  "women": 1
+ },
+ {
+  "collegeId": "bhaskaracharya-college-of-applied-sciences",
+  "collegeName": "Bhaskaracharya College of Applied Sciences",
+  "sport": "Football",
+  "men": 3,
+  "women": 0
+ },
+ {
+  "collegeId": "bhaskaracharya-college-of-applied-sciences",
+  "collegeName": "Bhaskaracharya College of Applied Sciences",
+  "sport": "Handball",
+  "men": 3,
+  "women": 0
+ },
+ {
+  "collegeId": "bhaskaracharya-college-of-applied-sciences",
+  "collegeName": "Bhaskaracharya College of Applied Sciences",
+  "sport": "Shooting",
+  "men": 1,
+  "women": 0
+ },
+ {
+  "collegeId": "bhaskaracharya-college-of-applied-sciences",
+  "collegeName": "Bhaskaracharya College of Applied Sciences",
+  "sport": "Table Tennis",
+  "men": 1,
+  "women": 0
+ },
+ {
+  "collegeId": "cluster-innovation-centre",
+  "collegeName": "Cluster Innovation Centre",
+  "sport": "Chess",
+  "men": 1,
+  "women": 1
+ },
+ {
+  "collegeId": "college-of-vocational-studies",
+  "collegeName": "College of Vocational Studies",
+  "sport": "Archery",
+  "men": 2,
+  "women": 1
+ },
+ {
+  "collegeId": "college-of-vocational-studies",
+  "collegeName": "College of Vocational Studies",
+  "sport": "Athletics",
+  "men": 3,
+  "women": 2
+ },
+ {
+  "collegeId": "college-of-vocational-studies",
+  "collegeName": "College of Vocational Studies",
+  "sport": "Badminton",
+  "men": 2,
+  "women": 1
+ },
+ {
+  "collegeId": "college-of-vocational-studies",
+  "collegeName": "College of Vocational Studies",
+  "sport": "Basketball",
+  "men": 4,
+  "women": 1
+ },
+ {
+  "collegeId": "college-of-vocational-studies",
+  "collegeName": "College of Vocational Studies",
+  "sport": "Boxing",
+  "men": 2,
+  "women": 1
+ },
+ {
+  "collegeId": "college-of-vocational-studies",
+  "collegeName": "College of Vocational Studies",
+  "sport": "Cricket",
+  "men": 4,
+  "women": 0
+ },
+ {
+  "collegeId": "college-of-vocational-studies",
+  "collegeName": "College of Vocational Studies",
+  "sport": "Football",
+  "men": 5,
+  "women": 0
+ },
+ {
+  "collegeId": "college-of-vocational-studies",
+  "collegeName": "College of Vocational Studies",
+  "sport": "Handball",
+  "men": 3,
+  "women": 0
+ },
+ {
+  "collegeId": "college-of-vocational-studies",
+  "collegeName": "College of Vocational Studies",
+  "sport": "Table-Tennis",
+  "men": 2,
+  "women": 1
+ },
+ {
+  "collegeId": "college-of-vocational-studies",
+  "collegeName": "College of Vocational Studies",
+  "sport": "Volleyball",
+  "men": 4,
+  "women": 0
+ },
+ {
+  "collegeId": "daulat-ram-college-w",
+  "collegeName": "Daulat Ram College (W)",
+  "sport": "Athletics",
+  "men": 0,
+  "women": 5
+ },
+ {
+  "collegeId": "daulat-ram-college-w",
+  "collegeName": "Daulat Ram College (W)",
+  "sport": "Badminton",
+  "men": 0,
+  "women": 4
+ },
+ {
+  "collegeId": "daulat-ram-college-w",
+  "collegeName": "Daulat Ram College (W)",
+  "sport": "Boxing",
+  "men": 0,
+  "women": 4
+ },
+ {
+  "collegeId": "daulat-ram-college-w",
+  "collegeName": "Daulat Ram College (W)",
+  "sport": "Fencing",
+  "men": 0,
+  "women": 3
+ },
+ {
+  "collegeId": "daulat-ram-college-w",
+  "collegeName": "Daulat Ram College (W)",
+  "sport": "Gymnastics",
+  "men": 0,
+  "women": 2
+ },
+ {
+  "collegeId": "daulat-ram-college-w",
+  "collegeName": "Daulat Ram College (W)",
+  "sport": "Handball",
+  "men": 0,
+  "women": 3
+ },
+ {
+  "collegeId": "daulat-ram-college-w",
+  "collegeName": "Daulat Ram College (W)",
+  "sport": "Kabaddi",
+  "men": 0,
+  "women": 4
+ },
+ {
+  "collegeId": "daulat-ram-college-w",
+  "collegeName": "Daulat Ram College (W)",
+  "sport": "Kho-Kho",
+  "men": 0,
+  "women": 4
+ },
+ {
+  "collegeId": "daulat-ram-college-w",
+  "collegeName": "Daulat Ram College (W)",
+  "sport": "Volleyball",
+  "men": 0,
+  "women": 2
+ },
+ {
+  "collegeId": "deen-dayal-upadhyaya-college",
+  "collegeName": "Deen Dayal Upadhyaya College",
+  "sport": "Archery",
+  "men": 5,
+  "women": 2
+ },
+ {
+  "collegeId": "deen-dayal-upadhyaya-college",
+  "collegeName": "Deen Dayal Upadhyaya College",
+  "sport": "Baseball",
+  "men": 5,
+  "women": 0
+ },
+ {
+  "collegeId": "deen-dayal-upadhyaya-college",
+  "collegeName": "Deen Dayal Upadhyaya College",
+  "sport": "Basketball",
+  "men": 4,
+  "women": 3
+ },
+ {
+  "collegeId": "deen-dayal-upadhyaya-college",
+  "collegeName": "Deen Dayal Upadhyaya College",
+  "sport": "Fencing",
+  "men": 2,
+  "women": 2
+ },
+ {
+  "collegeId": "deen-dayal-upadhyaya-college",
+  "collegeName": "Deen Dayal Upadhyaya College",
+  "sport": "Gymnastics",
+  "men": 0,
+  "women": 2
+ },
+ {
+  "collegeId": "delhi-college-of-arts-and-commerce",
+  "collegeName": "Delhi College of Arts and Commerce",
+  "sport": "Archery",
+  "men": 1,
+  "women": 0
+ },
+ {
+  "collegeId": "delhi-college-of-arts-and-commerce",
+  "collegeName": "Delhi College of Arts and Commerce",
+  "sport": "Basketball",
+  "men": 4,
+  "women": 0
+ },
+ {
+  "collegeId": "delhi-college-of-arts-and-commerce",
+  "collegeName": "Delhi College of Arts and Commerce",
+  "sport": "Cricket",
+  "men": 3,
+  "women": 0
+ },
+ {
+  "collegeId": "delhi-college-of-arts-and-commerce",
+  "collegeName": "Delhi College of Arts and Commerce",
+  "sport": "Football",
+  "men": 3,
+  "women": 0
+ },
+ {
+  "collegeId": "delhi-college-of-arts-and-commerce",
+  "collegeName": "Delhi College of Arts and Commerce",
+  "sport": "Judo",
+  "men": 4,
+  "women": 1
+ },
+ {
+  "collegeId": "delhi-college-of-arts-and-commerce",
+  "collegeName": "Delhi College of Arts and Commerce",
+  "sport": "Shooting",
+  "men": 1,
+  "women": 2
+ },
+ {
+  "collegeId": "delhi-college-of-arts-and-commerce",
+  "collegeName": "Delhi College of Arts and Commerce",
+  "sport": "Swimming",
+  "men": 3,
+  "women": 0
+ },
+ {
+  "collegeId": "delhi-college-of-arts-and-commerce",
+  "collegeName": "Delhi College of Arts and Commerce",
+  "sport": "Taekwondo",
+  "men": 3,
+  "women": 0
+ },
+ {
+  "collegeId": "delhi-college-of-arts-and-commerce",
+  "collegeName": "Delhi College of Arts and Commerce",
+  "sport": "Volleyball",
+  "men": 3,
+  "women": 0
+ },
+ {
+  "collegeId": "delhi-school-of-journalism",
+  "collegeName": "Delhi School of Journalism",
+  "sport": "Badminton",
+  "men": 1,
+  "women": 1
+ },
+ {
+  "collegeId": "delhi-school-of-journalism",
+  "collegeName": "Delhi School of Journalism",
+  "sport": "Chess",
+  "men": 1,
+  "women": 1
+ },
+ {
+  "collegeId": "deshbandhu-college",
+  "collegeName": "Deshbandhu College",
+  "sport": "Archery",
+  "men": 2,
+  "women": 2
+ },
+ {
+  "collegeId": "deshbandhu-college",
+  "collegeName": "Deshbandhu College",
+  "sport": "Athletics",
+  "men": 2,
+  "women": 2
+ },
+ {
+  "collegeId": "deshbandhu-college",
+  "collegeName": "Deshbandhu College",
+  "sport": "Badminton",
+  "men": 2,
+  "women": 2
+ },
+ {
+  "collegeId": "deshbandhu-college",
+  "collegeName": "Deshbandhu College",
+  "sport": "Boxing",
+  "men": 3,
+  "women": 2
+ },
+ {
+  "collegeId": "deshbandhu-college",
+  "collegeName": "Deshbandhu College",
+  "sport": "Football",
+  "men": 2,
+  "women": 0
+ },
+ {
+  "collegeId": "deshbandhu-college",
+  "collegeName": "Deshbandhu College",
+  "sport": "Kabaddi",
+  "men": 2,
+  "women": 0
+ },
+ {
+  "collegeId": "deshbandhu-college",
+  "collegeName": "Deshbandhu College",
+  "sport": "Shooting",
+  "men": 0,
+  "women": 1
+ },
+ {
+  "collegeId": "deshbandhu-college",
+  "collegeName": "Deshbandhu College",
+  "sport": "Table-Tennis",
+  "men": 2,
+  "women": 2
+ },
+ {
+  "collegeId": "deshbandhu-college",
+  "collegeName": "Deshbandhu College",
+  "sport": "Taekwondo",
+  "men": 2,
+  "women": 0
+ },
+ {
+  "collegeId": "deshbandhu-college",
+  "collegeName": "Deshbandhu College",
+  "sport": "Tennis",
+  "men": 2,
+  "women": 0
+ },
+ {
+  "collegeId": "deshbandhu-college",
+  "collegeName": "Deshbandhu College",
+  "sport": "Volleyball",
+  "men": 4,
+  "women": 4
+ },
+ {
+  "collegeId": "deshbandhu-college",
+  "collegeName": "Deshbandhu College",
+  "sport": "Weightlifting",
+  "men": 3,
+  "women": 2
+ },
+ {
+  "collegeId": "dr-bhim-rao-ambedkar-college",
+  "collegeName": "Dr. Bhim Rao Ambedkar College",
+  "sport": "Baseball",
+  "men": 6,
+  "women": 0
+ },
+ {
+  "collegeId": "dr-bhim-rao-ambedkar-college",
+  "collegeName": "Dr. Bhim Rao Ambedkar College",
+  "sport": "Basketball",
+  "men": 5,
+  "women": 3
+ },
+ {
+  "collegeId": "dr-bhim-rao-ambedkar-college",
+  "collegeName": "Dr. Bhim Rao Ambedkar College",
+  "sport": "Cricket",
+  "men": 6,
+  "women": 0
+ },
+ {
+  "collegeId": "dr-bhim-rao-ambedkar-college",
+  "collegeName": "Dr. Bhim Rao Ambedkar College",
+  "sport": "Football",
+  "men": 6,
+  "women": 0
+ },
+ {
+  "collegeId": "dr-bhim-rao-ambedkar-college",
+  "collegeName": "Dr. Bhim Rao Ambedkar College",
+  "sport": "Kabaddi",
+  "men": 5,
+  "women": 0
+ },
+ {
+  "collegeId": "dr-bhim-rao-ambedkar-college",
+  "collegeName": "Dr. Bhim Rao Ambedkar College",
+  "sport": "Kho-Kho",
+  "men": 5,
+  "women": 5
+ },
+ {
+  "collegeId": "dr-bhim-rao-ambedkar-college",
+  "collegeName": "Dr. Bhim Rao Ambedkar College",
+  "sport": "Volleyball",
+  "men": 5,
+  "women": 0
+ },
+ {
+  "collegeId": "dyal-singh-college",
+  "collegeName": "Dyal Singh College",
+  "sport": "Athletics",
+  "men": 5,
+  "women": 5
+ },
+ {
+  "collegeId": "dyal-singh-college",
+  "collegeName": "Dyal Singh College",
+  "sport": "Basketball",
+  "men": 3,
+  "women": 1
+ },
+ {
+  "collegeId": "dyal-singh-college",
+  "collegeName": "Dyal Singh College",
+  "sport": "Boxing",
+  "men": 8,
+  "women": 5
+ },
+ {
+  "collegeId": "dyal-singh-college",
+  "collegeName": "Dyal Singh College",
+  "sport": "Chess",
+  "men": 1,
+  "women": 1
+ },
+ {
+  "collegeId": "dyal-singh-college",
+  "collegeName": "Dyal Singh College",
+  "sport": "Cricket",
+  "men": 4,
+  "women": 0
+ },
+ {
+  "collegeId": "dyal-singh-college",
+  "collegeName": "Dyal Singh College",
+  "sport": "Football",
+  "men": 7,
+  "women": 0
+ },
+ {
+  "collegeId": "dyal-singh-college",
+  "collegeName": "Dyal Singh College",
+  "sport": "Kabaddi",
+  "men": 5,
+  "women": 3
+ },
+ {
+  "collegeId": "dyal-singh-college",
+  "collegeName": "Dyal Singh College",
+  "sport": "Shooting",
+  "men": 3,
+  "women": 1
+ },
+ {
+  "collegeId": "dyal-singh-college",
+  "collegeName": "Dyal Singh College",
+  "sport": "Swimming",
+  "men": 1,
+  "women": 1
+ },
+ {
+  "collegeId": "dyal-singh-college",
+  "collegeName": "Dyal Singh College",
+  "sport": "Volleyball",
+  "men": 4,
+  "women": 3
+ },
+ {
+  "collegeId": "dyal-singh-college-evening",
+  "collegeName": "Dyal Singh College (Evening)",
+  "sport": "Athletics",
+  "men": 1,
+  "women": 1
+ },
+ {
+  "collegeId": "dyal-singh-college-evening",
+  "collegeName": "Dyal Singh College (Evening)",
+  "sport": "Badminton",
+  "men": 1,
+  "women": 1
+ },
+ {
+  "collegeId": "dyal-singh-college-evening",
+  "collegeName": "Dyal Singh College (Evening)",
+  "sport": "Chess",
+  "men": 1,
+  "women": 1
+ },
+ {
+  "collegeId": "dyal-singh-college-evening",
+  "collegeName": "Dyal Singh College (Evening)",
+  "sport": "Shooting",
+  "men": 3,
+  "women": 0
+ },
+ {
+  "collegeId": "dyal-singh-college-evening",
+  "collegeName": "Dyal Singh College (Evening)",
+  "sport": "Weightlifting",
+  "men": 1,
+  "women": 0
+ },
+ {
+  "collegeId": "gargi-college-w",
+  "collegeName": "Gargi College (W)",
+  "sport": "Athletics",
+  "men": 0,
+  "women": 5
+ },
+ {
+  "collegeId": "gargi-college-w",
+  "collegeName": "Gargi College (W)",
+  "sport": "Basketball",
+  "men": 0,
+  "women": 6
+ },
+ {
+  "collegeId": "gargi-college-w",
+  "collegeName": "Gargi College (W)",
+  "sport": "Chess",
+  "men": 0,
+  "women": 4
+ },
+ {
+  "collegeId": "gargi-college-w",
+  "collegeName": "Gargi College (W)",
+  "sport": "Cricket",
+  "men": 0,
+  "women": 8
+ },
+ {
+  "collegeId": "gargi-college-w",
+  "collegeName": "Gargi College (W)",
+  "sport": "Judo",
+  "men": 0,
+  "women": 7
+ },
+ {
+  "collegeId": "gargi-college-w",
+  "collegeName": "Gargi College (W)",
+  "sport": "Tennis",
+  "men": 0,
+  "women": 4
+ },
+ {
+  "collegeId": "gargi-college-w",
+  "collegeName": "Gargi College (W)",
+  "sport": "Volleyball",
+  "men": 0,
+  "women": 6
+ },
+ {
+  "collegeId": "hansraj-college",
+  "collegeName": "Hansraj College",
+  "sport": "Archery",
+  "men": 3,
+  "women": 2
+ },
+ {
+  "collegeId": "hansraj-college",
+  "collegeName": "Hansraj College",
+  "sport": "Athletics",
+  "men": 2,
+  "women": 1
+ },
+ {
+  "collegeId": "hansraj-college",
+  "collegeName": "Hansraj College",
+  "sport": "Badminton",
+  "men": 2,
+  "women": 2
+ },
+ {
+  "collegeId": "hansraj-college",
+  "collegeName": "Hansraj College",
+  "sport": "Basketball",
+  "men": 6,
+  "women": 4
+ },
+ {
+  "collegeId": "hansraj-college",
+  "collegeName": "Hansraj College",
+  "sport": "Chess",
+  "men": 2,
+  "women": 0
+ },
+ {
+  "collegeId": "hansraj-college",
+  "collegeName": "Hansraj College",
+  "sport": "Fencing",
+  "men": 2,
+  "women": 0
+ },
+ {
+  "collegeId": "hansraj-college",
+  "collegeName": "Hansraj College",
+  "sport": "Football",
+  "men": 4,
+  "women": 3
+ },
+ {
+  "collegeId": "hansraj-college",
+  "collegeName": "Hansraj College",
+  "sport": "Hockey",
+  "men": 3,
+  "women": 0
+ },
+ {
+  "collegeId": "hansraj-college",
+  "collegeName": "Hansraj College",
+  "sport": "Kabaddi",
+  "men": 2,
+  "women": 0
+ },
+ {
+  "collegeId": "hansraj-college",
+  "collegeName": "Hansraj College",
+  "sport": "Shooting",
+  "men": 4,
+  "women": 4
+ },
+ {
+  "collegeId": "hansraj-college",
+  "collegeName": "Hansraj College",
+  "sport": "Squash",
+  "men": 2,
+  "women": 0
+ },
+ {
+  "collegeId": "hansraj-college",
+  "collegeName": "Hansraj College",
+  "sport": "Swimming",
+  "men": 2,
+  "women": 3
+ },
+ {
+  "collegeId": "hansraj-college",
+  "collegeName": "Hansraj College",
+  "sport": "Table-Tennis",
+  "men": 2,
+  "women": 2
+ },
+ {
+  "collegeId": "hansraj-college",
+  "collegeName": "Hansraj College",
+  "sport": "Tennis",
+  "men": 2,
+  "women": 2
+ },
+ {
+  "collegeId": "hansraj-college",
+  "collegeName": "Hansraj College",
+  "sport": "Volleyball",
+  "men": 4,
+  "women": 0
+ },
+ {
+  "collegeId": "hindu-college",
+  "collegeName": "Hindu College",
+  "sport": "Basketball",
+  "men": 6,
+  "women": 6
+ },
+ {
+  "collegeId": "hindu-college",
+  "collegeName": "Hindu College",
+  "sport": "Cricket",
+  "men": 8,
+  "women": 0
+ },
+ {
+  "collegeId": "hindu-college",
+  "collegeName": "Hindu College",
+  "sport": "Football",
+  "men": 7,
+  "women": 0
+ },
+ {
+  "collegeId": "indraprastha-college-for-women-w",
+  "collegeName": "Indraprastha College for Women (W)",
+  "sport": "Archery",
+  "men": 0,
+  "women": 2
+ },
+ {
+  "collegeId": "indraprastha-college-for-women-w",
+  "collegeName": "Indraprastha College for Women (W)",
+  "sport": "Athletics",
+  "men": 0,
+  "women": 6
+ },
+ {
+  "collegeId": "indraprastha-college-for-women-w",
+  "collegeName": "Indraprastha College for Women (W)",
+  "sport": "Badminton",
+  "men": 0,
+  "women": 2
+ },
+ {
+  "collegeId": "indraprastha-college-for-women-w",
+  "collegeName": "Indraprastha College for Women (W)",
+  "sport": "Basketball",
+  "men": 0,
+  "women": 2
+ },
+ {
+  "collegeId": "indraprastha-college-for-women-w",
+  "collegeName": "Indraprastha College for Women (W)",
+  "sport": "Chess",
+  "men": 0,
+  "women": 2
+ },
+ {
+  "collegeId": "indraprastha-college-for-women-w",
+  "collegeName": "Indraprastha College for Women (W)",
+  "sport": "Football",
+  "men": 0,
+  "women": 9
+ },
+ {
+  "collegeId": "indraprastha-college-for-women-w",
+  "collegeName": "Indraprastha College for Women (W)",
+  "sport": "Kho-Kho",
+  "men": 0,
+  "women": 6
+ },
+ {
+  "collegeId": "indraprastha-college-for-women-w",
+  "collegeName": "Indraprastha College for Women (W)",
+  "sport": "Netball",
+  "men": 0,
+  "women": 4
+ },
+ {
+  "collegeId": "indraprastha-college-for-women-w",
+  "collegeName": "Indraprastha College for Women (W)",
+  "sport": "Shooting",
+  "men": 0,
+  "women": 2
+ },
+ {
+  "collegeId": "indraprastha-college-for-women-w",
+  "collegeName": "Indraprastha College for Women (W)",
+  "sport": "Softball",
+  "men": 0,
+  "women": 6
+ },
+ {
+  "collegeId": "indraprastha-college-for-women-w",
+  "collegeName": "Indraprastha College for Women (W)",
+  "sport": "Swimming",
+  "men": 0,
+  "women": 2
+ },
+ {
+  "collegeId": "indraprastha-college-for-women-w",
+  "collegeName": "Indraprastha College for Women (W)",
+  "sport": "Tennis",
+  "men": 0,
+  "women": 2
+ },
+ {
+  "collegeId": "indraprastha-college-for-women-w",
+  "collegeName": "Indraprastha College for Women (W)",
+  "sport": "Volleyball",
+  "men": 0,
+  "women": 3
+ },
+ {
+  "collegeId": "institute-of-home-economics-w",
+  "collegeName": "Institute of Home Economics (W)",
+  "sport": "Athletics",
+  "men": 0,
+  "women": 1
+ },
+ {
+  "collegeId": "institute-of-home-economics-w",
+  "collegeName": "Institute of Home Economics (W)",
+  "sport": "Badminton",
+  "men": 0,
+  "women": 2
+ },
+ {
+  "collegeId": "institute-of-home-economics-w",
+  "collegeName": "Institute of Home Economics (W)",
+  "sport": "Basketball",
+  "men": 0,
+  "women": 4
+ },
+ {
+  "collegeId": "institute-of-home-economics-w",
+  "collegeName": "Institute of Home Economics (W)",
+  "sport": "Chess",
+  "men": 0,
+  "women": 1
+ },
+ {
+  "collegeId": "institute-of-home-economics-w",
+  "collegeName": "Institute of Home Economics (W)",
+  "sport": "Gymnastics",
+  "men": 0,
+  "women": 1
+ },
+ {
+  "collegeId": "institute-of-home-economics-w",
+  "collegeName": "Institute of Home Economics (W)",
+  "sport": "Judo",
+  "men": 0,
+  "women": 1
+ },
+ {
+  "collegeId": "institute-of-home-economics-w",
+  "collegeName": "Institute of Home Economics (W)",
+  "sport": "Table-Tennis",
+  "men": 0,
+  "women": 1
+ },
+ {
+  "collegeId": "institute-of-home-economics-w",
+  "collegeName": "Institute of Home Economics (W)",
+  "sport": "Taekwondo",
+  "men": 0,
+  "women": 1
+ },
+ {
+  "collegeId": "institute-of-home-economics-w",
+  "collegeName": "Institute of Home Economics (W)",
+  "sport": "Tennis",
+  "men": 0,
+  "women": 1
+ },
+ {
+  "collegeId": "institute-of-home-economics-w",
+  "collegeName": "Institute of Home Economics (W)",
+  "sport": "Volleyball",
+  "men": 0,
+  "women": 2
+ },
+ {
+  "collegeId": "janki-devi-memorial-college-w",
+  "collegeName": "Janki Devi Memorial College (W)",
+  "sport": "Athletics",
+  "men": 0,
+  "women": 1
+ },
+ {
+  "collegeId": "janki-devi-memorial-college-w",
+  "collegeName": "Janki Devi Memorial College (W)",
+  "sport": "Basketball",
+  "men": 0,
+  "women": 2
+ },
+ {
+  "collegeId": "janki-devi-memorial-college-w",
+  "collegeName": "Janki Devi Memorial College (W)",
+  "sport": "Boxing",
+  "men": 0,
+  "women": 1
+ },
+ {
+  "collegeId": "janki-devi-memorial-college-w",
+  "collegeName": "Janki Devi Memorial College (W)",
+  "sport": "Chess",
+  "men": 0,
+  "women": 1
+ },
+ {
+  "collegeId": "janki-devi-memorial-college-w",
+  "collegeName": "Janki Devi Memorial College (W)",
+  "sport": "Football",
+  "men": 0,
+  "women": 6
+ },
+ {
+  "collegeId": "janki-devi-memorial-college-w",
+  "collegeName": "Janki Devi Memorial College (W)",
+  "sport": "Gymnastics",
+  "men": 0,
+  "women": 1
+ },
+ {
+  "collegeId": "janki-devi-memorial-college-w",
+  "collegeName": "Janki Devi Memorial College (W)",
+  "sport": "Handball",
+  "men": 0,
+  "women": 4
+ },
+ {
+  "collegeId": "janki-devi-memorial-college-w",
+  "collegeName": "Janki Devi Memorial College (W)",
+  "sport": "Hockey",
+  "men": 0,
+  "women": 3
+ },
+ {
+  "collegeId": "janki-devi-memorial-college-w",
+  "collegeName": "Janki Devi Memorial College (W)",
+  "sport": "Judo",
+  "men": 0,
+  "women": 2
+ },
+ {
+  "collegeId": "janki-devi-memorial-college-w",
+  "collegeName": "Janki Devi Memorial College (W)",
+  "sport": "Netball",
+  "men": 0,
+  "women": 4
+ },
+ {
+  "collegeId": "janki-devi-memorial-college-w",
+  "collegeName": "Janki Devi Memorial College (W)",
+  "sport": "Shooting",
+  "men": 0,
+  "women": 2
+ },
+ {
+  "collegeId": "janki-devi-memorial-college-w",
+  "collegeName": "Janki Devi Memorial College (W)",
+  "sport": "Softball",
+  "men": 0,
+  "women": 3
+ },
+ {
+  "collegeId": "janki-devi-memorial-college-w",
+  "collegeName": "Janki Devi Memorial College (W)",
+  "sport": "Taekwondo",
+  "men": 0,
+  "women": 2
+ },
+ {
+  "collegeId": "janki-devi-memorial-college-w",
+  "collegeName": "Janki Devi Memorial College (W)",
+  "sport": "Volleyball",
+  "men": 0,
+  "women": 5
+ },
+ {
+  "collegeId": "jesus-mary-college-w",
+  "collegeName": "Jesus & Mary College (W)",
+  "sport": "Athletics",
+  "men": 0,
+  "women": 2
+ },
+ {
+  "collegeId": "jesus-mary-college-w",
+  "collegeName": "Jesus & Mary College (W)",
+  "sport": "Badminton",
+  "men": 0,
+  "women": 1
+ },
+ {
+  "collegeId": "jesus-mary-college-w",
+  "collegeName": "Jesus & Mary College (W)",
+  "sport": "Basketball",
+  "men": 0,
+  "women": 4
+ },
+ {
+  "collegeId": "jesus-mary-college-w",
+  "collegeName": "Jesus & Mary College (W)",
+  "sport": "Boxing",
+  "men": 0,
+  "women": 2
+ },
+ {
+  "collegeId": "jesus-mary-college-w",
+  "collegeName": "Jesus & Mary College (W)",
+  "sport": "Cricket",
+  "men": 0,
+  "women": 3
+ },
+ {
+  "collegeId": "jesus-mary-college-w",
+  "collegeName": "Jesus & Mary College (W)",
+  "sport": "Football",
+  "men": 0,
+  "women": 4
+ },
+ {
+  "collegeId": "jesus-mary-college-w",
+  "collegeName": "Jesus & Mary College (W)",
+  "sport": "Gymnastics",
+  "men": 0,
+  "women": 1
+ },
+ {
+  "collegeId": "jesus-mary-college-w",
+  "collegeName": "Jesus & Mary College (W)",
+  "sport": "Handball",
+  "men": 0,
+  "women": 4
+ },
+ {
+  "collegeId": "jesus-mary-college-w",
+  "collegeName": "Jesus & Mary College (W)",
+  "sport": "Hockey",
+  "men": 0,
+  "women": 4
+ },
+ {
+  "collegeId": "jesus-mary-college-w",
+  "collegeName": "Jesus & Mary College (W)",
+  "sport": "Judo",
+  "men": 0,
+  "women": 1
+ },
+ {
+  "collegeId": "jesus-mary-college-w",
+  "collegeName": "Jesus & Mary College (W)",
+  "sport": "Netball",
+  "men": 0,
+  "women": 2
+ },
+ {
+  "collegeId": "jesus-mary-college-w",
+  "collegeName": "Jesus & Mary College (W)",
+  "sport": "Shooting",
+  "men": 0,
+  "women": 1
+ },
+ {
+  "collegeId": "jesus-mary-college-w",
+  "collegeName": "Jesus & Mary College (W)",
+  "sport": "Softball",
+  "men": 0,
+  "women": 3
+ },
+ {
+  "collegeId": "jesus-mary-college-w",
+  "collegeName": "Jesus & Mary College (W)",
+  "sport": "Swimming",
+  "men": 0,
+  "women": 1
+ },
+ {
+  "collegeId": "jesus-mary-college-w",
+  "collegeName": "Jesus & Mary College (W)",
+  "sport": "Table-Tennis",
+  "men": 0,
+  "women": 1
+ },
+ {
+  "collegeId": "jesus-mary-college-w",
+  "collegeName": "Jesus & Mary College (W)",
+  "sport": "Taekwondo",
+  "men": 0,
+  "women": 1
+ },
+ {
+  "collegeId": "jesus-mary-college-w",
+  "collegeName": "Jesus & Mary College (W)",
+  "sport": "Tennis",
+  "men": 0,
+  "women": 2
+ },
+ {
+  "collegeId": "jesus-mary-college-w",
+  "collegeName": "Jesus & Mary College (W)",
+  "sport": "Volleyball",
+  "men": 0,
+  "women": 3
+ },
+ {
+  "collegeId": "kalindi-college-w",
+  "collegeName": "Kalindi College (W)",
+  "sport": "Athletics",
+  "men": 0,
+  "women": 3
+ },
+ {
+  "collegeId": "kalindi-college-w",
+  "collegeName": "Kalindi College (W)",
+  "sport": "Basketball",
+  "men": 0,
+  "women": 2
+ },
+ {
+  "collegeId": "kalindi-college-w",
+  "collegeName": "Kalindi College (W)",
+  "sport": "Boxing",
+  "men": 0,
+  "women": 6
+ },
+ {
+  "collegeId": "kalindi-college-w",
+  "collegeName": "Kalindi College (W)",
+  "sport": "Chess",
+  "men": 0,
+  "women": 2
+ },
+ {
+  "collegeId": "kalindi-college-w",
+  "collegeName": "Kalindi College (W)",
+  "sport": "Handball",
+  "men": 0,
+  "women": 3
+ },
+ {
+  "collegeId": "kalindi-college-w",
+  "collegeName": "Kalindi College (W)",
+  "sport": "Judo",
+  "men": 0,
+  "women": 4
+ },
+ {
+  "collegeId": "kalindi-college-w",
+  "collegeName": "Kalindi College (W)",
+  "sport": "Kabaddi",
+  "men": 0,
+  "women": 5
+ },
+ {
+  "collegeId": "kalindi-college-w",
+  "collegeName": "Kalindi College (W)",
+  "sport": "Kho-Kho",
+  "men": 0,
+  "women": 5
+ },
+ {
+  "collegeId": "kalindi-college-w",
+  "collegeName": "Kalindi College (W)",
+  "sport": "Table-Tennis",
+  "men": 0,
+  "women": 3
+ },
+ {
+  "collegeId": "kalindi-college-w",
+  "collegeName": "Kalindi College (W)",
+  "sport": "Taekwondo",
+  "men": 0,
+  "women": 2
+ },
+ {
+  "collegeId": "kalindi-college-w",
+  "collegeName": "Kalindi College (W)",
+  "sport": "Volleyball",
+  "men": 0,
+  "women": 5
+ },
+ {
+  "collegeId": "kamala-nehru-college-w",
+  "collegeName": "Kamala Nehru College (W)",
+  "sport": "Basketball",
+  "men": 0,
+  "women": 5
+ },
+ {
+  "collegeId": "kamala-nehru-college-w",
+  "collegeName": "Kamala Nehru College (W)",
+  "sport": "Cricket",
+  "men": 0,
+  "women": 3
+ },
+ {
+  "collegeId": "kamala-nehru-college-w",
+  "collegeName": "Kamala Nehru College (W)",
+  "sport": "Football",
+  "men": 0,
+  "women": 9
+ },
+ {
+  "collegeId": "kamala-nehru-college-w",
+  "collegeName": "Kamala Nehru College (W)",
+  "sport": "Judo",
+  "men": 0,
+  "women": 4
+ },
+ {
+  "collegeId": "kamala-nehru-college-w",
+  "collegeName": "Kamala Nehru College (W)",
+  "sport": "Kho-Kho",
+  "men": 0,
+  "women": 5
+ },
+ {
+  "collegeId": "kamala-nehru-college-w",
+  "collegeName": "Kamala Nehru College (W)",
+  "sport": "Table-Tennis",
+  "men": 0,
+  "women": 3
+ },
+ {
+  "collegeId": "kamala-nehru-college-w",
+  "collegeName": "Kamala Nehru College (W)",
+  "sport": "Taekwondo",
+  "men": 0,
+  "women": 4
+ },
+ {
+  "collegeId": "keshav-mahavidyalaya",
+  "collegeName": "Keshav Mahavidyalaya",
+  "sport": "Athletics",
+  "men": 3,
+  "women": 3
+ },
+ {
+  "collegeId": "keshav-mahavidyalaya",
+  "collegeName": "Keshav Mahavidyalaya",
+  "sport": "Basketball",
+  "men": 0,
+  "women": 2
+ },
+ {
+  "collegeId": "keshav-mahavidyalaya",
+  "collegeName": "Keshav Mahavidyalaya",
+  "sport": "Handball",
+  "men": 2,
+  "women": 2
+ },
+ {
+  "collegeId": "keshav-mahavidyalaya",
+  "collegeName": "Keshav Mahavidyalaya",
+  "sport": "Taekwondo",
+  "men": 1,
+  "women": 1
+ },
+ {
+  "collegeId": "keshav-mahavidyalaya",
+  "collegeName": "Keshav Mahavidyalaya",
+  "sport": "Volleyball",
+  "men": 3,
+  "women": 2
+ },
+ {
+  "collegeId": "kirori-mal-college",
+  "collegeName": "Kirori Mal College",
+  "sport": "Athletics",
+  "men": 3,
+  "women": 3
+ },
+ {
+  "collegeId": "kirori-mal-college",
+  "collegeName": "Kirori Mal College",
+  "sport": "Badminton",
+  "men": 2,
+  "women": 2
+ },
+ {
+  "collegeId": "kirori-mal-college",
+  "collegeName": "Kirori Mal College",
+  "sport": "Basketball",
+  "men": 4,
+  "women": 5
+ },
+ {
+  "collegeId": "kirori-mal-college",
+  "collegeName": "Kirori Mal College",
+  "sport": "Boxing",
+  "men": 4,
+  "women": 2
+ },
+ {
+  "collegeId": "kirori-mal-college",
+  "collegeName": "Kirori Mal College",
+  "sport": "Chess",
+  "men": 2,
+  "women": 2
+ },
+ {
+  "collegeId": "kirori-mal-college",
+  "collegeName": "Kirori Mal College",
+  "sport": "Cricket",
+  "men": 3,
+  "women": 0
+ },
+ {
+  "collegeId": "kirori-mal-college",
+  "collegeName": "Kirori Mal College",
+  "sport": "Football",
+  "men": 3,
+  "women": 0
+ },
+ {
+  "collegeId": "kirori-mal-college",
+  "collegeName": "Kirori Mal College",
+  "sport": "Hockey",
+  "men": 6,
+  "women": 0
+ },
+ {
+  "collegeId": "kirori-mal-college",
+  "collegeName": "Kirori Mal College",
+  "sport": "Table-Tennis",
+  "men": 2,
+  "women": 2
+ },
+ {
+  "collegeId": "lady-irwin-college-w",
+  "collegeName": "Lady Irwin College (W)",
+  "sport": "Athletics",
+  "men": 0,
+  "women": 3
+ },
+ {
+  "collegeId": "lady-irwin-college-w",
+  "collegeName": "Lady Irwin College (W)",
+  "sport": "Badminton",
+  "men": 0,
+  "women": 2
+ },
+ {
+  "collegeId": "lady-irwin-college-w",
+  "collegeName": "Lady Irwin College (W)",
+  "sport": "Chess",
+  "men": 0,
+  "women": 1
+ },
+ {
+  "collegeId": "lady-shri-ram-college-for-women-w",
+  "collegeName": "Lady Shri Ram College for Women (W)",
+  "sport": "Archery",
+  "men": 0,
+  "women": 1
+ },
+ {
+  "collegeId": "lady-shri-ram-college-for-women-w",
+  "collegeName": "Lady Shri Ram College for Women (W)",
+  "sport": "Athletics",
+  "men": 0,
+  "women": 2
+ },
+ {
+  "collegeId": "lady-shri-ram-college-for-women-w",
+  "collegeName": "Lady Shri Ram College for Women (W)",
+  "sport": "Badminton",
+  "men": 0,
+  "women": 1
+ },
+ {
+  "collegeId": "lady-shri-ram-college-for-women-w",
+  "collegeName": "Lady Shri Ram College for Women (W)",
+  "sport": "Basketball",
+  "men": 0,
+  "women": 3
+ },
+ {
+  "collegeId": "lady-shri-ram-college-for-women-w",
+  "collegeName": "Lady Shri Ram College for Women (W)",
+  "sport": "Boxing",
+  "men": 0,
+  "women": 1
+ },
+ {
+  "collegeId": "lady-shri-ram-college-for-women-w",
+  "collegeName": "Lady Shri Ram College for Women (W)",
+  "sport": "Chess",
+  "men": 0,
+  "women": 1
+ },
+ {
+  "collegeId": "lady-shri-ram-college-for-women-w",
+  "collegeName": "Lady Shri Ram College for Women (W)",
+  "sport": "Football",
+  "men": 0,
+  "women": 3
+ },
+ {
+  "collegeId": "lady-shri-ram-college-for-women-w",
+  "collegeName": "Lady Shri Ram College for Women (W)",
+  "sport": "Gymnastics",
+  "men": 0,
+  "women": 1
+ },
+ {
+  "collegeId": "lady-shri-ram-college-for-women-w",
+  "collegeName": "Lady Shri Ram College for Women (W)",
+  "sport": "Handball",
+  "men": 0,
+  "women": 1
+ },
+ {
+  "collegeId": "lady-shri-ram-college-for-women-w",
+  "collegeName": "Lady Shri Ram College for Women (W)",
+  "sport": "Judo",
+  "men": 0,
+  "women": 1
+ },
+ {
+  "collegeId": "lady-shri-ram-college-for-women-w",
+  "collegeName": "Lady Shri Ram College for Women (W)",
+  "sport": "Shooting",
+  "men": 0,
+  "women": 2
+ },
+ {
+  "collegeId": "lady-shri-ram-college-for-women-w",
+  "collegeName": "Lady Shri Ram College for Women (W)",
+  "sport": "Swimming",
+  "men": 0,
+  "women": 1
+ },
+ {
+  "collegeId": "lady-shri-ram-college-for-women-w",
+  "collegeName": "Lady Shri Ram College for Women (W)",
+  "sport": "Table-Tennis",
+  "men": 0,
+  "women": 2
+ },
+ {
+  "collegeId": "lady-shri-ram-college-for-women-w",
+  "collegeName": "Lady Shri Ram College for Women (W)",
+  "sport": "Tennis",
+  "men": 0,
+  "women": 1
+ },
+ {
+  "collegeId": "lady-shri-ram-college-for-women-w",
+  "collegeName": "Lady Shri Ram College for Women (W)",
+  "sport": "Volleyball",
+  "men": 0,
+  "women": 3
+ },
+ {
+  "collegeId": "lakshmibai-college-w",
+  "collegeName": "Lakshmibai College (W)",
+  "sport": "Archery",
+  "men": 0,
+  "women": 2
+ },
+ {
+  "collegeId": "lakshmibai-college-w",
+  "collegeName": "Lakshmibai College (W)",
+  "sport": "Athletics",
+  "men": 0,
+  "women": 5
+ },
+ {
+  "collegeId": "lakshmibai-college-w",
+  "collegeName": "Lakshmibai College (W)",
+  "sport": "Boxing",
+  "men": 0,
+  "women": 2
+ },
+ {
+  "collegeId": "lakshmibai-college-w",
+  "collegeName": "Lakshmibai College (W)",
+  "sport": "Cricket",
+  "men": 0,
+  "women": 5
+ },
+ {
+  "collegeId": "lakshmibai-college-w",
+  "collegeName": "Lakshmibai College (W)",
+  "sport": "Judo",
+  "men": 0,
+  "women": 5
+ },
+ {
+  "collegeId": "lakshmibai-college-w",
+  "collegeName": "Lakshmibai College (W)",
+  "sport": "Kabaddi",
+  "men": 0,
+  "women": 5
+ },
+ {
+  "collegeId": "lakshmibai-college-w",
+  "collegeName": "Lakshmibai College (W)",
+  "sport": "Kho-Kho",
+  "men": 0,
+  "women": 7
+ },
+ {
+  "collegeId": "lakshmibai-college-w",
+  "collegeName": "Lakshmibai College (W)",
+  "sport": "Netball",
+  "men": 0,
+  "women": 4
+ },
+ {
+  "collegeId": "lakshmibai-college-w",
+  "collegeName": "Lakshmibai College (W)",
+  "sport": "Shooting",
+  "men": 0,
+  "women": 2
+ },
+ {
+  "collegeId": "lakshmibai-college-w",
+  "collegeName": "Lakshmibai College (W)",
+  "sport": "Softball",
+  "men": 0,
+  "women": 6
+ },
+ {
+  "collegeId": "lakshmibai-college-w",
+  "collegeName": "Lakshmibai College (W)",
+  "sport": "Taekwondo",
+  "men": 0,
+  "women": 4
+ },
+ {
+  "collegeId": "lakshmibai-college-w",
+  "collegeName": "Lakshmibai College (W)",
+  "sport": "Volleyball",
+  "men": 0,
+  "women": 6
+ },
+ {
+  "collegeId": "lakshmibai-college-w",
+  "collegeName": "Lakshmibai College (W)",
+  "sport": "Wrestling",
+  "men": 0,
+  "women": 3
+ },
+ {
+  "collegeId": "maharaja-agrasen-college",
+  "collegeName": "Maharaja Agrasen College",
+  "sport": "Archery",
+  "men": 1,
+  "women": 0
+ },
+ {
+  "collegeId": "maharaja-agrasen-college",
+  "collegeName": "Maharaja Agrasen College",
+  "sport": "Athletics",
+  "men": 2,
+  "women": 1
+ },
+ {
+  "collegeId": "maharaja-agrasen-college",
+  "collegeName": "Maharaja Agrasen College",
+  "sport": "Baseball",
+  "men": 3,
+  "women": 0
+ },
+ {
+  "collegeId": "maharaja-agrasen-college",
+  "collegeName": "Maharaja Agrasen College",
+  "sport": "Basketball",
+  "men": 2,
+  "women": 2
+ },
+ {
+  "collegeId": "maharaja-agrasen-college",
+  "collegeName": "Maharaja Agrasen College",
+  "sport": "Chess",
+  "men": 0,
+  "women": 2
+ },
+ {
+  "collegeId": "maharaja-agrasen-college",
+  "collegeName": "Maharaja Agrasen College",
+  "sport": "Cricket",
+  "men": 3,
+  "women": 0
+ },
+ {
+  "collegeId": "maharaja-agrasen-college",
+  "collegeName": "Maharaja Agrasen College",
+  "sport": "Football",
+  "men": 3,
+  "women": 2
+ },
+ {
+  "collegeId": "maharaja-agrasen-college",
+  "collegeName": "Maharaja Agrasen College",
+  "sport": "Kabaddi",
+  "men": 2,
+  "women": 0
+ },
+ {
+  "collegeId": "maharaja-agrasen-college",
+  "collegeName": "Maharaja Agrasen College",
+  "sport": "Kho-Kho",
+  "men": 3,
+  "women": 0
+ },
+ {
+  "collegeId": "maharaja-agrasen-college",
+  "collegeName": "Maharaja Agrasen College",
+  "sport": "Shooting",
+  "men": 2,
+  "women": 0
+ },
+ {
+  "collegeId": "maharaja-agrasen-college",
+  "collegeName": "Maharaja Agrasen College",
+  "sport": "Volleyball",
+  "men": 2,
+  "women": 3
+ },
+ {
+  "collegeId": "maitreyi-college-w",
+  "collegeName": "Maitreyi College (W)",
+  "sport": "Athletics",
+  "men": 0,
+  "women": 2
+ },
+ {
+  "collegeId": "maitreyi-college-w",
+  "collegeName": "Maitreyi College (W)",
+  "sport": "Basketball",
+  "men": 0,
+  "women": 3
+ },
+ {
+  "collegeId": "maitreyi-college-w",
+  "collegeName": "Maitreyi College (W)",
+  "sport": "Fencing 0 2",
+  "men": 0,
+  "women": 0
+ },
+ {
+  "collegeId": "maitreyi-college-w",
+  "collegeName": "Maitreyi College (W)",
+  "sport": "Football",
+  "men": 0,
+  "women": 3
+ },
+ {
+  "collegeId": "maitreyi-college-w",
+  "collegeName": "Maitreyi College (W)",
+  "sport": "Handball",
+  "men": 0,
+  "women": 6
+ },
+ {
+  "collegeId": "maitreyi-college-w",
+  "collegeName": "Maitreyi College (W)",
+  "sport": "Hockey",
+  "men": 0,
+  "women": 3
+ },
+ {
+  "collegeId": "maitreyi-college-w",
+  "collegeName": "Maitreyi College (W)",
+  "sport": "Kho-Kho",
+  "men": 0,
+  "women": 3
+ },
+ {
+  "collegeId": "maitreyi-college-w",
+  "collegeName": "Maitreyi College (W)",
+  "sport": "Netball",
+  "men": 0,
+  "women": 3
+ },
+ {
+  "collegeId": "maitreyi-college-w",
+  "collegeName": "Maitreyi College (W)",
+  "sport": "Softball",
+  "men": 0,
+  "women": 10
+ },
+ {
+  "collegeId": "maitreyi-college-w",
+  "collegeName": "Maitreyi College (W)",
+  "sport": "Swimming",
+  "men": 0,
+  "women": 1
+ },
+ {
+  "collegeId": "maitreyi-college-w",
+  "collegeName": "Maitreyi College (W)",
+  "sport": "Volleyball",
+  "men": 0,
+  "women": 3
+ },
+ {
+  "collegeId": "maitreyi-college-w",
+  "collegeName": "Maitreyi College (W)",
+  "sport": "Weightlifting",
+  "men": 0,
+  "women": 1
+ },
+ {
+  "collegeId": "mata-sundri-college-for-women-w",
+  "collegeName": "Mata Sundri College for Women (W)",
+  "sport": "Archery",
+  "men": 0,
+  "women": 2
+ },
+ {
+  "collegeId": "mata-sundri-college-for-women-w",
+  "collegeName": "Mata Sundri College for Women (W)",
+  "sport": "Athletics",
+  "men": 0,
+  "women": 2
+ },
+ {
+  "collegeId": "mata-sundri-college-for-women-w",
+  "collegeName": "Mata Sundri College for Women (W)",
+  "sport": "Badminton",
+  "men": 0,
+  "women": 2
+ },
+ {
+  "collegeId": "mata-sundri-college-for-women-w",
+  "collegeName": "Mata Sundri College for Women (W)",
+  "sport": "Boxing",
+  "men": 0,
+  "women": 4
+ },
+ {
+  "collegeId": "mata-sundri-college-for-women-w",
+  "collegeName": "Mata Sundri College for Women (W)",
+  "sport": "Chess",
+  "men": 0,
+  "women": 2
+ },
+ {
+  "collegeId": "mata-sundri-college-for-women-w",
+  "collegeName": "Mata Sundri College for Women (W)",
+  "sport": "Fencing",
+  "men": 0,
+  "women": 2
+ },
+ {
+  "collegeId": "mata-sundri-college-for-women-w",
+  "collegeName": "Mata Sundri College for Women (W)",
+  "sport": "Judo",
+  "men": 0,
+  "women": 4
+ },
+ {
+  "collegeId": "mata-sundri-college-for-women-w",
+  "collegeName": "Mata Sundri College for Women (W)",
+  "sport": "Kabaddi",
+  "men": 0,
+  "women": 5
+ },
+ {
+  "collegeId": "mata-sundri-college-for-women-w",
+  "collegeName": "Mata Sundri College for Women (W)",
+  "sport": "Kho-Kho",
+  "men": 0,
+  "women": 4
+ },
+ {
+  "collegeId": "mata-sundri-college-for-women-w",
+  "collegeName": "Mata Sundri College for Women (W)",
+  "sport": "Shooting",
+  "men": 0,
+  "women": 4
+ },
+ {
+  "collegeId": "mata-sundri-college-for-women-w",
+  "collegeName": "Mata Sundri College for Women (W)",
+  "sport": "Taekwondo",
+  "men": 0,
+  "women": 3
+ },
+ {
+  "collegeId": "mata-sundri-college-for-women-w",
+  "collegeName": "Mata Sundri College for Women (W)",
+  "sport": "Volleyball",
+  "men": 0,
+  "women": 6
+ },
+ {
+  "collegeId": "mata-sundri-college-for-women-w",
+  "collegeName": "Mata Sundri College for Women (W)",
+  "sport": "Weightlifting",
+  "men": 0,
+  "women": 1
+ },
+ {
+  "collegeId": "mata-sundri-college-for-women-w",
+  "collegeName": "Mata Sundri College for Women (W)",
+  "sport": "Wrestling",
+  "men": 0,
+  "women": 2
+ },
+ {
+  "collegeId": "miranda-house-w",
+  "collegeName": "Miranda House (W)",
+  "sport": "Athletics",
+  "men": 0,
+  "women": 5
+ },
+ {
+  "collegeId": "miranda-house-w",
+  "collegeName": "Miranda House (W)",
+  "sport": "Badminton",
+  "men": 0,
+  "women": 3
+ },
+ {
+  "collegeId": "miranda-house-w",
+  "collegeName": "Miranda House (W)",
+  "sport": "Basketball",
+  "men": 0,
+  "women": 6
+ },
+ {
+  "collegeId": "miranda-house-w",
+  "collegeName": "Miranda House (W)",
+  "sport": "Chess",
+  "men": 0,
+  "women": 4
+ },
+ {
+  "collegeId": "miranda-house-w",
+  "collegeName": "Miranda House (W)",
+  "sport": "Kabaddi",
+  "men": 0,
+  "women": 6
+ },
+ {
+  "collegeId": "miranda-house-w",
+  "collegeName": "Miranda House (W)",
+  "sport": "Netball",
+  "men": 0,
+  "women": 1
+ },
+ {
+  "collegeId": "miranda-house-w",
+  "collegeName": "Miranda House (W)",
+  "sport": "Taekwondo",
+  "men": 0,
+  "women": 4
+ },
+ {
+  "collegeId": "miranda-house-w",
+  "collegeName": "Miranda House (W)",
+  "sport": "Tennis",
+  "men": 0,
+  "women": 2
+ },
+ {
+  "collegeId": "miranda-house-w",
+  "collegeName": "Miranda House (W)",
+  "sport": "Volleyball",
+  "men": 0,
+  "women": 5
+ },
+ {
+  "collegeId": "motilal-nehru-college",
+  "collegeName": "Motilal Nehru College",
+  "sport": "Athletics",
+  "men": 4,
+  "women": 2
+ },
+ {
+  "collegeId": "motilal-nehru-college",
+  "collegeName": "Motilal Nehru College",
+  "sport": "Badminton",
+  "men": 2,
+  "women": 0
+ },
+ {
+  "collegeId": "motilal-nehru-college",
+  "collegeName": "Motilal Nehru College",
+  "sport": "Basketball",
+  "men": 8,
+  "women": 5
+ },
+ {
+  "collegeId": "motilal-nehru-college",
+  "collegeName": "Motilal Nehru College",
+  "sport": "Boxing",
+  "men": 2,
+  "women": 0
+ },
+ {
+  "collegeId": "motilal-nehru-college",
+  "collegeName": "Motilal Nehru College",
+  "sport": "Football",
+  "men": 7,
+  "women": 0
+ },
+ {
+  "collegeId": "motilal-nehru-college",
+  "collegeName": "Motilal Nehru College",
+  "sport": "Gymnastics",
+  "men": 2,
+  "women": 2
+ },
+ {
+  "collegeId": "motilal-nehru-college",
+  "collegeName": "Motilal Nehru College",
+  "sport": "Judo",
+  "men": 2,
+  "women": 0
+ },
+ {
+  "collegeId": "motilal-nehru-college",
+  "collegeName": "Motilal Nehru College",
+  "sport": "Shooting",
+  "men": 2,
+  "women": 2
+ },
+ {
+  "collegeId": "motilal-nehru-college",
+  "collegeName": "Motilal Nehru College",
+  "sport": "Swimming",
+  "men": 2,
+  "women": 0
+ },
+ {
+  "collegeId": "motilal-nehru-college",
+  "collegeName": "Motilal Nehru College",
+  "sport": "Taekwondo",
+  "men": 2,
+  "women": 2
+ },
+ {
+  "collegeId": "motilal-nehru-college",
+  "collegeName": "Motilal Nehru College",
+  "sport": "Volleyball",
+  "men": 6,
+  "women": 0
+ },
+ {
+  "collegeId": "motilal-nehru-college",
+  "collegeName": "Motilal Nehru College",
+  "sport": "Weightlifting",
+  "men": 2,
+  "women": 0
+ },
+ {
+  "collegeId": "motilal-nehru-college",
+  "collegeName": "Motilal Nehru College",
+  "sport": "Wrestling",
+  "men": 2,
+  "women": 0
+ },
+ {
+  "collegeId": "motilal-nehru-college-evening",
+  "collegeName": "Motilal Nehru College (Evening)",
+  "sport": "Basketball",
+  "men": 3,
+  "women": 0
+ },
+ {
+  "collegeId": "motilal-nehru-college-evening",
+  "collegeName": "Motilal Nehru College (Evening)",
+  "sport": "Boxing",
+  "men": 2,
+  "women": 0
+ },
+ {
+  "collegeId": "motilal-nehru-college-evening",
+  "collegeName": "Motilal Nehru College (Evening)",
+  "sport": "Football",
+  "men": 10,
+  "women": 0
+ },
+ {
+  "collegeId": "motilal-nehru-college-evening",
+  "collegeName": "Motilal Nehru College (Evening)",
+  "sport": "Hockey",
+  "men": 4,
+  "women": 0
+ },
+ {
+  "collegeId": "motilal-nehru-college-evening",
+  "collegeName": "Motilal Nehru College (Evening)",
+  "sport": "Kabaddi",
+  "men": 4,
+  "women": 0
+ },
+ {
+  "collegeId": "motilal-nehru-college-evening",
+  "collegeName": "Motilal Nehru College (Evening)",
+  "sport": "Swimming",
+  "men": 2,
+  "women": 0
+ },
+ {
+  "collegeId": "motilal-nehru-college-evening",
+  "collegeName": "Motilal Nehru College (Evening)",
+  "sport": "Taekwondo",
+  "men": 2,
+  "women": 0
+ },
+ {
+  "collegeId": "motilal-nehru-college-evening",
+  "collegeName": "Motilal Nehru College (Evening)",
+  "sport": "Volleyball",
+  "men": 5,
+  "women": 0
+ },
+ {
+  "collegeId": "motilal-nehru-college-evening",
+  "collegeName": "Motilal Nehru College (Evening)",
+  "sport": "Wrestling",
+  "men": 2,
+  "women": 0
+ },
+ {
+  "collegeId": "p-g-d-a-v-college",
+  "collegeName": "P.G.D.A.V. College",
+  "sport": "Boxing",
+  "men": 5,
+  "women": 3
+ },
+ {
+  "collegeId": "p-g-d-a-v-college",
+  "collegeName": "P.G.D.A.V. College",
+  "sport": "Cricket",
+  "men": 13,
+  "women": 0
+ },
+ {
+  "collegeId": "p-g-d-a-v-college",
+  "collegeName": "P.G.D.A.V. College",
+  "sport": "Football",
+  "men": 13,
+  "women": 0
+ },
+ {
+  "collegeId": "p-g-d-a-v-college",
+  "collegeName": "P.G.D.A.V. College",
+  "sport": "Judo",
+  "men": 4,
+  "women": 4
+ },
+ {
+  "collegeId": "p-g-d-a-v-college",
+  "collegeName": "P.G.D.A.V. College",
+  "sport": "Taekwondo",
+  "men": 2,
+  "women": 2
+ },
+ {
+  "collegeId": "p-g-d-a-v-college",
+  "collegeName": "P.G.D.A.V. College",
+  "sport": "Volleyball",
+  "men": 8,
+  "women": 0
+ },
+ {
+  "collegeId": "p-g-d-a-v-college",
+  "collegeName": "P.G.D.A.V. College",
+  "sport": "Wrestling",
+  "men": 2,
+  "women": 0
+ },
+ {
+  "collegeId": "p-g-d-a-v-college-evening",
+  "collegeName": "P.G.D.A.V. College (Evening)",
+  "sport": "Cricket",
+  "men": 4,
+  "women": 0
+ },
+ {
+  "collegeId": "p-g-d-a-v-college-evening",
+  "collegeName": "P.G.D.A.V. College (Evening)",
+  "sport": "Judo",
+  "men": 3,
+  "women": 2
+ },
+ {
+  "collegeId": "p-g-d-a-v-college-evening",
+  "collegeName": "P.G.D.A.V. College (Evening)",
+  "sport": "Taekwondo",
+  "men": 4,
+  "women": 0
+ },
+ {
+  "collegeId": "p-g-d-a-v-college-evening",
+  "collegeName": "P.G.D.A.V. College (Evening)",
+  "sport": "Volleyball",
+  "men": 5,
+  "women": 0
+ },
+ {
+  "collegeId": "p-g-d-a-v-college-evening",
+  "collegeName": "P.G.D.A.V. College (Evening)",
+  "sport": "Weightlifting",
+  "men": 2,
+  "women": 2
+ },
+ {
+  "collegeId": "rajdhani-college",
+  "collegeName": "Rajdhani College",
+  "sport": "Athletics",
+  "men": 3,
+  "women": 3
+ },
+ {
+  "collegeId": "rajdhani-college",
+  "collegeName": "Rajdhani College",
+  "sport": "Badminton",
+  "men": 1,
+  "women": 1
+ },
+ {
+  "collegeId": "rajdhani-college",
+  "collegeName": "Rajdhani College",
+  "sport": "Basketball",
+  "men": 2,
+  "women": 0
+ },
+ {
+  "collegeId": "rajdhani-college",
+  "collegeName": "Rajdhani College",
+  "sport": "Cricket",
+  "men": 3,
+  "women": 0
+ },
+ {
+  "collegeId": "rajdhani-college",
+  "collegeName": "Rajdhani College",
+  "sport": "Football",
+  "men": 2,
+  "women": 0
+ },
+ {
+  "collegeId": "rajdhani-college",
+  "collegeName": "Rajdhani College",
+  "sport": "Handball",
+  "men": 2,
+  "women": 0
+ },
+ {
+  "collegeId": "rajdhani-college",
+  "collegeName": "Rajdhani College",
+  "sport": "Judo",
+  "men": 0,
+  "women": 2
+ },
+ {
+  "collegeId": "rajdhani-college",
+  "collegeName": "Rajdhani College",
+  "sport": "Kabaddi",
+  "men": 3,
+  "women": 0
+ },
+ {
+  "collegeId": "rajdhani-college",
+  "collegeName": "Rajdhani College",
+  "sport": "Table-Tennis",
+  "men": 0,
+  "women": 1
+ },
+ {
+  "collegeId": "rajdhani-college",
+  "collegeName": "Rajdhani College",
+  "sport": "Volleyball",
+  "men": 3,
+  "women": 2
+ },
+ {
+  "collegeId": "rajdhani-college",
+  "collegeName": "Rajdhani College",
+  "sport": "Wrestling",
+  "men": 2,
+  "women": 0
+ },
+ {
+  "collegeId": "ram-lal-anand-college",
+  "collegeName": "Ram Lal Anand College",
+  "sport": "Football",
+  "men": 6,
+  "women": 3
+ },
+ {
+  "collegeId": "ram-lal-anand-college",
+  "collegeName": "Ram Lal Anand College",
+  "sport": "Kabaddi",
+  "men": 5,
+  "women": 0
+ },
+ {
+  "collegeId": "ram-lal-anand-college",
+  "collegeName": "Ram Lal Anand College",
+  "sport": "Kho-Kho",
+  "men": 7,
+  "women": 2
+ },
+ {
+  "collegeId": "ram-lal-anand-college",
+  "collegeName": "Ram Lal Anand College",
+  "sport": "Volleyball",
+  "men": 4,
+  "women": 0
+ },
+ {
+  "collegeId": "ramanujan-college",
+  "collegeName": "Ramanujan College",
+  "sport": "Athletics",
+  "men": 1,
+  "women": 1
+ },
+ {
+  "collegeId": "ramanujan-college",
+  "collegeName": "Ramanujan College",
+  "sport": "Boxing",
+  "men": 3,
+  "women": 3
+ },
+ {
+  "collegeId": "ramanujan-college",
+  "collegeName": "Ramanujan College",
+  "sport": "Football",
+  "men": 2,
+  "women": 0
+ },
+ {
+  "collegeId": "ramanujan-college",
+  "collegeName": "Ramanujan College",
+  "sport": "Kabaddi",
+  "men": 4,
+  "women": 3
+ },
+ {
+  "collegeId": "ramanujan-college",
+  "collegeName": "Ramanujan College",
+  "sport": "Kho-Kho",
+  "men": 5,
+  "women": 3
+ },
+ {
+  "collegeId": "ramanujan-college",
+  "collegeName": "Ramanujan College",
+  "sport": "Swimming",
+  "men": 0,
+  "women": 1
+ },
+ {
+  "collegeId": "ramanujan-college",
+  "collegeName": "Ramanujan College",
+  "sport": "Taekwondo",
+  "men": 2,
+  "women": 2
+ },
+ {
+  "collegeId": "ramanujan-college",
+  "collegeName": "Ramanujan College",
+  "sport": "Volleyball",
+  "men": 3,
+  "women": 0
+ },
+ {
+  "collegeId": "ramanujan-college",
+  "collegeName": "Ramanujan College",
+  "sport": "Weightlifting",
+  "men": 4,
+  "women": 3
+ },
+ {
+  "collegeId": "ramjas-college",
+  "collegeName": "Ramjas College",
+  "sport": "Archery",
+  "men": 3,
+  "women": 1
+ },
+ {
+  "collegeId": "ramjas-college",
+  "collegeName": "Ramjas College",
+  "sport": "Athletics",
+  "men": 3,
+  "women": 3
+ },
+ {
+  "collegeId": "ramjas-college",
+  "collegeName": "Ramjas College",
+  "sport": "Basketball",
+  "men": 6,
+  "women": 5
+ },
+ {
+  "collegeId": "ramjas-college",
+  "collegeName": "Ramjas College",
+  "sport": "Chess",
+  "men": 1,
+  "women": 2
+ },
+ {
+  "collegeId": "ramjas-college",
+  "collegeName": "Ramjas College",
+  "sport": "Football",
+  "men": 5,
+  "women": 0
+ },
+ {
+  "collegeId": "ramjas-college",
+  "collegeName": "Ramjas College",
+  "sport": "Shooting",
+  "men": 2,
+  "women": 3
+ },
+ {
+  "collegeId": "ramjas-college",
+  "collegeName": "Ramjas College",
+  "sport": "Table-Tennis",
+  "men": 1,
+  "women": 1
+ },
+ {
+  "collegeId": "ramjas-college",
+  "collegeName": "Ramjas College",
+  "sport": "Taekwondo",
+  "men": 3,
+  "women": 0
+ },
+ {
+  "collegeId": "ramjas-college",
+  "collegeName": "Ramjas College",
+  "sport": "Volleyball",
+  "men": 6,
+  "women": 5
+ },
+ {
+  "collegeId": "satyawati-college",
+  "collegeName": "Satyawati College",
+  "sport": "Badminton",
+  "men": 2,
+  "women": 0
+ },
+ {
+  "collegeId": "satyawati-college",
+  "collegeName": "Satyawati College",
+  "sport": "Boxing",
+  "men": 2,
+  "women": 1
+ },
+ {
+  "collegeId": "satyawati-college",
+  "collegeName": "Satyawati College",
+  "sport": "Cricket",
+  "men": 5,
+  "women": 3
+ },
+ {
+  "collegeId": "satyawati-college",
+  "collegeName": "Satyawati College",
+  "sport": "Fencing",
+  "men": 1,
+  "women": 0
+ },
+ {
+  "collegeId": "satyawati-college",
+  "collegeName": "Satyawati College",
+  "sport": "Football",
+  "men": 5,
+  "women": 4
+ },
+ {
+  "collegeId": "satyawati-college",
+  "collegeName": "Satyawati College",
+  "sport": "Gymnastics",
+  "men": 2,
+  "women": 0
+ },
+ {
+  "collegeId": "satyawati-college",
+  "collegeName": "Satyawati College",
+  "sport": "Judo",
+  "men": 2,
+  "women": 0
+ },
+ {
+  "collegeId": "satyawati-college",
+  "collegeName": "Satyawati College",
+  "sport": "Kabaddi",
+  "men": 6,
+  "women": 0
+ },
+ {
+  "collegeId": "satyawati-college",
+  "collegeName": "Satyawati College",
+  "sport": "Kho-Kho",
+  "men": 6,
+  "women": 0
+ },
+ {
+  "collegeId": "satyawati-college",
+  "collegeName": "Satyawati College",
+  "sport": "Shooting",
+  "men": 2,
+  "women": 1
+ },
+ {
+  "collegeId": "satyawati-college",
+  "collegeName": "Satyawati College",
+  "sport": "Volleyball",
+  "men": 4,
+  "women": 0
+ },
+ {
+  "collegeId": "satyawati-college",
+  "collegeName": "Satyawati College",
+  "sport": "Wrestling",
+  "men": 2,
+  "women": 2
+ },
+ {
+  "collegeId": "satyawati-college-evening",
+  "collegeName": "Satyawati College (Evening)",
+  "sport": "Athletics",
+  "men": 1,
+  "women": 0
+ },
+ {
+  "collegeId": "satyawati-college-evening",
+  "collegeName": "Satyawati College (Evening)",
+  "sport": "Boxing",
+  "men": 4,
+  "women": 1
+ },
+ {
+  "collegeId": "satyawati-college-evening",
+  "collegeName": "Satyawati College (Evening)",
+  "sport": "Cricket",
+  "men": 1,
+  "women": 0
+ },
+ {
+  "collegeId": "satyawati-college-evening",
+  "collegeName": "Satyawati College (Evening)",
+  "sport": "Judo",
+  "men": 1,
+  "women": 0
+ },
+ {
+  "collegeId": "satyawati-college-evening",
+  "collegeName": "Satyawati College (Evening)",
+  "sport": "Kabaddi",
+  "men": 1,
+  "women": 0
+ },
+ {
+  "collegeId": "satyawati-college-evening",
+  "collegeName": "Satyawati College (Evening)",
+  "sport": "Shooting",
+  "men": 1,
+  "women": 0
+ },
+ {
+  "collegeId": "satyawati-college-evening",
+  "collegeName": "Satyawati College (Evening)",
+  "sport": "Volleyball",
+  "men": 1,
+  "women": 0
+ },
+ {
+  "collegeId": "satyawati-college-evening",
+  "collegeName": "Satyawati College (Evening)",
+  "sport": "Weightlifting",
+  "men": 1,
+  "women": 0
+ },
+ {
+  "collegeId": "satyawati-college-evening",
+  "collegeName": "Satyawati College (Evening)",
+  "sport": "Wrestling",
+  "men": 5,
+  "women": 1
+ },
+ {
+  "collegeId": "shaheed-bhagat-singh-college",
+  "collegeName": "Shaheed Bhagat Singh College",
+  "sport": "Athletics",
+  "men": 6,
+  "women": 0
+ },
+ {
+  "collegeId": "shaheed-bhagat-singh-college",
+  "collegeName": "Shaheed Bhagat Singh College",
+  "sport": "Basketball",
+  "men": 5,
+  "women": 5
+ },
+ {
+  "collegeId": "shaheed-bhagat-singh-college",
+  "collegeName": "Shaheed Bhagat Singh College",
+  "sport": "Cricket",
+  "men": 7,
+  "women": 0
+ },
+ {
+  "collegeId": "shaheed-bhagat-singh-college",
+  "collegeName": "Shaheed Bhagat Singh College",
+  "sport": "Football",
+  "men": 4,
+  "women": 0
+ },
+ {
+  "collegeId": "shaheed-bhagat-singh-college",
+  "collegeName": "Shaheed Bhagat Singh College",
+  "sport": "Table-Tennis",
+  "men": 2,
+  "women": 2
+ },
+ {
+  "collegeId": "shaheed-bhagat-singh-college",
+  "collegeName": "Shaheed Bhagat Singh College",
+  "sport": "Volleyball",
+  "men": 5,
+  "women": 4
+ },
+ {
+  "collegeId": "shaheed-bhagat-singh-college-evening",
+  "collegeName": "Shaheed Bhagat Singh College (Evening)",
+  "sport": "Baseball",
+  "men": 4,
+  "women": 0
+ },
+ {
+  "collegeId": "shaheed-bhagat-singh-college-evening",
+  "collegeName": "Shaheed Bhagat Singh College (Evening)",
+  "sport": "Boxing",
+  "men": 3,
+  "women": 0
+ },
+ {
+  "collegeId": "shaheed-bhagat-singh-college-evening",
+  "collegeName": "Shaheed Bhagat Singh College (Evening)",
+  "sport": "Gymnastics",
+  "men": 1,
+  "women": 0
+ },
+ {
+  "collegeId": "shaheed-bhagat-singh-college-evening",
+  "collegeName": "Shaheed Bhagat Singh College (Evening)",
+  "sport": "Handball",
+  "men": 4,
+  "women": 0
+ },
+ {
+  "collegeId": "shaheed-bhagat-singh-college-evening",
+  "collegeName": "Shaheed Bhagat Singh College (Evening)",
+  "sport": "Judo",
+  "men": 2,
+  "women": 0
+ },
+ {
+  "collegeId": "shaheed-bhagat-singh-college-evening",
+  "collegeName": "Shaheed Bhagat Singh College (Evening)",
+  "sport": "Kabaddi",
+  "men": 4,
+  "women": 0
+ },
+ {
+  "collegeId": "shaheed-bhagat-singh-college-evening",
+  "collegeName": "Shaheed Bhagat Singh College (Evening)",
+  "sport": "Kho-Kho",
+  "men": 3,
+  "women": 0
+ },
+ {
+  "collegeId": "shaheed-bhagat-singh-college-evening",
+  "collegeName": "Shaheed Bhagat Singh College (Evening)",
+  "sport": "Shooting",
+  "men": 1,
+  "women": 0
+ },
+ {
+  "collegeId": "shaheed-bhagat-singh-college-evening",
+  "collegeName": "Shaheed Bhagat Singh College (Evening)",
+  "sport": "Squash",
+  "men": 1,
+  "women": 0
+ },
+ {
+  "collegeId": "shaheed-bhagat-singh-college-evening",
+  "collegeName": "Shaheed Bhagat Singh College (Evening)",
+  "sport": "Taekwondo",
+  "men": 4,
+  "women": 3
+ },
+ {
+  "collegeId": "shaheed-bhagat-singh-college-evening",
+  "collegeName": "Shaheed Bhagat Singh College (Evening)",
+  "sport": "Volleyball",
+  "men": 6,
+  "women": 0
+ },
+ {
+  "collegeId": "shaheed-rajguru-college-of-applied-sciences-for-women-w",
+  "collegeName": "Shaheed Rajguru College of Applied Sciences for Women (W)",
+  "sport": "Badminton",
+  "men": 0,
+  "women": 2
+ },
+ {
+  "collegeId": "shaheed-rajguru-college-of-applied-sciences-for-women-w",
+  "collegeName": "Shaheed Rajguru College of Applied Sciences for Women (W)",
+  "sport": "Basketball",
+  "men": 0,
+  "women": 3
+ },
+ {
+  "collegeId": "shaheed-rajguru-college-of-applied-sciences-for-women-w",
+  "collegeName": "Shaheed Rajguru College of Applied Sciences for Women (W)",
+  "sport": "Chess",
+  "men": 0,
+  "women": 2
+ },
+ {
+  "collegeId": "shaheed-rajguru-college-of-applied-sciences-for-women-w",
+  "collegeName": "Shaheed Rajguru College of Applied Sciences for Women (W)",
+  "sport": "Cricket",
+  "men": 0,
+  "women": 2
+ },
+ {
+  "collegeId": "shaheed-rajguru-college-of-applied-sciences-for-women-w",
+  "collegeName": "Shaheed Rajguru College of Applied Sciences for Women (W)",
+  "sport": "Kho-Kho",
+  "men": 0,
+  "women": 4
+ },
+ {
+  "collegeId": "shaheed-rajguru-college-of-applied-sciences-for-women-w",
+  "collegeName": "Shaheed Rajguru College of Applied Sciences for Women (W)",
+  "sport": "Shooting",
+  "men": 0,
+  "women": 2
+ },
+ {
+  "collegeId": "shaheed-rajguru-college-of-applied-sciences-for-women-w",
+  "collegeName": "Shaheed Rajguru College of Applied Sciences for Women (W)",
+  "sport": "Table-Tennis",
+  "men": 0,
+  "women": 2
+ },
+ {
+  "collegeId": "shaheed-rajguru-college-of-applied-sciences-for-women-w",
+  "collegeName": "Shaheed Rajguru College of Applied Sciences for Women (W)",
+  "sport": "Volleyball",
+  "men": 0,
+  "women": 3
+ },
+ {
+  "collegeId": "shaheed-sukhdev-college-business-studies",
+  "collegeName": "Shaheed Sukhdev College Business Studies",
+  "sport": "Athletics",
+  "men": 1,
+  "women": 0
+ },
+ {
+  "collegeId": "shaheed-sukhdev-college-business-studies",
+  "collegeName": "Shaheed Sukhdev College Business Studies",
+  "sport": "Badminton",
+  "men": 1,
+  "women": 1
+ },
+ {
+  "collegeId": "shaheed-sukhdev-college-business-studies",
+  "collegeName": "Shaheed Sukhdev College Business Studies",
+  "sport": "Chess",
+  "men": 1,
+  "women": 1
+ },
+ {
+  "collegeId": "shaheed-sukhdev-college-business-studies",
+  "collegeName": "Shaheed Sukhdev College Business Studies",
+  "sport": "Judo",
+  "men": 2,
+  "women": 0
+ },
+ {
+  "collegeId": "shaheed-sukhdev-college-business-studies",
+  "collegeName": "Shaheed Sukhdev College Business Studies",
+  "sport": "Table-Tennis",
+  "men": 1,
+  "women": 0
+ },
+ {
+  "collegeId": "shaheed-sukhdev-college-business-studies",
+  "collegeName": "Shaheed Sukhdev College Business Studies",
+  "sport": "Tennis",
+  "men": 1,
+  "women": 1
+ },
+ {
+  "collegeId": "shivaji-college",
+  "collegeName": "Shivaji College",
+  "sport": "Basketball",
+  "men": 0,
+  "women": 7
+ },
+ {
+  "collegeId": "shivaji-college",
+  "collegeName": "Shivaji College",
+  "sport": "Chess",
+  "men": 6,
+  "women": 0
+ },
+ {
+  "collegeId": "shivaji-college",
+  "collegeName": "Shivaji College",
+  "sport": "Cricket",
+  "men": 18,
+  "women": 0
+ },
+ {
+  "collegeId": "shri-ram-college-of-commerce",
+  "collegeName": "Shri Ram College of Commerce",
+  "sport": "Badminton",
+  "men": 2,
+  "women": 1
+ },
+ {
+  "collegeId": "shri-ram-college-of-commerce",
+  "collegeName": "Shri Ram College of Commerce",
+  "sport": "Basketball",
+  "men": 4,
+  "women": 3
+ },
+ {
+  "collegeId": "shri-ram-college-of-commerce",
+  "collegeName": "Shri Ram College of Commerce",
+  "sport": "Chess",
+  "men": 2,
+  "women": 2
+ },
+ {
+  "collegeId": "shri-ram-college-of-commerce",
+  "collegeName": "Shri Ram College of Commerce",
+  "sport": "Football",
+  "men": 4,
+  "women": 0
+ },
+ {
+  "collegeId": "shri-ram-college-of-commerce",
+  "collegeName": "Shri Ram College of Commerce",
+  "sport": "Hockey",
+  "men": 4,
+  "women": 0
+ },
+ {
+  "collegeId": "shri-ram-college-of-commerce",
+  "collegeName": "Shri Ram College of Commerce",
+  "sport": "Swimming",
+  "men": 2,
+  "women": 2
+ },
+ {
+  "collegeId": "shri-ram-college-of-commerce",
+  "collegeName": "Shri Ram College of Commerce",
+  "sport": "Table-Tennis",
+  "men": 2,
+  "women": 1
+ },
+ {
+  "collegeId": "shri-ram-college-of-commerce",
+  "collegeName": "Shri Ram College of Commerce",
+  "sport": "Tennis",
+  "men": 1,
+  "women": 1
+ },
+ {
+  "collegeId": "shyam-lal-college",
+  "collegeName": "Shyam Lal College",
+  "sport": "Baseball",
+  "men": 11,
+  "women": 0
+ },
+ {
+  "collegeId": "shyam-lal-college",
+  "collegeName": "Shyam Lal College",
+  "sport": "Cricket",
+  "men": 7,
+  "women": 0
+ },
+ {
+  "collegeId": "shyam-lal-college",
+  "collegeName": "Shyam Lal College",
+  "sport": "Football",
+  "men": 7,
+  "women": 0
+ },
+ {
+  "collegeId": "shyam-lal-college",
+  "collegeName": "Shyam Lal College",
+  "sport": "Hockey",
+  "men": 9,
+  "women": 0
+ },
+ {
+  "collegeId": "shyam-lal-college",
+  "collegeName": "Shyam Lal College",
+  "sport": "Judo",
+  "men": 5,
+  "women": 0
+ },
+ {
+  "collegeId": "shyam-lal-college",
+  "collegeName": "Shyam Lal College",
+  "sport": "Kabaddi",
+  "men": 6,
+  "women": 0
+ },
+ {
+  "collegeId": "shyam-lal-college",
+  "collegeName": "Shyam Lal College",
+  "sport": "Kho-Kho",
+  "men": 7,
+  "women": 0
+ },
+ {
+  "collegeId": "shyam-lal-college",
+  "collegeName": "Shyam Lal College",
+  "sport": "Volleyball",
+  "men": 6,
+  "women": 0
+ },
+ {
+  "collegeId": "shyam-lal-college-evening",
+  "collegeName": "Shyam Lal College (Evening)",
+  "sport": "Archery",
+  "men": 1,
+  "women": 1
+ },
+ {
+  "collegeId": "shyam-lal-college-evening",
+  "collegeName": "Shyam Lal College (Evening)",
+  "sport": "Boxing",
+  "men": 1,
+  "women": 0
+ },
+ {
+  "collegeId": "shyam-lal-college-evening",
+  "collegeName": "Shyam Lal College (Evening)",
+  "sport": "Diving",
+  "men": 0,
+  "women": 1
+ },
+ {
+  "collegeId": "shyam-lal-college-evening",
+  "collegeName": "Shyam Lal College (Evening)",
+  "sport": "Fencing",
+  "men": 1,
+  "women": 1
+ },
+ {
+  "collegeId": "shyam-lal-college-evening",
+  "collegeName": "Shyam Lal College (Evening)",
+  "sport": "Hockey",
+  "men": 3,
+  "women": 0
+ },
+ {
+  "collegeId": "shyam-lal-college-evening",
+  "collegeName": "Shyam Lal College (Evening)",
+  "sport": "Judo",
+  "men": 1,
+  "women": 0
+ },
+ {
+  "collegeId": "shyam-lal-college-evening",
+  "collegeName": "Shyam Lal College (Evening)",
+  "sport": "Kabaddi",
+  "men": 2,
+  "women": 0
+ },
+ {
+  "collegeId": "shyam-lal-college-evening",
+  "collegeName": "Shyam Lal College (Evening)",
+  "sport": "Netball",
+  "men": 0,
+  "women": 4
+ },
+ {
+  "collegeId": "shyam-lal-college-evening",
+  "collegeName": "Shyam Lal College (Evening)",
+  "sport": "Shooting",
+  "men": 1,
+  "women": 1
+ },
+ {
+  "collegeId": "shyam-lal-college-evening",
+  "collegeName": "Shyam Lal College (Evening)",
+  "sport": "Table-Tennis",
+  "men": 1,
+  "women": 1
+ },
+ {
+  "collegeId": "shyam-lal-college-evening",
+  "collegeName": "Shyam Lal College (Evening)",
+  "sport": "Volleyball",
+  "men": 2,
+  "women": 0
+ },
+ {
+  "collegeId": "shyama-prasad-mukherji-college-for-women-w",
+  "collegeName": "Shyama Prasad Mukherji College For Women (W)",
+  "sport": "Athletics",
+  "men": 0,
+  "women": 2
+ },
+ {
+  "collegeId": "shyama-prasad-mukherji-college-for-women-w",
+  "collegeName": "Shyama Prasad Mukherji College For Women (W)",
+  "sport": "Basketball",
+  "men": 0,
+  "women": 2
+ },
+ {
+  "collegeId": "shyama-prasad-mukherji-college-for-women-w",
+  "collegeName": "Shyama Prasad Mukherji College For Women (W)",
+  "sport": "Cricket",
+  "men": 0,
+  "women": 3
+ },
+ {
+  "collegeId": "shyama-prasad-mukherji-college-for-women-w",
+  "collegeName": "Shyama Prasad Mukherji College For Women (W)",
+  "sport": "Football",
+  "men": 0,
+  "women": 2
+ },
+ {
+  "collegeId": "shyama-prasad-mukherji-college-for-women-w",
+  "collegeName": "Shyama Prasad Mukherji College For Women (W)",
+  "sport": "Handball",
+  "men": 0,
+  "women": 6
+ },
+ {
+  "collegeId": "shyama-prasad-mukherji-college-for-women-w",
+  "collegeName": "Shyama Prasad Mukherji College For Women (W)",
+  "sport": "Hockey",
+  "men": 0,
+  "women": 8
+ },
+ {
+  "collegeId": "shyama-prasad-mukherji-college-for-women-w",
+  "collegeName": "Shyama Prasad Mukherji College For Women (W)",
+  "sport": "Kabaddi",
+  "men": 0,
+  "women": 5
+ },
+ {
+  "collegeId": "shyama-prasad-mukherji-college-for-women-w",
+  "collegeName": "Shyama Prasad Mukherji College For Women (W)",
+  "sport": "Kho-Kho",
+  "men": 0,
+  "women": 5
+ },
+ {
+  "collegeId": "shyama-prasad-mukherji-college-for-women-w",
+  "collegeName": "Shyama Prasad Mukherji College For Women (W)",
+  "sport": "Softball",
+  "men": 0,
+  "women": 6
+ },
+ {
+  "collegeId": "shyama-prasad-mukherji-college-for-women-w",
+  "collegeName": "Shyama Prasad Mukherji College For Women (W)",
+  "sport": "Teakwondo",
+  "men": 0,
+  "women": 2
+ },
+ {
+  "collegeId": "shyama-prasad-mukherji-college-for-women-w",
+  "collegeName": "Shyama Prasad Mukherji College For Women (W)",
+  "sport": "Volleyball",
+  "men": 0,
+  "women": 7
+ },
+ {
+  "collegeId": "sri-aurobindo-college-day",
+  "collegeName": "Sri Aurobindo College (Day)",
+  "sport": "Archery",
+  "men": 1,
+  "women": 2
+ },
+ {
+  "collegeId": "sri-aurobindo-college-day",
+  "collegeName": "Sri Aurobindo College (Day)",
+  "sport": "Fencing",
+  "men": 1,
+  "women": 1
+ },
+ {
+  "collegeId": "sri-aurobindo-college-day",
+  "collegeName": "Sri Aurobindo College (Day)",
+  "sport": "Gymnastics",
+  "men": 2,
+  "women": 1
+ },
+ {
+  "collegeId": "sri-aurobindo-college-day",
+  "collegeName": "Sri Aurobindo College (Day)",
+  "sport": "Judo",
+  "men": 3,
+  "women": 2
+ },
+ {
+  "collegeId": "sri-aurobindo-college-day",
+  "collegeName": "Sri Aurobindo College (Day)",
+  "sport": "Kabaddi",
+  "men": 3,
+  "women": 6
+ },
+ {
+  "collegeId": "sri-aurobindo-college-day",
+  "collegeName": "Sri Aurobindo College (Day)",
+  "sport": "Shooting",
+  "men": 2,
+  "women": 1
+ },
+ {
+  "collegeId": "sri-aurobindo-college-day",
+  "collegeName": "Sri Aurobindo College (Day)",
+  "sport": "Teakwondo",
+  "men": 3,
+  "women": 2
+ },
+ {
+  "collegeId": "sri-aurobindo-college-evening",
+  "collegeName": "Sri Aurobindo College (Evening)",
+  "sport": "Basketball",
+  "men": 5,
+  "women": 0
+ },
+ {
+  "collegeId": "sri-aurobindo-college-evening",
+  "collegeName": "Sri Aurobindo College (Evening)",
+  "sport": "Boxing",
+  "men": 4,
+  "women": 2
+ },
+ {
+  "collegeId": "sri-aurobindo-college-evening",
+  "collegeName": "Sri Aurobindo College (Evening)",
+  "sport": "Football",
+  "men": 4,
+  "women": 0
+ },
+ {
+  "collegeId": "sri-aurobindo-college-evening",
+  "collegeName": "Sri Aurobindo College (Evening)",
+  "sport": "Handball",
+  "men": 3,
+  "women": 0
+ },
+ {
+  "collegeId": "sri-aurobindo-college-evening",
+  "collegeName": "Sri Aurobindo College (Evening)",
+  "sport": "Shooting",
+  "men": 2,
+  "women": 2
+ },
+ {
+  "collegeId": "sri-guru-gobind-singh-college-of-commerce",
+  "collegeName": "Sri Guru Gobind Singh College of Commerce",
+  "sport": "Badminton",
+  "men": 0,
+  "women": 2
+ },
+ {
+  "collegeId": "sri-guru-gobind-singh-college-of-commerce",
+  "collegeName": "Sri Guru Gobind Singh College of Commerce",
+  "sport": "Cricket",
+  "men": 4,
+  "women": 0
+ },
+ {
+  "collegeId": "sri-guru-gobind-singh-college-of-commerce",
+  "collegeName": "Sri Guru Gobind Singh College of Commerce",
+  "sport": "Shooting",
+  "men": 2,
+  "women": 3
+ },
+ {
+  "collegeId": "sri-guru-gobind-singh-college-of-commerce",
+  "collegeName": "Sri Guru Gobind Singh College of Commerce",
+  "sport": "Table-Tennis",
+  "men": 2,
+  "women": 0
+ },
+ {
+  "collegeId": "sri-guru-gobind-singh-college-of-commerce",
+  "collegeName": "Sri Guru Gobind Singh College of Commerce",
+  "sport": "Tennis",
+  "men": 2,
+  "women": 0
+ },
+ {
+  "collegeId": "sri-guru-nanak-dev-khalsa-college",
+  "collegeName": "Sri Guru Nanak Dev Khalsa College",
+  "sport": "Athletics",
+  "men": 4,
+  "women": 0
+ },
+ {
+  "collegeId": "sri-guru-nanak-dev-khalsa-college",
+  "collegeName": "Sri Guru Nanak Dev Khalsa College",
+  "sport": "Boxing",
+  "men": 2,
+  "women": 0
+ },
+ {
+  "collegeId": "sri-guru-nanak-dev-khalsa-college",
+  "collegeName": "Sri Guru Nanak Dev Khalsa College",
+  "sport": "Cricket",
+  "men": 8,
+  "women": 0
+ },
+ {
+  "collegeId": "sri-guru-nanak-dev-khalsa-college",
+  "collegeName": "Sri Guru Nanak Dev Khalsa College",
+  "sport": "Gymnastics",
+  "men": 1,
+  "women": 0
+ },
+ {
+  "collegeId": "sri-guru-nanak-dev-khalsa-college",
+  "collegeName": "Sri Guru Nanak Dev Khalsa College",
+  "sport": "Judo",
+  "men": 2,
+  "women": 0
+ },
+ {
+  "collegeId": "sri-guru-nanak-dev-khalsa-college",
+  "collegeName": "Sri Guru Nanak Dev Khalsa College",
+  "sport": "Shooting",
+  "men": 2,
+  "women": 0
+ },
+ {
+  "collegeId": "sri-guru-nanak-dev-khalsa-college",
+  "collegeName": "Sri Guru Nanak Dev Khalsa College",
+  "sport": "Taekwondo",
+  "men": 2,
+  "women": 0
+ },
+ {
+  "collegeId": "sri-guru-nanak-dev-khalsa-college",
+  "collegeName": "Sri Guru Nanak Dev Khalsa College",
+  "sport": "Weightlifting",
+  "men": 2,
+  "women": 0
+ },
+ {
+  "collegeId": "sri-guru-nanak-dev-khalsa-college",
+  "collegeName": "Sri Guru Nanak Dev Khalsa College",
+  "sport": "Wrestling",
+  "men": 2,
+  "women": 0
+ },
+ {
+  "collegeId": "sri-guru-tegh-bahadur-khalsa-college",
+  "collegeName": "Sri Guru Tegh Bahadur Khalsa College",
+  "sport": "Athletics",
+  "men": 6,
+  "women": 0
+ },
+ {
+  "collegeId": "sri-guru-tegh-bahadur-khalsa-college",
+  "collegeName": "Sri Guru Tegh Bahadur Khalsa College",
+  "sport": "Badminton",
+  "men": 3,
+  "women": 0
+ },
+ {
+  "collegeId": "sri-guru-tegh-bahadur-khalsa-college",
+  "collegeName": "Sri Guru Tegh Bahadur Khalsa College",
+  "sport": "Basketball",
+  "men": 4,
+  "women": 0
+ },
+ {
+  "collegeId": "sri-guru-tegh-bahadur-khalsa-college",
+  "collegeName": "Sri Guru Tegh Bahadur Khalsa College",
+  "sport": "Cricket",
+  "men": 6,
+  "women": 0
+ },
+ {
+  "collegeId": "sri-guru-tegh-bahadur-khalsa-college",
+  "collegeName": "Sri Guru Tegh Bahadur Khalsa College",
+  "sport": "Handball",
+  "men": 4,
+  "women": 0
+ },
+ {
+  "collegeId": "sri-guru-tegh-bahadur-khalsa-college",
+  "collegeName": "Sri Guru Tegh Bahadur Khalsa College",
+  "sport": "Hockey",
+  "men": 6,
+  "women": 0
+ },
+ {
+  "collegeId": "sri-guru-tegh-bahadur-khalsa-college",
+  "collegeName": "Sri Guru Tegh Bahadur Khalsa College",
+  "sport": "Tennis",
+  "men": 2,
+  "women": 0
+ },
+ {
+  "collegeId": "sri-guru-tegh-bahadur-khalsa-college",
+  "collegeName": "Sri Guru Tegh Bahadur Khalsa College",
+  "sport": "Volleyball",
+  "men": 4,
+  "women": 0
+ },
+ {
+  "collegeId": "sri-venketeswara-college",
+  "collegeName": "Sri Venketeswara College",
+  "sport": "Badminton",
+  "men": 1,
+  "women": 1
+ },
+ {
+  "collegeId": "sri-venketeswara-college",
+  "collegeName": "Sri Venketeswara College",
+  "sport": "Basketball",
+  "men": 4,
+  "women": 2
+ },
+ {
+  "collegeId": "sri-venketeswara-college",
+  "collegeName": "Sri Venketeswara College",
+  "sport": "Chess",
+  "men": 1,
+  "women": 0
+ },
+ {
+  "collegeId": "sri-venketeswara-college",
+  "collegeName": "Sri Venketeswara College",
+  "sport": "Cricket",
+  "men": 5,
+  "women": 3
+ },
+ {
+  "collegeId": "sri-venketeswara-college",
+  "collegeName": "Sri Venketeswara College",
+  "sport": "Football",
+  "men": 5,
+  "women": 0
+ },
+ {
+  "collegeId": "sri-venketeswara-college",
+  "collegeName": "Sri Venketeswara College",
+  "sport": "Shooting",
+  "men": 2,
+  "women": 0
+ },
+ {
+  "collegeId": "sri-venketeswara-college",
+  "collegeName": "Sri Venketeswara College",
+  "sport": "Squash",
+  "men": 1,
+  "women": 2
+ },
+ {
+  "collegeId": "sri-venketeswara-college",
+  "collegeName": "Sri Venketeswara College",
+  "sport": "Swimming",
+  "men": 1,
+  "women": 0
+ },
+ {
+  "collegeId": "sri-venketeswara-college",
+  "collegeName": "Sri Venketeswara College",
+  "sport": "Table-Tennis",
+  "men": 1,
+  "women": 0
+ },
+ {
+  "collegeId": "sri-venketeswara-college",
+  "collegeName": "Sri Venketeswara College",
+  "sport": "Tennis",
+  "men": 2,
+  "women": 3
+ },
+ {
+  "collegeId": "st-stephen-s-college",
+  "collegeName": "St. Stephen's College",
+  "sport": "Badminton",
+  "men": 1,
+  "women": 1
+ },
+ {
+  "collegeId": "st-stephen-s-college",
+  "collegeName": "St. Stephen's College",
+  "sport": "Basketball",
+  "men": 2,
+  "women": 2
+ },
+ {
+  "collegeId": "st-stephen-s-college",
+  "collegeName": "St. Stephen's College",
+  "sport": "Cricket",
+  "men": 2,
+  "women": 0
+ },
+ {
+  "collegeId": "st-stephen-s-college",
+  "collegeName": "St. Stephen's College",
+  "sport": "Football",
+  "men": 2,
+  "women": 0
+ },
+ {
+  "collegeId": "st-stephen-s-college",
+  "collegeName": "St. Stephen's College",
+  "sport": "Shooting",
+  "men": 1,
+  "women": 1
+ },
+ {
+  "collegeId": "st-stephen-s-college",
+  "collegeName": "St. Stephen's College",
+  "sport": "Squash",
+  "men": 2,
+  "women": 1
+ },
+ {
+  "collegeId": "st-stephen-s-college",
+  "collegeName": "St. Stephen's College",
+  "sport": "Swimming",
+  "men": 1,
+  "women": 1
+ },
+ {
+  "collegeId": "st-stephen-s-college",
+  "collegeName": "St. Stephen's College",
+  "sport": "Table-Tennis",
+  "men": 1,
+  "women": 1
+ },
+ {
+  "collegeId": "st-stephen-s-college",
+  "collegeName": "St. Stephen's College",
+  "sport": "Tennis",
+  "men": 1,
+  "women": 1
+ },
+ {
+  "collegeId": "swami-shardhanand-college",
+  "collegeName": "Swami Shardhanand College",
+  "sport": "Baseball",
+  "men": 10,
+  "women": 0
+ },
+ {
+  "collegeId": "swami-shardhanand-college",
+  "collegeName": "Swami Shardhanand College",
+  "sport": "Basketball",
+  "men": 9,
+  "women": 0
+ },
+ {
+  "collegeId": "swami-shardhanand-college",
+  "collegeName": "Swami Shardhanand College",
+  "sport": "Cricket",
+  "men": 22,
+  "women": 0
+ },
+ {
+  "collegeId": "swami-shardhanand-college",
+  "collegeName": "Swami Shardhanand College",
+  "sport": "Kabaddi",
+  "men": 7,
+  "women": 0
+ },
+ {
+  "collegeId": "vivekananda-college-w",
+  "collegeName": "Vivekananda College (W)",
+  "sport": "Athletics",
+  "men": 0,
+  "women": 6
+ },
+ {
+  "collegeId": "vivekananda-college-w",
+  "collegeName": "Vivekananda College (W)",
+  "sport": "Hockey",
+  "men": 0,
+  "women": 8
+ },
+ {
+  "collegeId": "vivekananda-college-w",
+  "collegeName": "Vivekananda College (W)",
+  "sport": "Kabaddi",
+  "men": 0,
+  "women": 5
+ },
+ {
+  "collegeId": "vivekananda-college-w",
+  "collegeName": "Vivekananda College (W)",
+  "sport": "Volleyball",
+  "men": 0,
+  "women": 3
+ },
+ {
+  "collegeId": "zakir-husain-delhi-college",
+  "collegeName": "Zakir Husain Delhi College",
+  "sport": "Athletics",
+  "men": 2,
+  "women": 1
+ },
+ {
+  "collegeId": "zakir-husain-delhi-college",
+  "collegeName": "Zakir Husain Delhi College",
+  "sport": "Basketball",
+  "men": 7,
+  "women": 0
+ },
+ {
+  "collegeId": "zakir-husain-delhi-college",
+  "collegeName": "Zakir Husain Delhi College",
+  "sport": "Chess",
+  "men": 3,
+  "women": 3
+ },
+ {
+  "collegeId": "zakir-husain-delhi-college",
+  "collegeName": "Zakir Husain Delhi College",
+  "sport": "Cricket",
+  "men": 4,
+  "women": 0
+ },
+ {
+  "collegeId": "zakir-husain-delhi-college",
+  "collegeName": "Zakir Husain Delhi College",
+  "sport": "Football",
+  "men": 10,
+  "women": 0
+ },
+ {
+  "collegeId": "zakir-husain-delhi-college",
+  "collegeName": "Zakir Husain Delhi College",
+  "sport": "Judo",
+  "men": 4,
+  "women": 4
+ },
+ {
+  "collegeId": "zakir-husain-delhi-college",
+  "collegeName": "Zakir Husain Delhi College",
+  "sport": "Kabaddi",
+  "men": 3,
+  "women": 0
+ },
+ {
+  "collegeId": "zakir-husain-delhi-college",
+  "collegeName": "Zakir Husain Delhi College",
+  "sport": "Kho-Kho",
+  "men": 3,
+  "women": 0
+ },
+ {
+  "collegeId": "zakir-husain-delhi-college",
+  "collegeName": "Zakir Husain Delhi College",
+  "sport": "Table-Tennis",
+  "men": 2,
+  "women": 3
+ },
+ {
+  "collegeId": "zakir-husain-delhi-college",
+  "collegeName": "Zakir Husain Delhi College",
+  "sport": "Volleyball",
+  "men": 5,
+  "women": 0
+ },
+ {
+  "collegeId": "zakir-husain-delhi-college-evening",
+  "collegeName": "Zakir Husain Delhi College (Evening)",
+  "sport": "Athletics",
+  "men": 1,
+  "women": 1
+ },
+ {
+  "collegeId": "zakir-husain-delhi-college-evening",
+  "collegeName": "Zakir Husain Delhi College (Evening)",
+  "sport": "Badminton",
+  "men": 1,
+  "women": 1
+ },
+ {
+  "collegeId": "zakir-husain-delhi-college-evening",
+  "collegeName": "Zakir Husain Delhi College (Evening)",
+  "sport": "Boxing",
+  "men": 1,
+  "women": 0
+ },
+ {
+  "collegeId": "zakir-husain-delhi-college-evening",
+  "collegeName": "Zakir Husain Delhi College (Evening)",
+  "sport": "Chess",
+  "men": 0,
+  "women": 1
+ },
+ {
+  "collegeId": "zakir-husain-delhi-college-evening",
+  "collegeName": "Zakir Husain Delhi College (Evening)",
+  "sport": "Cricket",
+  "men": 1,
+  "women": 0
+ },
+ {
+  "collegeId": "zakir-husain-delhi-college-evening",
+  "collegeName": "Zakir Husain Delhi College (Evening)",
+  "sport": "Football",
+  "men": 1,
+  "women": 0
+ },
+ {
+  "collegeId": "zakir-husain-delhi-college-evening",
+  "collegeName": "Zakir Husain Delhi College (Evening)",
+  "sport": "Judo",
+  "men": 1,
+  "women": 0
+ },
+ {
+  "collegeId": "zakir-husain-delhi-college-evening",
+  "collegeName": "Zakir Husain Delhi College (Evening)",
+  "sport": "Kabaddi",
+  "men": 1,
+  "women": 0
+ },
+ {
+  "collegeId": "zakir-husain-delhi-college-evening",
+  "collegeName": "Zakir Husain Delhi College (Evening)",
+  "sport": "Kho-Kho",
+  "men": 1,
+  "women": 1
+ },
+ {
+  "collegeId": "zakir-husain-delhi-college-evening",
+  "collegeName": "Zakir Husain Delhi College (Evening)",
+  "sport": "Table-Tennis",
+  "men": 0,
+  "women": 1
+ },
+ {
+  "collegeId": "zakir-husain-delhi-college-evening",
+  "collegeName": "Zakir Husain Delhi College (Evening)",
+  "sport": "Volleyball",
+  "men": 1,
+  "women": 1
+ }
+]

@@ -2,7 +2,7 @@ import React, { useState, useMemo, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { colleges } from '../data/colleges';
 import { programs } from '../data/programs';
-import { offerings } from '../data/offerings';
+import { offerings } from '../data/cutoffsData';
 import './CollegeExplorer.css';
 
 export function CollegeExplorer() {
@@ -221,9 +221,12 @@ export function CollegeExplorer() {
                   </div>
 
                   <div className="ce-card-actions">
-                    <button disabled className="ce-btn ce-btn-primary" style={{ opacity: 0.5, cursor: 'not-allowed' }}>
+                    <Link to={`/college/${college.id}`} className="ce-btn ce-btn-primary">
                       View Details
-                    </button>
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                        <path d="M9 18l6-6-6-6"></path>
+                      </svg>
+                    </Link>
                     {college.officialWebsite && (
                       <a href={college.officialWebsite} target="_blank" rel="noopener noreferrer" className="ce-btn ce-btn-secondary">
                         Visit Website

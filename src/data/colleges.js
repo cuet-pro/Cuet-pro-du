@@ -1,5 +1,5 @@
-// DU Colleges — 91 colleges from CSAS UG 2025 official data
-// Source: admission.uod.ac.in/2025 | Coordinates are approximate
+// DU Colleges — 91 colleges from CSAS UG 2026 official data
+// Source: admission.uod.ac.in/2026 | Coordinates are approximate
 export const colleges = [
   {
     "id": "acharya-narendra-dev-college",

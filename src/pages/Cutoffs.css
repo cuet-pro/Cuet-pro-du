@@ -535,6 +535,33 @@
 .cf-tab.on:hover { background: var(--maccent); color: #fff; }
 .cf-tab.on { background: var(--maccent); color: #fff; border-color: var(--maccent); }
 
+.cf-rounds {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  flex-wrap: wrap;
+  border-left: 1px solid var(--border-color);
+  padding-left: 0.75rem;
+}
+.cf-round {
+  border: 1px solid var(--border-color);
+  background: #fff;
+  color: var(--text-muted);
+  border-radius: 8px;
+  padding: 0.4rem 0.75rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: inherit;
+  transition: var(--transition);
+}
+.cf-round:hover { background: #f1f5f9; color: var(--text-color); }
+.cf-round.on { background: #1e293b; color: #fff; border-color: #1e293b; }
+
+@media (max-width: 640px) {
+  .cf-rounds { border-left: none; padding-left: 0; width: 100%; }
+}
+
 .cf-score-wrap {
   display: flex;
   align-items: center;

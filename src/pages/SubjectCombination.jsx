@@ -560,7 +560,7 @@ export function SubjectCombination() {
             <div className="cf-count">
               Showing {tab === 'eligible' ? `${eligShown.length} programs` : `${collegesShown.length} colleges`}
             </div>
-            <SourceBadge date="CSAS 2025" />
+            <SourceBadge date="CSAS 2026" />
           </div>
 
           <main className="cf-list">

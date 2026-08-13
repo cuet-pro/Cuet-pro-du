@@ -2,7 +2,15 @@ import { useState, useMemo } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { colleges } from '../data/colleges';
 import { programs } from '../data/programs';
-import { offerings } from '../data/offerings';
+import {
+  offerings,
+  CATEGORIES,
+  ROUNDS,
+  getCutoff,
+  getSeats,
+  getSportsForCollege,
+  getEcaForCollege,
+} from '../data/cutoffsData';
 import { SourceBadge } from '../components/SourceBadge';
 import './CollegeDetail.css';
 
@@ -18,10 +26,19 @@ const avatarColors = ['#2563eb','#059669','#7c3aed','#e11d48','#d97706','#0891b2
 const getAvatarColor = (name) => avatarColors[name.charCodeAt(0) % avatarColors.length];
 const getInitials = (name) => name.split(' ').map(n => n[0]).join('').slice(0, 2).toUpperCase();
 
+const CATEGORY_LABELS = {
+  UR: 'UR',
+  OBC: 'OBC-NCL',
+  SC: 'SC',
+  ST: 'ST',
+  EWS: 'EWS',
+  PwBD: 'PwBD',
+};
+
 export function CollegeDetail() {
   const { id } = useParams();
   const college = useMemo(() => colleges.find(c => c.id === id), [id]);
-  
+
   const collegeOfferings = useMemo(() => {
     if (!college) return [];
     return offerings
@@ -35,6 +52,9 @@ export function CollegeDetail() {
       });
   }, [id, college]);
 
+  const sports = useMemo(() => (college ? getSportsForCollege(college.id) : []), [college]);
+  const eca = useMemo(() => (college ? getEcaForCollege(college.id) : []), [college]);
+
   const groupedOfferings = useMemo(() => {
     const groups = { Science: [], Commerce: [], Humanities: [], Others: [] };
     collegeOfferings.forEach(off => {
@@ -45,6 +65,7 @@ export function CollegeDetail() {
   }, [collegeOfferings]);
 
   const [expandedCourseIds, setExpandedCourseIds] = useState({});
+  const [round, setRound] = useState(1);
 
   const toggleAccordion = (courseId) => {
     setExpandedCourseIds(prev => ({
@@ -62,10 +83,14 @@ export function CollegeDetail() {
     );
   }
 
-  const totalCollegeSeats = collegeOfferings.reduce((sum, o) => sum + o.totalSeats, 0);
+  const totalCollegeSeats = collegeOfferings.reduce((sum, o) => {
+    const t = getSeats(o, 'total');
+    return sum + (t || 0);
+  }, 0);
   const totalCourses = collegeOfferings.length;
-  // Use the specific scraped image URL from college data, or fallback
   const heroImageUrl = college.imageUrl || `https://placehold.co/1200x500?text=${encodeURIComponent(college.name)}`;
+  const sportsTotal = sports.reduce((sum, s) => sum + s.men + s.women, 0);
+  const ecaTotal = eca.reduce((sum, e) => sum + e.seats, 0);
 
   return (
     <div className="college-detail-container">
@@ -100,11 +125,11 @@ export function CollegeDetail() {
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
             </div>
             <div className="cd-stat-info">
-              <span className="cd-stat-value">{totalCollegeSeats}</span>
+              <span className="cd-stat-value">{totalCollegeSeats.toLocaleString('en-IN')}</span>
               <span className="cd-stat-label">Total Seats</span>
             </div>
           </div>
-          
+
           <div className="cd-stat-card">
             <div className="cd-stat-icon">
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
@@ -114,7 +139,31 @@ export function CollegeDetail() {
               <span className="cd-stat-label">Courses Offered</span>
             </div>
           </div>
-          
+
+          {sports.length > 0 && (
+            <div className="cd-stat-card">
+              <div className="cd-stat-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path><line x1="2" y1="12" x2="22" y2="12"></line></svg>
+              </div>
+              <div className="cd-stat-info">
+                <span className="cd-stat-value">{sportsTotal}</span>
+                <span className="cd-stat-label">Sports Seats</span>
+              </div>
+            </div>
+          )}
+
+          {eca.length > 0 && (
+            <div className="cd-stat-card">
+              <div className="cd-stat-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 3v10"></path><path d="M5 8h14"></path><path d="M5 13h14"></path><circle cx="12" cy="16" r="5"></circle></svg>
+              </div>
+              <div className="cd-stat-info">
+                <span className="cd-stat-value">{ecaTotal}</span>
+                <span className="cd-stat-label">ECA Seats</span>
+              </div>
+            </div>
+          )}
+
           <a href={college.officialWebsite} target="_blank" rel="noopener noreferrer" className="cd-stat-card cd-website-card">
             <div className="cd-stat-icon">
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
@@ -130,7 +179,7 @@ export function CollegeDetail() {
         <section className="cd-intro-section">
           <h2 className="cd-section-title">About College</h2>
           <p className="cd-intro-text">{college.intro}</p>
-          
+
           {college.facilities && college.facilities.length > 0 && (
             <div className="cd-facilities-container">
               <h3 className="cd-facilities-title">Key Facilities</h3>
@@ -146,10 +195,10 @@ export function CollegeDetail() {
           )}
         </section>
 
-        {/* 3. Redesigned Courses Accordion */}
+        {/* 3. Courses Accordion */}
         <section className="cd-courses-section">
-          <h2 className="cd-section-title">Programs & Cutoffs</h2>
-          
+          <h2 className="cd-section-title">Programs &amp; Cutoffs</h2>
+
           {['Science', 'Commerce', 'Humanities', 'Others'].map(stream => {
             const courses = groupedOfferings[stream];
             if (courses.length === 0) return null;
@@ -157,74 +206,79 @@ export function CollegeDetail() {
             return (
               <div key={stream} className="cd-stream-group">
                 <h3 className="cd-stream-title">{stream} Programs</h3>
-                
+
                 <div className="cd-accordion-container">
                   {courses.map(offering => {
                     const isExpanded = !!expandedCourseIds[offering.programId];
-                    const cutoffs = offering.cutoffsByCategoryAndRound || {};
+                    const hasAnyRound = ROUNDS.some(r => CATEGORIES.some(cat => getCutoff(offering, cat, r) !== null));
 
                     return (
                       <div key={offering.programId} className={`cd-accordion-item ${isExpanded ? 'expanded' : ''}`}>
                         <div className="cd-accordion-header" onClick={() => toggleAccordion(offering.programId)}>
                           <div className="cd-course-title-wrapper">
                             <span className="cd-course-name">{offering.programDetails.name}</span>
-                            <span className="cd-course-seats-badge">{offering.totalSeats} Seats</span>
+                            <span className="cd-course-seats-badge">{getSeats(offering, 'total') ?? 0} Seats</span>
                           </div>
                           <div className={`cd-accordion-icon ${isExpanded ? 'rotated' : ''}`}>
                             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
                           </div>
                         </div>
-                        
+
                         {isExpanded && (
                           <div className="cd-accordion-body">
-                            
                             <div className="cd-details-grid">
                               <div className="cd-detail-card">
-                                <h4>Seat Matrix <SourceBadge date="Aug 2023" /></h4>
+                                <h4>Seat Matrix <SourceBadge date="CSAS 2026" /></h4>
                                 <div className="cd-matrix-tags">
-                                  {Object.entries(offering.seatsByCategory || {}).map(([category, seats]) => (
-                                    <div key={category} className="cd-matrix-tag">
-                                      <span className="cat">{category}</span>
-                                      <span className="val">{seats}</span>
-                                    </div>
-                                  ))}
+                                  {Object.entries(offering.seats || {}).map(([category, seats]) => {
+                                    if (seats === null || seats === undefined) return null;
+                                    return (
+                                      <div key={category} className="cd-matrix-tag">
+                                        <span className="cat">{category === 'total' ? 'Total' : category}</span>
+                                        <span className="val">{seats}</span>
+                                      </div>
+                                    );
+                                  })}
                                 </div>
                               </div>
 
                               <div className="cd-detail-card cd-eligibility-card">
                                 <h4>Eligibility Criteria</h4>
-                                <p>{offering.programDetails.eligibility}</p>
+                                <p>{offering.programDetails.eligibility || 'See CSAS Bulletin of Information.'}</p>
                               </div>
                             </div>
 
-                            <div className="cd-detail-card cd-cutoffs-card">
-                              <h4>Category-wise Cutoffs (Round 1, 2025) <SourceBadge date="Aug 2023" /></h4>
-                              <div className="cd-table-responsive">
-                                <table className="cd-premium-table">
-                                  <thead>
-                                    <tr>
-                                      <th>UR</th>
-                                      <th>OBC-NCL</th>
-                                      <th>SC</th>
-                                      <th>ST</th>
-                                      <th>EWS</th>
-                                      <th>PwBD</th>
-                                    </tr>
-                                  </thead>
-                                  <tbody>
-                                    <tr>
-                                      <td>{cutoffs.General?.round1 || '-'}</td>
-                                      <td>{cutoffs.OBC?.round1 || '-'}</td>
-                                      <td>{cutoffs.SC?.round1 || '-'}</td>
-                                      <td>{cutoffs.ST?.round1 || '-'}</td>
-                                      <td>{cutoffs.EWS?.round1 || '-'}</td>
-                                      <td>{cutoffs.PwBD?.round1 || '-'}</td>
-                                    </tr>
-                                  </tbody>
-                                </table>
+                            {hasAnyRound && (
+                              <div className="cd-detail-card cd-cutoffs-card">
+                                <div className="cd-cutoffs-head">
+                                  <h4>Category-wise Cutoffs <SourceBadge date="CSAS 2026" /></h4>
+                                  <div className="cd-rounds" role="group" aria-label="Allocation round">
+                                    {ROUNDS.map(r => (
+                                      <button key={r} className={`cd-round ${round === r ? 'on' : ''}`} onClick={() => setRound(r)}>
+                                        Round {r}
+                                      </button>
+                                    ))}
+                                  </div>
+                                </div>
+                                <div className="cd-table-responsive">
+                                  <table className="cd-premium-table">
+                                    <thead>
+                                      <tr>
+                                        {CATEGORIES.map(cat => <th key={cat}>{CATEGORY_LABELS[cat] || cat}</th>)}
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        {CATEGORIES.map(cat => {
+                                          const v = getCutoff(offering, cat, round);
+                                          return <td key={cat}>{v !== null ? v.toFixed(1) : '-'}</td>;
+                                        })}
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
                               </div>
-                            </div>
-                            
+                            )}
                           </div>
                         )}
                       </div>
@@ -235,6 +289,78 @@ export function CollegeDetail() {
             );
           })}
         </section>
+
+        {/* Sports Quota */}
+        {sports.length > 0 && (
+          <section className="cd-sports-section">
+            <h2 className="cd-section-title" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ color: 'var(--accent-blue)' }}><circle cx="12" cy="12" r="10"></circle><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path><line x1="2" y1="12" x2="22" y2="12"></line></svg>
+              Sports Quota <SourceBadge date="06 Jul 2026" />
+            </h2>
+            <p className="cd-sports-sub">Supernumerary sports seats under DU Sports Admissions 2026-27</p>
+            <div className="cd-table-responsive">
+              <table className="cd-premium-table">
+                <thead>
+                  <tr>
+                    <th>Sport</th>
+                    <th>Men</th>
+                    <th>Women</th>
+                    <th>Total</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {sports.map(s => (
+                    <tr key={s.sport}>
+                      <td>{s.sport}</td>
+                      <td>{s.men}</td>
+                      <td>{s.women}</td>
+                      <td>{s.men + s.women}</td>
+                    </tr>
+                  ))}
+                  <tr className="cd-quota-total">
+                    <td><strong>Total</strong></td>
+                    <td><strong>{sports.reduce((x, s) => x + s.men, 0)}</strong></td>
+                    <td><strong>{sports.reduce((x, s) => x + s.women, 0)}</strong></td>
+                    <td><strong>{sportsTotal}</strong></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+        )}
+
+        {/* ECA Quota */}
+        {eca.length > 0 && (
+          <section className="cd-eca-section">
+            <h2 className="cd-section-title" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ color: 'var(--accent-blue)' }}><path d="M12 3v10"></path><path d="M5 8h14"></path><path d="M5 13h14"></path><circle cx="12" cy="16" r="5"></circle></svg>
+              ECA Quota <SourceBadge date="27 Jun 2026" />
+            </h2>
+            <p className="cd-eca-sub">Extra-Curricular Activities seats under DU ECA Admissions 2026-27</p>
+            <div className="cd-table-responsive">
+              <table className="cd-premium-table">
+                <thead>
+                  <tr>
+                    <th>Activity</th>
+                    <th>Seats</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {eca.map(e => (
+                    <tr key={e.activity}>
+                      <td>{e.activity}</td>
+                      <td>{e.seats}</td>
+                    </tr>
+                  ))}
+                  <tr className="cd-quota-total">
+                    <td><strong>Total</strong></td>
+                    <td><strong>{ecaTotal}</strong></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+        )}
 
         {/* 4. Subject Combination */}
         <section className="cd-subject-combination-section">
@@ -253,7 +379,7 @@ export function CollegeDetail() {
                 <p><strong>Option 2:</strong> 1 Language + Physics + Chemistry + Biology</p>
               </div>
             </div>
-            
+
             <div className="cd-subject-card">
               <div className="cd-subject-icon commerce">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
@@ -306,7 +432,7 @@ export function CollegeDetail() {
 
         {/* Section B - Societies & Clubs */}
         <section className="cd-societies-section">
-          <h2 className="cd-section-title">Societies & Clubs</h2>
+          <h2 className="cd-section-title">Societies &amp; Clubs</h2>
           <div className="cd-societies-container" style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>
             {(!college.societies || college.societies.length === 0) ? (
               <span style={{ color: 'var(--text-muted)', fontStyle: 'italic' }}>Society info coming soon</span>

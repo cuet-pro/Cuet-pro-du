@@ -652,3 +652,54 @@
     padding: 1.5rem;
   }
 }
+
+
+/* ── Round selector (cutoffs) ── */
+.cd-cutoffs-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+.cd-cutoffs-head h4 { margin: 0; }
+.cd-rounds {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  flex-wrap: wrap;
+}
+.cd-round {
+  border: 1px solid #d7e0ee;
+  background: #fff;
+  color: #5b6b85;
+  border-radius: 8px;
+  padding: 0.35rem 0.8rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.15s ease;
+}
+.cd-round:hover { background: #f1f5f9; color: #1e293b; }
+.cd-round.on { background: #1e293b; color: #fff; border-color: #1e293b; }
+
+/* ── Sports & ECA quota sections ── */
+.cd-sports-section, .cd-eca-section {
+  background: #fff;
+  border-radius: 16px;
+  padding: 1.75rem 2rem;
+  margin-bottom: 1.75rem;
+  box-shadow: 0 1px 3px rgba(16, 24, 40, 0.06);
+  border: 1px solid #eef2f7;
+}
+.cd-sports-sub, .cd-eca-sub {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin: 0.35rem 0 1rem;
+}
+.cd-quota-total td {
+  border-top: 2px solid #d7e0ee;
+  background: #f8fafc;
+}

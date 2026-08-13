@@ -1,0 +1,5282 @@
+[
+ {
+  "collegeId": "acharya-narendra-dev-college",
+  "collegeName": "Acharya Narendra Dev College",
+  "activity": "Creative Writing (Hindi)",
+  "seats": 1
+ },
+ {
+  "collegeId": "acharya-narendra-dev-college",
+  "collegeName": "Acharya Narendra Dev College",
+  "activity": "Creative Writing (English)",
+  "seats": 1
+ },
+ {
+  "collegeId": "acharya-narendra-dev-college",
+  "collegeName": "Acharya Narendra Dev College",
+  "activity": "Dance: Indian Classical",
+  "seats": 1
+ },
+ {
+  "collegeId": "acharya-narendra-dev-college",
+  "collegeName": "Acharya Narendra Dev College",
+  "activity": "Debate: Hindi",
+  "seats": 2
+ },
+ {
+  "collegeId": "acharya-narendra-dev-college",
+  "collegeName": "Acharya Narendra Dev College",
+  "activity": "Debate: English",
+  "seats": 2
+ },
+ {
+  "collegeId": "acharya-narendra-dev-college",
+  "collegeName": "Acharya Narendra Dev College",
+  "activity": "Digital Media: Photography",
+  "seats": 1
+ },
+ {
+  "collegeId": "acharya-narendra-dev-college",
+  "collegeName": "Acharya Narendra Dev College",
+  "activity": "Fine Arts: Sketching & Painting",
+  "seats": 1
+ },
+ {
+  "collegeId": "acharya-narendra-dev-college",
+  "collegeName": "Acharya Narendra Dev College",
+  "activity": "Theatre",
+  "seats": 3
+ },
+ {
+  "collegeId": "acharya-narendra-dev-college",
+  "collegeName": "Acharya Narendra Dev College",
+  "activity": "Quiz",
+  "seats": 2
+ },
+ {
+  "collegeId": "acharya-narendra-dev-college",
+  "collegeName": "Acharya Narendra Dev College",
+  "activity": "NSS",
+  "seats": 3
+ },
+ {
+  "collegeId": "aditi-mahavidyalaya-w",
+  "collegeName": "Aditi Mahavidyalaya (W)",
+  "activity": "Creative Writing (Hindi)",
+  "seats": 1
+ },
+ {
+  "collegeId": "aditi-mahavidyalaya-w",
+  "collegeName": "Aditi Mahavidyalaya (W)",
+  "activity": "Creative Writing (English)",
+  "seats": 1
+ },
+ {
+  "collegeId": "aditi-mahavidyalaya-w",
+  "collegeName": "Aditi Mahavidyalaya (W)",
+  "activity": "Dance: Indian Classical",
+  "seats": 2
+ },
+ {
+  "collegeId": "aditi-mahavidyalaya-w",
+  "collegeName": "Aditi Mahavidyalaya (W)",
+  "activity": "Dance: Indian Folk",
+  "seats": 2
+ },
+ {
+  "collegeId": "aditi-mahavidyalaya-w",
+  "collegeName": "Aditi Mahavidyalaya (W)",
+  "activity": "Debate: Hindi",
+  "seats": 1
+ },
+ {
+  "collegeId": "aditi-mahavidyalaya-w",
+  "collegeName": "Aditi Mahavidyalaya (W)",
+  "activity": "Debate: English",
+  "seats": 1
+ },
+ {
+  "collegeId": "aditi-mahavidyalaya-w",
+  "collegeName": "Aditi Mahavidyalaya (W)",
+  "activity": "Music (Vocal): Indian",
+  "seats": 2
+ },
+ {
+  "collegeId": "aditi-mahavidyalaya-w",
+  "collegeName": "Aditi Mahavidyalaya (W)",
+  "activity": "Theatre",
+  "seats": 1
+ },
+ {
+  "collegeId": "aditi-mahavidyalaya-w",
+  "collegeName": "Aditi Mahavidyalaya (W)",
+  "activity": "NCC (Females)",
+  "seats": 3
+ },
+ {
+  "collegeId": "aditi-mahavidyalaya-w",
+  "collegeName": "Aditi Mahavidyalaya (W)",
+  "activity": "NSS",
+  "seats": 3
+ },
+ {
+  "collegeId": "aditi-mahavidyalaya-w",
+  "collegeName": "Aditi Mahavidyalaya (W)",
+  "activity": "Yoga",
+  "seats": 3
+ },
+ {
+  "collegeId": "aryabhatta-college",
+  "collegeName": "Aryabhatta College",
+  "activity": "Creative Writing (Hindi)",
+  "seats": 1
+ },
+ {
+  "collegeId": "aryabhatta-college",
+  "collegeName": "Aryabhatta College",
+  "activity": "Creative Writing (English)",
+  "seats": 1
+ },
+ {
+  "collegeId": "aryabhatta-college",
+  "collegeName": "Aryabhatta College",
+  "activity": "Dance: Indian Classical",
+  "seats": 1
+ },
+ {
+  "collegeId": "aryabhatta-college",
+  "collegeName": "Aryabhatta College",
+  "activity": "Dance: Indian Folk",
+  "seats": 1
+ },
+ {
+  "collegeId": "aryabhatta-college",
+  "collegeName": "Aryabhatta College",
+  "activity": "Dance: Western",
+  "seats": 1
+ },
+ {
+  "collegeId": "aryabhatta-college",
+  "collegeName": "Aryabhatta College",
+  "activity": "Debate: Hindi",
+  "seats": 1
+ },
+ {
+  "collegeId": "aryabhatta-college",
+  "collegeName": "Aryabhatta College",
+  "activity": "Debate: English",
+  "seats": 1
+ },
+ {
+  "collegeId": "aryabhatta-college",
+  "collegeName": "Aryabhatta College",
+  "activity": "Fine Arts: Sketching & Painting",
+  "seats": 1
+ },
+ {
+  "collegeId": "aryabhatta-college",
+  "collegeName": "Aryabhatta College",
+  "activity": "Music (Vocal): Indian",
+  "seats": 1
+ },
+ {
+  "collegeId": "aryabhatta-college",
+  "collegeName": "Aryabhatta College",
+  "activity": "Music (Vocal): Western",
+  "seats": 1
+ },
+ {
+  "collegeId": "aryabhatta-college",
+  "collegeName": "Aryabhatta College",
+  "activity": "Music (Instrumental: Indian) Harmonium",
+  "seats": 1
+ },
+ {
+  "collegeId": "aryabhatta-college",
+  "collegeName": "Aryabhatta College",
+  "activity": "Theatre",
+  "seats": 2
+ },
+ {
+  "collegeId": "aryabhatta-college",
+  "collegeName": "Aryabhatta College",
+  "activity": "NSS",
+  "seats": 2
+ },
+ {
+  "collegeId": "atma-ram-sanatan-dharma-college",
+  "collegeName": "Atma Ram Sanatan Dharma College",
+  "activity": "Dance: Indian Classical",
+  "seats": 2
+ },
+ {
+  "collegeId": "atma-ram-sanatan-dharma-college",
+  "collegeName": "Atma Ram Sanatan Dharma College",
+  "activity": "Dance: Indian Folk",
+  "seats": 2
+ },
+ {
+  "collegeId": "atma-ram-sanatan-dharma-college",
+  "collegeName": "Atma Ram Sanatan Dharma College",
+  "activity": "Dance: Western",
+  "seats": 1
+ },
+ {
+  "collegeId": "atma-ram-sanatan-dharma-college",
+  "collegeName": "Atma Ram Sanatan Dharma College",
+  "activity": "Debate: Hindi",
+  "seats": 2
+ },
+ {
+  "collegeId": "atma-ram-sanatan-dharma-college",
+  "collegeName": "Atma Ram Sanatan Dharma College",
+  "activity": "Debate: English",
+  "seats": 2
+ },
+ {
+  "collegeId": "atma-ram-sanatan-dharma-college",
+  "collegeName": "Atma Ram Sanatan Dharma College",
+  "activity": "Fine Arts: Sketching & Painting",
+  "seats": 1
+ },
+ {
+  "collegeId": "atma-ram-sanatan-dharma-college",
+  "collegeName": "Atma Ram Sanatan Dharma College",
+  "activity": "Music (Vocal): Indian",
+  "seats": 4
+ },
+ {
+  "collegeId": "atma-ram-sanatan-dharma-college",
+  "collegeName": "Atma Ram Sanatan Dharma College",
+  "activity": "Music (Vocal): Western",
+  "seats": 1
+ },
+ {
+  "collegeId": "atma-ram-sanatan-dharma-college",
+  "collegeName": "Atma Ram Sanatan Dharma College",
+  "activity": "Music (Instrumental: Indian) Tabla",
+  "seats": 2
+ },
+ {
+  "collegeId": "atma-ram-sanatan-dharma-college",
+  "collegeName": "Atma Ram Sanatan Dharma College",
+  "activity": "Music (Instrumental: Indian) Dholak",
+  "seats": 1
+ },
+ {
+  "collegeId": "atma-ram-sanatan-dharma-college",
+  "collegeName": "Atma Ram Sanatan Dharma College",
+  "activity": "Music (Instrumental: Indian) Pakhawaj",
+  "seats": 1
+ },
+ {
+  "collegeId": "atma-ram-sanatan-dharma-college",
+  "collegeName": "Atma Ram Sanatan Dharma College",
+  "activity": "Music (Instrumental: Indian) Harmonium",
+  "seats": 1
+ },
+ {
+  "collegeId": "atma-ram-sanatan-dharma-college",
+  "collegeName": "Atma Ram Sanatan Dharma College",
+  "activity": "Music (Instrumental: Indian) Flute",
+  "seats": 1
+ },
+ {
+  "collegeId": "atma-ram-sanatan-dharma-college",
+  "collegeName": "Atma Ram Sanatan Dharma College",
+  "activity": "Music (Instrumental: Indian) Violin",
+  "seats": 1
+ },
+ {
+  "collegeId": "atma-ram-sanatan-dharma-college",
+  "collegeName": "Atma Ram Sanatan Dharma College",
+  "activity": "Music (Instrumental: Western) Guitar (Lead)",
+  "seats": 1
+ },
+ {
+  "collegeId": "atma-ram-sanatan-dharma-college",
+  "collegeName": "Atma Ram Sanatan Dharma College",
+  "activity": "Music (Instrumental: Western) Guitar (Bass)",
+  "seats": 1
+ },
+ {
+  "collegeId": "atma-ram-sanatan-dharma-college",
+  "collegeName": "Atma Ram Sanatan Dharma College",
+  "activity": "Music (Instrumental: Western) Violin",
+  "seats": 1
+ },
+ {
+  "collegeId": "atma-ram-sanatan-dharma-college",
+  "collegeName": "Atma Ram Sanatan Dharma College",
+  "activity": "Music (Instrumental: Western) Keyboard",
+  "seats": 1
+ },
+ {
+  "collegeId": "atma-ram-sanatan-dharma-college",
+  "collegeName": "Atma Ram Sanatan Dharma College",
+  "activity": "Theatre",
+  "seats": 4
+ },
+ {
+  "collegeId": "bhagini-nivedita-college-w",
+  "collegeName": "Bhagini Nivedita College (W)",
+  "activity": "Dance: Indian Classical",
+  "seats": 5
+ },
+ {
+  "collegeId": "bhagini-nivedita-college-w",
+  "collegeName": "Bhagini Nivedita College (W)",
+  "activity": "Dance: Indian Folk",
+  "seats": 2
+ },
+ {
+  "collegeId": "bhagini-nivedita-college-w",
+  "collegeName": "Bhagini Nivedita College (W)",
+  "activity": "Dance: Choreography",
+  "seats": 2
+ },
+ {
+  "collegeId": "bhagini-nivedita-college-w",
+  "collegeName": "Bhagini Nivedita College (W)",
+  "activity": "Debate: Hindi",
+  "seats": 2
+ },
+ {
+  "collegeId": "bhagini-nivedita-college-w",
+  "collegeName": "Bhagini Nivedita College (W)",
+  "activity": "Debate: English",
+  "seats": 4
+ },
+ {
+  "collegeId": "bhagini-nivedita-college-w",
+  "collegeName": "Bhagini Nivedita College (W)",
+  "activity": "Digital Media: Photography",
+  "seats": 2
+ },
+ {
+  "collegeId": "bhagini-nivedita-college-w",
+  "collegeName": "Bhagini Nivedita College (W)",
+  "activity": "Fine Arts: Sketching & Painting",
+  "seats": 2
+ },
+ {
+  "collegeId": "bhagini-nivedita-college-w",
+  "collegeName": "Bhagini Nivedita College (W)",
+  "activity": "Music (Vocal): Indian",
+  "seats": 2
+ },
+ {
+  "collegeId": "bhagini-nivedita-college-w",
+  "collegeName": "Bhagini Nivedita College (W)",
+  "activity": "Music (Instrumental: Indian) Harmonium",
+  "seats": 2
+ },
+ {
+  "collegeId": "bhagini-nivedita-college-w",
+  "collegeName": "Bhagini Nivedita College (W)",
+  "activity": "Music (Instrumental: Indian) Sitar",
+  "seats": 2
+ },
+ {
+  "collegeId": "bharati-college-w",
+  "collegeName": "Bharati College (W)",
+  "activity": "Creative Writing (Hindi)",
+  "seats": 1
+ },
+ {
+  "collegeId": "bharati-college-w",
+  "collegeName": "Bharati College (W)",
+  "activity": "Creative Writing (English)",
+  "seats": 1
+ },
+ {
+  "collegeId": "bharati-college-w",
+  "collegeName": "Bharati College (W)",
+  "activity": "Dance: Indian Classical",
+  "seats": 3
+ },
+ {
+  "collegeId": "bharati-college-w",
+  "collegeName": "Bharati College (W)",
+  "activity": "Debate: Hindi",
+  "seats": 1
+ },
+ {
+  "collegeId": "bharati-college-w",
+  "collegeName": "Bharati College (W)",
+  "activity": "Debate: English",
+  "seats": 1
+ },
+ {
+  "collegeId": "bharati-college-w",
+  "collegeName": "Bharati College (W)",
+  "activity": "Music (Vocal): Indian",
+  "seats": 2
+ },
+ {
+  "collegeId": "bharati-college-w",
+  "collegeName": "Bharati College (W)",
+  "activity": "Music (Instrumental: Western) Drums",
+  "seats": 1
+ },
+ {
+  "collegeId": "bharati-college-w",
+  "collegeName": "Bharati College (W)",
+  "activity": "Music (Instrumental: Western) Guitar (Lead)",
+  "seats": 1
+ },
+ {
+  "collegeId": "bharati-college-w",
+  "collegeName": "Bharati College (W)",
+  "activity": "Music (Instrumental: Western) Keyboard",
+  "seats": 1
+ },
+ {
+  "collegeId": "bharati-college-w",
+  "collegeName": "Bharati College (W)",
+  "activity": "Theatre",
+  "seats": 1
+ },
+ {
+  "collegeId": "bhaskaracharya-college-of-applied-sciences",
+  "collegeName": "Bhaskaracharya College of Applied Sciences",
+  "activity": "Dance: Indian Classical",
+  "seats": 1
+ },
+ {
+  "collegeId": "bhaskaracharya-college-of-applied-sciences",
+  "collegeName": "Bhaskaracharya College of Applied Sciences",
+  "activity": "Dance: Indian Folk",
+  "seats": 1
+ },
+ {
+  "collegeId": "bhaskaracharya-college-of-applied-sciences",
+  "collegeName": "Bhaskaracharya College of Applied Sciences",
+  "activity": "Dance: Western",
+  "seats": 1
+ },
+ {
+  "collegeId": "bhaskaracharya-college-of-applied-sciences",
+  "collegeName": "Bhaskaracharya College of Applied Sciences",
+  "activity": "Dance: Choreography",
+  "seats": 1
+ },
+ {
+  "collegeId": "bhaskaracharya-college-of-applied-sciences",
+  "collegeName": "Bhaskaracharya College of Applied Sciences",
+  "activity": "Debate: Hindi",
+  "seats": 1
+ },
+ {
+  "collegeId": "bhaskaracharya-college-of-applied-sciences",
+  "collegeName": "Bhaskaracharya College of Applied Sciences",
+  "activity": "Debate: English",
+  "seats": 1
+ },
+ {
+  "collegeId": "bhaskaracharya-college-of-applied-sciences",
+  "collegeName": "Bhaskaracharya College of Applied Sciences",
+  "activity": "Digital Media: Photography",
+  "seats": 1
+ },
+ {
+  "collegeId": "bhaskaracharya-college-of-applied-sciences",
+  "collegeName": "Bhaskaracharya College of Applied Sciences",
+  "activity": "Fine Arts: Sketching & Painting",
+  "seats": 1
+ },
+ {
+  "collegeId": "bhaskaracharya-college-of-applied-sciences",
+  "collegeName": "Bhaskaracharya College of Applied Sciences",
+  "activity": "Fine Arts: Sculpture",
+  "seats": 1
+ },
+ {
+  "collegeId": "bhaskaracharya-college-of-applied-sciences",
+  "collegeName": "Bhaskaracharya College of Applied Sciences",
+  "activity": "Music (Vocal): Indian",
+  "seats": 1
+ },
+ {
+  "collegeId": "bhaskaracharya-college-of-applied-sciences",
+  "collegeName": "Bhaskaracharya College of Applied Sciences",
+  "activity": "Music (Vocal): Western",
+  "seats": 1
+ },
+ {
+  "collegeId": "bhaskaracharya-college-of-applied-sciences",
+  "collegeName": "Bhaskaracharya College of Applied Sciences",
+  "activity": "Music (Instrumental: Indian) Flute",
+  "seats": 1
+ },
+ {
+  "collegeId": "bhaskaracharya-college-of-applied-sciences",
+  "collegeName": "Bhaskaracharya College of Applied Sciences",
+  "activity": "Music (Instrumental: Western) Keyboard",
+  "seats": 1
+ },
+ {
+  "collegeId": "bhaskaracharya-college-of-applied-sciences",
+  "collegeName": "Bhaskaracharya College of Applied Sciences",
+  "activity": "Theatre",
+  "seats": 1
+ },
+ {
+  "collegeId": "cluster-innovation-centre",
+  "collegeName": "Cluster Innovation Centre",
+  "activity": "Debate: Hindi",
+  "seats": 1
+ },
+ {
+  "collegeId": "cluster-innovation-centre",
+  "collegeName": "Cluster Innovation Centre",
+  "activity": "Debate: English",
+  "seats": 1
+ },
+ {
+  "collegeId": "college-of-vocational-studies",
+  "collegeName": "College of Vocational Studies",
+  "activity": "Creative Writing (Hindi)",
+  "seats": 1
+ },
+ {
+  "collegeId": "college-of-vocational-studies",
+  "collegeName": "College of Vocational Studies",
+  "activity": "Creative Writing (English)",
+  "seats": 1
+ },
+ {
+  "collegeId": "college-of-vocational-studies",
+  "collegeName": "College of Vocational Studies",
+  "activity": "Dance: Indian Classical",
+  "seats": 2
+ },
+ {
+  "collegeId": "college-of-vocational-studies",
+  "collegeName": "College of Vocational Studies",
+  "activity": "Dance: Western",
+  "seats": 1
+ },
+ {
+  "collegeId": "college-of-vocational-studies",
+  "collegeName": "College of Vocational Studies",
+  "activity": "Dance: Choreography",
+  "seats": 1
+ },
+ {
+  "collegeId": "college-of-vocational-studies",
+  "collegeName": "College of Vocational Studies",
+  "activity": "Debate: English",
+  "seats": 1
+ },
+ {
+  "collegeId": "college-of-vocational-studies",
+  "collegeName": "College of Vocational Studies",
+  "activity": "Digital Media: Photography",
+  "seats": 2
+ },
+ {
+  "collegeId": "college-of-vocational-studies",
+  "collegeName": "College of Vocational Studies",
+  "activity": "Digital Media: Film Making",
+  "seats": 1
+ },
+ {
+  "collegeId": "college-of-vocational-studies",
+  "collegeName": "College of Vocational Studies",
+  "activity": "Fine Arts: Sketching & Painting",
+  "seats": 1
+ },
+ {
+  "collegeId": "college-of-vocational-studies",
+  "collegeName": "College of Vocational Studies",
+  "activity": "Music (Vocal): Indian",
+  "seats": 1
+ },
+ {
+  "collegeId": "college-of-vocational-studies",
+  "collegeName": "College of Vocational Studies",
+  "activity": "Music (Vocal): Western",
+  "seats": 1
+ },
+ {
+  "collegeId": "college-of-vocational-studies",
+  "collegeName": "College of Vocational Studies",
+  "activity": "Music (Instrumental: Indian) Tabla",
+  "seats": 1
+ },
+ {
+  "collegeId": "college-of-vocational-studies",
+  "collegeName": "College of Vocational Studies",
+  "activity": "Music (Instrumental: Western) Drums",
+  "seats": 1
+ },
+ {
+  "collegeId": "college-of-vocational-studies",
+  "collegeName": "College of Vocational Studies",
+  "activity": "Music (Instrumental: Western) Guitar (Lead)",
+  "seats": 1
+ },
+ {
+  "collegeId": "college-of-vocational-studies",
+  "collegeName": "College of Vocational Studies",
+  "activity": "Music (Instrumental: Western) Guitar (Bass)",
+  "seats": 1
+ },
+ {
+  "collegeId": "college-of-vocational-studies",
+  "collegeName": "College of Vocational Studies",
+  "activity": "Music (Instrumental: Western) Violin",
+  "seats": 1
+ },
+ {
+  "collegeId": "college-of-vocational-studies",
+  "collegeName": "College of Vocational Studies",
+  "activity": "Theatre",
+  "seats": 2
+ },
+ {
+  "collegeId": "college-of-vocational-studies",
+  "collegeName": "College of Vocational Studies",
+  "activity": "Quiz",
+  "seats": 1
+ },
+ {
+  "collegeId": "college-of-vocational-studies",
+  "collegeName": "College of Vocational Studies",
+  "activity": "NCC (Males)",
+  "seats": 1
+ },
+ {
+  "collegeId": "college-of-vocational-studies",
+  "collegeName": "College of Vocational Studies",
+  "activity": "NCC (Females)",
+  "seats": 1
+ },
+ {
+  "collegeId": "college-of-vocational-studies",
+  "collegeName": "College of Vocational Studies",
+  "activity": "NSS",
+  "seats": 1
+ },
+ {
+  "collegeId": "college-of-vocational-studies",
+  "collegeName": "College of Vocational Studies",
+  "activity": "Yoga",
+  "seats": 1
+ },
+ {
+  "collegeId": "daulat-ram-college-w",
+  "collegeName": "Daulat Ram College (W)",
+  "activity": "Creative Writing (Hindi)",
+  "seats": 1
+ },
+ {
+  "collegeId": "daulat-ram-college-w",
+  "collegeName": "Daulat Ram College (W)",
+  "activity": "Creative Writing (English)",
+  "seats": 1
+ },
+ {
+  "collegeId": "daulat-ram-college-w",
+  "collegeName": "Daulat Ram College (W)",
+  "activity": "Dance: Indian Classical",
+  "seats": 5
+ },
+ {
+  "collegeId": "daulat-ram-college-w",
+  "collegeName": "Daulat Ram College (W)",
+  "activity": "Dance: Indian Folk",
+  "seats": 5
+ },
+ {
+  "collegeId": "daulat-ram-college-w",
+  "collegeName": "Daulat Ram College (W)",
+  "activity": "Dance: Choreography",
+  "seats": 1
+ },
+ {
+  "collegeId": "daulat-ram-college-w",
+  "collegeName": "Daulat Ram College (W)",
+  "activity": "Digital Media: Photography",
+  "seats": 1
+ },
+ {
+  "collegeId": "daulat-ram-college-w",
+  "collegeName": "Daulat Ram College (W)",
+  "activity": "Digital Media: Film Making",
+  "seats": 1
+ },
+ {
+  "collegeId": "daulat-ram-college-w",
+  "collegeName": "Daulat Ram College (W)",
+  "activity": "Digital Media: Animation",
+  "seats": 1
+ },
+ {
+  "collegeId": "daulat-ram-college-w",
+  "collegeName": "Daulat Ram College (W)",
+  "activity": "Fine Arts: Sketching & Painting",
+  "seats": 2
+ },
+ {
+  "collegeId": "daulat-ram-college-w",
+  "collegeName": "Daulat Ram College (W)",
+  "activity": "Music (Vocal): Indian",
+  "seats": 4
+ },
+ {
+  "collegeId": "daulat-ram-college-w",
+  "collegeName": "Daulat Ram College (W)",
+  "activity": "Music (Instrumental: Indian) Tabla",
+  "seats": 1
+ },
+ {
+  "collegeId": "daulat-ram-college-w",
+  "collegeName": "Daulat Ram College (W)",
+  "activity": "Music (Instrumental: Indian) Harmonium",
+  "seats": 1
+ },
+ {
+  "collegeId": "daulat-ram-college-w",
+  "collegeName": "Daulat Ram College (W)",
+  "activity": "Music (Instrumental: Western) Guitar (Lead)",
+  "seats": 1
+ },
+ {
+  "collegeId": "daulat-ram-college-w",
+  "collegeName": "Daulat Ram College (W)",
+  "activity": "Music (Instrumental: Western) Keyboard",
+  "seats": 1
+ },
+ {
+  "collegeId": "daulat-ram-college-w",
+  "collegeName": "Daulat Ram College (W)",
+  "activity": "Theatre",
+  "seats": 1
+ },
+ {
+  "collegeId": "daulat-ram-college-w",
+  "collegeName": "Daulat Ram College (W)",
+  "activity": "NCC (Females)",
+  "seats": 2
+ },
+ {
+  "collegeId": "deen-dayal-upadhyaya-college",
+  "collegeName": "Deen Dayal Upadhyaya College",
+  "activity": "Creative Writing (Hindi)",
+  "seats": 1
+ },
+ {
+  "collegeId": "deen-dayal-upadhyaya-college",
+  "collegeName": "Deen Dayal Upadhyaya College",
+  "activity": "Dance: Indian Classical",
+  "seats": 2
+ },
+ {
+  "collegeId": "deen-dayal-upadhyaya-college",
+  "collegeName": "Deen Dayal Upadhyaya College",
+  "activity": "Dance: Indian Folk",
+  "seats": 1
+ },
+ {
+  "collegeId": "deen-dayal-upadhyaya-college",
+  "collegeName": "Deen Dayal Upadhyaya College",
+  "activity": "Dance: Western",
+  "seats": 1
+ },
+ {
+  "collegeId": "deen-dayal-upadhyaya-college",
+  "collegeName": "Deen Dayal Upadhyaya College",
+  "activity": "Dance: Choreography",
+  "seats": 1
+ },
+ {
+  "collegeId": "deen-dayal-upadhyaya-college",
+  "collegeName": "Deen Dayal Upadhyaya College",
+  "activity": "Debate: English",
+  "seats": 1
+ },
+ {
+  "collegeId": "deen-dayal-upadhyaya-college",
+  "collegeName": "Deen Dayal Upadhyaya College",
+  "activity": "Digital Media: Photography",
+  "seats": 1
+ },
+ {
+  "collegeId": "deen-dayal-upadhyaya-college",
+  "collegeName": "Deen Dayal Upadhyaya College",
+  "activity": "Digital Media: Film Making",
+  "seats": 1
+ },
+ {
+  "collegeId": "deen-dayal-upadhyaya-college",
+  "collegeName": "Deen Dayal Upadhyaya College",
+  "activity": "Fine Arts: Sketching & Painting",
+  "seats": 1
+ },
+ {
+  "collegeId": "deen-dayal-upadhyaya-college",
+  "collegeName": "Deen Dayal Upadhyaya College",
+  "activity": "Music (Vocal): Indian",
+  "seats": 2
+ },
+ {
+  "collegeId": "deen-dayal-upadhyaya-college",
+  "collegeName": "Deen Dayal Upadhyaya College",
+  "activity": "Music (Vocal): Western",
+  "seats": 1
+ },
+ {
+  "collegeId": "deen-dayal-upadhyaya-college",
+  "collegeName": "Deen Dayal Upadhyaya College",
+  "activity": "Music (Instrumental: Indian) Tabla",
+  "seats": 1
+ },
+ {
+  "collegeId": "deen-dayal-upadhyaya-college",
+  "collegeName": "Deen Dayal Upadhyaya College",
+  "activity": "Music (Instrumental: Indian) Flute",
+  "seats": 1
+ },
+ {
+  "collegeId": "deen-dayal-upadhyaya-college",
+  "collegeName": "Deen Dayal Upadhyaya College",
+  "activity": "Music (Instrumental: Western) Guitar (Lead)",
+  "seats": 1
+ },
+ {
+  "collegeId": "deen-dayal-upadhyaya-college",
+  "collegeName": "Deen Dayal Upadhyaya College",
+  "activity": "Music (Instrumental: Western) Guitar (Bass)",
+  "seats": 1
+ },
+ {
+  "collegeId": "deen-dayal-upadhyaya-college",
+  "collegeName": "Deen Dayal Upadhyaya College",
+  "activity": "Music (Instrumental: Western) Keyboard",
+  "seats": 1
+ },
+ {
+  "collegeId": "deen-dayal-upadhyaya-college",
+  "collegeName": "Deen Dayal Upadhyaya College",
+  "activity": "Theatre",
+  "seats": 1
+ },
+ {
+  "collegeId": "delhi-college-of-arts-and-commerce",
+  "collegeName": "Delhi College of Arts and Commerce",
+  "activity": "Debate: Hindi",
+  "seats": 3
+ },
+ {
+  "collegeId": "delhi-college-of-arts-and-commerce",
+  "collegeName": "Delhi College of Arts and Commerce",
+  "activity": "Debate: English",
+  "seats": 3
+ },
+ {
+  "collegeId": "delhi-college-of-arts-and-commerce",
+  "collegeName": "Delhi College of Arts and Commerce",
+  "activity": "NCC (Males)",
+  "seats": 3
+ },
+ {
+  "collegeId": "delhi-college-of-arts-and-commerce",
+  "collegeName": "Delhi College of Arts and Commerce",
+  "activity": "NCC (Females)",
+  "seats": 3
+ },
+ {
+  "collegeId": "delhi-school-of-journalism",
+  "collegeName": "Delhi School of Journalism",
+  "activity": "Dance: Indian Classical",
+  "seats": 1
+ },
+ {
+  "collegeId": "delhi-school-of-journalism",
+  "collegeName": "Delhi School of Journalism",
+  "activity": "Debate: Hindi",
+  "seats": 1
+ },
+ {
+  "collegeId": "delhi-school-of-journalism",
+  "collegeName": "Delhi School of Journalism",
+  "activity": "Music (Vocal): Indian",
+  "seats": 1
+ },
+ {
+  "collegeId": "deshbandhu-college",
+  "collegeName": "Deshbandhu College",
+  "activity": "Creative Writing (English)",
+  "seats": 1
+ },
+ {
+  "collegeId": "deshbandhu-college",
+  "collegeName": "Deshbandhu College",
+  "activity": "Dance: Indian Classical",
+  "seats": 2
+ },
+ {
+  "collegeId": "deshbandhu-college",
+  "collegeName": "Deshbandhu College",
+  "activity": "Dance: Indian Folk",
+  "seats": 2
+ },
+ {
+  "collegeId": "deshbandhu-college",
+  "collegeName": "Deshbandhu College",
+  "activity": "Dance: Choreography",
+  "seats": 1
+ },
+ {
+  "collegeId": "deshbandhu-college",
+  "collegeName": "Deshbandhu College",
+  "activity": "Debate: Hindi",
+  "seats": 1
+ },
+ {
+  "collegeId": "deshbandhu-college",
+  "collegeName": "Deshbandhu College",
+  "activity": "Debate: English",
+  "seats": 1
+ },
+ {
+  "collegeId": "deshbandhu-college",
+  "collegeName": "Deshbandhu College",
+  "activity": "Digital Media: Photography",
+  "seats": 2
+ },
+ {
+  "collegeId": "deshbandhu-college",
+  "collegeName": "Deshbandhu College",
+  "activity": "Digital Media: Film Making",
+  "seats": 1
+ },
+ {
+  "collegeId": "deshbandhu-college",
+  "collegeName": "Deshbandhu College",
+  "activity": "Fine Arts: Sketching & Painting",
+  "seats": 2
+ },
+ {
+  "collegeId": "deshbandhu-college",
+  "collegeName": "Deshbandhu College",
+  "activity": "Fine Arts: Sculpture",
+  "seats": 1
+ },
+ {
+  "collegeId": "deshbandhu-college",
+  "collegeName": "Deshbandhu College",
+  "activity": "Music (Vocal): Indian",
+  "seats": 2
+ },
+ {
+  "collegeId": "deshbandhu-college",
+  "collegeName": "Deshbandhu College",
+  "activity": "Music (Vocal): Western",
+  "seats": 2
+ },
+ {
+  "collegeId": "deshbandhu-college",
+  "collegeName": "Deshbandhu College",
+  "activity": "Music (Instrumental: Indian) Tabla",
+  "seats": 1
+ },
+ {
+  "collegeId": "deshbandhu-college",
+  "collegeName": "Deshbandhu College",
+  "activity": "Music (Instrumental: Indian) Harmonium",
+  "seats": 1
+ },
+ {
+  "collegeId": "deshbandhu-college",
+  "collegeName": "Deshbandhu College",
+  "activity": "Music (Instrumental: Indian) Sitar",
+  "seats": 2
+ },
+ {
+  "collegeId": "deshbandhu-college",
+  "collegeName": "Deshbandhu College",
+  "activity": "Music (Instrumental: Indian) Violin",
+  "seats": 1
+ },
+ {
+  "collegeId": "deshbandhu-college",
+  "collegeName": "Deshbandhu College",
+  "activity": "Music (Instrumental: Indian) Sarod",
+  "seats": 1
+ },
+ {
+  "collegeId": "deshbandhu-college",
+  "collegeName": "Deshbandhu College",
+  "activity": "Music (Instrumental: Western) Drums",
+  "seats": 1
+ },
+ {
+  "collegeId": "deshbandhu-college",
+  "collegeName": "Deshbandhu College",
+  "activity": "Music (Instrumental: Western) Guitar (Lead)",
+  "seats": 2
+ },
+ {
+  "collegeId": "deshbandhu-college",
+  "collegeName": "Deshbandhu College",
+  "activity": "Music (Instrumental: Western) Keyboard",
+  "seats": 1
+ },
+ {
+  "collegeId": "deshbandhu-college",
+  "collegeName": "Deshbandhu College",
+  "activity": "Theatre",
+  "seats": 2
+ },
+ {
+  "collegeId": "deshbandhu-college",
+  "collegeName": "Deshbandhu College",
+  "activity": "NCC (Males)",
+  "seats": 4
+ },
+ {
+  "collegeId": "deshbandhu-college",
+  "collegeName": "Deshbandhu College",
+  "activity": "NCC (Females)",
+  "seats": 3
+ },
+ {
+  "collegeId": "deshbandhu-college",
+  "collegeName": "Deshbandhu College",
+  "activity": "NSS",
+  "seats": 4
+ },
+ {
+  "collegeId": "deshbandhu-college",
+  "collegeName": "Deshbandhu College",
+  "activity": "Yoga",
+  "seats": 2
+ },
+ {
+  "collegeId": "dr-bhim-rao-ambedkar-college",
+  "collegeName": "Dr. Bhim Rao Ambedkar College",
+  "activity": "Creative Writing (Hindi)",
+  "seats": 1
+ },
+ {
+  "collegeId": "dr-bhim-rao-ambedkar-college",
+  "collegeName": "Dr. Bhim Rao Ambedkar College",
+  "activity": "Creative Writing (English)",
+  "seats": 1
+ },
+ {
+  "collegeId": "dr-bhim-rao-ambedkar-college",
+  "collegeName": "Dr. Bhim Rao Ambedkar College",
+  "activity": "Dance: Indian Classical",
+  "seats": 3
+ },
+ {
+  "collegeId": "dr-bhim-rao-ambedkar-college",
+  "collegeName": "Dr. Bhim Rao Ambedkar College",
+  "activity": "Dance: Indian Folk",
+  "seats": 2
+ },
+ {
+  "collegeId": "dr-bhim-rao-ambedkar-college",
+  "collegeName": "Dr. Bhim Rao Ambedkar College",
+  "activity": "Dance: Western",
+  "seats": 2
+ },
+ {
+  "collegeId": "dr-bhim-rao-ambedkar-college",
+  "collegeName": "Dr. Bhim Rao Ambedkar College",
+  "activity": "Dance: Choreography",
+  "seats": 1
+ },
+ {
+  "collegeId": "dr-bhim-rao-ambedkar-college",
+  "collegeName": "Dr. Bhim Rao Ambedkar College",
+  "activity": "Digital Media: Photography",
+  "seats": 2
+ },
+ {
+  "collegeId": "dr-bhim-rao-ambedkar-college",
+  "collegeName": "Dr. Bhim Rao Ambedkar College",
+  "activity": "Digital Media: Film Making",
+  "seats": 2
+ },
+ {
+  "collegeId": "dr-bhim-rao-ambedkar-college",
+  "collegeName": "Dr. Bhim Rao Ambedkar College",
+  "activity": "Fine Arts: Sketching & Painting",
+  "seats": 5
+ },
+ {
+  "collegeId": "dr-bhim-rao-ambedkar-college",
+  "collegeName": "Dr. Bhim Rao Ambedkar College",
+  "activity": "Music (Vocal): Indian",
+  "seats": 2
+ },
+ {
+  "collegeId": "dr-bhim-rao-ambedkar-college",
+  "collegeName": "Dr. Bhim Rao Ambedkar College",
+  "activity": "Music (Instrumental: Indian) Tabla",
+  "seats": 1
+ },
+ {
+  "collegeId": "dr-bhim-rao-ambedkar-college",
+  "collegeName": "Dr. Bhim Rao Ambedkar College",
+  "activity": "Music (Instrumental: Indian) Dholak",
+  "seats": 1
+ },
+ {
+  "collegeId": "dr-bhim-rao-ambedkar-college",
+  "collegeName": "Dr. Bhim Rao Ambedkar College",
+  "activity": "Music (Instrumental: Indian) Harmonium",
+  "seats": 2
+ },
+ {
+  "collegeId": "dr-bhim-rao-ambedkar-college",
+  "collegeName": "Dr. Bhim Rao Ambedkar College",
+  "activity": "Music (Instrumental: Western) Keyboard",
+  "seats": 1
+ },
+ {
+  "collegeId": "dr-bhim-rao-ambedkar-college",
+  "collegeName": "Dr. Bhim Rao Ambedkar College",
+  "activity": "Theatre",
+  "seats": 4
+ },
+ {
+  "collegeId": "dyal-singh-college",
+  "collegeName": "Dyal Singh College",
+  "activity": "Creative Writing (Hindi)",
+  "seats": 1
+ },
+ {
+  "collegeId": "dyal-singh-college",
+  "collegeName": "Dyal Singh College",
+  "activity": "Creative Writing (English)",
+  "seats": 1
+ },
+ {
+  "collegeId": "dyal-singh-college",
+  "collegeName": "Dyal Singh College",
+  "activity": "Dance: Indian Classical",
+  "seats": 2
+ },
+ {
+  "collegeId": "dyal-singh-college",
+  "collegeName": "Dyal Singh College",
+  "activity": "Dance: Indian Folk",
+  "seats": 1
+ },
+ {
+  "collegeId": "dyal-singh-college",
+  "collegeName": "Dyal Singh College",
+  "activity": "Dance: Western",
+  "seats": 2
+ },
+ {
+  "collegeId": "dyal-singh-college",
+  "collegeName": "Dyal Singh College",
+  "activity": "Debate: Hindi",
+  "seats": 2
+ },
+ {
+  "collegeId": "dyal-singh-college",
+  "collegeName": "Dyal Singh College",
+  "activity": "Debate: English",
+  "seats": 2
+ },
+ {
+  "collegeId": "dyal-singh-college",
+  "collegeName": "Dyal Singh College",
+  "activity": "Digital Media: Photography",
+  "seats": 2
+ },
+ {
+  "collegeId": "dyal-singh-college",
+  "collegeName": "Dyal Singh College",
+  "activity": "Digital Media: Film Making",
+  "seats": 1
+ },
+ {
+  "collegeId": "dyal-singh-college",
+  "collegeName": "Dyal Singh College",
+  "activity": "Digital Media: Animation",
+  "seats": 1
+ },
+ {
+  "collegeId": "dyal-singh-college",
+  "collegeName": "Dyal Singh College",
+  "activity": "Fine Arts: Sketching & Painting",
+  "seats": 2
+ },
+ {
+  "collegeId": "dyal-singh-college",
+  "collegeName": "Dyal Singh College",
+  "activity": "Fine Arts: Sculpture",
+  "seats": 1
+ },
+ {
+  "collegeId": "dyal-singh-college",
+  "collegeName": "Dyal Singh College",
+  "activity": "Music (Vocal): Indian",
+  "seats": 2
+ },
+ {
+  "collegeId": "dyal-singh-college",
+  "collegeName": "Dyal Singh College",
+  "activity": "Music (Vocal): Western",
+  "seats": 1
+ },
+ {
+  "collegeId": "dyal-singh-college",
+  "collegeName": "Dyal Singh College",
+  "activity": "Music (Instrumental: Indian) Tabla",
+  "seats": 2
+ },
+ {
+  "collegeId": "dyal-singh-college",
+  "collegeName": "Dyal Singh College",
+  "activity": "Music (Instrumental: Indian) Mridangam",
+  "seats": 1
+ },
+ {
+  "collegeId": "dyal-singh-college",
+  "collegeName": "Dyal Singh College",
+  "activity": "Music (Instrumental: Indian) Flute",
+  "seats": 2
+ },
+ {
+  "collegeId": "dyal-singh-college",
+  "collegeName": "Dyal Singh College",
+  "activity": "Music (Instrumental: Western) Guitar (Lead)",
+  "seats": 1
+ },
+ {
+  "collegeId": "dyal-singh-college",
+  "collegeName": "Dyal Singh College",
+  "activity": "Music (Instrumental: Western) Guitar (Bass)",
+  "seats": 1
+ },
+ {
+  "collegeId": "dyal-singh-college",
+  "collegeName": "Dyal Singh College",
+  "activity": "Music (Instrumental: Western) Keyboard",
+  "seats": 1
+ },
+ {
+  "collegeId": "dyal-singh-college",
+  "collegeName": "Dyal Singh College",
+  "activity": "Theatre",
+  "seats": 2
+ },
+ {
+  "collegeId": "dyal-singh-college",
+  "collegeName": "Dyal Singh College",
+  "activity": "Quiz",
+  "seats": 2
+ },
+ {
+  "collegeId": "dyal-singh-college",
+  "collegeName": "Dyal Singh College",
+  "activity": "NCC (Males)",
+  "seats": 3
+ },
+ {
+  "collegeId": "dyal-singh-college",
+  "collegeName": "Dyal Singh College",
+  "activity": "NCC (Females)",
+  "seats": 3
+ },
+ {
+  "collegeId": "dyal-singh-college",
+  "collegeName": "Dyal Singh College",
+  "activity": "NSS",
+  "seats": 2
+ },
+ {
+  "collegeId": "dyal-singh-college-evening",
+  "collegeName": "Dyal Singh College (Evening)",
+  "activity": "Dance: Indian Classical",
+  "seats": 1
+ },
+ {
+  "collegeId": "dyal-singh-college-evening",
+  "collegeName": "Dyal Singh College (Evening)",
+  "activity": "Dance: Western",
+  "seats": 1
+ },
+ {
+  "collegeId": "dyal-singh-college-evening",
+  "collegeName": "Dyal Singh College (Evening)",
+  "activity": "Music (Vocal): Indian",
+  "seats": 1
+ },
+ {
+  "collegeId": "dyal-singh-college-evening",
+  "collegeName": "Dyal Singh College (Evening)",
+  "activity": "Music (Instrumental: Indian) Tabla",
+  "seats": 1
+ },
+ {
+  "collegeId": "dyal-singh-college-evening",
+  "collegeName": "Dyal Singh College (Evening)",
+  "activity": "Music (Instrumental: Indian) Sitar",
+  "seats": 1
+ },
+ {
+  "collegeId": "dyal-singh-college-evening",
+  "collegeName": "Dyal Singh College (Evening)",
+  "activity": "Music (Instrumental: Western) Drums",
+  "seats": 1
+ },
+ {
+  "collegeId": "dyal-singh-college-evening",
+  "collegeName": "Dyal Singh College (Evening)",
+  "activity": "Music (Instrumental: Western) Guitar (Lead)",
+  "seats": 1
+ },
+ {
+  "collegeId": "dyal-singh-college-evening",
+  "collegeName": "Dyal Singh College (Evening)",
+  "activity": "Theatre",
+  "seats": 1
+ },
+ {
+  "collegeId": "gargi-college-w",
+  "collegeName": "Gargi College (W)",
+  "activity": "Creative Writing (Hindi)",
+  "seats": 2
+ },
+ {
+  "collegeId": "gargi-college-w",
+  "collegeName": "Gargi College (W)",
+  "activity": "Creative Writing (English)",
+  "seats": 1
+ },
+ {
+  "collegeId": "gargi-college-w",
+  "collegeName": "Gargi College (W)",
+  "activity": "Dance: Indian Classical",
+  "seats": 2
+ },
+ {
+  "collegeId": "gargi-college-w",
+  "collegeName": "Gargi College (W)",
+  "activity": "Dance: Indian Folk",
+  "seats": 2
+ },
+ {
+  "collegeId": "gargi-college-w",
+  "collegeName": "Gargi College (W)",
+  "activity": "Dance: Western",
+  "seats": 3
+ },
+ {
+  "collegeId": "gargi-college-w",
+  "collegeName": "Gargi College (W)",
+  "activity": "Dance: Choreography",
+  "seats": 5
+ },
+ {
+  "collegeId": "gargi-college-w",
+  "collegeName": "Gargi College (W)",
+  "activity": "Debate: Hindi",
+  "seats": 2
+ },
+ {
+  "collegeId": "gargi-college-w",
+  "collegeName": "Gargi College (W)",
+  "activity": "Debate: English",
+  "seats": 2
+ },
+ {
+  "collegeId": "gargi-college-w",
+  "collegeName": "Gargi College (W)",
+  "activity": "Digital Media: Photography",
+  "seats": 2
+ },
+ {
+  "collegeId": "gargi-college-w",
+  "collegeName": "Gargi College (W)",
+  "activity": "Digital Media: Film Making",
+  "seats": 1
+ },
+ {
+  "collegeId": "gargi-college-w",
+  "collegeName": "Gargi College (W)",
+  "activity": "Digital Media: Animation",
+  "seats": 1
+ },
+ {
+  "collegeId": "gargi-college-w",
+  "collegeName": "Gargi College (W)",
+  "activity": "Fine Arts: Sketching & Painting",
+  "seats": 4
+ },
+ {
+  "collegeId": "gargi-college-w",
+  "collegeName": "Gargi College (W)",
+  "activity": "Music (Vocal): Indian",
+  "seats": 3
+ },
+ {
+  "collegeId": "gargi-college-w",
+  "collegeName": "Gargi College (W)",
+  "activity": "Music (Vocal): Western",
+  "seats": 5
+ },
+ {
+  "collegeId": "gargi-college-w",
+  "collegeName": "Gargi College (W)",
+  "activity": "Music (Instrumental: Western) Drums",
+  "seats": 1
+ },
+ {
+  "collegeId": "gargi-college-w",
+  "collegeName": "Gargi College (W)",
+  "activity": "Music (Instrumental: Western) Keyboard",
+  "seats": 1
+ },
+ {
+  "collegeId": "gargi-college-w",
+  "collegeName": "Gargi College (W)",
+  "activity": "Theatre",
+  "seats": 2
+ },
+ {
+  "collegeId": "gargi-college-w",
+  "collegeName": "Gargi College (W)",
+  "activity": "Quiz",
+  "seats": 2
+ },
+ {
+  "collegeId": "hansraj-college",
+  "collegeName": "Hansraj College",
+  "activity": "Creative Writing (Hindi)",
+  "seats": 1
+ },
+ {
+  "collegeId": "hansraj-college",
+  "collegeName": "Hansraj College",
+  "activity": "Creative Writing (English)",
+  "seats": 1
+ },
+ {
+  "collegeId": "hansraj-college",
+  "collegeName": "Hansraj College",
+  "activity": "Dance: Indian Classical",
+  "seats": 4
+ },
+ {
+  "collegeId": "hansraj-college",
+  "collegeName": "Hansraj College",
+  "activity": "Dance: Indian Folk",
+  "seats": 1
+ },
+ {
+  "collegeId": "hansraj-college",
+  "collegeName": "Hansraj College",
+  "activity": "Dance: Western",
+  "seats": 1
+ },
+ {
+  "collegeId": "hansraj-college",
+  "collegeName": "Hansraj College",
+  "activity": "Dance: Choreography",
+  "seats": 1
+ },
+ {
+  "collegeId": "hansraj-college",
+  "collegeName": "Hansraj College",
+  "activity": "Debate: Hindi",
+  "seats": 1
+ },
+ {
+  "collegeId": "hansraj-college",
+  "collegeName": "Hansraj College",
+  "activity": "Debate: English",
+  "seats": 1
+ },
+ {
+  "collegeId": "hansraj-college",
+  "collegeName": "Hansraj College",
+  "activity": "Music (Vocal): Indian",
+  "seats": 2
+ },
+ {
+  "collegeId": "hansraj-college",
+  "collegeName": "Hansraj College",
+  "activity": "Music (Vocal): Western",
+  "seats": 2
+ },
+ {
+  "collegeId": "hansraj-college",
+  "collegeName": "Hansraj College",
+  "activity": "Music (Instrumental: Indian) Tabla",
+  "seats": 1
+ },
+ {
+  "collegeId": "hansraj-college",
+  "collegeName": "Hansraj College",
+  "activity": "Music (Instrumental: Indian) Violin",
+  "seats": 1
+ },
+ {
+  "collegeId": "hansraj-college",
+  "collegeName": "Hansraj College",
+  "activity": "Music (Instrumental: Western) Drums",
+  "seats": 1
+ },
+ {
+  "collegeId": "hansraj-college",
+  "collegeName": "Hansraj College",
+  "activity": "Theatre",
+  "seats": 1
+ },
+ {
+  "collegeId": "hansraj-college",
+  "collegeName": "Hansraj College",
+  "activity": "Yoga",
+  "seats": 1
+ },
+ {
+  "collegeId": "hindu-college",
+  "collegeName": "Hindu College",
+  "activity": "Dance: Indian Classical",
+  "seats": 5
+ },
+ {
+  "collegeId": "hindu-college",
+  "collegeName": "Hindu College",
+  "activity": "Music (Instrumental: Indian) Flute",
+  "seats": 2
+ },
+ {
+  "collegeId": "hindu-college",
+  "collegeName": "Hindu College",
+  "activity": "Music (Instrumental: Indian) Sitar",
+  "seats": 2
+ },
+ {
+  "collegeId": "hindu-college",
+  "collegeName": "Hindu College",
+  "activity": "Music (Instrumental: Western) Guitar (Lead)",
+  "seats": 2
+ },
+ {
+  "collegeId": "hindu-college",
+  "collegeName": "Hindu College",
+  "activity": "Theatre",
+  "seats": 4
+ },
+ {
+  "collegeId": "indraprastha-college-for-women-w",
+  "collegeName": "Indraprastha College for Women (W)",
+  "activity": "Dance: Indian Folk",
+  "seats": 2
+ },
+ {
+  "collegeId": "indraprastha-college-for-women-w",
+  "collegeName": "Indraprastha College for Women (W)",
+  "activity": "Dance: Western",
+  "seats": 2
+ },
+ {
+  "collegeId": "indraprastha-college-for-women-w",
+  "collegeName": "Indraprastha College for Women (W)",
+  "activity": "Dance: Choreography",
+  "seats": 2
+ },
+ {
+  "collegeId": "indraprastha-college-for-women-w",
+  "collegeName": "Indraprastha College for Women (W)",
+  "activity": "Debate: Hindi",
+  "seats": 1
+ },
+ {
+  "collegeId": "indraprastha-college-for-women-w",
+  "collegeName": "Indraprastha College for Women (W)",
+  "activity": "Debate: English",
+  "seats": 1
+ },
+ {
+  "collegeId": "indraprastha-college-for-women-w",
+  "collegeName": "Indraprastha College for Women (W)",
+  "activity": "Digital Media: Photography",
+  "seats": 1
+ },
+ {
+  "collegeId": "indraprastha-college-for-women-w",
+  "collegeName": "Indraprastha College for Women (W)",
+  "activity": "Digital Media: Film Making",
+  "seats": 1
+ },
+ {
+  "collegeId": "indraprastha-college-for-women-w",
+  "collegeName": "Indraprastha College for Women (W)",
+  "activity": "Fine Arts: Sketching & Painting",
+  "seats": 1
+ },
+ {
+  "collegeId": "indraprastha-college-for-women-w",
+  "collegeName": "Indraprastha College for Women (W)",
+  "activity": "Music (Vocal): Western",
+  "seats": 1
+ },
+ {
+  "collegeId": "indraprastha-college-for-women-w",
+  "collegeName": "Indraprastha College for Women (W)",
+  "activity": "Music (Instrumental: Indian) Tabla",
+  "seats": 1
+ },
+ {
+  "collegeId": "indraprastha-college-for-women-w",
+  "collegeName": "Indraprastha College for Women (W)",
+  "activity": "Music (Instrumental: Western) Keyboard",
+  "seats": 1
+ },
+ {
+  "collegeId": "indraprastha-college-for-women-w",
+  "collegeName": "Indraprastha College for Women (W)",
+  "activity": "Theatre",
+  "seats": 3
+ },
+ {
+  "collegeId": "indraprastha-college-for-women-w",
+  "collegeName": "Indraprastha College for Women (W)",
+  "activity": "Quiz",
+  "seats": 1
+ },
+ {
+  "collegeId": "indraprastha-college-for-women-w",
+  "collegeName": "Indraprastha College for Women (W)",
+  "activity": "NSS",
+  "seats": 1
+ },
+ {
+  "collegeId": "indraprastha-college-for-women-w",
+  "collegeName": "Indraprastha College for Women (W)",
+  "activity": "Yoga",
+  "seats": 2
+ },
+ {
+  "collegeId": "institute-of-home-economics-w",
+  "collegeName": "Institute of Home Economics (W)",
+  "activity": "Dance: Indian Classical",
+  "seats": 3
+ },
+ {
+  "collegeId": "institute-of-home-economics-w",
+  "collegeName": "Institute of Home Economics (W)",
+  "activity": "Dance: Indian Folk",
+  "seats": 2
+ },
+ {
+  "collegeId": "institute-of-home-economics-w",
+  "collegeName": "Institute of Home Economics (W)",
+  "activity": "Debate: Hindi",
+  "seats": 1
+ },
+ {
+  "collegeId": "institute-of-home-economics-w",
+  "collegeName": "Institute of Home Economics (W)",
+  "activity": "Debate: English",
+  "seats": 1
+ },
+ {
+  "collegeId": "institute-of-home-economics-w",
+  "collegeName": "Institute of Home Economics (W)",
+  "activity": "Digital Media: Photography",
+  "seats": 1
+ },
+ {
+  "collegeId": "institute-of-home-economics-w",
+  "collegeName": "Institute of Home Economics (W)",
+  "activity": "Digital Media: Film Making",
+  "seats": 1
+ },
+ {
+  "collegeId": "institute-of-home-economics-w",
+  "collegeName": "Institute of Home Economics (W)",
+  "activity": "Fine Arts: Sketching & Painting",
+  "seats": 1
+ },
+ {
+  "collegeId": "institute-of-home-economics-w",
+  "collegeName": "Institute of Home Economics (W)",
+  "activity": "Music (Vocal): Indian",
+  "seats": 2
+ },
+ {
+  "collegeId": "institute-of-home-economics-w",
+  "collegeName": "Institute of Home Economics (W)",
+  "activity": "Theatre",
+  "seats": 2
+ },
+ {
+  "collegeId": "institute-of-home-economics-w",
+  "collegeName": "Institute of Home Economics (W)",
+  "activity": "NSS",
+  "seats": 2
+ },
+ {
+  "collegeId": "janki-devi-memorial-college-w",
+  "collegeName": "Janki Devi Memorial College (W)",
+  "activity": "Creative Writing (Hindi)",
+  "seats": 1
+ },
+ {
+  "collegeId": "janki-devi-memorial-college-w",
+  "collegeName": "Janki Devi Memorial College (W)",
+  "activity": "Creative Writing (English)",
+  "seats": 1
+ },
+ {
+  "collegeId": "janki-devi-memorial-college-w",
+  "collegeName": "Janki Devi Memorial College (W)",
+  "activity": "Dance: Indian Classical",
+  "seats": 4
+ },
+ {
+  "collegeId": "janki-devi-memorial-college-w",
+  "collegeName": "Janki Devi Memorial College (W)",
+  "activity": "Dance: Indian Folk",
+  "seats": 1
+ },
+ {
+  "collegeId": "janki-devi-memorial-college-w",
+  "collegeName": "Janki Devi Memorial College (W)",
+  "activity": "Dance: Western",
+  "seats": 2
+ },
+ {
+  "collegeId": "janki-devi-memorial-college-w",
+  "collegeName": "Janki Devi Memorial College (W)",
+  "activity": "Debate: Hindi",
+  "seats": 1
+ },
+ {
+  "collegeId": "janki-devi-memorial-college-w",
+  "collegeName": "Janki Devi Memorial College (W)",
+  "activity": "Debate: English",
+  "seats": 1
+ },
+ {
+  "collegeId": "janki-devi-memorial-college-w",
+  "collegeName": "Janki Devi Memorial College (W)",
+  "activity": "Digital Media: Film Making",
+  "seats": 1
+ },
+ {
+  "collegeId": "janki-devi-memorial-college-w",
+  "collegeName": "Janki Devi Memorial College (W)",
+  "activity": "Fine Arts: Sketching & Painting",
+  "seats": 1
+ },
+ {
+  "collegeId": "janki-devi-memorial-college-w",
+  "collegeName": "Janki Devi Memorial College (W)",
+  "activity": "Music (Vocal): Indian",
+  "seats": 2
+ },
+ {
+  "collegeId": "janki-devi-memorial-college-w",
+  "collegeName": "Janki Devi Memorial College (W)",
+  "activity": "Music (Vocal): Western",
+  "seats": 1
+ },
+ {
+  "collegeId": "janki-devi-memorial-college-w",
+  "collegeName": "Janki Devi Memorial College (W)",
+  "activity": "Music (Instrumental: Indian) Harmonium",
+  "seats": 1
+ },
+ {
+  "collegeId": "janki-devi-memorial-college-w",
+  "collegeName": "Janki Devi Memorial College (W)",
+  "activity": "Music (Instrumental: Western) Guitar (Lead)",
+  "seats": 1
+ },
+ {
+  "collegeId": "janki-devi-memorial-college-w",
+  "collegeName": "Janki Devi Memorial College (W)",
+  "activity": "Theatre",
+  "seats": 2
+ },
+ {
+  "collegeId": "janki-devi-memorial-college-w",
+  "collegeName": "Janki Devi Memorial College (W)",
+  "activity": "Quiz",
+  "seats": 1
+ },
+ {
+  "collegeId": "janki-devi-memorial-college-w",
+  "collegeName": "Janki Devi Memorial College (W)",
+  "activity": "NCC (Females)",
+  "seats": 1
+ },
+ {
+  "collegeId": "janki-devi-memorial-college-w",
+  "collegeName": "Janki Devi Memorial College (W)",
+  "activity": "NSS",
+  "seats": 1
+ },
+ {
+  "collegeId": "janki-devi-memorial-college-w",
+  "collegeName": "Janki Devi Memorial College (W)",
+  "activity": "Yoga",
+  "seats": 2
+ },
+ {
+  "collegeId": "jesus-mary-college-w",
+  "collegeName": "Jesus & Mary College (W)",
+  "activity": "Creative Writing (English)",
+  "seats": 1
+ },
+ {
+  "collegeId": "jesus-mary-college-w",
+  "collegeName": "Jesus & Mary College (W)",
+  "activity": "Dance: Indian Classical",
+  "seats": 1
+ },
+ {
+  "collegeId": "jesus-mary-college-w",
+  "collegeName": "Jesus & Mary College (W)",
+  "activity": "Dance: Indian Folk",
+  "seats": 1
+ },
+ {
+  "collegeId": "jesus-mary-college-w",
+  "collegeName": "Jesus & Mary College (W)",
+  "activity": "Dance: Western",
+  "seats": 1
+ },
+ {
+  "collegeId": "jesus-mary-college-w",
+  "collegeName": "Jesus & Mary College (W)",
+  "activity": "Debate: Hindi",
+  "seats": 1
+ },
+ {
+  "collegeId": "jesus-mary-college-w",
+  "collegeName": "Jesus & Mary College (W)",
+  "activity": "Debate: English",
+  "seats": 1
+ },
+ {
+  "collegeId": "jesus-mary-college-w",
+  "collegeName": "Jesus & Mary College (W)",
+  "activity": "Digital Media: Photography",
+  "seats": 1
+ },
+ {
+  "collegeId": "jesus-mary-college-w",
+  "collegeName": "Jesus & Mary College (W)",
+  "activity": "Fine Arts: Sketching & Painting",
+  "seats": 1
+ },
+ {
+  "collegeId": "jesus-mary-college-w",
+  "collegeName": "Jesus & Mary College (W)",
+  "activity": "Music (Vocal): Indian",
+  "seats": 2
+ },
+ {
+  "collegeId": "jesus-mary-college-w",
+  "collegeName": "Jesus & Mary College (W)",
+  "activity": "Music (Vocal): Western",
+  "seats": 2
+ },
+ {
+  "collegeId": "jesus-mary-college-w",
+  "collegeName": "Jesus & Mary College (W)",
+  "activity": "Music (Instrumental: Western) Drums",
+  "seats": 1
+ },
+ {
+  "collegeId": "jesus-mary-college-w",
+  "collegeName": "Jesus & Mary College (W)",
+  "activity": "Music (Instrumental: Western) Keyboard",
+  "seats": 1
+ },
+ {
+  "collegeId": "jesus-mary-college-w",
+  "collegeName": "Jesus & Mary College (W)",
+  "activity": "Theatre",
+  "seats": 2
+ },
+ {
+  "collegeId": "jesus-mary-college-w",
+  "collegeName": "Jesus & Mary College (W)",
+  "activity": "Quiz",
+  "seats": 1
+ },
+ {
+  "collegeId": "jesus-mary-college-w",
+  "collegeName": "Jesus & Mary College (W)",
+  "activity": "NCC (Females)",
+  "seats": 1
+ },
+ {
+  "collegeId": "jesus-mary-college-w",
+  "collegeName": "Jesus & Mary College (W)",
+  "activity": "Yoga",
+  "seats": 2
+ },
+ {
+  "collegeId": "kalindi-college-w",
+  "collegeName": "Kalindi College (W)",
+  "activity": "Creative Writing (Hindi)",
+  "seats": 2
+ },
+ {
+  "collegeId": "kalindi-college-w",
+  "collegeName": "Kalindi College (W)",
+  "activity": "Creative Writing (English)",
+  "seats": 2
+ },
+ {
+  "collegeId": "kalindi-college-w",
+  "collegeName": "Kalindi College (W)",
+  "activity": "Dance: Indian Classical",
+  "seats": 2
+ },
+ {
+  "collegeId": "kalindi-college-w",
+  "collegeName": "Kalindi College (W)",
+  "activity": "Dance: Indian Folk",
+  "seats": 2
+ },
+ {
+  "collegeId": "kalindi-college-w",
+  "collegeName": "Kalindi College (W)",
+  "activity": "Dance: Western",
+  "seats": 2
+ },
+ {
+  "collegeId": "kalindi-college-w",
+  "collegeName": "Kalindi College (W)",
+  "activity": "Dance: Choreography",
+  "seats": 1
+ },
+ {
+  "collegeId": "kalindi-college-w",
+  "collegeName": "Kalindi College (W)",
+  "activity": "Debate: Hindi",
+  "seats": 2
+ },
+ {
+  "collegeId": "kalindi-college-w",
+  "collegeName": "Kalindi College (W)",
+  "activity": "Debate: English",
+  "seats": 2
+ },
+ {
+  "collegeId": "kalindi-college-w",
+  "collegeName": "Kalindi College (W)",
+  "activity": "Digital Media: Photography",
+  "seats": 2
+ },
+ {
+  "collegeId": "kalindi-college-w",
+  "collegeName": "Kalindi College (W)",
+  "activity": "Digital Media: Film Making",
+  "seats": 2
+ },
+ {
+  "collegeId": "kalindi-college-w",
+  "collegeName": "Kalindi College (W)",
+  "activity": "Fine Arts: Sketching & Painting",
+  "seats": 2
+ },
+ {
+  "collegeId": "kalindi-college-w",
+  "collegeName": "Kalindi College (W)",
+  "activity": "Music (Vocal): Indian",
+  "seats": 2
+ },
+ {
+  "collegeId": "kalindi-college-w",
+  "collegeName": "Kalindi College (W)",
+  "activity": "Music (Vocal): Western",
+  "seats": 2
+ },
+ {
+  "collegeId": "kalindi-college-w",
+  "collegeName": "Kalindi College (W)",
+  "activity": "Music (Instrumental: Indian) Tabla",
+  "seats": 1
+ },
+ {
+  "collegeId": "kalindi-college-w",
+  "collegeName": "Kalindi College (W)",
+  "activity": "Music (Instrumental: Indian) Sitar",
+  "seats": 1
+ },
+ {
+  "collegeId": "kalindi-college-w",
+  "collegeName": "Kalindi College (W)",
+  "activity": "Music (Instrumental: Western) Drums",
+  "seats": 1
+ },
+ {
+  "collegeId": "kalindi-college-w",
+  "collegeName": "Kalindi College (W)",
+  "activity": "Music (Instrumental: Western) Keyboard",
+  "seats": 1
+ },
+ {
+  "collegeId": "kalindi-college-w",
+  "collegeName": "Kalindi College (W)",
+  "activity": "Theatre",
+  "seats": 2
+ },
+ {
+  "collegeId": "kalindi-college-w",
+  "collegeName": "Kalindi College (W)",
+  "activity": "Quiz",
+  "seats": 2
+ },
+ {
+  "collegeId": "kalindi-college-w",
+  "collegeName": "Kalindi College (W)",
+  "activity": "NCC (Females)",
+  "seats": 2
+ },
+ {
+  "collegeId": "kalindi-college-w",
+  "collegeName": "Kalindi College (W)",
+  "activity": "NSS",
+  "seats": 2
+ },
+ {
+  "collegeId": "kalindi-college-w",
+  "collegeName": "Kalindi College (W)",
+  "activity": "Yoga",
+  "seats": 2
+ },
+ {
+  "collegeId": "kamala-nehru-college-w",
+  "collegeName": "Kamala Nehru College (W)",
+  "activity": "Creative Writing (Hindi)",
+  "seats": 1
+ },
+ {
+  "collegeId": "kamala-nehru-college-w",
+  "collegeName": "Kamala Nehru College (W)",
+  "activity": "Creative Writing (English)",
+  "seats": 1
+ },
+ {
+  "collegeId": "kamala-nehru-college-w",
+  "collegeName": "Kamala Nehru College (W)",
+  "activity": "Dance: Indian Classical",
+  "seats": 3
+ },
+ {
+  "collegeId": "kamala-nehru-college-w",
+  "collegeName": "Kamala Nehru College (W)",
+  "activity": "Dance: Indian Folk",
+  "seats": 1
+ },
+ {
+  "collegeId": "kamala-nehru-college-w",
+  "collegeName": "Kamala Nehru College (W)",
+  "activity": "Dance: Western",
+  "seats": 1
+ },
+ {
+  "collegeId": "kamala-nehru-college-w",
+  "collegeName": "Kamala Nehru College (W)",
+  "activity": "Dance: Choreography",
+  "seats": 1
+ },
+ {
+  "collegeId": "kamala-nehru-college-w",
+  "collegeName": "Kamala Nehru College (W)",
+  "activity": "Debate: Hindi",
+  "seats": 1
+ },
+ {
+  "collegeId": "kamala-nehru-college-w",
+  "collegeName": "Kamala Nehru College (W)",
+  "activity": "Debate: English",
+  "seats": 1
+ },
+ {
+  "collegeId": "kamala-nehru-college-w",
+  "collegeName": "Kamala Nehru College (W)",
+  "activity": "Digital Media: Photography",
+  "seats": 1
+ },
+ {
+  "collegeId": "kamala-nehru-college-w",
+  "collegeName": "Kamala Nehru College (W)",
+  "activity": "Fine Arts: Sketching & Painting",
+  "seats": 1
+ },
+ {
+  "collegeId": "kamala-nehru-college-w",
+  "collegeName": "Kamala Nehru College (W)",
+  "activity": "Music (Vocal): Indian",
+  "seats": 1
+ },
+ {
+  "collegeId": "kamala-nehru-college-w",
+  "collegeName": "Kamala Nehru College (W)",
+  "activity": "Music (Vocal): Western",
+  "seats": 1
+ },
+ {
+  "collegeId": "kamala-nehru-college-w",
+  "collegeName": "Kamala Nehru College (W)",
+  "activity": "Music (Instrumental: Indian) Tabla",
+  "seats": 1
+ },
+ {
+  "collegeId": "kamala-nehru-college-w",
+  "collegeName": "Kamala Nehru College (W)",
+  "activity": "Music (Instrumental: Western) Keyboard",
+  "seats": 1
+ },
+ {
+  "collegeId": "kamala-nehru-college-w",
+  "collegeName": "Kamala Nehru College (W)",
+  "activity": "Theatre",
+  "seats": 1
+ },
+ {
+  "collegeId": "kamala-nehru-college-w",
+  "collegeName": "Kamala Nehru College (W)",
+  "activity": "NCC (Females)",
+  "seats": 2
+ },
+ {
+  "collegeId": "kamala-nehru-college-w",
+  "collegeName": "Kamala Nehru College (W)",
+  "activity": "NSS",
+  "seats": 2
+ },
+ {
+  "collegeId": "kamala-nehru-college-w",
+  "collegeName": "Kamala Nehru College (W)",
+  "activity": "Yoga",
+  "seats": 1
+ },
+ {
+  "collegeId": "keshav-mahavidyalaya",
+  "collegeName": "Keshav Mahavidyalaya",
+  "activity": "Dance: Indian Classical",
+  "seats": 2
+ },
+ {
+  "collegeId": "keshav-mahavidyalaya",
+  "collegeName": "Keshav Mahavidyalaya",
+  "activity": "Dance: Western",
+  "seats": 1
+ },
+ {
+  "collegeId": "keshav-mahavidyalaya",
+  "collegeName": "Keshav Mahavidyalaya",
+  "activity": "Debate: Hindi",
+  "seats": 2
+ },
+ {
+  "collegeId": "keshav-mahavidyalaya",
+  "collegeName": "Keshav Mahavidyalaya",
+  "activity": "Debate: English",
+  "seats": 1
+ },
+ {
+  "collegeId": "keshav-mahavidyalaya",
+  "collegeName": "Keshav Mahavidyalaya",
+  "activity": "Fine Arts: Sketching & Painting",
+  "seats": 1
+ },
+ {
+  "collegeId": "keshav-mahavidyalaya",
+  "collegeName": "Keshav Mahavidyalaya",
+  "activity": "Music (Vocal): Indian",
+  "seats": 2
+ },
+ {
+  "collegeId": "keshav-mahavidyalaya",
+  "collegeName": "Keshav Mahavidyalaya",
+  "activity": "Music (Vocal): Western",
+  "seats": 1
+ },
+ {
+  "collegeId": "keshav-mahavidyalaya",
+  "collegeName": "Keshav Mahavidyalaya",
+  "activity": "Music (Instrumental: Indian) Tabla",
+  "seats": 1
+ },
+ {
+  "collegeId": "keshav-mahavidyalaya",
+  "collegeName": "Keshav Mahavidyalaya",
+  "activity": "Music (Instrumental: Indian) Harmonium",
+  "seats": 1
+ },
+ {
+  "collegeId": "keshav-mahavidyalaya",
+  "collegeName": "Keshav Mahavidyalaya",
+  "activity": "Yoga",
+  "seats": 2
+ },
+ {
+  "collegeId": "kirori-mal-college",
+  "collegeName": "Kirori Mal College",
+  "activity": "Dance: Indian Classical",
+  "seats": 2
+ },
+ {
+  "collegeId": "kirori-mal-college",
+  "collegeName": "Kirori Mal College",
+  "activity": "Dance: Western",
+  "seats": 2
+ },
+ {
+  "collegeId": "kirori-mal-college",
+  "collegeName": "Kirori Mal College",
+  "activity": "Debate: Hindi",
+  "seats": 2
+ },
+ {
+  "collegeId": "kirori-mal-college",
+  "collegeName": "Kirori Mal College",
+  "activity": "Debate: English",
+  "seats": 2
+ },
+ {
+  "collegeId": "kirori-mal-college",
+  "collegeName": "Kirori Mal College",
+  "activity": "Digital Media: Photography",
+  "seats": 2
+ },
+ {
+  "collegeId": "kirori-mal-college",
+  "collegeName": "Kirori Mal College",
+  "activity": "Fine Arts: Sketching & Painting",
+  "seats": 2
+ },
+ {
+  "collegeId": "kirori-mal-college",
+  "collegeName": "Kirori Mal College",
+  "activity": "Fine Arts: Sculpture",
+  "seats": 1
+ },
+ {
+  "collegeId": "kirori-mal-college",
+  "collegeName": "Kirori Mal College",
+  "activity": "Music (Vocal): Indian",
+  "seats": 5
+ },
+ {
+  "collegeId": "kirori-mal-college",
+  "collegeName": "Kirori Mal College",
+  "activity": "Music (Vocal): Western",
+  "seats": 2
+ },
+ {
+  "collegeId": "kirori-mal-college",
+  "collegeName": "Kirori Mal College",
+  "activity": "Music (Instrumental: Indian) Tabla",
+  "seats": 1
+ },
+ {
+  "collegeId": "kirori-mal-college",
+  "collegeName": "Kirori Mal College",
+  "activity": "Music (Instrumental: Western) Guitar (Lead)",
+  "seats": 1
+ },
+ {
+  "collegeId": "kirori-mal-college",
+  "collegeName": "Kirori Mal College",
+  "activity": "Music (Instrumental: Western) Keyboard",
+  "seats": 1
+ },
+ {
+  "collegeId": "kirori-mal-college",
+  "collegeName": "Kirori Mal College",
+  "activity": "Theatre",
+  "seats": 7
+ },
+ {
+  "collegeId": "lady-irwin-college-w",
+  "collegeName": "Lady Irwin College (W)",
+  "activity": "Dance: Indian Classical",
+  "seats": 2
+ },
+ {
+  "collegeId": "lady-irwin-college-w",
+  "collegeName": "Lady Irwin College (W)",
+  "activity": "Dance: Western",
+  "seats": 1
+ },
+ {
+  "collegeId": "lady-irwin-college-w",
+  "collegeName": "Lady Irwin College (W)",
+  "activity": "Debate: Hindi",
+  "seats": 2
+ },
+ {
+  "collegeId": "lady-irwin-college-w",
+  "collegeName": "Lady Irwin College (W)",
+  "activity": "Debate: English",
+  "seats": 1
+ },
+ {
+  "collegeId": "lady-irwin-college-w",
+  "collegeName": "Lady Irwin College (W)",
+  "activity": "Music (Vocal): Indian",
+  "seats": 2
+ },
+ {
+  "collegeId": "lady-irwin-college-w",
+  "collegeName": "Lady Irwin College (W)",
+  "activity": "Theatre",
+  "seats": 2
+ },
+ {
+  "collegeId": "lady-irwin-college-w",
+  "collegeName": "Lady Irwin College (W)",
+  "activity": "NSS",
+  "seats": 2
+ },
+ {
+  "collegeId": "lady-shri-ram-college-for-women-w",
+  "collegeName": "Lady Shri Ram College for Women (W)",
+  "activity": "Dance: Indian Classical",
+  "seats": 3
+ },
+ {
+  "collegeId": "lady-shri-ram-college-for-women-w",
+  "collegeName": "Lady Shri Ram College for Women (W)",
+  "activity": "Dance: Choreography",
+  "seats": 2
+ },
+ {
+  "collegeId": "lady-shri-ram-college-for-women-w",
+  "collegeName": "Lady Shri Ram College for Women (W)",
+  "activity": "Digital Media: Photography",
+  "seats": 1
+ },
+ {
+  "collegeId": "lady-shri-ram-college-for-women-w",
+  "collegeName": "Lady Shri Ram College for Women (W)",
+  "activity": "Digital Media: Film Making",
+  "seats": 1
+ },
+ {
+  "collegeId": "lady-shri-ram-college-for-women-w",
+  "collegeName": "Lady Shri Ram College for Women (W)",
+  "activity": "Fine Arts: Sketching & Painting",
+  "seats": 1
+ },
+ {
+  "collegeId": "lady-shri-ram-college-for-women-w",
+  "collegeName": "Lady Shri Ram College for Women (W)",
+  "activity": "Fine Arts: Sculpture",
+  "seats": 1
+ },
+ {
+  "collegeId": "lady-shri-ram-college-for-women-w",
+  "collegeName": "Lady Shri Ram College for Women (W)",
+  "activity": "Music (Vocal): Indian",
+  "seats": 2
+ },
+ {
+  "collegeId": "lady-shri-ram-college-for-women-w",
+  "collegeName": "Lady Shri Ram College for Women (W)",
+  "activity": "Music (Vocal): Western",
+  "seats": 2
+ },
+ {
+  "collegeId": "lady-shri-ram-college-for-women-w",
+  "collegeName": "Lady Shri Ram College for Women (W)",
+  "activity": "Music (Instrumental: Indian) Tabla",
+  "seats": 1
+ },
+ {
+  "collegeId": "lady-shri-ram-college-for-women-w",
+  "collegeName": "Lady Shri Ram College for Women (W)",
+  "activity": "Music (Instrumental: Indian) Flute",
+  "seats": 1
+ },
+ {
+  "collegeId": "lady-shri-ram-college-for-women-w",
+  "collegeName": "Lady Shri Ram College for Women (W)",
+  "activity": "Music (Instrumental: Indian) Sitar",
+  "seats": 1
+ },
+ {
+  "collegeId": "lady-shri-ram-college-for-women-w",
+  "collegeName": "Lady Shri Ram College for Women (W)",
+  "activity": "Music (Instrumental: Indian) Sarod",
+  "seats": 1
+ },
+ {
+  "collegeId": "lady-shri-ram-college-for-women-w",
+  "collegeName": "Lady Shri Ram College for Women (W)",
+  "activity": "Music (Instrumental: Indian) Santoor",
+  "seats": 1
+ },
+ {
+  "collegeId": "lady-shri-ram-college-for-women-w",
+  "collegeName": "Lady Shri Ram College for Women (W)",
+  "activity": "Music (Instrumental: Western) Saxophone",
+  "seats": 1
+ },
+ {
+  "collegeId": "lady-shri-ram-college-for-women-w",
+  "collegeName": "Lady Shri Ram College for Women (W)",
+  "activity": "Music (Instrumental: Western) Guitar (Lead)",
+  "seats": 1
+ },
+ {
+  "collegeId": "lady-shri-ram-college-for-women-w",
+  "collegeName": "Lady Shri Ram College for Women (W)",
+  "activity": "Music (Instrumental: Western) Violin",
+  "seats": 1
+ },
+ {
+  "collegeId": "lady-shri-ram-college-for-women-w",
+  "collegeName": "Lady Shri Ram College for Women (W)",
+  "activity": "Music (Instrumental: Western) Keyboard",
+  "seats": 1
+ },
+ {
+  "collegeId": "lady-shri-ram-college-for-women-w",
+  "collegeName": "Lady Shri Ram College for Women (W)",
+  "activity": "Theatre",
+  "seats": 2
+ },
+ {
+  "collegeId": "lakshmibai-college-w",
+  "collegeName": "Lakshmibai College (W)",
+  "activity": "Dance: Indian Classical",
+  "seats": 4
+ },
+ {
+  "collegeId": "lakshmibai-college-w",
+  "collegeName": "Lakshmibai College (W)",
+  "activity": "Debate: Hindi",
+  "seats": 3
+ },
+ {
+  "collegeId": "lakshmibai-college-w",
+  "collegeName": "Lakshmibai College (W)",
+  "activity": "Debate: English",
+  "seats": 3
+ },
+ {
+  "collegeId": "lakshmibai-college-w",
+  "collegeName": "Lakshmibai College (W)",
+  "activity": "Digital Media: Photography",
+  "seats": 1
+ },
+ {
+  "collegeId": "lakshmibai-college-w",
+  "collegeName": "Lakshmibai College (W)",
+  "activity": "Fine Arts: Sketching & Painting",
+  "seats": 2
+ },
+ {
+  "collegeId": "lakshmibai-college-w",
+  "collegeName": "Lakshmibai College (W)",
+  "activity": "Music (Vocal): Indian",
+  "seats": 3
+ },
+ {
+  "collegeId": "lakshmibai-college-w",
+  "collegeName": "Lakshmibai College (W)",
+  "activity": "Music (Instrumental: Indian) Harmonium",
+  "seats": 1
+ },
+ {
+  "collegeId": "lakshmibai-college-w",
+  "collegeName": "Lakshmibai College (W)",
+  "activity": "Music (Instrumental: Indian) Violin",
+  "seats": 1
+ },
+ {
+  "collegeId": "lakshmibai-college-w",
+  "collegeName": "Lakshmibai College (W)",
+  "activity": "Music (Instrumental: Western) Drums",
+  "seats": 1
+ },
+ {
+  "collegeId": "lakshmibai-college-w",
+  "collegeName": "Lakshmibai College (W)",
+  "activity": "Music (Instrumental: Western) Keyboard",
+  "seats": 1
+ },
+ {
+  "collegeId": "lakshmibai-college-w",
+  "collegeName": "Lakshmibai College (W)",
+  "activity": "Theatre",
+  "seats": 2
+ },
+ {
+  "collegeId": "lakshmibai-college-w",
+  "collegeName": "Lakshmibai College (W)",
+  "activity": "NCC (Females)",
+  "seats": 1
+ },
+ {
+  "collegeId": "lakshmibai-college-w",
+  "collegeName": "Lakshmibai College (W)",
+  "activity": "Yoga",
+  "seats": 1
+ },
+ {
+  "collegeId": "maharaja-agrasen-college",
+  "collegeName": "Maharaja Agrasen College",
+  "activity": "Creative Writing (Hindi)",
+  "seats": 1
+ },
+ {
+  "collegeId": "maharaja-agrasen-college",
+  "collegeName": "Maharaja Agrasen College",
+  "activity": "Dance: Indian Classical",
+  "seats": 2
+ },
+ {
+  "collegeId": "maharaja-agrasen-college",
+  "collegeName": "Maharaja Agrasen College",
+  "activity": "Dance: Indian Folk",
+  "seats": 1
+ },
+ {
+  "collegeId": "maharaja-agrasen-college",
+  "collegeName": "Maharaja Agrasen College",
+  "activity": "Debate: Hindi",
+  "seats": 1
+ },
+ {
+  "collegeId": "maharaja-agrasen-college",
+  "collegeName": "Maharaja Agrasen College",
+  "activity": "Debate: English",
+  "seats": 1
+ },
+ {
+  "collegeId": "maharaja-agrasen-college",
+  "collegeName": "Maharaja Agrasen College",
+  "activity": "Digital Media: Photography",
+  "seats": 2
+ },
+ {
+  "collegeId": "maharaja-agrasen-college",
+  "collegeName": "Maharaja Agrasen College",
+  "activity": "Fine Arts: Sketching & Painting",
+  "seats": 1
+ },
+ {
+  "collegeId": "maharaja-agrasen-college",
+  "collegeName": "Maharaja Agrasen College",
+  "activity": "Music (Vocal): Indian",
+  "seats": 1
+ },
+ {
+  "collegeId": "maharaja-agrasen-college",
+  "collegeName": "Maharaja Agrasen College",
+  "activity": "Music (Instrumental: Indian) Tabla",
+  "seats": 1
+ },
+ {
+  "collegeId": "maharaja-agrasen-college",
+  "collegeName": "Maharaja Agrasen College",
+  "activity": "Music (Instrumental: Indian) Harmonium",
+  "seats": 1
+ },
+ {
+  "collegeId": "maharaja-agrasen-college",
+  "collegeName": "Maharaja Agrasen College",
+  "activity": "Music (Instrumental: Western) Drums",
+  "seats": 1
+ },
+ {
+  "collegeId": "maharaja-agrasen-college",
+  "collegeName": "Maharaja Agrasen College",
+  "activity": "Music (Instrumental: Western) Guitar (Lead)",
+  "seats": 1
+ },
+ {
+  "collegeId": "maharaja-agrasen-college",
+  "collegeName": "Maharaja Agrasen College",
+  "activity": "Theatre",
+  "seats": 1
+ },
+ {
+  "collegeId": "maharaja-agrasen-college",
+  "collegeName": "Maharaja Agrasen College",
+  "activity": "NCC (Females)",
+  "seats": 1
+ },
+ {
+  "collegeId": "maharaja-agrasen-college",
+  "collegeName": "Maharaja Agrasen College",
+  "activity": "NSS",
+  "seats": 1
+ },
+ {
+  "collegeId": "maitreyi-college-w",
+  "collegeName": "Maitreyi College (W)",
+  "activity": "Creative Writing (English)",
+  "seats": 1
+ },
+ {
+  "collegeId": "maitreyi-college-w",
+  "collegeName": "Maitreyi College (W)",
+  "activity": "Dance: Indian Classical",
+  "seats": 2
+ },
+ {
+  "collegeId": "maitreyi-college-w",
+  "collegeName": "Maitreyi College (W)",
+  "activity": "Dance: Indian Folk",
+  "seats": 2
+ },
+ {
+  "collegeId": "maitreyi-college-w",
+  "collegeName": "Maitreyi College (W)",
+  "activity": "Dance: Western",
+  "seats": 2
+ },
+ {
+  "collegeId": "maitreyi-college-w",
+  "collegeName": "Maitreyi College (W)",
+  "activity": "Debate: Hindi",
+  "seats": 1
+ },
+ {
+  "collegeId": "maitreyi-college-w",
+  "collegeName": "Maitreyi College (W)",
+  "activity": "Debate: English",
+  "seats": 1
+ },
+ {
+  "collegeId": "maitreyi-college-w",
+  "collegeName": "Maitreyi College (W)",
+  "activity": "Digital Media: Photography",
+  "seats": 1
+ },
+ {
+  "collegeId": "maitreyi-college-w",
+  "collegeName": "Maitreyi College (W)",
+  "activity": "Digital Media: Film Making",
+  "seats": 1
+ },
+ {
+  "collegeId": "maitreyi-college-w",
+  "collegeName": "Maitreyi College (W)",
+  "activity": "Fine Arts: Sketching & Painting",
+  "seats": 1
+ },
+ {
+  "collegeId": "maitreyi-college-w",
+  "collegeName": "Maitreyi College (W)",
+  "activity": "Music (Vocal): Indian",
+  "seats": 2
+ },
+ {
+  "collegeId": "maitreyi-college-w",
+  "collegeName": "Maitreyi College (W)",
+  "activity": "Music (Vocal): Western",
+  "seats": 2
+ },
+ {
+  "collegeId": "maitreyi-college-w",
+  "collegeName": "Maitreyi College (W)",
+  "activity": "Music (Instrumental: Indian) Tabla",
+  "seats": 1
+ },
+ {
+  "collegeId": "maitreyi-college-w",
+  "collegeName": "Maitreyi College (W)",
+  "activity": "Music (Instrumental: Western) Keyboard",
+  "seats": 1
+ },
+ {
+  "collegeId": "maitreyi-college-w",
+  "collegeName": "Maitreyi College (W)",
+  "activity": "Theatre",
+  "seats": 2
+ },
+ {
+  "collegeId": "maitreyi-college-w",
+  "collegeName": "Maitreyi College (W)",
+  "activity": "NCC (Females)",
+  "seats": 2
+ },
+ {
+  "collegeId": "maitreyi-college-w",
+  "collegeName": "Maitreyi College (W)",
+  "activity": "NSS",
+  "seats": 1
+ },
+ {
+  "collegeId": "mata-sundri-college-for-women-w",
+  "collegeName": "Mata Sundri College for Women (W)",
+  "activity": "Dance: Indian Classical",
+  "seats": 4
+ },
+ {
+  "collegeId": "mata-sundri-college-for-women-w",
+  "collegeName": "Mata Sundri College for Women (W)",
+  "activity": "Dance: Indian Folk",
+  "seats": 4
+ },
+ {
+  "collegeId": "mata-sundri-college-for-women-w",
+  "collegeName": "Mata Sundri College for Women (W)",
+  "activity": "Dance: Western",
+  "seats": 4
+ },
+ {
+  "collegeId": "mata-sundri-college-for-women-w",
+  "collegeName": "Mata Sundri College for Women (W)",
+  "activity": "Debate: Hindi",
+  "seats": 1
+ },
+ {
+  "collegeId": "mata-sundri-college-for-women-w",
+  "collegeName": "Mata Sundri College for Women (W)",
+  "activity": "Debate: English",
+  "seats": 1
+ },
+ {
+  "collegeId": "mata-sundri-college-for-women-w",
+  "collegeName": "Mata Sundri College for Women (W)",
+  "activity": "Music (Vocal): Indian",
+  "seats": 1
+ },
+ {
+  "collegeId": "mata-sundri-college-for-women-w",
+  "collegeName": "Mata Sundri College for Women (W)",
+  "activity": "Music (Instrumental: Indian) Tabla",
+  "seats": 1
+ },
+ {
+  "collegeId": "mata-sundri-college-for-women-w",
+  "collegeName": "Mata Sundri College for Women (W)",
+  "activity": "Music (Instrumental: Indian) Harmonium",
+  "seats": 1
+ },
+ {
+  "collegeId": "mata-sundri-college-for-women-w",
+  "collegeName": "Mata Sundri College for Women (W)",
+  "activity": "Divinity",
+  "seats": 3
+ },
+ {
+  "collegeId": "mata-sundri-college-for-women-w",
+  "collegeName": "Mata Sundri College for Women (W)",
+  "activity": "NCC (Females)",
+  "seats": 4
+ },
+ {
+  "collegeId": "mata-sundri-college-for-women-w",
+  "collegeName": "Mata Sundri College for Women (W)",
+  "activity": "Yoga",
+  "seats": 4
+ },
+ {
+  "collegeId": "miranda-house-w",
+  "collegeName": "Miranda House (W)",
+  "activity": "Dance: Indian Classical",
+  "seats": 2
+ },
+ {
+  "collegeId": "miranda-house-w",
+  "collegeName": "Miranda House (W)",
+  "activity": "Dance: Indian Folk",
+  "seats": 1
+ },
+ {
+  "collegeId": "miranda-house-w",
+  "collegeName": "Miranda House (W)",
+  "activity": "Dance: Western",
+  "seats": 1
+ },
+ {
+  "collegeId": "miranda-house-w",
+  "collegeName": "Miranda House (W)",
+  "activity": "Dance: Choreography",
+  "seats": 1
+ },
+ {
+  "collegeId": "miranda-house-w",
+  "collegeName": "Miranda House (W)",
+  "activity": "Debate: Hindi",
+  "seats": 2
+ },
+ {
+  "collegeId": "miranda-house-w",
+  "collegeName": "Miranda House (W)",
+  "activity": "Debate: English",
+  "seats": 2
+ },
+ {
+  "collegeId": "miranda-house-w",
+  "collegeName": "Miranda House (W)",
+  "activity": "Digital Media: Photography",
+  "seats": 1
+ },
+ {
+  "collegeId": "miranda-house-w",
+  "collegeName": "Miranda House (W)",
+  "activity": "Digital Media: Film Making",
+  "seats": 1
+ },
+ {
+  "collegeId": "miranda-house-w",
+  "collegeName": "Miranda House (W)",
+  "activity": "Fine Arts: Sketching & Painting",
+  "seats": 1
+ },
+ {
+  "collegeId": "miranda-house-w",
+  "collegeName": "Miranda House (W)",
+  "activity": "Music (Vocal): Indian",
+  "seats": 2
+ },
+ {
+  "collegeId": "miranda-house-w",
+  "collegeName": "Miranda House (W)",
+  "activity": "Music (Vocal): Western",
+  "seats": 2
+ },
+ {
+  "collegeId": "miranda-house-w",
+  "collegeName": "Miranda House (W)",
+  "activity": "Music (Instrumental: Indian) Sitar",
+  "seats": 1
+ },
+ {
+  "collegeId": "miranda-house-w",
+  "collegeName": "Miranda House (W)",
+  "activity": "Music (Instrumental: Western) Drums",
+  "seats": 1
+ },
+ {
+  "collegeId": "miranda-house-w",
+  "collegeName": "Miranda House (W)",
+  "activity": "Theatre",
+  "seats": 2
+ },
+ {
+  "collegeId": "miranda-house-w",
+  "collegeName": "Miranda House (W)",
+  "activity": "Quiz",
+  "seats": 1
+ },
+ {
+  "collegeId": "miranda-house-w",
+  "collegeName": "Miranda House (W)",
+  "activity": "NCC (Females)",
+  "seats": 2
+ },
+ {
+  "collegeId": "miranda-house-w",
+  "collegeName": "Miranda House (W)",
+  "activity": "NSS",
+  "seats": 1
+ },
+ {
+  "collegeId": "miranda-house-w",
+  "collegeName": "Miranda House (W)",
+  "activity": "Yoga",
+  "seats": 2
+ },
+ {
+  "collegeId": "motilal-nehru-college",
+  "collegeName": "Motilal Nehru College",
+  "activity": "Dance: Indian Folk",
+  "seats": 1
+ },
+ {
+  "collegeId": "motilal-nehru-college",
+  "collegeName": "Motilal Nehru College",
+  "activity": "Dance: Western",
+  "seats": 2
+ },
+ {
+  "collegeId": "motilal-nehru-college",
+  "collegeName": "Motilal Nehru College",
+  "activity": "Dance: Choreography",
+  "seats": 1
+ },
+ {
+  "collegeId": "motilal-nehru-college",
+  "collegeName": "Motilal Nehru College",
+  "activity": "Debate: Hindi",
+  "seats": 1
+ },
+ {
+  "collegeId": "motilal-nehru-college",
+  "collegeName": "Motilal Nehru College",
+  "activity": "Debate: English",
+  "seats": 1
+ },
+ {
+  "collegeId": "motilal-nehru-college",
+  "collegeName": "Motilal Nehru College",
+  "activity": "Music (Vocal): Indian",
+  "seats": 1
+ },
+ {
+  "collegeId": "motilal-nehru-college",
+  "collegeName": "Motilal Nehru College",
+  "activity": "Music (Vocal): Western",
+  "seats": 1
+ },
+ {
+  "collegeId": "motilal-nehru-college",
+  "collegeName": "Motilal Nehru College",
+  "activity": "Music (Instrumental: Western) Drums",
+  "seats": 1
+ },
+ {
+  "collegeId": "motilal-nehru-college",
+  "collegeName": "Motilal Nehru College",
+  "activity": "Music (Instrumental: Western) Guitar (Lead)",
+  "seats": 1
+ },
+ {
+  "collegeId": "motilal-nehru-college",
+  "collegeName": "Motilal Nehru College",
+  "activity": "Music (Instrumental: Western) Keyboard",
+  "seats": 1
+ },
+ {
+  "collegeId": "motilal-nehru-college",
+  "collegeName": "Motilal Nehru College",
+  "activity": "Theatre",
+  "seats": 2
+ },
+ {
+  "collegeId": "motilal-nehru-college",
+  "collegeName": "Motilal Nehru College",
+  "activity": "NCC (Males)",
+  "seats": 2
+ },
+ {
+  "collegeId": "motilal-nehru-college",
+  "collegeName": "Motilal Nehru College",
+  "activity": "NCC (Females)",
+  "seats": 2
+ },
+ {
+  "collegeId": "motilal-nehru-college",
+  "collegeName": "Motilal Nehru College",
+  "activity": "NSS",
+  "seats": 1
+ },
+ {
+  "collegeId": "motilal-nehru-college-evening",
+  "collegeName": "Motilal Nehru College (Evening)",
+  "activity": "Creative Writing (Hindi)",
+  "seats": 1
+ },
+ {
+  "collegeId": "motilal-nehru-college-evening",
+  "collegeName": "Motilal Nehru College (Evening)",
+  "activity": "Creative Writing (English)",
+  "seats": 1
+ },
+ {
+  "collegeId": "motilal-nehru-college-evening",
+  "collegeName": "Motilal Nehru College (Evening)",
+  "activity": "Dance: Indian Classical",
+  "seats": 1
+ },
+ {
+  "collegeId": "motilal-nehru-college-evening",
+  "collegeName": "Motilal Nehru College (Evening)",
+  "activity": "Dance: Western",
+  "seats": 1
+ },
+ {
+  "collegeId": "motilal-nehru-college-evening",
+  "collegeName": "Motilal Nehru College (Evening)",
+  "activity": "Debate: Hindi",
+  "seats": 1
+ },
+ {
+  "collegeId": "motilal-nehru-college-evening",
+  "collegeName": "Motilal Nehru College (Evening)",
+  "activity": "Debate: English",
+  "seats": 1
+ },
+ {
+  "collegeId": "motilal-nehru-college-evening",
+  "collegeName": "Motilal Nehru College (Evening)",
+  "activity": "Music (Vocal): Indian",
+  "seats": 1
+ },
+ {
+  "collegeId": "motilal-nehru-college-evening",
+  "collegeName": "Motilal Nehru College (Evening)",
+  "activity": "Theatre",
+  "seats": 2
+ },
+ {
+  "collegeId": "p-g-d-a-v-college",
+  "collegeName": "P.G.D.A.V. College",
+  "activity": "Dance: Indian Classical",
+  "seats": 1
+ },
+ {
+  "collegeId": "p-g-d-a-v-college",
+  "collegeName": "P.G.D.A.V. College",
+  "activity": "Dance: Indian Folk",
+  "seats": 1
+ },
+ {
+  "collegeId": "p-g-d-a-v-college",
+  "collegeName": "P.G.D.A.V. College",
+  "activity": "Dance: Western",
+  "seats": 1
+ },
+ {
+  "collegeId": "p-g-d-a-v-college",
+  "collegeName": "P.G.D.A.V. College",
+  "activity": "Debate: Hindi",
+  "seats": 1
+ },
+ {
+  "collegeId": "p-g-d-a-v-college",
+  "collegeName": "P.G.D.A.V. College",
+  "activity": "Fine Arts: Sculpture",
+  "seats": 1
+ },
+ {
+  "collegeId": "p-g-d-a-v-college",
+  "collegeName": "P.G.D.A.V. College",
+  "activity": "Music (Vocal): Indian",
+  "seats": 1
+ },
+ {
+  "collegeId": "p-g-d-a-v-college",
+  "collegeName": "P.G.D.A.V. College",
+  "activity": "Music (Instrumental: Indian) Tabla",
+  "seats": 1
+ },
+ {
+  "collegeId": "p-g-d-a-v-college",
+  "collegeName": "P.G.D.A.V. College",
+  "activity": "Music (Instrumental: Indian) Harmonium",
+  "seats": 1
+ },
+ {
+  "collegeId": "p-g-d-a-v-college",
+  "collegeName": "P.G.D.A.V. College",
+  "activity": "Music (Instrumental: Western) Guitar (Lead)",
+  "seats": 1
+ },
+ {
+  "collegeId": "p-g-d-a-v-college",
+  "collegeName": "P.G.D.A.V. College",
+  "activity": "Theatre",
+  "seats": 2
+ },
+ {
+  "collegeId": "p-g-d-a-v-college",
+  "collegeName": "P.G.D.A.V. College",
+  "activity": "NCC (Females)",
+  "seats": 3
+ },
+ {
+  "collegeId": "p-g-d-a-v-college-evening",
+  "collegeName": "P.G.D.A.V. College (Evening)",
+  "activity": "Creative Writing (Hindi)",
+  "seats": 1
+ },
+ {
+  "collegeId": "p-g-d-a-v-college-evening",
+  "collegeName": "P.G.D.A.V. College (Evening)",
+  "activity": "Dance: Indian Classical",
+  "seats": 2
+ },
+ {
+  "collegeId": "p-g-d-a-v-college-evening",
+  "collegeName": "P.G.D.A.V. College (Evening)",
+  "activity": "Dance: Indian Folk",
+  "seats": 2
+ },
+ {
+  "collegeId": "p-g-d-a-v-college-evening",
+  "collegeName": "P.G.D.A.V. College (Evening)",
+  "activity": "Debate: Hindi",
+  "seats": 2
+ },
+ {
+  "collegeId": "p-g-d-a-v-college-evening",
+  "collegeName": "P.G.D.A.V. College (Evening)",
+  "activity": "Debate: English",
+  "seats": 1
+ },
+ {
+  "collegeId": "p-g-d-a-v-college-evening",
+  "collegeName": "P.G.D.A.V. College (Evening)",
+  "activity": "Fine Arts: Sketching & Painting",
+  "seats": 1
+ },
+ {
+  "collegeId": "p-g-d-a-v-college-evening",
+  "collegeName": "P.G.D.A.V. College (Evening)",
+  "activity": "Music (Vocal): Indian",
+  "seats": 2
+ },
+ {
+  "collegeId": "p-g-d-a-v-college-evening",
+  "collegeName": "P.G.D.A.V. College (Evening)",
+  "activity": "Music (Instrumental: Indian) Dholak",
+  "seats": 1
+ },
+ {
+  "collegeId": "p-g-d-a-v-college-evening",
+  "collegeName": "P.G.D.A.V. College (Evening)",
+  "activity": "Music (Instrumental: Indian) Flute",
+  "seats": 1
+ },
+ {
+  "collegeId": "p-g-d-a-v-college-evening",
+  "collegeName": "P.G.D.A.V. College (Evening)",
+  "activity": "Music (Instrumental: Western) Keyboard",
+  "seats": 1
+ },
+ {
+  "collegeId": "p-g-d-a-v-college-evening",
+  "collegeName": "P.G.D.A.V. College (Evening)",
+  "activity": "Theatre",
+  "seats": 3
+ },
+ {
+  "collegeId": "p-g-d-a-v-college-evening",
+  "collegeName": "P.G.D.A.V. College (Evening)",
+  "activity": "NCC (Males)",
+  "seats": 3
+ },
+ {
+  "collegeId": "p-g-d-a-v-college-evening",
+  "collegeName": "P.G.D.A.V. College (Evening)",
+  "activity": "Yoga",
+  "seats": 1
+ },
+ {
+  "collegeId": "rajdhani-college",
+  "collegeName": "Rajdhani College",
+  "activity": "Creative Writing (Hindi)",
+  "seats": 1
+ },
+ {
+  "collegeId": "rajdhani-college",
+  "collegeName": "Rajdhani College",
+  "activity": "Creative Writing (English)",
+  "seats": 1
+ },
+ {
+  "collegeId": "rajdhani-college",
+  "collegeName": "Rajdhani College",
+  "activity": "Dance: Indian Classical",
+  "seats": 2
+ },
+ {
+  "collegeId": "rajdhani-college",
+  "collegeName": "Rajdhani College",
+  "activity": "Dance: Indian Folk",
+  "seats": 2
+ },
+ {
+  "collegeId": "rajdhani-college",
+  "collegeName": "Rajdhani College",
+  "activity": "Dance: Western",
+  "seats": 1
+ },
+ {
+  "collegeId": "rajdhani-college",
+  "collegeName": "Rajdhani College",
+  "activity": "Debate: Hindi",
+  "seats": 2
+ },
+ {
+  "collegeId": "rajdhani-college",
+  "collegeName": "Rajdhani College",
+  "activity": "Debate: English",
+  "seats": 2
+ },
+ {
+  "collegeId": "rajdhani-college",
+  "collegeName": "Rajdhani College",
+  "activity": "Digital Media: Photography",
+  "seats": 1
+ },
+ {
+  "collegeId": "rajdhani-college",
+  "collegeName": "Rajdhani College",
+  "activity": "Digital Media: Animation",
+  "seats": 1
+ },
+ {
+  "collegeId": "rajdhani-college",
+  "collegeName": "Rajdhani College",
+  "activity": "Fine Arts: Sketching & Painting",
+  "seats": 1
+ },
+ {
+  "collegeId": "rajdhani-college",
+  "collegeName": "Rajdhani College",
+  "activity": "Music (Vocal): Indian",
+  "seats": 1
+ },
+ {
+  "collegeId": "rajdhani-college",
+  "collegeName": "Rajdhani College",
+  "activity": "Music (Vocal): Western",
+  "seats": 1
+ },
+ {
+  "collegeId": "rajdhani-college",
+  "collegeName": "Rajdhani College",
+  "activity": "Music (Instrumental: Indian) Tabla",
+  "seats": 1
+ },
+ {
+  "collegeId": "rajdhani-college",
+  "collegeName": "Rajdhani College",
+  "activity": "Music (Instrumental: Indian) Dholak",
+  "seats": 1
+ },
+ {
+  "collegeId": "rajdhani-college",
+  "collegeName": "Rajdhani College",
+  "activity": "Music (Instrumental: Indian) Harmonium",
+  "seats": 1
+ },
+ {
+  "collegeId": "rajdhani-college",
+  "collegeName": "Rajdhani College",
+  "activity": "Music (Instrumental: Western) Drums",
+  "seats": 1
+ },
+ {
+  "collegeId": "rajdhani-college",
+  "collegeName": "Rajdhani College",
+  "activity": "Music (Instrumental: Western) Guitar (Bass)",
+  "seats": 1
+ },
+ {
+  "collegeId": "rajdhani-college",
+  "collegeName": "Rajdhani College",
+  "activity": "Music (Instrumental: Western) Keyboard",
+  "seats": 1
+ },
+ {
+  "collegeId": "rajdhani-college",
+  "collegeName": "Rajdhani College",
+  "activity": "Theatre",
+  "seats": 2
+ },
+ {
+  "collegeId": "rajdhani-college",
+  "collegeName": "Rajdhani College",
+  "activity": "NCC (Males)",
+  "seats": 1
+ },
+ {
+  "collegeId": "rajdhani-college",
+  "collegeName": "Rajdhani College",
+  "activity": "NCC (Females)",
+  "seats": 1
+ },
+ {
+  "collegeId": "rajdhani-college",
+  "collegeName": "Rajdhani College",
+  "activity": "NSS",
+  "seats": 2
+ },
+ {
+  "collegeId": "rajdhani-college",
+  "collegeName": "Rajdhani College",
+  "activity": "Yoga",
+  "seats": 2
+ },
+ {
+  "collegeId": "ram-lal-anand-college",
+  "collegeName": "Ram Lal Anand College",
+  "activity": "Creative Writing (Hindi)",
+  "seats": 1
+ },
+ {
+  "collegeId": "ram-lal-anand-college",
+  "collegeName": "Ram Lal Anand College",
+  "activity": "Creative Writing (English)",
+  "seats": 1
+ },
+ {
+  "collegeId": "ram-lal-anand-college",
+  "collegeName": "Ram Lal Anand College",
+  "activity": "Dance: Indian Classical",
+  "seats": 2
+ },
+ {
+  "collegeId": "ram-lal-anand-college",
+  "collegeName": "Ram Lal Anand College",
+  "activity": "Dance: Western",
+  "seats": 1
+ },
+ {
+  "collegeId": "ram-lal-anand-college",
+  "collegeName": "Ram Lal Anand College",
+  "activity": "Debate: Hindi",
+  "seats": 1
+ },
+ {
+  "collegeId": "ram-lal-anand-college",
+  "collegeName": "Ram Lal Anand College",
+  "activity": "Debate: English",
+  "seats": 1
+ },
+ {
+  "collegeId": "ram-lal-anand-college",
+  "collegeName": "Ram Lal Anand College",
+  "activity": "Music (Vocal): Indian",
+  "seats": 2
+ },
+ {
+  "collegeId": "ram-lal-anand-college",
+  "collegeName": "Ram Lal Anand College",
+  "activity": "Music (Vocal): Western",
+  "seats": 2
+ },
+ {
+  "collegeId": "ram-lal-anand-college",
+  "collegeName": "Ram Lal Anand College",
+  "activity": "Music (Instrumental: Indian) Tabla",
+  "seats": 1
+ },
+ {
+  "collegeId": "ram-lal-anand-college",
+  "collegeName": "Ram Lal Anand College",
+  "activity": "Music (Instrumental: Western) Guitar (Lead)",
+  "seats": 1
+ },
+ {
+  "collegeId": "ram-lal-anand-college",
+  "collegeName": "Ram Lal Anand College",
+  "activity": "Music (Instrumental: Western) Keyboard",
+  "seats": 2
+ },
+ {
+  "collegeId": "ram-lal-anand-college",
+  "collegeName": "Ram Lal Anand College",
+  "activity": "NCC (Males)",
+  "seats": 1
+ },
+ {
+  "collegeId": "ram-lal-anand-college",
+  "collegeName": "Ram Lal Anand College",
+  "activity": "NCC (Females)",
+  "seats": 1
+ },
+ {
+  "collegeId": "ram-lal-anand-college",
+  "collegeName": "Ram Lal Anand College",
+  "activity": "NSS",
+  "seats": 1
+ },
+ {
+  "collegeId": "ramanujan-college",
+  "collegeName": "Ramanujan College",
+  "activity": "Creative Writing (English)",
+  "seats": 1
+ },
+ {
+  "collegeId": "ramanujan-college",
+  "collegeName": "Ramanujan College",
+  "activity": "Dance: Indian Classical",
+  "seats": 1
+ },
+ {
+  "collegeId": "ramanujan-college",
+  "collegeName": "Ramanujan College",
+  "activity": "Dance: Western",
+  "seats": 2
+ },
+ {
+  "collegeId": "ramanujan-college",
+  "collegeName": "Ramanujan College",
+  "activity": "Dance: Choreography",
+  "seats": 2
+ },
+ {
+  "collegeId": "ramanujan-college",
+  "collegeName": "Ramanujan College",
+  "activity": "Debate: Hindi",
+  "seats": 1
+ },
+ {
+  "collegeId": "ramanujan-college",
+  "collegeName": "Ramanujan College",
+  "activity": "Digital Media: Photography",
+  "seats": 1
+ },
+ {
+  "collegeId": "ramanujan-college",
+  "collegeName": "Ramanujan College",
+  "activity": "Digital Media: Film Making",
+  "seats": 2
+ },
+ {
+  "collegeId": "ramanujan-college",
+  "collegeName": "Ramanujan College",
+  "activity": "Digital Media: Animation",
+  "seats": 1
+ },
+ {
+  "collegeId": "ramanujan-college",
+  "collegeName": "Ramanujan College",
+  "activity": "Fine Arts: Sketching & Painting",
+  "seats": 1
+ },
+ {
+  "collegeId": "ramanujan-college",
+  "collegeName": "Ramanujan College",
+  "activity": "Music (Vocal): Indian",
+  "seats": 2
+ },
+ {
+  "collegeId": "ramanujan-college",
+  "collegeName": "Ramanujan College",
+  "activity": "Music (Vocal): Western",
+  "seats": 1
+ },
+ {
+  "collegeId": "ramanujan-college",
+  "collegeName": "Ramanujan College",
+  "activity": "Music (Instrumental: Indian) Tabla",
+  "seats": 1
+ },
+ {
+  "collegeId": "ramanujan-college",
+  "collegeName": "Ramanujan College",
+  "activity": "Music (Instrumental: Indian) Harmonium",
+  "seats": 1
+ },
+ {
+  "collegeId": "ramanujan-college",
+  "collegeName": "Ramanujan College",
+  "activity": "Music (Instrumental: Indian) Flute",
+  "seats": 1
+ },
+ {
+  "collegeId": "ramanujan-college",
+  "collegeName": "Ramanujan College",
+  "activity": "Music (Instrumental: Western) Drums",
+  "seats": 1
+ },
+ {
+  "collegeId": "ramanujan-college",
+  "collegeName": "Ramanujan College",
+  "activity": "Music (Instrumental: Western) Guitar (Lead)",
+  "seats": 1
+ },
+ {
+  "collegeId": "ramanujan-college",
+  "collegeName": "Ramanujan College",
+  "activity": "Theatre",
+  "seats": 2
+ },
+ {
+  "collegeId": "ramanujan-college",
+  "collegeName": "Ramanujan College",
+  "activity": "Quiz",
+  "seats": 1
+ },
+ {
+  "collegeId": "ramanujan-college",
+  "collegeName": "Ramanujan College",
+  "activity": "NCC (Males)",
+  "seats": 1
+ },
+ {
+  "collegeId": "ramanujan-college",
+  "collegeName": "Ramanujan College",
+  "activity": "NCC (Females)",
+  "seats": 2
+ },
+ {
+  "collegeId": "ramanujan-college",
+  "collegeName": "Ramanujan College",
+  "activity": "NSS",
+  "seats": 2
+ },
+ {
+  "collegeId": "ramanujan-college",
+  "collegeName": "Ramanujan College",
+  "activity": "Yoga",
+  "seats": 4
+ },
+ {
+  "collegeId": "ramjas-college",
+  "collegeName": "Ramjas College",
+  "activity": "Creative Writing (Hindi)",
+  "seats": 1
+ },
+ {
+  "collegeId": "ramjas-college",
+  "collegeName": "Ramjas College",
+  "activity": "Creative Writing (English)",
+  "seats": 1
+ },
+ {
+  "collegeId": "ramjas-college",
+  "collegeName": "Ramjas College",
+  "activity": "Dance: Indian Classical",
+  "seats": 2
+ },
+ {
+  "collegeId": "ramjas-college",
+  "collegeName": "Ramjas College",
+  "activity": "Dance: Indian Folk",
+  "seats": 1
+ },
+ {
+  "collegeId": "ramjas-college",
+  "collegeName": "Ramjas College",
+  "activity": "Dance: Western",
+  "seats": 3
+ },
+ {
+  "collegeId": "ramjas-college",
+  "collegeName": "Ramjas College",
+  "activity": "Debate: Hindi",
+  "seats": 2
+ },
+ {
+  "collegeId": "ramjas-college",
+  "collegeName": "Ramjas College",
+  "activity": "Debate: English",
+  "seats": 2
+ },
+ {
+  "collegeId": "ramjas-college",
+  "collegeName": "Ramjas College",
+  "activity": "Digital Media: Photography",
+  "seats": 1
+ },
+ {
+  "collegeId": "ramjas-college",
+  "collegeName": "Ramjas College",
+  "activity": "Digital Media: Film Making",
+  "seats": 1
+ },
+ {
+  "collegeId": "ramjas-college",
+  "collegeName": "Ramjas College",
+  "activity": "Digital Media: Animation",
+  "seats": 1
+ },
+ {
+  "collegeId": "ramjas-college",
+  "collegeName": "Ramjas College",
+  "activity": "Fine Arts: Sketching & Painting",
+  "seats": 3
+ },
+ {
+  "collegeId": "ramjas-college",
+  "collegeName": "Ramjas College",
+  "activity": "Fine Arts: Sculpture",
+  "seats": 1
+ },
+ {
+  "collegeId": "ramjas-college",
+  "collegeName": "Ramjas College",
+  "activity": "Music (Vocal): Indian",
+  "seats": 2
+ },
+ {
+  "collegeId": "ramjas-college",
+  "collegeName": "Ramjas College",
+  "activity": "Music (Vocal): Western",
+  "seats": 2
+ },
+ {
+  "collegeId": "ramjas-college",
+  "collegeName": "Ramjas College",
+  "activity": "Music (Instrumental: Indian) Tabla",
+  "seats": 1
+ },
+ {
+  "collegeId": "ramjas-college",
+  "collegeName": "Ramjas College",
+  "activity": "Music (Instrumental: Indian) Dholak",
+  "seats": 1
+ },
+ {
+  "collegeId": "ramjas-college",
+  "collegeName": "Ramjas College",
+  "activity": "Music (Instrumental: Indian) Flute",
+  "seats": 1
+ },
+ {
+  "collegeId": "ramjas-college",
+  "collegeName": "Ramjas College",
+  "activity": "Music (Instrumental: Western) Guitar (Bass)",
+  "seats": 1
+ },
+ {
+  "collegeId": "ramjas-college",
+  "collegeName": "Ramjas College",
+  "activity": "Theatre",
+  "seats": 4
+ },
+ {
+  "collegeId": "ramjas-college",
+  "collegeName": "Ramjas College",
+  "activity": "Quiz",
+  "seats": 3
+ },
+ {
+  "collegeId": "satyawati-college",
+  "collegeName": "Satyawati College",
+  "activity": "Creative Writing (Hindi)",
+  "seats": 1
+ },
+ {
+  "collegeId": "satyawati-college",
+  "collegeName": "Satyawati College",
+  "activity": "Creative Writing (English)",
+  "seats": 1
+ },
+ {
+  "collegeId": "satyawati-college",
+  "collegeName": "Satyawati College",
+  "activity": "Dance: Indian Classical",
+  "seats": 1
+ },
+ {
+  "collegeId": "satyawati-college",
+  "collegeName": "Satyawati College",
+  "activity": "Dance: Western",
+  "seats": 1
+ },
+ {
+  "collegeId": "satyawati-college",
+  "collegeName": "Satyawati College",
+  "activity": "Debate: Hindi",
+  "seats": 1
+ },
+ {
+  "collegeId": "satyawati-college",
+  "collegeName": "Satyawati College",
+  "activity": "Debate: English",
+  "seats": 1
+ },
+ {
+  "collegeId": "satyawati-college",
+  "collegeName": "Satyawati College",
+  "activity": "Digital Media: Film Making",
+  "seats": 1
+ },
+ {
+  "collegeId": "satyawati-college",
+  "collegeName": "Satyawati College",
+  "activity": "Music (Vocal): Indian",
+  "seats": 1
+ },
+ {
+  "collegeId": "satyawati-college",
+  "collegeName": "Satyawati College",
+  "activity": "Music (Vocal): Western",
+  "seats": 1
+ },
+ {
+  "collegeId": "satyawati-college",
+  "collegeName": "Satyawati College",
+  "activity": "Music (Instrumental: Indian) Tabla",
+  "seats": 1
+ },
+ {
+  "collegeId": "satyawati-college",
+  "collegeName": "Satyawati College",
+  "activity": "Music (Instrumental: Indian) Flute",
+  "seats": 1
+ },
+ {
+  "collegeId": "satyawati-college",
+  "collegeName": "Satyawati College",
+  "activity": "Theatre",
+  "seats": 2
+ },
+ {
+  "collegeId": "satyawati-college",
+  "collegeName": "Satyawati College",
+  "activity": "NCC (Males)",
+  "seats": 1
+ },
+ {
+  "collegeId": "satyawati-college",
+  "collegeName": "Satyawati College",
+  "activity": "NSS",
+  "seats": 1
+ },
+ {
+  "collegeId": "satyawati-college",
+  "collegeName": "Satyawati College",
+  "activity": "Yoga",
+  "seats": 1
+ },
+ {
+  "collegeId": "satyawati-college-evening",
+  "collegeName": "Satyawati College (Evening)",
+  "activity": "Creative Writing (Hindi)",
+  "seats": 1
+ },
+ {
+  "collegeId": "satyawati-college-evening",
+  "collegeName": "Satyawati College (Evening)",
+  "activity": "Creative Writing (English)",
+  "seats": 1
+ },
+ {
+  "collegeId": "satyawati-college-evening",
+  "collegeName": "Satyawati College (Evening)",
+  "activity": "Dance: Indian Folk",
+  "seats": 1
+ },
+ {
+  "collegeId": "satyawati-college-evening",
+  "collegeName": "Satyawati College (Evening)",
+  "activity": "Debate: Hindi",
+  "seats": 2
+ },
+ {
+  "collegeId": "satyawati-college-evening",
+  "collegeName": "Satyawati College (Evening)",
+  "activity": "Debate: English",
+  "seats": 2
+ },
+ {
+  "collegeId": "satyawati-college-evening",
+  "collegeName": "Satyawati College (Evening)",
+  "activity": "Music (Vocal): Indian",
+  "seats": 1
+ },
+ {
+  "collegeId": "satyawati-college-evening",
+  "collegeName": "Satyawati College (Evening)",
+  "activity": "Theatre",
+  "seats": 2
+ },
+ {
+  "collegeId": "satyawati-college-evening",
+  "collegeName": "Satyawati College (Evening)",
+  "activity": "NCC (Males)",
+  "seats": 2
+ },
+ {
+  "collegeId": "satyawati-college-evening",
+  "collegeName": "Satyawati College (Evening)",
+  "activity": "NSS",
+  "seats": 2
+ },
+ {
+  "collegeId": "shaheed-bhagat-singh-college",
+  "collegeName": "Shaheed Bhagat Singh College",
+  "activity": "Dance: Indian Classical",
+  "seats": 2
+ },
+ {
+  "collegeId": "shaheed-bhagat-singh-college",
+  "collegeName": "Shaheed Bhagat Singh College",
+  "activity": "Debate: Hindi",
+  "seats": 1
+ },
+ {
+  "collegeId": "shaheed-bhagat-singh-college",
+  "collegeName": "Shaheed Bhagat Singh College",
+  "activity": "Debate: English",
+  "seats": 1
+ },
+ {
+  "collegeId": "shaheed-bhagat-singh-college",
+  "collegeName": "Shaheed Bhagat Singh College",
+  "activity": "Digital Media: Photography",
+  "seats": 1
+ },
+ {
+  "collegeId": "shaheed-bhagat-singh-college",
+  "collegeName": "Shaheed Bhagat Singh College",
+  "activity": "Digital Media: Film Making",
+  "seats": 2
+ },
+ {
+  "collegeId": "shaheed-bhagat-singh-college",
+  "collegeName": "Shaheed Bhagat Singh College",
+  "activity": "Fine Arts: Sketching & Painting",
+  "seats": 1
+ },
+ {
+  "collegeId": "shaheed-bhagat-singh-college",
+  "collegeName": "Shaheed Bhagat Singh College",
+  "activity": "Music (Vocal): Indian",
+  "seats": 2
+ },
+ {
+  "collegeId": "shaheed-bhagat-singh-college",
+  "collegeName": "Shaheed Bhagat Singh College",
+  "activity": "Music (Instrumental: Indian) Tabla",
+  "seats": 1
+ },
+ {
+  "collegeId": "shaheed-bhagat-singh-college",
+  "collegeName": "Shaheed Bhagat Singh College",
+  "activity": "Music (Instrumental: Indian) Flute",
+  "seats": 1
+ },
+ {
+  "collegeId": "shaheed-bhagat-singh-college",
+  "collegeName": "Shaheed Bhagat Singh College",
+  "activity": "Music (Instrumental: Indian) Sitar",
+  "seats": 1
+ },
+ {
+  "collegeId": "shaheed-bhagat-singh-college",
+  "collegeName": "Shaheed Bhagat Singh College",
+  "activity": "Music (Instrumental: Indian) Violin",
+  "seats": 1
+ },
+ {
+  "collegeId": "shaheed-bhagat-singh-college",
+  "collegeName": "Shaheed Bhagat Singh College",
+  "activity": "Music (Instrumental: Western) Drums",
+  "seats": 1
+ },
+ {
+  "collegeId": "shaheed-bhagat-singh-college",
+  "collegeName": "Shaheed Bhagat Singh College",
+  "activity": "Music (Instrumental: Western) Guitar (Bass)",
+  "seats": 1
+ },
+ {
+  "collegeId": "shaheed-bhagat-singh-college",
+  "collegeName": "Shaheed Bhagat Singh College",
+  "activity": "Music (Instrumental: Western) Keyboard",
+  "seats": 1
+ },
+ {
+  "collegeId": "shaheed-bhagat-singh-college",
+  "collegeName": "Shaheed Bhagat Singh College",
+  "activity": "Theatre",
+  "seats": 2
+ },
+ {
+  "collegeId": "shaheed-bhagat-singh-college",
+  "collegeName": "Shaheed Bhagat Singh College",
+  "activity": "Quiz",
+  "seats": 1
+ },
+ {
+  "collegeId": "shaheed-bhagat-singh-college-evening",
+  "collegeName": "Shaheed Bhagat Singh College (Evening)",
+  "activity": "Creative Writing (Hindi)",
+  "seats": 1
+ },
+ {
+  "collegeId": "shaheed-bhagat-singh-college-evening",
+  "collegeName": "Shaheed Bhagat Singh College (Evening)",
+  "activity": "Creative Writing (English)",
+  "seats": 1
+ },
+ {
+  "collegeId": "shaheed-bhagat-singh-college-evening",
+  "collegeName": "Shaheed Bhagat Singh College (Evening)",
+  "activity": "Dance: Indian Classical",
+  "seats": 2
+ },
+ {
+  "collegeId": "shaheed-bhagat-singh-college-evening",
+  "collegeName": "Shaheed Bhagat Singh College (Evening)",
+  "activity": "Debate: Hindi",
+  "seats": 1
+ },
+ {
+  "collegeId": "shaheed-bhagat-singh-college-evening",
+  "collegeName": "Shaheed Bhagat Singh College (Evening)",
+  "activity": "Debate: English",
+  "seats": 1
+ },
+ {
+  "collegeId": "shaheed-bhagat-singh-college-evening",
+  "collegeName": "Shaheed Bhagat Singh College (Evening)",
+  "activity": "Digital Media: Photography",
+  "seats": 1
+ },
+ {
+  "collegeId": "shaheed-bhagat-singh-college-evening",
+  "collegeName": "Shaheed Bhagat Singh College (Evening)",
+  "activity": "Music (Vocal): Indian",
+  "seats": 1
+ },
+ {
+  "collegeId": "shaheed-bhagat-singh-college-evening",
+  "collegeName": "Shaheed Bhagat Singh College (Evening)",
+  "activity": "Theatre",
+  "seats": 2
+ },
+ {
+  "collegeId": "shaheed-rajguru-college-of-applied-sciences-for-women-w",
+  "collegeName": "Shaheed Rajguru College of Applied Sciences for Women (W)",
+  "activity": "Creative Writing (English)",
+  "seats": 1
+ },
+ {
+  "collegeId": "shaheed-rajguru-college-of-applied-sciences-for-women-w",
+  "collegeName": "Shaheed Rajguru College of Applied Sciences for Women (W)",
+  "activity": "Dance: Indian Classical",
+  "seats": 2
+ },
+ {
+  "collegeId": "shaheed-rajguru-college-of-applied-sciences-for-women-w",
+  "collegeName": "Shaheed Rajguru College of Applied Sciences for Women (W)",
+  "activity": "Dance: Western",
+  "seats": 1
+ },
+ {
+  "collegeId": "shaheed-rajguru-college-of-applied-sciences-for-women-w",
+  "collegeName": "Shaheed Rajguru College of Applied Sciences for Women (W)",
+  "activity": "Fine Arts: Sketching & Painting",
+  "seats": 1
+ },
+ {
+  "collegeId": "shaheed-rajguru-college-of-applied-sciences-for-women-w",
+  "collegeName": "Shaheed Rajguru College of Applied Sciences for Women (W)",
+  "activity": "Music (Vocal): Indian",
+  "seats": 2
+ },
+ {
+  "collegeId": "shaheed-rajguru-college-of-applied-sciences-for-women-w",
+  "collegeName": "Shaheed Rajguru College of Applied Sciences for Women (W)",
+  "activity": "Music (Vocal): Western",
+  "seats": 1
+ },
+ {
+  "collegeId": "shaheed-rajguru-college-of-applied-sciences-for-women-w",
+  "collegeName": "Shaheed Rajguru College of Applied Sciences for Women (W)",
+  "activity": "Music (Instrumental: Western) Guitar (Lead)",
+  "seats": 1
+ },
+ {
+  "collegeId": "shaheed-rajguru-college-of-applied-sciences-for-women-w",
+  "collegeName": "Shaheed Rajguru College of Applied Sciences for Women (W)",
+  "activity": "Music (Instrumental: Western) Keyboard",
+  "seats": 1
+ },
+ {
+  "collegeId": "shaheed-rajguru-college-of-applied-sciences-for-women-w",
+  "collegeName": "Shaheed Rajguru College of Applied Sciences for Women (W)",
+  "activity": "Theatre",
+  "seats": 1
+ },
+ {
+  "collegeId": "shaheed-rajguru-college-of-applied-sciences-for-women-w",
+  "collegeName": "Shaheed Rajguru College of Applied Sciences for Women (W)",
+  "activity": "NCC (Females)",
+  "seats": 1
+ },
+ {
+  "collegeId": "shaheed-rajguru-college-of-applied-sciences-for-women-w",
+  "collegeName": "Shaheed Rajguru College of Applied Sciences for Women (W)",
+  "activity": "NSS",
+  "seats": 1
+ },
+ {
+  "collegeId": "shaheed-rajguru-college-of-applied-sciences-for-women-w",
+  "collegeName": "Shaheed Rajguru College of Applied Sciences for Women (W)",
+  "activity": "Yoga",
+  "seats": 2
+ },
+ {
+  "collegeId": "shaheed-sukhdev-college-business-studies",
+  "collegeName": "Shaheed Sukhdev College Business Studies",
+  "activity": "Creative Writing (English)",
+  "seats": 1
+ },
+ {
+  "collegeId": "shaheed-sukhdev-college-business-studies",
+  "collegeName": "Shaheed Sukhdev College Business Studies",
+  "activity": "Dance: Indian Classical",
+  "seats": 1
+ },
+ {
+  "collegeId": "shaheed-sukhdev-college-business-studies",
+  "collegeName": "Shaheed Sukhdev College Business Studies",
+  "activity": "Dance: Choreography",
+  "seats": 1
+ },
+ {
+  "collegeId": "shaheed-sukhdev-college-business-studies",
+  "collegeName": "Shaheed Sukhdev College Business Studies",
+  "activity": "Digital Media: Photography",
+  "seats": 1
+ },
+ {
+  "collegeId": "shaheed-sukhdev-college-business-studies",
+  "collegeName": "Shaheed Sukhdev College Business Studies",
+  "activity": "Fine Arts: Sketching & Painting",
+  "seats": 2
+ },
+ {
+  "collegeId": "shaheed-sukhdev-college-business-studies",
+  "collegeName": "Shaheed Sukhdev College Business Studies",
+  "activity": "Music (Instrumental: Western) Drums",
+  "seats": 1
+ },
+ {
+  "collegeId": "shaheed-sukhdev-college-business-studies",
+  "collegeName": "Shaheed Sukhdev College Business Studies",
+  "activity": "Quiz",
+  "seats": 1
+ },
+ {
+  "collegeId": "shaheed-sukhdev-college-business-studies",
+  "collegeName": "Shaheed Sukhdev College Business Studies",
+  "activity": "NCC (Males)",
+  "seats": 2
+ },
+ {
+  "collegeId": "shivaji-college",
+  "collegeName": "Shivaji College",
+  "activity": "Dance: Indian Classical",
+  "seats": 2
+ },
+ {
+  "collegeId": "shivaji-college",
+  "collegeName": "Shivaji College",
+  "activity": "Dance: Indian Folk",
+  "seats": 4
+ },
+ {
+  "collegeId": "shivaji-college",
+  "collegeName": "Shivaji College",
+  "activity": "Dance: Western",
+  "seats": 2
+ },
+ {
+  "collegeId": "shivaji-college",
+  "collegeName": "Shivaji College",
+  "activity": "Dance: Choreography",
+  "seats": 1
+ },
+ {
+  "collegeId": "shivaji-college",
+  "collegeName": "Shivaji College",
+  "activity": "Debate: Hindi",
+  "seats": 2
+ },
+ {
+  "collegeId": "shivaji-college",
+  "collegeName": "Shivaji College",
+  "activity": "Debate: English",
+  "seats": 2
+ },
+ {
+  "collegeId": "shivaji-college",
+  "collegeName": "Shivaji College",
+  "activity": "Digital Media: Photography",
+  "seats": 2
+ },
+ {
+  "collegeId": "shivaji-college",
+  "collegeName": "Shivaji College",
+  "activity": "Digital Media: Film Making",
+  "seats": 2
+ },
+ {
+  "collegeId": "shivaji-college",
+  "collegeName": "Shivaji College",
+  "activity": "Fine Arts: Sketching & Painting",
+  "seats": 2
+ },
+ {
+  "collegeId": "shivaji-college",
+  "collegeName": "Shivaji College",
+  "activity": "Fine Arts: Sculpture",
+  "seats": 1
+ },
+ {
+  "collegeId": "shivaji-college",
+  "collegeName": "Shivaji College",
+  "activity": "Music (Vocal): Indian",
+  "seats": 4
+ },
+ {
+  "collegeId": "shivaji-college",
+  "collegeName": "Shivaji College",
+  "activity": "Music (Instrumental: Indian) Tabla",
+  "seats": 1
+ },
+ {
+  "collegeId": "shivaji-college",
+  "collegeName": "Shivaji College",
+  "activity": "Music (Instrumental: Indian) Harmonium",
+  "seats": 1
+ },
+ {
+  "collegeId": "shivaji-college",
+  "collegeName": "Shivaji College",
+  "activity": "Music (Instrumental: Indian) Flute",
+  "seats": 1
+ },
+ {
+  "collegeId": "shivaji-college",
+  "collegeName": "Shivaji College",
+  "activity": "Music (Instrumental: Indian) Sitar",
+  "seats": 1
+ },
+ {
+  "collegeId": "shivaji-college",
+  "collegeName": "Shivaji College",
+  "activity": "Music (Instrumental: Western) Drums",
+  "seats": 1
+ },
+ {
+  "collegeId": "shivaji-college",
+  "collegeName": "Shivaji College",
+  "activity": "Music (Instrumental: Western) Guitar (Bass)",
+  "seats": 1
+ },
+ {
+  "collegeId": "shivaji-college",
+  "collegeName": "Shivaji College",
+  "activity": "Music (Instrumental: Western) Keyboard",
+  "seats": 1
+ },
+ {
+  "collegeId": "shivaji-college",
+  "collegeName": "Shivaji College",
+  "activity": "Theatre",
+  "seats": 5
+ },
+ {
+  "collegeId": "shivaji-college",
+  "collegeName": "Shivaji College",
+  "activity": "NCC (Males)",
+  "seats": 2
+ },
+ {
+  "collegeId": "shivaji-college",
+  "collegeName": "Shivaji College",
+  "activity": "NCC (Females)",
+  "seats": 3
+ },
+ {
+  "collegeId": "shivaji-college",
+  "collegeName": "Shivaji College",
+  "activity": "NSS",
+  "seats": 4
+ },
+ {
+  "collegeId": "shri-ram-college-of-commerce",
+  "collegeName": "Shri Ram College of Commerce",
+  "activity": "Dance: Indian Classical",
+  "seats": 1
+ },
+ {
+  "collegeId": "shri-ram-college-of-commerce",
+  "collegeName": "Shri Ram College of Commerce",
+  "activity": "Debate: Hindi",
+  "seats": 1
+ },
+ {
+  "collegeId": "shri-ram-college-of-commerce",
+  "collegeName": "Shri Ram College of Commerce",
+  "activity": "Debate: English",
+  "seats": 1
+ },
+ {
+  "collegeId": "shri-ram-college-of-commerce",
+  "collegeName": "Shri Ram College of Commerce",
+  "activity": "Fine Arts: Sketching & Painting",
+  "seats": 1
+ },
+ {
+  "collegeId": "shri-ram-college-of-commerce",
+  "collegeName": "Shri Ram College of Commerce",
+  "activity": "Music (Vocal): Indian",
+  "seats": 1
+ },
+ {
+  "collegeId": "shri-ram-college-of-commerce",
+  "collegeName": "Shri Ram College of Commerce",
+  "activity": "Theatre",
+  "seats": 1
+ },
+ {
+  "collegeId": "shri-ram-college-of-commerce",
+  "collegeName": "Shri Ram College of Commerce",
+  "activity": "Quiz",
+  "seats": 1
+ },
+ {
+  "collegeId": "shri-ram-college-of-commerce",
+  "collegeName": "Shri Ram College of Commerce",
+  "activity": "Yoga",
+  "seats": 1
+ },
+ {
+  "collegeId": "shyam-lal-college",
+  "collegeName": "Shyam Lal College",
+  "activity": "Creative Writing (English)",
+  "seats": 1
+ },
+ {
+  "collegeId": "shyam-lal-college",
+  "collegeName": "Shyam Lal College",
+  "activity": "Dance: Indian Classical",
+  "seats": 2
+ },
+ {
+  "collegeId": "shyam-lal-college",
+  "collegeName": "Shyam Lal College",
+  "activity": "Dance: Indian Folk",
+  "seats": 1
+ },
+ {
+  "collegeId": "shyam-lal-college",
+  "collegeName": "Shyam Lal College",
+  "activity": "Debate: Hindi",
+  "seats": 1
+ },
+ {
+  "collegeId": "shyam-lal-college",
+  "collegeName": "Shyam Lal College",
+  "activity": "Debate: English",
+  "seats": 1
+ },
+ {
+  "collegeId": "shyam-lal-college",
+  "collegeName": "Shyam Lal College",
+  "activity": "Music (Vocal): Indian",
+  "seats": 1
+ },
+ {
+  "collegeId": "shyam-lal-college",
+  "collegeName": "Shyam Lal College",
+  "activity": "Music (Vocal): Western",
+  "seats": 1
+ },
+ {
+  "collegeId": "shyam-lal-college",
+  "collegeName": "Shyam Lal College",
+  "activity": "Music (Instrumental: Indian) Harmonium",
+  "seats": 1
+ },
+ {
+  "collegeId": "shyam-lal-college",
+  "collegeName": "Shyam Lal College",
+  "activity": "Music (Instrumental: Western) Drums",
+  "seats": 1
+ },
+ {
+  "collegeId": "shyam-lal-college",
+  "collegeName": "Shyam Lal College",
+  "activity": "Music (Instrumental: Western) Guitar (Lead)",
+  "seats": 1
+ },
+ {
+  "collegeId": "shyam-lal-college",
+  "collegeName": "Shyam Lal College",
+  "activity": "Music (Instrumental: Western) Keyboard",
+  "seats": 1
+ },
+ {
+  "collegeId": "shyam-lal-college",
+  "collegeName": "Shyam Lal College",
+  "activity": "Theatre",
+  "seats": 1
+ },
+ {
+  "collegeId": "shyam-lal-college",
+  "collegeName": "Shyam Lal College",
+  "activity": "Quiz",
+  "seats": 2
+ },
+ {
+  "collegeId": "shyam-lal-college-evening",
+  "collegeName": "Shyam Lal College (Evening)",
+  "activity": "Debate: Hindi",
+  "seats": 1
+ },
+ {
+  "collegeId": "shyam-lal-college-evening",
+  "collegeName": "Shyam Lal College (Evening)",
+  "activity": "Debate: English",
+  "seats": 1
+ },
+ {
+  "collegeId": "shyam-lal-college-evening",
+  "collegeName": "Shyam Lal College (Evening)",
+  "activity": "Digital Media: Photography",
+  "seats": 1
+ },
+ {
+  "collegeId": "shyam-lal-college-evening",
+  "collegeName": "Shyam Lal College (Evening)",
+  "activity": "Digital Media: Film Making",
+  "seats": 1
+ },
+ {
+  "collegeId": "shyam-lal-college-evening",
+  "collegeName": "Shyam Lal College (Evening)",
+  "activity": "Fine Arts: Sketching & Painting",
+  "seats": 1
+ },
+ {
+  "collegeId": "shyam-lal-college-evening",
+  "collegeName": "Shyam Lal College (Evening)",
+  "activity": "Music (Vocal): Indian",
+  "seats": 1
+ },
+ {
+  "collegeId": "shyam-lal-college-evening",
+  "collegeName": "Shyam Lal College (Evening)",
+  "activity": "Music (Instrumental: Indian) Tabla",
+  "seats": 1
+ },
+ {
+  "collegeId": "shyam-lal-college-evening",
+  "collegeName": "Shyam Lal College (Evening)",
+  "activity": "Music (Instrumental: Indian) Harmonium",
+  "seats": 1
+ },
+ {
+  "collegeId": "shyam-lal-college-evening",
+  "collegeName": "Shyam Lal College (Evening)",
+  "activity": "Music (Instrumental: Indian) Flute",
+  "seats": 1
+ },
+ {
+  "collegeId": "shyam-lal-college-evening",
+  "collegeName": "Shyam Lal College (Evening)",
+  "activity": "Music (Instrumental: Western) Drums",
+  "seats": 1
+ },
+ {
+  "collegeId": "shyam-lal-college-evening",
+  "collegeName": "Shyam Lal College (Evening)",
+  "activity": "Theatre",
+  "seats": 1
+ },
+ {
+  "collegeId": "shyam-lal-college-evening",
+  "collegeName": "Shyam Lal College (Evening)",
+  "activity": "NCC (Males)",
+  "seats": 2
+ },
+ {
+  "collegeId": "shyam-lal-college-evening",
+  "collegeName": "Shyam Lal College (Evening)",
+  "activity": "NSS",
+  "seats": 1
+ },
+ {
+  "collegeId": "shyama-prasad-mukherji-college-for-women-w",
+  "collegeName": "Shyama Prasad Mukherji College For Women (W)",
+  "activity": "Dance: Indian Classical",
+  "seats": 2
+ },
+ {
+  "collegeId": "shyama-prasad-mukherji-college-for-women-w",
+  "collegeName": "Shyama Prasad Mukherji College For Women (W)",
+  "activity": "Dance: Indian Folk",
+  "seats": 1
+ },
+ {
+  "collegeId": "shyama-prasad-mukherji-college-for-women-w",
+  "collegeName": "Shyama Prasad Mukherji College For Women (W)",
+  "activity": "Dance: Western",
+  "seats": 1
+ },
+ {
+  "collegeId": "shyama-prasad-mukherji-college-for-women-w",
+  "collegeName": "Shyama Prasad Mukherji College For Women (W)",
+  "activity": "Debate: Hindi",
+  "seats": 1
+ },
+ {
+  "collegeId": "shyama-prasad-mukherji-college-for-women-w",
+  "collegeName": "Shyama Prasad Mukherji College For Women (W)",
+  "activity": "Debate: English",
+  "seats": 1
+ },
+ {
+  "collegeId": "shyama-prasad-mukherji-college-for-women-w",
+  "collegeName": "Shyama Prasad Mukherji College For Women (W)",
+  "activity": "Music (Vocal): Indian",
+  "seats": 4
+ },
+ {
+  "collegeId": "shyama-prasad-mukherji-college-for-women-w",
+  "collegeName": "Shyama Prasad Mukherji College For Women (W)",
+  "activity": "Music (Vocal): Western",
+  "seats": 1
+ },
+ {
+  "collegeId": "shyama-prasad-mukherji-college-for-women-w",
+  "collegeName": "Shyama Prasad Mukherji College For Women (W)",
+  "activity": "Music (Instrumental: Indian) Sitar",
+  "seats": 3
+ },
+ {
+  "collegeId": "shyama-prasad-mukherji-college-for-women-w",
+  "collegeName": "Shyama Prasad Mukherji College For Women (W)",
+  "activity": "Theatre",
+  "seats": 3
+ },
+ {
+  "collegeId": "shyama-prasad-mukherji-college-for-women-w",
+  "collegeName": "Shyama Prasad Mukherji College For Women (W)",
+  "activity": "Quiz",
+  "seats": 1
+ },
+ {
+  "collegeId": "shyama-prasad-mukherji-college-for-women-w",
+  "collegeName": "Shyama Prasad Mukherji College For Women (W)",
+  "activity": "NCC (Females)",
+  "seats": 8
+ },
+ {
+  "collegeId": "shyama-prasad-mukherji-college-for-women-w",
+  "collegeName": "Shyama Prasad Mukherji College For Women (W)",
+  "activity": "NSS",
+  "seats": 2
+ },
+ {
+  "collegeId": "shyama-prasad-mukherji-college-for-women-w",
+  "collegeName": "Shyama Prasad Mukherji College For Women (W)",
+  "activity": "Yoga",
+  "seats": 2
+ },
+ {
+  "collegeId": "sri-aurobindo-college-day",
+  "collegeName": "Sri Aurobindo College (Day)",
+  "activity": "Dance: Indian Classical",
+  "seats": 4
+ },
+ {
+  "collegeId": "sri-aurobindo-college-day",
+  "collegeName": "Sri Aurobindo College (Day)",
+  "activity": "Dance: Indian Folk",
+  "seats": 4
+ },
+ {
+  "collegeId": "sri-aurobindo-college-day",
+  "collegeName": "Sri Aurobindo College (Day)",
+  "activity": "Dance: Western",
+  "seats": 3
+ },
+ {
+  "collegeId": "sri-aurobindo-college-day",
+  "collegeName": "Sri Aurobindo College (Day)",
+  "activity": "Dance: Choreography",
+  "seats": 4
+ },
+ {
+  "collegeId": "sri-aurobindo-college-day",
+  "collegeName": "Sri Aurobindo College (Day)",
+  "activity": "Fine Arts: Sketching & Painting",
+  "seats": 1
+ },
+ {
+  "collegeId": "sri-aurobindo-college-day",
+  "collegeName": "Sri Aurobindo College (Day)",
+  "activity": "Fine Arts: Sculpture",
+  "seats": 1
+ },
+ {
+  "collegeId": "sri-aurobindo-college-day",
+  "collegeName": "Sri Aurobindo College (Day)",
+  "activity": "Music (Vocal): Indian",
+  "seats": 3
+ },
+ {
+  "collegeId": "sri-aurobindo-college-day",
+  "collegeName": "Sri Aurobindo College (Day)",
+  "activity": "Music (Vocal): Western",
+  "seats": 3
+ },
+ {
+  "collegeId": "sri-aurobindo-college-day",
+  "collegeName": "Sri Aurobindo College (Day)",
+  "activity": "Music (Instrumental: Indian) Tabla",
+  "seats": 2
+ },
+ {
+  "collegeId": "sri-aurobindo-college-day",
+  "collegeName": "Sri Aurobindo College (Day)",
+  "activity": "Music (Instrumental: Indian) Harmonium",
+  "seats": 2
+ },
+ {
+  "collegeId": "sri-aurobindo-college-day",
+  "collegeName": "Sri Aurobindo College (Day)",
+  "activity": "Music (Instrumental: Western) Guitar (Lead)",
+  "seats": 1
+ },
+ {
+  "collegeId": "sri-aurobindo-college-day",
+  "collegeName": "Sri Aurobindo College (Day)",
+  "activity": "Music (Instrumental: Western) Guitar (Bass)",
+  "seats": 1
+ },
+ {
+  "collegeId": "sri-aurobindo-college-day",
+  "collegeName": "Sri Aurobindo College (Day)",
+  "activity": "Music (Instrumental: Western) Keyboard",
+  "seats": 1
+ },
+ {
+  "collegeId": "sri-aurobindo-college-day",
+  "collegeName": "Sri Aurobindo College (Day)",
+  "activity": "Theatre",
+  "seats": 2
+ },
+ {
+  "collegeId": "sri-aurobindo-college-evening",
+  "collegeName": "Sri Aurobindo College (Evening)",
+  "activity": "Dance: Indian Classical",
+  "seats": 1
+ },
+ {
+  "collegeId": "sri-aurobindo-college-evening",
+  "collegeName": "Sri Aurobindo College (Evening)",
+  "activity": "Dance: Indian Folk",
+  "seats": 2
+ },
+ {
+  "collegeId": "sri-aurobindo-college-evening",
+  "collegeName": "Sri Aurobindo College (Evening)",
+  "activity": "Dance: Western",
+  "seats": 2
+ },
+ {
+  "collegeId": "sri-aurobindo-college-evening",
+  "collegeName": "Sri Aurobindo College (Evening)",
+  "activity": "Debate: Hindi",
+  "seats": 2
+ },
+ {
+  "collegeId": "sri-aurobindo-college-evening",
+  "collegeName": "Sri Aurobindo College (Evening)",
+  "activity": "Debate: English",
+  "seats": 2
+ },
+ {
+  "collegeId": "sri-aurobindo-college-evening",
+  "collegeName": "Sri Aurobindo College (Evening)",
+  "activity": "Digital Media: Photography",
+  "seats": 1
+ },
+ {
+  "collegeId": "sri-aurobindo-college-evening",
+  "collegeName": "Sri Aurobindo College (Evening)",
+  "activity": "Digital Media: Animation",
+  "seats": 1
+ },
+ {
+  "collegeId": "sri-aurobindo-college-evening",
+  "collegeName": "Sri Aurobindo College (Evening)",
+  "activity": "Fine Arts: Sketching & Painting",
+  "seats": 1
+ },
+ {
+  "collegeId": "sri-aurobindo-college-evening",
+  "collegeName": "Sri Aurobindo College (Evening)",
+  "activity": "Music (Vocal): Western",
+  "seats": 2
+ },
+ {
+  "collegeId": "sri-aurobindo-college-evening",
+  "collegeName": "Sri Aurobindo College (Evening)",
+  "activity": "Music (Instrumental: Indian) Tabla",
+  "seats": 1
+ },
+ {
+  "collegeId": "sri-aurobindo-college-evening",
+  "collegeName": "Sri Aurobindo College (Evening)",
+  "activity": "Music (Instrumental: Indian) Harmonium",
+  "seats": 1
+ },
+ {
+  "collegeId": "sri-aurobindo-college-evening",
+  "collegeName": "Sri Aurobindo College (Evening)",
+  "activity": "Music (Instrumental: Indian) Flute",
+  "seats": 1
+ },
+ {
+  "collegeId": "sri-aurobindo-college-evening",
+  "collegeName": "Sri Aurobindo College (Evening)",
+  "activity": "Music (Instrumental: Western) Western Flute",
+  "seats": 1
+ },
+ {
+  "collegeId": "sri-aurobindo-college-evening",
+  "collegeName": "Sri Aurobindo College (Evening)",
+  "activity": "Music (Instrumental: Western) Guitar (Lead)",
+  "seats": 1
+ },
+ {
+  "collegeId": "sri-aurobindo-college-evening",
+  "collegeName": "Sri Aurobindo College (Evening)",
+  "activity": "Music (Instrumental: Western) Guitar (Bass)",
+  "seats": 1
+ },
+ {
+  "collegeId": "sri-aurobindo-college-evening",
+  "collegeName": "Sri Aurobindo College (Evening)",
+  "activity": "Music (Instrumental: Western) Keyboard",
+  "seats": 1
+ },
+ {
+  "collegeId": "sri-aurobindo-college-evening",
+  "collegeName": "Sri Aurobindo College (Evening)",
+  "activity": "Theatre",
+  "seats": 2
+ },
+ {
+  "collegeId": "sri-guru-gobind-singh-college-of-commerce",
+  "collegeName": "Sri Guru Gobind Singh College of Commerce",
+  "activity": "Dance: Indian Folk",
+  "seats": 3
+ },
+ {
+  "collegeId": "sri-guru-gobind-singh-college-of-commerce",
+  "collegeName": "Sri Guru Gobind Singh College of Commerce",
+  "activity": "Music (Vocal): Indian",
+  "seats": 2
+ },
+ {
+  "collegeId": "sri-guru-gobind-singh-college-of-commerce",
+  "collegeName": "Sri Guru Gobind Singh College of Commerce",
+  "activity": "Divinity",
+  "seats": 5
+ },
+ {
+  "collegeId": "sri-guru-gobind-singh-college-of-commerce",
+  "collegeName": "Sri Guru Gobind Singh College of Commerce",
+  "activity": "NCC (Females)",
+  "seats": 1
+ },
+ {
+  "collegeId": "sri-guru-nanak-dev-khalsa-college",
+  "collegeName": "Sri Guru Nanak Dev Khalsa College",
+  "activity": "Creative Writing (Hindi)",
+  "seats": 1
+ },
+ {
+  "collegeId": "sri-guru-nanak-dev-khalsa-college",
+  "collegeName": "Sri Guru Nanak Dev Khalsa College",
+  "activity": "Creative Writing (English)",
+  "seats": 1
+ },
+ {
+  "collegeId": "sri-guru-nanak-dev-khalsa-college",
+  "collegeName": "Sri Guru Nanak Dev Khalsa College",
+  "activity": "Dance: Indian Folk",
+  "seats": 3
+ },
+ {
+  "collegeId": "sri-guru-nanak-dev-khalsa-college",
+  "collegeName": "Sri Guru Nanak Dev Khalsa College",
+  "activity": "Dance: Western",
+  "seats": 1
+ },
+ {
+  "collegeId": "sri-guru-nanak-dev-khalsa-college",
+  "collegeName": "Sri Guru Nanak Dev Khalsa College",
+  "activity": "Debate: Hindi",
+  "seats": 1
+ },
+ {
+  "collegeId": "sri-guru-nanak-dev-khalsa-college",
+  "collegeName": "Sri Guru Nanak Dev Khalsa College",
+  "activity": "Debate: English",
+  "seats": 1
+ },
+ {
+  "collegeId": "sri-guru-nanak-dev-khalsa-college",
+  "collegeName": "Sri Guru Nanak Dev Khalsa College",
+  "activity": "Theatre",
+  "seats": 2
+ },
+ {
+  "collegeId": "sri-guru-nanak-dev-khalsa-college",
+  "collegeName": "Sri Guru Nanak Dev Khalsa College",
+  "activity": "Divinity",
+  "seats": 2
+ },
+ {
+  "collegeId": "sri-guru-tegh-bahadur-khalsa-college",
+  "collegeName": "Sri Guru Tegh Bahadur Khalsa College",
+  "activity": "Debate: Hindi",
+  "seats": 1
+ },
+ {
+  "collegeId": "sri-guru-tegh-bahadur-khalsa-college",
+  "collegeName": "Sri Guru Tegh Bahadur Khalsa College",
+  "activity": "Debate: English",
+  "seats": 1
+ },
+ {
+  "collegeId": "sri-guru-tegh-bahadur-khalsa-college",
+  "collegeName": "Sri Guru Tegh Bahadur Khalsa College",
+  "activity": "Fine Arts: Sketching & Painting",
+  "seats": 1
+ },
+ {
+  "collegeId": "sri-guru-tegh-bahadur-khalsa-college",
+  "collegeName": "Sri Guru Tegh Bahadur Khalsa College",
+  "activity": "Music (Vocal): Indian",
+  "seats": 1
+ },
+ {
+  "collegeId": "sri-guru-tegh-bahadur-khalsa-college",
+  "collegeName": "Sri Guru Tegh Bahadur Khalsa College",
+  "activity": "Theatre",
+  "seats": 1
+ },
+ {
+  "collegeId": "sri-guru-tegh-bahadur-khalsa-college",
+  "collegeName": "Sri Guru Tegh Bahadur Khalsa College",
+  "activity": "Divinity",
+  "seats": 4
+ },
+ {
+  "collegeId": "sri-venketeswara-college",
+  "collegeName": "Sri Venketeswara College",
+  "activity": "Creative Writing (Hindi)",
+  "seats": 1
+ },
+ {
+  "collegeId": "sri-venketeswara-college",
+  "collegeName": "Sri Venketeswara College",
+  "activity": "Creative Writing (English)",
+  "seats": 1
+ },
+ {
+  "collegeId": "sri-venketeswara-college",
+  "collegeName": "Sri Venketeswara College",
+  "activity": "Dance: Indian Classical",
+  "seats": 3
+ },
+ {
+  "collegeId": "sri-venketeswara-college",
+  "collegeName": "Sri Venketeswara College",
+  "activity": "Dance: Indian Folk",
+  "seats": 1
+ },
+ {
+  "collegeId": "sri-venketeswara-college",
+  "collegeName": "Sri Venketeswara College",
+  "activity": "Dance: Western",
+  "seats": 3
+ },
+ {
+  "collegeId": "sri-venketeswara-college",
+  "collegeName": "Sri Venketeswara College",
+  "activity": "Dance: Choreography",
+  "seats": 3
+ },
+ {
+  "collegeId": "sri-venketeswara-college",
+  "collegeName": "Sri Venketeswara College",
+  "activity": "Debate: Hindi",
+  "seats": 1
+ },
+ {
+  "collegeId": "sri-venketeswara-college",
+  "collegeName": "Sri Venketeswara College",
+  "activity": "Debate: English",
+  "seats": 1
+ },
+ {
+  "collegeId": "sri-venketeswara-college",
+  "collegeName": "Sri Venketeswara College",
+  "activity": "Digital Media: Photography",
+  "seats": 1
+ },
+ {
+  "collegeId": "sri-venketeswara-college",
+  "collegeName": "Sri Venketeswara College",
+  "activity": "Digital Media: Film Making",
+  "seats": 1
+ },
+ {
+  "collegeId": "sri-venketeswara-college",
+  "collegeName": "Sri Venketeswara College",
+  "activity": "Digital Media: Animation",
+  "seats": 1
+ },
+ {
+  "collegeId": "sri-venketeswara-college",
+  "collegeName": "Sri Venketeswara College",
+  "activity": "Fine Arts: Sketching & Painting",
+  "seats": 2
+ },
+ {
+  "collegeId": "sri-venketeswara-college",
+  "collegeName": "Sri Venketeswara College",
+  "activity": "Fine Arts: Sculpture",
+  "seats": 1
+ },
+ {
+  "collegeId": "sri-venketeswara-college",
+  "collegeName": "Sri Venketeswara College",
+  "activity": "Music (Vocal): Indian",
+  "seats": 3
+ },
+ {
+  "collegeId": "sri-venketeswara-college",
+  "collegeName": "Sri Venketeswara College",
+  "activity": "Music (Vocal): Western",
+  "seats": 2
+ },
+ {
+  "collegeId": "sri-venketeswara-college",
+  "collegeName": "Sri Venketeswara College",
+  "activity": "Music (Instrumental: Indian) Tabla",
+  "seats": 1
+ },
+ {
+  "collegeId": "sri-venketeswara-college",
+  "collegeName": "Sri Venketeswara College",
+  "activity": "Music (Instrumental: Indian) Flute",
+  "seats": 1
+ },
+ {
+  "collegeId": "sri-venketeswara-college",
+  "collegeName": "Sri Venketeswara College",
+  "activity": "Music (Instrumental: Indian) Sitar",
+  "seats": 1
+ },
+ {
+  "collegeId": "sri-venketeswara-college",
+  "collegeName": "Sri Venketeswara College",
+  "activity": "Music (Instrumental: Western) Drums",
+  "seats": 1
+ },
+ {
+  "collegeId": "sri-venketeswara-college",
+  "collegeName": "Sri Venketeswara College",
+  "activity": "Music (Instrumental: Western) Guitar (Lead)",
+  "seats": 1
+ },
+ {
+  "collegeId": "sri-venketeswara-college",
+  "collegeName": "Sri Venketeswara College",
+  "activity": "Music (Instrumental: Western) Keyboard",
+  "seats": 1
+ },
+ {
+  "collegeId": "sri-venketeswara-college",
+  "collegeName": "Sri Venketeswara College",
+  "activity": "Theatre",
+  "seats": 3
+ },
+ {
+  "collegeId": "st-stephen-s-college",
+  "collegeName": "St. Stephen's College",
+  "activity": "Does not offer seats under ECA quota",
+  "seats": 0
+ },
+ {
+  "collegeId": "swami-shardhanand-college",
+  "collegeName": "Swami Shardhanand College",
+  "activity": "Creative Writing (Hindi)",
+  "seats": 1
+ },
+ {
+  "collegeId": "swami-shardhanand-college",
+  "collegeName": "Swami Shardhanand College",
+  "activity": "Creative Writing (English)",
+  "seats": 1
+ },
+ {
+  "collegeId": "swami-shardhanand-college",
+  "collegeName": "Swami Shardhanand College",
+  "activity": "Dance: Indian Classical",
+  "seats": 2
+ },
+ {
+  "collegeId": "swami-shardhanand-college",
+  "collegeName": "Swami Shardhanand College",
+  "activity": "Dance: Indian Folk",
+  "seats": 2
+ },
+ {
+  "collegeId": "swami-shardhanand-college",
+  "collegeName": "Swami Shardhanand College",
+  "activity": "Dance: Western",
+  "seats": 2
+ },
+ {
+  "collegeId": "swami-shardhanand-college",
+  "collegeName": "Swami Shardhanand College",
+  "activity": "Debate: Hindi",
+  "seats": 1
+ },
+ {
+  "collegeId": "swami-shardhanand-college",
+  "collegeName": "Swami Shardhanand College",
+  "activity": "Debate: English",
+  "seats": 1
+ },
+ {
+  "collegeId": "swami-shardhanand-college",
+  "collegeName": "Swami Shardhanand College",
+  "activity": "Digital Media: Photography",
+  "seats": 1
+ },
+ {
+  "collegeId": "swami-shardhanand-college",
+  "collegeName": "Swami Shardhanand College",
+  "activity": "Digital Media: Film Making",
+  "seats": 1
+ },
+ {
+  "collegeId": "swami-shardhanand-college",
+  "collegeName": "Swami Shardhanand College",
+  "activity": "Fine Arts: Sketching & Painting",
+  "seats": 1
+ },
+ {
+  "collegeId": "swami-shardhanand-college",
+  "collegeName": "Swami Shardhanand College",
+  "activity": "Music (Vocal): Indian",
+  "seats": 1
+ },
+ {
+  "collegeId": "swami-shardhanand-college",
+  "collegeName": "Swami Shardhanand College",
+  "activity": "Music (Vocal): Western",
+  "seats": 1
+ },
+ {
+  "collegeId": "swami-shardhanand-college",
+  "collegeName": "Swami Shardhanand College",
+  "activity": "Music (Instrumental: Western) Drums",
+  "seats": 2
+ },
+ {
+  "collegeId": "swami-shardhanand-college",
+  "collegeName": "Swami Shardhanand College",
+  "activity": "Music (Instrumental: Western) Guitar (Lead)",
+  "seats": 2
+ },
+ {
+  "collegeId": "swami-shardhanand-college",
+  "collegeName": "Swami Shardhanand College",
+  "activity": "Music (Instrumental: Western) Guitar (Bass)",
+  "seats": 2
+ },
+ {
+  "collegeId": "swami-shardhanand-college",
+  "collegeName": "Swami Shardhanand College",
+  "activity": "Theatre",
+  "seats": 5
+ },
+ {
+  "collegeId": "swami-shardhanand-college",
+  "collegeName": "Swami Shardhanand College",
+  "activity": "Quiz",
+  "seats": 2
+ },
+ {
+  "collegeId": "swami-shardhanand-college",
+  "collegeName": "Swami Shardhanand College",
+  "activity": "NCC (Males)",
+  "seats": 1
+ },
+ {
+  "collegeId": "swami-shardhanand-college",
+  "collegeName": "Swami Shardhanand College",
+  "activity": "NCC (Females)",
+  "seats": 2
+ },
+ {
+  "collegeId": "swami-shardhanand-college",
+  "collegeName": "Swami Shardhanand College",
+  "activity": "NSS",
+  "seats": 3
+ },
+ {
+  "collegeId": "vivekananda-college-w",
+  "collegeName": "Vivekananda College (W)",
+  "activity": "Creative Writing (Hindi)",
+  "seats": 1
+ },
+ {
+  "collegeId": "vivekananda-college-w",
+  "collegeName": "Vivekananda College (W)",
+  "activity": "Creative Writing (English)",
+  "seats": 1
+ },
+ {
+  "collegeId": "vivekananda-college-w",
+  "collegeName": "Vivekananda College (W)",
+  "activity": "Dance: Indian Classical",
+  "seats": 3
+ },
+ {
+  "collegeId": "vivekananda-college-w",
+  "collegeName": "Vivekananda College (W)",
+  "activity": "Debate: Hindi",
+  "seats": 1
+ },
+ {
+  "collegeId": "vivekananda-college-w",
+  "collegeName": "Vivekananda College (W)",
+  "activity": "Debate: English",
+  "seats": 1
+ },
+ {
+  "collegeId": "vivekananda-college-w",
+  "collegeName": "Vivekananda College (W)",
+  "activity": "Digital Media: Photography",
+  "seats": 1
+ },
+ {
+  "collegeId": "vivekananda-college-w",
+  "collegeName": "Vivekananda College (W)",
+  "activity": "Fine Arts: Sketching & Painting",
+  "seats": 2
+ },
+ {
+  "collegeId": "vivekananda-college-w",
+  "collegeName": "Vivekananda College (W)",
+  "activity": "Music (Vocal): Indian",
+  "seats": 2
+ },
+ {
+  "collegeId": "vivekananda-college-w",
+  "collegeName": "Vivekananda College (W)",
+  "activity": "Music (Instrumental: Indian) Tabla",
+  "seats": 1
+ },
+ {
+  "collegeId": "vivekananda-college-w",
+  "collegeName": "Vivekananda College (W)",
+  "activity": "Music (Instrumental: Indian) Harmonium",
+  "seats": 1
+ },
+ {
+  "collegeId": "vivekananda-college-w",
+  "collegeName": "Vivekananda College (W)",
+  "activity": "Theatre",
+  "seats": 2
+ },
+ {
+  "collegeId": "vivekananda-college-w",
+  "collegeName": "Vivekananda College (W)",
+  "activity": "NSS",
+  "seats": 3
+ },
+ {
+  "collegeId": "vivekananda-college-w",
+  "collegeName": "Vivekananda College (W)",
+  "activity": "Yoga",
+  "seats": 3
+ },
+ {
+  "collegeId": "zakir-husain-delhi-college",
+  "collegeName": "Zakir Husain Delhi College",
+  "activity": "Dance: Indian Classical",
+  "seats": 5
+ },
+ {
+  "collegeId": "zakir-husain-delhi-college",
+  "collegeName": "Zakir Husain Delhi College",
+  "activity": "Dance: Indian Folk",
+  "seats": 3
+ },
+ {
+  "collegeId": "zakir-husain-delhi-college",
+  "collegeName": "Zakir Husain Delhi College",
+  "activity": "Dance: Western",
+  "seats": 3
+ },
+ {
+  "collegeId": "zakir-husain-delhi-college",
+  "collegeName": "Zakir Husain Delhi College",
+  "activity": "Fine Arts: Sketching & Painting",
+  "seats": 4
+ },
+ {
+  "collegeId": "zakir-husain-delhi-college",
+  "collegeName": "Zakir Husain Delhi College",
+  "activity": "Music (Vocal): Indian",
+  "seats": 4
+ },
+ {
+  "collegeId": "zakir-husain-delhi-college",
+  "collegeName": "Zakir Husain Delhi College",
+  "activity": "Music (Vocal): Western",
+  "seats": 3
+ },
+ {
+  "collegeId": "zakir-husain-delhi-college",
+  "collegeName": "Zakir Husain Delhi College",
+  "activity": "Music (Instrumental: Indian) Tabla",
+  "seats": 2
+ },
+ {
+  "collegeId": "zakir-husain-delhi-college",
+  "collegeName": "Zakir Husain Delhi College",
+  "activity": "Music (Instrumental: Indian) Harmonium",
+  "seats": 2
+ },
+ {
+  "collegeId": "zakir-husain-delhi-college",
+  "collegeName": "Zakir Husain Delhi College",
+  "activity": "Music (Instrumental: Indian) Sitar",
+  "seats": 1
+ },
+ {
+  "collegeId": "zakir-husain-delhi-college",
+  "collegeName": "Zakir Husain Delhi College",
+  "activity": "Music (Instrumental: Western) Drums",
+  "seats": 1
+ },
+ {
+  "collegeId": "zakir-husain-delhi-college",
+  "collegeName": "Zakir Husain Delhi College",
+  "activity": "Music (Instrumental: Western) Guitar (Lead)",
+  "seats": 1
+ },
+ {
+  "collegeId": "zakir-husain-delhi-college",
+  "collegeName": "Zakir Husain Delhi College",
+  "activity": "Music (Instrumental: Western) Guitar (Bass)",
+  "seats": 1
+ },
+ {
+  "collegeId": "zakir-husain-delhi-college",
+  "collegeName": "Zakir Husain Delhi College",
+  "activity": "Music (Instrumental: Western) Keyboard",
+  "seats": 1
+ },
+ {
+  "collegeId": "zakir-husain-delhi-college",
+  "collegeName": "Zakir Husain Delhi College",
+  "activity": "Theatre",
+  "seats": 5
+ },
+ {
+  "collegeId": "zakir-husain-delhi-college-evening",
+  "collegeName": "Zakir Husain Delhi College (Evening)",
+  "activity": "Creative Writing (Hindi)",
+  "seats": 1
+ },
+ {
+  "collegeId": "zakir-husain-delhi-college-evening",
+  "collegeName": "Zakir Husain Delhi College (Evening)",
+  "activity": "Creative Writing (English)",
+  "seats": 1
+ },
+ {
+  "collegeId": "zakir-husain-delhi-college-evening",
+  "collegeName": "Zakir Husain Delhi College (Evening)",
+  "activity": "Dance: Indian Classical",
+  "seats": 1
+ },
+ {
+  "collegeId": "zakir-husain-delhi-college-evening",
+  "collegeName": "Zakir Husain Delhi College (Evening)",
+  "activity": "Dance: Indian Folk",
+  "seats": 1
+ },
+ {
+  "collegeId": "zakir-husain-delhi-college-evening",
+  "collegeName": "Zakir Husain Delhi College (Evening)",
+  "activity": "Dance: Choreography",
+  "seats": 2
+ },
+ {
+  "collegeId": "zakir-husain-delhi-college-evening",
+  "collegeName": "Zakir Husain Delhi College (Evening)",
+  "activity": "Digital Media: Photography",
+  "seats": 1
+ },
+ {
+  "collegeId": "zakir-husain-delhi-college-evening",
+  "collegeName": "Zakir Husain Delhi College (Evening)",
+  "activity": "Digital Media: Film Making",
+  "seats": 1
+ },
+ {
+  "collegeId": "zakir-husain-delhi-college-evening",
+  "collegeName": "Zakir Husain Delhi College (Evening)",
+  "activity": "Music (Vocal): Indian",
+  "seats": 2
+ },
+ {
+  "collegeId": "zakir-husain-delhi-college-evening",
+  "collegeName": "Zakir Husain Delhi College (Evening)",
+  "activity": "Music (Vocal): Western",
+  "seats": 1
+ },
+ {
+  "collegeId": "zakir-husain-delhi-college-evening",
+  "collegeName": "Zakir Husain Delhi College (Evening)",
+  "activity": "Music (Instrumental: Indian) Tabla",
+  "seats": 1
+ },
+ {
+  "collegeId": "zakir-husain-delhi-college-evening",
+  "collegeName": "Zakir Husain Delhi College (Evening)",
+  "activity": "Music (Instrumental: Indian) Harmonium",
+  "seats": 1
+ },
+ {
+  "collegeId": "zakir-husain-delhi-college-evening",
+  "collegeName": "Zakir Husain Delhi College (Evening)",
+  "activity": "Music (Instrumental: Western) Drums",
+  "seats": 1
+ },
+ {
+  "collegeId": "zakir-husain-delhi-college-evening",
+  "collegeName": "Zakir Husain Delhi College (Evening)",
+  "activity": "Theatre",
+  "seats": 2
+ },
+ {
+  "collegeId": "zakir-husain-delhi-college-evening",
+  "collegeName": "Zakir Husain Delhi College (Evening)",
+  "activity": "NCC (Males)",
+  "seats": 1
+ },
+ {
+  "collegeId": "zakir-husain-delhi-college-evening",
+  "collegeName": "Zakir Husain Delhi College (Evening)",
+  "activity": "NCC (Females)",
+  "seats": 1
+ },
+ {
+  "collegeId": "zakir-husain-delhi-college-evening",
+  "collegeName": "Zakir Husain Delhi College (Evening)",
+  "activity": "NSS",
+  "seats": 2
+ },
+ {
+  "collegeId": "zakir-husain-delhi-college-evening",
+  "collegeName": "Zakir Husain Delhi College (Evening)",
+  "activity": "Yoga",
+  "seats": 1
+ }
+]

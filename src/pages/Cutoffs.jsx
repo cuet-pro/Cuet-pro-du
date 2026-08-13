@@ -4,6 +4,7 @@ import { programs } from '../data/programs';
 import {
   offerings,
   CATEGORIES,
+  ROUNDS,
   buildIndices,
   getCutoff,
   getSeats,
@@ -63,6 +64,7 @@ function ListRow({ title, sub, accent, count, countLabel, seats, top, onOpen }) 
 
 function DetailModal({ open, onClose, mode, item, indices }) {
   const [view, setView] = useState('cutoffs');
+  const [round, setRound] = useState(1);
   const [score, setScore] = useState('');
 
   useEffect(() => {
@@ -86,7 +88,7 @@ function DetailModal({ open, onClose, mode, item, indices }) {
       name: o.college ? o.college.name : o.collegeName,
       campus: o.college?.campus,
       women: o.college?.type === 'Women' || o.gender === 'Female',
-      cutoffs: CATEGORIES.map((cat) => getCutoff(o, cat)),
+      cutoffs: CATEGORIES.map((cat) => getCutoff(o, cat, round)),
       seats: CATEGORIES.map((cat) => (cat === 'PwBD' ? null : getSeats(o, cat))),
     }));
   } else {
@@ -98,7 +100,7 @@ function DetailModal({ open, onClose, mode, item, indices }) {
       key: o.programId,
       name: o.program ? o.program.name : o.programName,
       group: o.program?.subjectGroup,
-      cutoffs: CATEGORIES.map((cat) => getCutoff(o, cat)),
+      cutoffs: CATEGORIES.map((cat) => getCutoff(o, cat, round)),
       seats: CATEGORIES.map((cat) => (cat === 'PwBD' ? null : getSeats(o, cat))),
     }));
   }
@@ -163,6 +165,16 @@ function DetailModal({ open, onClose, mode, item, indices }) {
             <button className={'cf-tab ' + (view === 'seats' ? 'on' : '')} onClick={() => setView('seats')}>Seats</button>
             <button className={'cf-tab ' + (view === 'cutoffs' ? 'on' : '')} onClick={() => setView('cutoffs')}>Cutoffs</button>
           </div>
+          {view === 'cutoffs' && (
+            <div className="cf-rounds" role="group" aria-label="Allocation round">
+              <span className="cf-tabs-label">Round</span>
+              {ROUNDS.map((r) => (
+                <button key={r} className={'cf-round ' + (round === r ? 'on' : '')} onClick={() => setRound(r)}>
+                  Round {r}
+                </button>
+              ))}
+            </div>
+          )}
           {view === 'cutoffs' && (
             <div className="cf-score-wrap">
               <svg className="cf-score-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
@@ -277,7 +289,7 @@ export function Cutoffs() {
       offs.forEach((o) => {
         const s = getSeats(o, 'total');
         if (s !== null) totalSeats = (totalSeats || 0) + s;
-        const c = getCutoff(o, 'UR');
+        const c = getCutoff(o, 'UR', 1);
         if (c && c > topCutoff) topCutoff = c;
       });
       map.set(p.id, { count: offs.length, totalSeats, topCutoff });
@@ -294,7 +306,7 @@ export function Cutoffs() {
       offs.forEach((o) => {
         const s = getSeats(o, 'total');
         if (s !== null) totalSeats = (totalSeats || 0) + s;
-        const cut = getCutoff(o, 'UR');
+        const cut = getCutoff(o, 'UR', 1);
         if (cut && cut > topCutoff) topCutoff = cut;
       });
       map.set(c.id, { count: offs.length, totalSeats, topCutoff });
@@ -380,7 +392,7 @@ export function Cutoffs() {
         </div>
 
         <div className="cf-hero-content">
-          <span className="cf-herobadge">CSAS 2025 · Official seat matrix</span>
+          <span className="cf-herobadge">CSAS 2026 · Official seat matrix</span>
           <h1>DU Cutoff &amp;<br />Seat Explorer</h1>
           <p>Browse every Delhi University program and college. Tap a row for category-wise seats and cutoffs.</p>
 
@@ -509,7 +521,7 @@ export function Cutoffs() {
 
       <div className="cf-table-badge-row">
         <div className="cf-count">Showing {mode === 'program' ? programList.length + ' programs' : collegeList.length + ' colleges'}</div>
-        <SourceBadge date="CSAS 2025" />
+        <SourceBadge date="CSAS 2026" />
       </div>
 
       <main className="cf-list">
@@ -546,7 +558,7 @@ export function Cutoffs() {
       </main>
 
       <footer className="cf-foot">
-        <p>Official CSAS 2025 seat matrix and cutoff scores. "Highest cutoff" shown on each row is the UR (Unreserved) category cutoff at the toughest college or program in that group — tap a row to see every category and college. A "-" means that figure wasn't reported in the official data.</p>
+        <p>Official CSAS 2026 seat matrix and cutoff scores (Round 1-3 allocation, selectable in the detail view). "Highest cutoff" shown on each row is the UR (Unreserved) category cutoff at the toughest college or program in that group — tap a row to see every category and college. A "-" means that figure wasn't reported in the official data.</p>
       </footer>
 
       <DetailModal
