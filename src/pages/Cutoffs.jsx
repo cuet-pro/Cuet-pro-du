@@ -66,6 +66,11 @@ function DetailModal({ open, onClose, mode, item, indices }) {
   const [view, setView] = useState('cutoffs');
   const [round, setRound] = useState(1);
   const [score, setScore] = useState('');
+  const [profile, setProfile] = useState(null); // { category, gender }
+  const [profileSkipped, setProfileSkipped] = useState(false);
+  const [showProfile, setShowProfile] = useState(false);
+  const [profCategory, setProfCategory] = useState('UR');
+  const [profGender, setProfGender] = useState('Female');
 
   useEffect(() => {
     function onKey(e) { if (e.key === 'Escape') onClose(); }
@@ -168,11 +173,11 @@ function DetailModal({ open, onClose, mode, item, indices }) {
           {view === 'cutoffs' && (
             <div className="cf-rounds" role="group" aria-label="Allocation round">
               <span className="cf-tabs-label">Round</span>
-              {ROUNDS.map((r) => (
-                <button key={r} className={'cf-round ' + (round === r ? 'on' : '')} onClick={() => setRound(r)}>
-                  Round {r}
-                </button>
-              ))}
+              <select className="cf-round-select" value={round} onChange={(e) => setRound(Number(e.target.value))}>
+                {ROUNDS.map((r) => (
+                  <option key={r} value={r}>Round {r}</option>
+                ))}
+              </select>
             </div>
           )}
           {view === 'cutoffs' && (
@@ -186,11 +191,36 @@ function DetailModal({ open, onClose, mode, item, indices }) {
                 inputMode="numeric"
                 placeholder="Enter your CUET score (0–1000)"
                 value={score}
-                onChange={(e) => setScore(e.target.value)}
+                onChange={(e) => {
+                  setScore(e.target.value);
+                  if (e.target.value && !profile && !profileSkipped) setShowProfile(true);
+                }}
                 onWheel={(e) => e.target.blur()}
                 max={1000}
                 min={0}
               />
+            </div>
+          )}
+          {view === 'cutoffs' && (
+            <div className="cf-profile-wrap">
+              <button className="cf-profile-chip" onClick={() => setShowProfile(true)} title="Change category / gender">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="8" r="5"></circle><path d="M3 21v-2a7 7 0 0 1 14 0v2"></path></svg>
+                {profile ? (
+                  <>{profile.category} · {profile.gender}</>
+                ) : profileSkipped ? (
+                  <>All categories</>
+                ) : (
+                  <>Set category &amp; gender</>
+                )}
+                {profile && (
+                  <span
+                    className="cf-profile-chip-x"
+                    role="button"
+                    aria-label="Reset to all categories"
+                    onClick={(e) => { e.stopPropagation(); setProfile(null); setProfileSkipped(true); }}
+                  >✕</span>
+                )}
+              </button>
             </div>
           )}
           <div className="cf-legend">
@@ -227,8 +257,9 @@ function DetailModal({ open, onClose, mode, item, indices }) {
               )}
               {rows.map((r, idx) => {
                 const vals = view === 'cutoffs' ? r.cutoffs : r.seats;
+                const dimWomen = profile?.gender === 'Male' && r.women;
                 return (
-                  <tr key={r.key}>
+                  <tr key={r.key} className={dimWomen ? 'cf-row-dim' : ''}>
                     <td className="cf-td-sr">{idx + 1}</td>
                     <td className="cf-td-name">
                       <div className="cf-td-name-inner">
@@ -250,7 +281,9 @@ function DetailModal({ open, onClose, mode, item, indices }) {
                     </td>
                     {vals.map((v, i) => {
                       const isCut = view === 'cutoffs';
-                      const q = isCut && numScore !== null && v !== null && numScore >= v;
+                      const catOk = !profile || CATEGORIES[i] === profile.category;
+                      const genderOk = !profile || profile.gender === 'Female' || !r.women;
+                      const q = isCut && numScore !== null && v !== null && numScore >= v && catOk && genderOk;
                       const heat = isCut && !q ? heatClass(v, i, true) : !isCut && v !== null ? heatClass(v, i, false) : '';
                       return (
                         <td key={i} className={'cf-num-cell ' + heat + (q ? ' cf-q' : '')}>
@@ -266,6 +299,36 @@ function DetailModal({ open, onClose, mode, item, indices }) {
           </table>
         </div>
       </div>
+
+      {/* Category + gender popup */}
+      {showProfile && (
+        <div className="cf-overlay cf-profile-overlay" onClick={() => setShowProfile(false)}>
+          <div className="cf-profile-modal" onClick={(e) => e.stopPropagation()} role="dialog" aria-modal="true">
+            <div className="cf-profile-title">Personalize your chances 🎯</div>
+            <p className="cf-profile-sub">
+              Green ✓ sirf <b>aapki category</b> aur <b>gender</b> ke hisaab se dikhega.
+              Men ke liye women's colleges pe tick nahi dikhega.
+            </p>
+            <label className="cf-profile-label" htmlFor="cf-prof-cat">Your category</label>
+            <select id="cf-prof-cat" className="cf-profile-select" value={profCategory} onChange={(e) => setProfCategory(e.target.value)}>
+              {CATEGORIES.map((c) => <option key={c} value={c}>{c}</option>)}
+            </select>
+            <label className="cf-profile-label" htmlFor="cf-prof-gender">Your gender</label>
+            <select id="cf-prof-gender" className="cf-profile-select" value={profGender} onChange={(e) => setProfGender(e.target.value)}>
+              <option value="Female">Female</option>
+              <option value="Male">Male</option>
+            </select>
+            <div className="cf-profile-actions">
+              <button className="cf-profile-apply" onClick={() => { setProfile({ category: profCategory, gender: profGender }); setProfileSkipped(false); setShowProfile(false); }}>
+                Show my chances ✓
+              </button>
+              <button className="cf-profile-skip" onClick={() => { setProfileSkipped(true); setShowProfile(false); }}>
+                Skip
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

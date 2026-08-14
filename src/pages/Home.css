@@ -285,6 +285,7 @@
 .tile-preference .nav-tile-icon { background-color: #fffbeb; color: #d97706; }
 .tile-combinations .nav-tile-icon { background-color: #f5f3ff; color: #7c3aed; }
 .tile-documents .nav-tile-icon { background-color: #f0fdf4; color: #16a34a; }
+.tile-quota .nav-tile-icon { background-color: #fefce8; color: #ca8a04; }
 
 .nav-tile-content h3 {
   font-size: 1.1rem;

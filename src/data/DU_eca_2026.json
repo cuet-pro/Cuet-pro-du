@@ -4890,12 +4890,6 @@
   "seats": 3
  },
  {
-  "collegeId": "st-stephen-s-college",
-  "collegeName": "St. Stephen's College",
-  "activity": "Does not offer seats under ECA quota",
-  "seats": 0
- },
- {
   "collegeId": "swami-shardhanand-college",
   "collegeName": "Swami Shardhanand College",
   "activity": "Creative Writing (Hindi)",

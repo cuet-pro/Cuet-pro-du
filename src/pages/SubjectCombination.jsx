@@ -19,6 +19,7 @@ const STREAMS = {
 import rawEligibility from '../data/course_requirements.json';
 import { programs as ALL_PROGRAMS } from '../data/programs';
 import { getScoreBreakdown } from '../lib/scoreEngine';
+import { Quota } from './Quota';
 
 // Market ranking order — lower rank = better
 const MARKET_RANK = {
@@ -321,6 +322,7 @@ export function SubjectCombination() {
   const [group, setGroup] = useState("all");
   const [campus, setCampus] = useState("all");
   const [sort, setSort] = useState("market");
+  const [showQuota, setShowQuota] = useState(false);
 
   const handleTabChange = (newTab) => {
     setTab(newTab);
@@ -506,6 +508,22 @@ export function SubjectCombination() {
         {totalPicked > 0 && <button className="cp-reset" onClick={reset}>Clear all</button>}
       </div>
 
+      {/* Sports & ECA Quota — always accessible without picking subjects */}
+      <div className="cp-quota-section">
+        <button className="cp-quota-toggle" onClick={() => setShowQuota(!showQuota)} aria-expanded={showQuota}>
+          <span className="cp-quota-toggle-icon">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path><line x1="2" y1="12" x2="22" y2="12"></line></svg>
+          </span>
+          <span className="cp-quota-toggle-label">Sports & ECA Quota</span>
+          <span className="cp-quota-toggle-arrow">{showQuota ? '▲' : '▼'}</span>
+        </button>
+        {showQuota && (
+          <div className="cp-quota-body">
+            <Quota />
+          </div>
+        )}
+      </div>
+
       {shown && totalPicked > 0 && (
         <div className="cf-results" style={{ marginTop: "2rem" }}>
           <div className="cf-seg" data-on={tab === "eligible" ? "program" : "college"}>
@@ -648,6 +666,13 @@ const CSS = `
 .cp-cta:disabled{background:#e2e8f0;color:#94a3b8;cursor:not-allowed;box-shadow:none}
 .cp-reset{border:0;background:none;color:var(--mari);font-weight:700;font-size:12.5px;cursor:pointer;font-family:inherit}
 .cp-reset:hover{background-color:transparent;color:#1d4ed8;box-shadow:none;transform:none}
+.cp-quota-section{background:var(--card);border:1px solid var(--line);border-radius:16px;margin-bottom:20px;overflow:hidden}
+.cp-quota-toggle{display:flex;align-items:center;gap:10px;width:100%;border:0;background:linear-gradient(135deg,#fefce8,#fffbeb);color:#78350f;font-family:'Figtree';font-weight:800;font-size:14.5px;padding:15px 18px;cursor:pointer;text-align:left;transition:background .15s ease}
+.cp-quota-toggle:hover{background:linear-gradient(135deg,#fef9c3,#fef3c7)}
+.cp-quota-toggle-icon{display:grid;place-items:center;width:30px;height:30px;border-radius:9px;background:#fef3c7;color:#ca8a04;flex-shrink:0}
+.cp-quota-toggle-label{flex:1}
+.cp-quota-toggle-arrow{font-size:11px;color:#a16207}
+.cp-quota-body{padding:18px;border-top:1px solid var(--line)}
 .cp-selected-summary{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px 18px;margin-bottom:20px}
 .cp-selected-head{font-family:'Figtree';font-weight:700;font-size:14px;margin-bottom:12px;color:var(--ink)}
 .cp-selected-chips{display:flex;flex-wrap:wrap;gap:8px}

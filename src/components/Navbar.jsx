@@ -20,6 +20,7 @@ export function Navbar() {
     { name: 'Home', path: '/' },
     { name: 'Colleges', path: '/colleges' },
     { name: 'Cutoffs & Seats', path: '/cutoffs' },
+    { name: 'Sports & ECA', path: '/quota' },
     { name: 'Rankings', path: '/rankings' },
     { name: 'Subject Combination', path: '/subject-combination' }
   ];

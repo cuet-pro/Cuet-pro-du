@@ -558,6 +558,147 @@
 .cf-round:hover { background: #f1f5f9; color: var(--text-color); }
 .cf-round.on { background: #1e293b; color: #fff; border-color: #1e293b; }
 
+.cf-round-select {
+  border: 1px solid var(--border-color);
+  background: #fff;
+  color: var(--text-color);
+  font-size: 0.83rem;
+  font-weight: 700;
+  padding: 0.45rem 2rem 0.45rem 0.7rem;
+  border-radius: 0.6rem;
+  cursor: pointer;
+  font-family: inherit;
+  transition: var(--transition);
+  outline: none;
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2364748b' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right 0.55rem center;
+  background-size: 14px;
+}
+.cf-round-select:hover { border-color: #94a3b8; }
+.cf-round-select:focus { border-color: var(--maccent); box-shadow: 0 0 0 3px color-mix(in srgb, var(--maccent) 15%, transparent); }
+
+/* Category + gender profile chip */
+.cf-profile-wrap { display: flex; align-items: center; }
+.cf-profile-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  border: 1px solid #c7d2fe;
+  background: #eef2ff;
+  color: #4338ca;
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding: 0.4rem 0.65rem;
+  border-radius: 999px;
+  cursor: pointer;
+  font-family: inherit;
+  transition: var(--transition);
+  white-space: nowrap;
+}
+.cf-profile-chip:hover { background: #e0e7ff; border-color: #a5b4fc; }
+.cf-profile-chip-x {
+  display: inline-grid;
+  place-items: center;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #c7d2fe;
+  color: #3730a3;
+  font-size: 0.7rem;
+  line-height: 1;
+  cursor: pointer;
+  margin-left: 0.1rem;
+}
+.cf-profile-chip-x:hover { background: #a5b4fc; }
+
+/* Profile popup */
+.cf-profile-overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+.cf-profile-modal {
+  background: #fff;
+  border-radius: 1.1rem;
+  padding: 1.6rem 1.7rem;
+  width: min(380px, calc(100vw - 2.5rem));
+  box-shadow: 0 24px 60px rgba(15, 23, 42, 0.35);
+  border: 1px solid var(--border-color);
+}
+.cf-profile-title {
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: var(--text-color);
+  margin-bottom: 0.4rem;
+}
+.cf-profile-sub {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+  margin: 0 0 1.1rem;
+}
+.cf-profile-label {
+  display: block;
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin: 0.85rem 0 0.35rem;
+}
+.cf-profile-select {
+  width: 100%;
+  border: 1px solid var(--border-color);
+  border-radius: 0.65rem;
+  padding: 0.6rem 0.75rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-color);
+  background: #f8fafc;
+  font-family: inherit;
+  cursor: pointer;
+  outline: none;
+}
+.cf-profile-select:focus { border-color: var(--maccent); background: #fff; }
+.cf-profile-actions {
+  display: flex;
+  gap: 0.6rem;
+  margin-top: 1.3rem;
+}
+.cf-profile-apply {
+  flex: 1;
+  border: 0;
+  background: #16a34a;
+  color: #fff;
+  font-weight: 800;
+  font-size: 0.88rem;
+  padding: 0.7rem 1rem;
+  border-radius: 0.65rem;
+  cursor: pointer;
+  font-family: inherit;
+  transition: var(--transition);
+}
+.cf-profile-apply:hover { background: #15803d; }
+.cf-profile-skip {
+  border: 1px solid var(--border-color);
+  background: #fff;
+  color: var(--text-muted);
+  font-weight: 700;
+  font-size: 0.85rem;
+  padding: 0.7rem 1rem;
+  border-radius: 0.65rem;
+  cursor: pointer;
+  font-family: inherit;
+}
+.cf-profile-skip:hover { background: #f1f5f9; }
+
+/* Women's college rows dimmed for male profile */
+.cf-row-dim { opacity: 0.5; }
+
 @media (max-width: 640px) {
   .cf-rounds { border-left: none; padding-left: 0; width: 100%; }
 }

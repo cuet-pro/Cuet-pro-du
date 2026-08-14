@@ -2,6 +2,7 @@ export { Home } from './Home';
 export { CollegeExplorer } from './CollegeExplorer';
 export { CollegeDetail } from './CollegeDetail';
 export { Cutoffs } from './Cutoffs';
+export { Quota } from './Quota';
 export { Eligibility } from './Eligibility';
 export { PreferenceSheet } from './PreferenceSheet';
 export { SubjectCombination } from './SubjectCombination';

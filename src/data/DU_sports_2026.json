@@ -457,7 +457,7 @@
  {
   "collegeId": "college-of-vocational-studies",
   "collegeName": "College of Vocational Studies",
-  "sport": "Table-Tennis",
+  "sport": "Table Tennis",
   "men": 2,
   "women": 1
  },
@@ -695,7 +695,7 @@
  {
   "collegeId": "deshbandhu-college",
   "collegeName": "Deshbandhu College",
-  "sport": "Table-Tennis",
+  "sport": "Table Tennis",
   "men": 2,
   "women": 2
  },
@@ -1017,7 +1017,7 @@
  {
   "collegeId": "hansraj-college",
   "collegeName": "Hansraj College",
-  "sport": "Table-Tennis",
+  "sport": "Table Tennis",
   "men": 2,
   "women": 2
  },
@@ -1192,7 +1192,7 @@
  {
   "collegeId": "institute-of-home-economics-w",
   "collegeName": "Institute of Home Economics (W)",
-  "sport": "Table-Tennis",
+  "sport": "Table Tennis",
   "men": 0,
   "women": 1
  },
@@ -1416,7 +1416,7 @@
  {
   "collegeId": "jesus-mary-college-w",
   "collegeName": "Jesus & Mary College (W)",
-  "sport": "Table-Tennis",
+  "sport": "Table Tennis",
   "men": 0,
   "women": 1
  },
@@ -1500,7 +1500,7 @@
  {
   "collegeId": "kalindi-college-w",
   "collegeName": "Kalindi College (W)",
-  "sport": "Table-Tennis",
+  "sport": "Table Tennis",
   "men": 0,
   "women": 3
  },
@@ -1556,7 +1556,7 @@
  {
   "collegeId": "kamala-nehru-college-w",
   "collegeName": "Kamala Nehru College (W)",
-  "sport": "Table-Tennis",
+  "sport": "Table Tennis",
   "men": 0,
   "women": 3
  },
@@ -1661,7 +1661,7 @@
  {
   "collegeId": "kirori-mal-college",
   "collegeName": "Kirori Mal College",
-  "sport": "Table-Tennis",
+  "sport": "Table Tennis",
   "men": 2,
   "women": 2
  },
@@ -1773,7 +1773,7 @@
  {
   "collegeId": "lady-shri-ram-college-for-women-w",
   "collegeName": "Lady Shri Ram College for Women (W)",
-  "sport": "Table-Tennis",
+  "sport": "Table Tennis",
   "men": 0,
   "women": 2
  },
@@ -1976,7 +1976,7 @@
  {
   "collegeId": "maitreyi-college-w",
   "collegeName": "Maitreyi College (W)",
-  "sport": "Fencing 0 2",
+  "sport": "Fencing",
   "men": 0,
   "women": 0
  },
@@ -2501,7 +2501,7 @@
  {
   "collegeId": "rajdhani-college",
   "collegeName": "Rajdhani College",
-  "sport": "Table-Tennis",
+  "sport": "Table Tennis",
   "men": 0,
   "women": 1
  },
@@ -2655,7 +2655,7 @@
  {
   "collegeId": "ramjas-college",
   "collegeName": "Ramjas College",
-  "sport": "Table-Tennis",
+  "sport": "Table Tennis",
   "men": 1,
   "women": 1
  },
@@ -2851,7 +2851,7 @@
  {
   "collegeId": "shaheed-bhagat-singh-college",
   "collegeName": "Shaheed Bhagat Singh College",
-  "sport": "Table-Tennis",
+  "sport": "Table Tennis",
   "men": 2,
   "women": 2
  },
@@ -2984,7 +2984,7 @@
  {
   "collegeId": "shaheed-rajguru-college-of-applied-sciences-for-women-w",
   "collegeName": "Shaheed Rajguru College of Applied Sciences for Women (W)",
-  "sport": "Table-Tennis",
+  "sport": "Table Tennis",
   "men": 0,
   "women": 2
  },
@@ -3026,7 +3026,7 @@
  {
   "collegeId": "shaheed-sukhdev-college-business-studies",
   "collegeName": "Shaheed Sukhdev College Business Studies",
-  "sport": "Table-Tennis",
+  "sport": "Table Tennis",
   "men": 1,
   "women": 0
  },
@@ -3103,7 +3103,7 @@
  {
   "collegeId": "shri-ram-college-of-commerce",
   "collegeName": "Shri Ram College of Commerce",
-  "sport": "Table-Tennis",
+  "sport": "Table Tennis",
   "men": 2,
   "women": 1
  },
@@ -3236,7 +3236,7 @@
  {
   "collegeId": "shyam-lal-college-evening",
   "collegeName": "Shyam Lal College (Evening)",
-  "sport": "Table-Tennis",
+  "sport": "Table Tennis",
   "men": 1,
   "women": 1
  },
@@ -3313,7 +3313,7 @@
  {
   "collegeId": "shyama-prasad-mukherji-college-for-women-w",
   "collegeName": "Shyama Prasad Mukherji College For Women (W)",
-  "sport": "Teakwondo",
+  "sport": "Taekwondo",
   "men": 0,
   "women": 2
  },
@@ -3369,7 +3369,7 @@
  {
   "collegeId": "sri-aurobindo-college-day",
   "collegeName": "Sri Aurobindo College (Day)",
-  "sport": "Teakwondo",
+  "sport": "Taekwondo",
   "men": 3,
   "women": 2
  },
@@ -3432,7 +3432,7 @@
  {
   "collegeId": "sri-guru-gobind-singh-college-of-commerce",
   "collegeName": "Sri Guru Gobind Singh College of Commerce",
-  "sport": "Table-Tennis",
+  "sport": "Table Tennis",
   "men": 2,
   "women": 0
  },
@@ -3621,7 +3621,7 @@
  {
   "collegeId": "sri-venketeswara-college",
   "collegeName": "Sri Venketeswara College",
-  "sport": "Table-Tennis",
+  "sport": "Table Tennis",
   "men": 1,
   "women": 0
  },
@@ -3684,7 +3684,7 @@
  {
   "collegeId": "st-stephen-s-college",
   "collegeName": "St. Stephen's College",
-  "sport": "Table-Tennis",
+  "sport": "Table Tennis",
   "men": 1,
   "women": 1
  },
@@ -3810,7 +3810,7 @@
  {
   "collegeId": "zakir-husain-delhi-college",
   "collegeName": "Zakir Husain Delhi College",
-  "sport": "Table-Tennis",
+  "sport": "Table Tennis",
   "men": 2,
   "women": 3
  },
@@ -3887,7 +3887,7 @@
  {
   "collegeId": "zakir-husain-delhi-college-evening",
   "collegeName": "Zakir Husain Delhi College (Evening)",
-  "sport": "Table-Tennis",
+  "sport": "Table Tennis",
   "men": 0,
   "women": 1
  },

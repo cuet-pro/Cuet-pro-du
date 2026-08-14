@@ -7,6 +7,7 @@ import {
   CollegeExplorer, 
   CollegeDetail, 
   Cutoffs,
+  Quota,
   Eligibility,
   PreferenceSheet, 
   SubjectCombination,
@@ -28,6 +29,7 @@ function App() {
           <Route path="/college/:id" element={<CollegeDetail />} />
           <Route path="/eligibility" element={<Eligibility />} />
           <Route path="/cutoffs" element={<Cutoffs />} />
+          <Route path="/quota" element={<Quota />} />
           <Route path="/preference-sheet" element={<PreferenceSheet />} />
           <Route path="/subject-combination" element={<SubjectCombination />} />
           <Route path="/rankings" element={<Rankings />} />

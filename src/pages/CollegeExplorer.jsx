@@ -2,7 +2,8 @@ import React, { useState, useMemo, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { colleges } from '../data/colleges';
 import { programs } from '../data/programs';
-import { offerings } from '../data/cutoffsData';
+import { offerings, sportsQuota, getSportsForCollege } from '../data/cutoffsData';
+import { byRanking, getRank } from '../data/rankingsData';
 import './CollegeExplorer.css';
 
 export function CollegeExplorer() {
@@ -10,6 +11,7 @@ export function CollegeExplorer() {
   const [campusFilter, setCampusFilter] = useState('All');
   const [typeFilter, setTypeFilter] = useState('All');
   const [streamFilter, setStreamFilter] = useState('All');
+  const [sportFilter, setSportFilter] = useState('All');
   const [isFiltersOpen, setIsFiltersOpen] = useState(false);
   
   const [visibleCount, setVisibleCount] = useState(12);
@@ -34,7 +36,7 @@ export function CollegeExplorer() {
   };
 
   const filteredColleges = useMemo(() => {
-    return colleges.filter(college => {
+    const list = colleges.filter(college => {
       if (searchQuery.trim() && !college.name.toLowerCase().includes(searchQuery.toLowerCase())) {
         return false;
       }
@@ -48,13 +50,19 @@ export function CollegeExplorer() {
         const streams = collegeStreams[college.id];
         if (!streams || !streams.has(streamFilter)) return false;
       }
+      if (sportFilter !== 'All') {
+        const has = sportsQuota.some(s => s.collegeId === college.id && s.sport === sportFilter);
+        if (!has) return false;
+      }
       return true;
     });
-  }, [searchQuery, campusFilter, typeFilter, streamFilter, collegeStreams]);
+    // Ranking-wise sort: ranked colleges first (by market rank), rest alphabetical
+    return list.slice().sort(byRanking);
+  }, [searchQuery, campusFilter, typeFilter, streamFilter, sportFilter, collegeStreams]);
 
   useEffect(() => {
     setVisibleCount(12);
-  }, [searchQuery, campusFilter, typeFilter, streamFilter]);
+  }, [searchQuery, campusFilter, typeFilter, streamFilter, sportFilter]);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -77,6 +85,7 @@ export function CollegeExplorer() {
     setCampusFilter('All');
     setTypeFilter('All');
     setStreamFilter('All');
+    setSportFilter('All');
   };
 
   return (
@@ -154,6 +163,16 @@ export function CollegeExplorer() {
                 ))}
               </div>
             </div>
+
+            <div className="ce-filter-group">
+              <span className="ce-filter-label">Sport (quota)</span>
+              <select className="ce-sport-select" value={sportFilter} onChange={(e) => setSportFilter(e.target.value)}>
+                <option value="All">All sports</option>
+                {Array.from(new Set(sportsQuota.map(s => s.sport))).sort().map(sp => (
+                  <option key={sp} value={sp}>{sp}</option>
+                ))}
+              </select>
+            </div>
             </div>
           )}
         </div>
@@ -191,6 +210,7 @@ export function CollegeExplorer() {
                 >
                   <div className="ce-card-image-overlay"></div>
                   <div className="ce-card-badges-top">
+                    {getRank(college.id) && <span className="ce-badge ce-badge-rank">#{getRank(college.id)} Ranked</span>}
                     <span className="ce-badge ce-badge-campus">{college.campus} Campus</span>
                   </div>
                 </div>
@@ -219,6 +239,18 @@ export function CollegeExplorer() {
                       ))
                     )}
                   </div>
+
+                  {(() => {
+                    const sp = getSportsForCollege(college.id);
+                    const seats = sp.reduce((s, r) => s + r.men + r.women, 0);
+                    if (!seats) return null;
+                    return (
+                      <div className="ce-card-sports">
+                        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path><line x1="2" y1="12" x2="22" y2="12"></line></svg>
+                        <span><b>{seats}</b> sports quota seats · <b>{sp.length}</b> sports</span>
+                      </div>
+                    );
+                  })()}
 
                   <div className="ce-card-actions">
                     <Link to={`/college/${college.id}`} className="ce-btn ce-btn-primary">

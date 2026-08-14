@@ -153,6 +153,16 @@ export function Home() {
           </div>
         </Link>
 
+        <Link to="/quota" className="nav-tile tile-quota">
+          <div className="nav-tile-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path><line x1="2" y1="12" x2="22" y2="12"></line><path d="M5 5l14 14"></path></svg>
+          </div>
+          <div className="nav-tile-content">
+            <h3>Sports & ECA Quota</h3>
+            <p>Sports & extra-curricular seats college-wise — no CUET score needed</p>
+          </div>
+        </Link>
+
         <Link to="/documents" className="nav-tile tile-documents">
           <div className="nav-tile-icon">
             <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
