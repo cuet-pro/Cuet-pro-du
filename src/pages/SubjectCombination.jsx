@@ -219,6 +219,17 @@ function Modal({ open, onClose, payload }) {
     <div className="cf-overlay" onClick={onClose}>
       <div className="cf-modal" onClick={(e) => e.stopPropagation()} role="dialog" aria-modal="true" style={{ "--maccent": accent }}>
         <div className="cf-modal-head"><div className="cf-modal-title">{title}</div><button className="cf-x" onClick={onClose} aria-label="Close">×</button></div>
+        <div className="cf-diff-range" aria-hidden="true">
+          <span className="cf-diff-label">{view === "cutoffs" ? "Easy" : "More"}</span>
+          <div className="cf-diff-track">
+            <span className="cf-diff-seg cf-heat-5" />
+            <span className="cf-diff-seg cf-heat-4" />
+            <span className="cf-diff-seg cf-heat-3" />
+            <span className="cf-diff-seg cf-heat-2" />
+            <span className="cf-diff-seg cf-heat-1" />
+          </div>
+          <span className="cf-diff-label">{view === "cutoffs" ? "Hard" : "Less"}</span>
+        </div>
         {eligCombinations.length > 0 && (
           <div className="cf-elig-card">
             <div className="cf-elig-card-head">
@@ -244,11 +255,11 @@ function Modal({ open, onClose, payload }) {
             <button className={"cf-tab " + (view === "cutoffs" ? "on" : "")} onClick={() => setView("cutoffs")}>Cutoffs</button>
           </div>
           {view === "cutoffs" && (
-            <div className="cf-rounds" role="group" aria-label="Allocation round">
-              <span className="cf-tabs-label">Round</span>
+            <div className="cf-rounds" role="group" aria-label="Cutoff round">
+              <span className="cf-tabs-label">Cutoff</span>
               <select className="cf-round-select" value={round} onChange={(e) => setRound(Number(e.target.value))}>
                 {ROUNDS.map((r) => (
-                  <option key={r} value={r}>Round {r}</option>
+                  <option key={r} value={r}>{r}</option>
                 ))}
               </select>
             </div>
@@ -261,49 +272,21 @@ function Modal({ open, onClose, payload }) {
               <input className="cf-scorein" type="number" inputMode="numeric" placeholder="Enter your CUET score (0–1000)" value={score} onChange={(e) => {
                 setScore(e.target.value);
                 if (e.target.value && !profile && !profileSkipped) setShowProfile(true);
-              }} onWheel={(e) => e.target.blur()} max={1000} min={0} />
+              }} onFocus={() => { if (!profile && !profileSkipped) setShowProfile(true); }} onWheel={(e) => e.target.blur()} max={1000} min={0} />
             </div>
           )}
-          {view === "cutoffs" && (
-            <div className="cf-profile-wrap">
-              <button className="cf-profile-chip" onClick={() => setShowProfile(true)} title="Change category / gender">
-                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="8" r="5"></circle><path d="M3 21v-2a7 7 0 0 1 14 0v2"></path></svg>
-                {profile ? (
-                  <>{profile.category} · {profile.gender}</>
-                ) : profileSkipped ? (
-                  <>All categories</>
-                ) : (
-                  <>Set category &amp; gender</>
-                )}
-                {profile && (
-                  <span
-                    className="cf-profile-chip-x"
-                    role="button"
-                    aria-label="Reset to all categories"
-                    onClick={(e) => { e.stopPropagation(); setProfile(null); setProfileSkipped(true); }}
-                  >✕</span>
-                )}
-              </button>
+          {view === "cutoffs" && profile && (
+            <div className="cf-profile-mini">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="8" r="5"></circle><path d="M3 21v-2a7 7 0 0 1 14 0v2"></path></svg>
+              {profile.category} · {profile.gender}
+              <span
+                className="cf-profile-mini-x"
+                role="button"
+                aria-label="Edit category / gender"
+                onClick={(e) => { e.stopPropagation(); setShowProfile(true); }}
+              >✎</span>
             </div>
           )}
-          <div className="cf-legend">
-            <div className="cf-legend-item">
-              <span className="cf-legend-dot cf-heat-5"></span>
-              <span>{view === "cutoffs" ? "Easy" : "More"}</span>
-            </div>
-            <div className="cf-legend-item">
-              <span className="cf-legend-dot cf-heat-3"></span>
-              <span>Avg</span>
-            </div>
-            <div className="cf-legend-item">
-              <span className="cf-legend-dot cf-heat-2"></span>
-              <span>Medium</span>
-            </div>
-            <div className="cf-legend-item">
-              <span className="cf-legend-dot cf-heat-1"></span>
-              <span>{view === "cutoffs" ? "Hard" : "Less"}</span>
-            </div>
-          </div>
         </div>
         <div className="cf-tablewrap">
           <table className="cf-table">
@@ -357,8 +340,8 @@ function Modal({ open, onClose, payload }) {
           <div className="cf-profile-modal" onClick={(e) => e.stopPropagation()} role="dialog" aria-modal="true">
             <div className="cf-profile-title">Personalize your chances 🎯</div>
             <p className="cf-profile-sub">
-              Green ✓ sirf <b>aapki category</b> aur <b>gender</b> ke hisaab se dikhega.
-              Men ke liye women's colleges pe tick nahi dikhega.
+              Add your <b>category</b> and <b>gender</b> for a more accurate result.
+              Green ✓ sirf aapki category aur gender ke hisaab se dikhega.
             </p>
             <label className="cf-profile-label" htmlFor="cf-prof-cat">Your category</label>
             <select id="cf-prof-cat" className="cf-profile-select" value={profCategory} onChange={(e) => setProfCategory(e.target.value)}>

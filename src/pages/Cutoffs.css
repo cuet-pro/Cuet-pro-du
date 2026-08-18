@@ -477,6 +477,35 @@
 
 .cf-elig-icon { font-size: 0.85rem; line-height: 1; }
 
+/* Difficulty / availability range bar (top of modal, near title) */
+.cf-diff-range {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.45rem 1.25rem 0;
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: var(--text-muted);
+}
+.cf-diff-label { white-space: nowrap; }
+.cf-diff-label:first-child { color: #16a34a; }
+.cf-diff-label:last-child { color: #dc2626; }
+.cf-diff-track {
+  flex: 1;
+  display: flex;
+  height: 8px;
+  border-radius: 999px;
+  overflow: hidden;
+  background: #e2e8f0;
+  min-width: 60px;
+}
+.cf-diff-seg { flex: 1; }
+.cf-diff-seg.cf-heat-5 { background: #22c55e; }
+.cf-diff-seg.cf-heat-4 { background: #84cc16; }
+.cf-diff-seg.cf-heat-3 { background: #facc15; }
+.cf-diff-seg.cf-heat-2 { background: #fb923c; }
+.cf-diff-seg.cf-heat-1 { background: #ef4444; }
+
 .cf-elig-card-title {
   font-size: 0.68rem;
   font-weight: 800;
@@ -613,6 +642,35 @@
   margin-left: 0.1rem;
 }
 .cf-profile-chip-x:hover { background: #a5b4fc; }
+
+/* Compact profile indicator shown after score entry (replaces the chip) */
+.cf-profile-mini {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  border: 1px solid #c7d2fe;
+  background: #eef2ff;
+  color: #4338ca;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.32rem 0.6rem;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+.cf-profile-mini-x {
+  display: inline-grid;
+  place-items: center;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #c7d2fe;
+  color: #3730a3;
+  font-size: 0.72rem;
+  line-height: 1;
+  cursor: pointer;
+  margin-left: 0.1rem;
+}
+.cf-profile-mini-x:hover { background: #a5b4fc; }
 
 /* Profile popup */
 .cf-profile-overlay {
