@@ -18,10 +18,9 @@ export function Navbar() {
 
   const navLinks = [
     { name: 'Home', path: '/' },
-    { name: 'Colleges', path: '/colleges' },
+    { name: 'Colleges & Rankings', path: '/colleges' },
     { name: 'Cutoffs & Seats', path: '/cutoffs' },
     { name: 'Sports & ECA', path: '/quota' },
-    { name: 'Rankings', path: '/rankings' },
     { name: 'Subject Combination', path: '/subject-combination' }
   ];
 
