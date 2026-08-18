@@ -88,7 +88,11 @@ export function CollegeDetail() {
     return sum + (t || 0);
   }, 0);
   const totalCourses = collegeOfferings.length;
-  const heroImageUrl = college.imageUrl || `https://placehold.co/1200x500?text=${encodeURIComponent(college.name)}`;
+  // Hero: prefer an explicit wide banner; if the college image is a logo/crest
+  // (svg, "logo", "crest", "official_logo"), fall back to a branded banner so a
+  // small vertical logo never gets stretched across the hero.
+  const looksLikeLogo = /\.svg(\?|$)|logo|crest|official_logo|_LOGO|LOGO\./i.test(college.imageUrl || '');
+  const heroImageUrl = college.heroImage || (looksLikeLogo ? null : college.imageUrl) || `https://placehold.co/1200x400/0F1E3C/FFFFFF?text=${encodeURIComponent(college.name)}&font=montserrat`;
   const sportsTotal = sports.reduce((sum, s) => sum + s.men + s.women, 0);
   const ecaTotal = eca.reduce((sum, e) => sum + e.seats, 0);
 

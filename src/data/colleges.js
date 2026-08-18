@@ -1407,6 +1407,7 @@ export const colleges = [
     },
     "intro": "Founded in 1926, SRCC is India's most celebrated Commerce college, located at North Campus. It is consistently ranked among the top colleges in India and has produced leaders across finance, business, and public policy.",
     "imageUrl": "https://www.srcc.edu/sites/default/files/srcc.png",
+    "heroImage": "https://placehold.co/1200x400/0F1E3C/FFFFFF?text=SRCC+-+Shri+Ram+College+of+Commerce&font=montserrat",
     "notableAlumni": [
       {
         "name": "Arun Jaitley",
@@ -1678,6 +1679,7 @@ export const colleges = [
     },
     "intro": "Founded in 1881, St. Stephen's College is the oldest constituent college of Delhi University, located at North Campus. It is one of India's most prestigious institutions with notable alumni spanning academia, politics, and the arts.",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Crest_of_St.Stephens_Coll%2C_UOD.svg",
+    "heroImage": "https://placehold.co/1200x400/0D1A33/FFFFFF?text=St.+Stephen%27s+College&font=montserrat",
     "notableAlumni": [
       {
         "name": "Amartya Sen",
