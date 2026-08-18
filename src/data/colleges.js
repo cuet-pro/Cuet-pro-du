@@ -1195,7 +1195,7 @@ export const colleges = [
       "lng": 77.2501
     },
     "intro": "Founded in 2010, Ramanujan College is located in Kalkaji, South Delhi. Named after the legendary mathematician Srinivasa Ramanujan, it is one of DU's newer colleges with a growing reputation in Science and Commerce.",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Ramanujan_college.jpg/1080px-Ramanujan_college.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/25/Ramanujan_college.jpg",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -1220,7 +1220,7 @@ export const colleges = [
       "lng": 77.2163
     },
     "intro": "Established in 1917, Ramjas College is one of Delhi University's oldest colleges, located at North Campus. It has a distinguished academic tradition and notable alumni spanning literature, politics, and public service.",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Ramjas_building.jpg/1080px-Ramjas_building.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/90/Ramjas_building.jpg",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -1406,7 +1406,7 @@ export const colleges = [
       "lng": 77.2072
     },
     "intro": "Founded in 1926, SRCC is India's most celebrated Commerce college, located at North Campus. It is consistently ranked among the top colleges in India and has produced leaders across finance, business, and public policy.",
-    "imageUrl": "https://www.tsusbengaluru.com/wp-content/uploads/2023/10/step2.jpg",
+    "imageUrl": "https://www.srcc.edu/sites/default/files/srcc.png",
     "notableAlumni": [
       {
         "name": "Arun Jaitley",
@@ -1677,7 +1677,7 @@ export const colleges = [
       "lng": 77.2108
     },
     "intro": "Founded in 1881, St. Stephen's College is the oldest constituent college of Delhi University, located at North Campus. It is one of India's most prestigious institutions with notable alumni spanning academia, politics, and the arts.",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Crest_of_St.Stephens_Coll%2C_UOD.svg/1080px-Crest_of_St.Stephens_Coll%2C_UOD.svg.png",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Crest_of_St.Stephens_Coll%2C_UOD.svg",
     "notableAlumni": [
       {
         "name": "Amartya Sen",
@@ -2083,7 +2083,7 @@ export const colleges = [
       "lng": 77.1555
     },
     "intro": "Affiliated with the prestigious Army Hospital (Research & Referral), it trains nursing cadets for the Armed Forces Medical Services.",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Army_Hospital_Research_and_Referral.svg/1080px-Army_Hospital_Research_and_Referral.svg.png",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Army_Hospital_Research_and_Referral.svg",
     "notableAlumni": [],
     "societies": [],
     "fests": [],

@@ -21,6 +21,22 @@ function getMedal(rank) {
   return <div className="rank-number">{rank}</div>;
 }
 
+// Renders a college image with a letter-avatar fallback if the URL is broken/missing.
+function CollegeImg({ src, alt, className }) {
+  const fallback = `https://placehold.co/96x96?text=${encodeURIComponent((alt || '?').charAt(0).toUpperCase())}`;
+  return (
+    <img
+      src={src && src.trim() ? src : fallback}
+      alt={alt}
+      className={className}
+      loading="lazy"
+      onError={(e) => {
+        if (e.currentTarget.src !== fallback) e.currentTarget.src = fallback;
+      }}
+    />
+  );
+}
+
 function normName(s) {
   return (s || '')
     .toLowerCase()
@@ -95,7 +111,7 @@ function RankingsStrip() {
           const row = (
             <div className="ce-rank-item" key={item.rank}>
               {getMedal(item.rank)}
-              <img src={`https://placehold.co/40x40?text=${encodeURIComponent(item.college.charAt(0))}`} alt={item.college} className="ce-rank-img" />
+              <CollegeImg src={`https://placehold.co/40x40?text=${encodeURIComponent(item.college.charAt(0))}`} alt={item.college} className="ce-rank-img" />
               <div className="ce-rank-info">
                 <div className="ce-rank-name">{item.college.split(' (')[0]}</div>
                 <div className="ce-rank-sub">
@@ -320,7 +336,7 @@ export function CollegeExplorer() {
                 return (
                   <Link to={`/college/${college.id}`} key={college.id} className="ce-row">
                     {rank ? <div className="ce-row-rank">{getMedal(rank)}</div> : <div className="ce-row-rank ce-row-rank-none">—</div>}
-                    <img src={college.imageUrl || `https://placehold.co/44x44?text=${encodeURIComponent(college.name.charAt(0))}`} alt={college.name} className="ce-row-img" />
+                    <CollegeImg src={college.imageUrl} alt={college.name} className="ce-row-img" />
                     <div className="ce-row-main">
                       <div className="ce-row-name">
                         {college.name}
@@ -352,7 +368,7 @@ export function CollegeExplorer() {
                 return (
                   <Link to={`/college/${college.id}`} key={college.id} className="ce-card ce-card-compact">
                     <div className="ce-card-top">
-                      <img src={college.imageUrl || `https://placehold.co/48x48?text=${encodeURIComponent(college.name.charAt(0))}`} alt={college.name} className="ce-card-logo" />
+                      <CollegeImg src={college.imageUrl} alt={college.name} className="ce-card-logo" />
                       {rank && <span className="ce-badge ce-badge-rank">#{rank}</span>}
                     </div>
                     <h3 className="ce-card-cname">{college.name.split(' (')[0]}</h3>
