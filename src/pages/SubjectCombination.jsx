@@ -1,6 +1,6 @@
 import React, { useMemo, useState, useEffect } from "react";
 
-import { offerings, CATEGORIES, getCutoff, getSeats, getEligibilityForProgram } from "../data/cutoffsData";
+import { offerings, CATEGORIES, ROUNDS, getCutoff, getSeats, getEligibilityForProgram } from "../data/cutoffsData";
 import { colleges as REAL_COLLEGES } from "../data/colleges";
 import { SourceBadge } from "../components/SourceBadge";
 import "./Cutoffs.css";
@@ -163,7 +163,13 @@ function ListRow({ title, sub, accent, count, countLabel, seats, top, onOpen }) 
 
 function Modal({ open, onClose, payload }) {
   const [view, setView] = useState("cutoffs");
+  const [round, setRound] = useState(1);
   const [score, setScore] = useState("");
+  const [profile, setProfile] = useState(null); // { category, gender }
+  const [profileSkipped, setProfileSkipped] = useState(false);
+  const [showProfile, setShowProfile] = useState(false);
+  const [profCategory, setProfCategory] = useState("UR");
+  const [profGender, setProfGender] = useState("Female");
   useEffect(() => { function k(e) { if (e.key === "Escape") onClose(); } if (open) document.addEventListener("keydown", k); return () => document.removeEventListener("keydown", k); }, [open, onClose]);
   if (!open || !payload) return null;
   const { mode, item, eligibleIds } = payload;
@@ -173,14 +179,14 @@ function Modal({ open, onClose, payload }) {
   if (mode === "program") {
     const p = item; accent = STREAMS[p.stream].color; title = "Colleges offering " + p.name;
     const myOffs = offerings.filter(o => o.programId === p.id);
-    rows = myOffs.map((o) => ({ key: o.collegeId, name: o.college?.short || o.collegeName, campus: o.college?.campus, women: o.college?.type === "Women" || o.gender === "Women" || o.gender === "Female", cutoffs: CATEGORIES.map((cat) => getCutoff(o, cat)), seats: CATEGORIES.map((cat) => getSeats(o, cat)) }));
+    rows = myOffs.map((o) => ({ key: o.collegeId, name: o.college?.short || o.collegeName, campus: o.college?.campus, women: o.college?.type === "Women" || o.gender === "Women" || o.gender === "Female", cutoffs: CATEGORIES.map((cat) => getCutoff(o, cat, round)), seats: CATEGORIES.map((cat) => getSeats(o, cat)) }));
   } else {
     const c = item; accent = "#2563eb"; title = "Your courses at " + c.name;
     const myOffs = offerings.filter(o => o.collegeId === c.id);
     rows = myOffs.filter((o) => !eligibleIds || eligibleIds.has(o.programId)).map(o => {
       const p = PROGRAMS.find(px => px.id === o.programId);
       if (!p) return null;
-      return { key: p.id, name: p.name, stream: p.stream, cutoffs: CATEGORIES.map((cat) => getCutoff(o, cat)), seats: CATEGORIES.map((cat) => getSeats(o, cat)) };
+      return { key: p.id, name: p.name, stream: p.stream, cutoffs: CATEGORIES.map((cat) => getCutoff(o, cat, round)), seats: CATEGORIES.map((cat) => getSeats(o, cat)) };
     }).filter(Boolean);
   }
   rows.sort((a, b) => (b.cutoffs[0] || 0) - (a.cutoffs[0] || 0));
@@ -238,11 +244,46 @@ function Modal({ open, onClose, payload }) {
             <button className={"cf-tab " + (view === "cutoffs" ? "on" : "")} onClick={() => setView("cutoffs")}>Cutoffs</button>
           </div>
           {view === "cutoffs" && (
+            <div className="cf-rounds" role="group" aria-label="Allocation round">
+              <span className="cf-tabs-label">Round</span>
+              <select className="cf-round-select" value={round} onChange={(e) => setRound(Number(e.target.value))}>
+                {ROUNDS.map((r) => (
+                  <option key={r} value={r}>Round {r}</option>
+                ))}
+              </select>
+            </div>
+          )}
+          {view === "cutoffs" && (
             <div className="cf-score-wrap">
               <svg className="cf-score-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                 <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
               </svg>
-              <input className="cf-scorein" type="number" inputMode="numeric" placeholder="Enter your CUET score (0–1000)" value={score} onChange={(e) => setScore(e.target.value)} onWheel={(e) => e.target.blur()} max={1000} min={0} />
+              <input className="cf-scorein" type="number" inputMode="numeric" placeholder="Enter your CUET score (0–1000)" value={score} onChange={(e) => {
+                setScore(e.target.value);
+                if (e.target.value && !profile && !profileSkipped) setShowProfile(true);
+              }} onWheel={(e) => e.target.blur()} max={1000} min={0} />
+            </div>
+          )}
+          {view === "cutoffs" && (
+            <div className="cf-profile-wrap">
+              <button className="cf-profile-chip" onClick={() => setShowProfile(true)} title="Change category / gender">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="8" r="5"></circle><path d="M3 21v-2a7 7 0 0 1 14 0v2"></path></svg>
+                {profile ? (
+                  <>{profile.category} · {profile.gender}</>
+                ) : profileSkipped ? (
+                  <>All categories</>
+                ) : (
+                  <>Set category &amp; gender</>
+                )}
+                {profile && (
+                  <span
+                    className="cf-profile-chip-x"
+                    role="button"
+                    aria-label="Reset to all categories"
+                    onClick={(e) => { e.stopPropagation(); setProfile(null); setProfileSkipped(true); }}
+                  >✕</span>
+                )}
+              </button>
             </div>
           )}
           <div className="cf-legend">
@@ -269,8 +310,10 @@ function Modal({ open, onClose, payload }) {
             <thead><tr><th className="cf-th-sr">Sr No</th><th className="cf-th-name">{mode === "program" ? "College" : "Program"}</th>{CATEGORIES.map((c) => <th key={c}>{c}</th>)}</tr></thead>
             <tbody>
               {rows.map((r, idx) => {
-                const vals = view === "cutoffs" ? r.cutoffs : r.seats; return (
-                  <tr key={r.key}>
+                const vals = view === "cutoffs" ? r.cutoffs : r.seats;
+                const dimWomen = profile?.gender === "Male" && r.women;
+                return (
+                  <tr key={r.key} className={dimWomen ? "cf-row-dim" : ""}>
                     <td className="cf-td-sr">{idx + 1}</td>
                     <td className="cf-td-name">
                       <div className="cf-td-name-inner">
@@ -292,7 +335,9 @@ function Modal({ open, onClose, payload }) {
                     </td>
                     {vals.map((v, i) => {
                       const isCut = view === "cutoffs";
-                      const q = isCut && numScore !== null && v !== null && numScore >= v;
+                      const catOk = !profile || CATEGORIES[i] === profile.category;
+                      const genderOk = !profile || profile.gender === "Female" || !r.women;
+                      const q = isCut && numScore !== null && v !== null && numScore >= v && catOk && genderOk;
                       const heat = isCut && !q ? heatClass(v, i, true) : !isCut && v !== null ? heatClass(v, i, false) : '';
                       return (
                         <td key={i} className={"cf-num-cell " + heat + (q ? " cf-q" : "")}>{v === null ? <span className="cf-dash">—</span> : (isCut ? v.toFixed(1) : v)}{q && <i className="cf-tick">✓</i>}</td>
@@ -305,6 +350,36 @@ function Modal({ open, onClose, payload }) {
           </table>
         </div>
       </div>
+
+      {/* Category + gender popup */}
+      {showProfile && (
+        <div className="cf-overlay cf-profile-overlay" onClick={() => setShowProfile(false)}>
+          <div className="cf-profile-modal" onClick={(e) => e.stopPropagation()} role="dialog" aria-modal="true">
+            <div className="cf-profile-title">Personalize your chances 🎯</div>
+            <p className="cf-profile-sub">
+              Green ✓ sirf <b>aapki category</b> aur <b>gender</b> ke hisaab se dikhega.
+              Men ke liye women's colleges pe tick nahi dikhega.
+            </p>
+            <label className="cf-profile-label" htmlFor="cf-prof-cat">Your category</label>
+            <select id="cf-prof-cat" className="cf-profile-select" value={profCategory} onChange={(e) => setProfCategory(e.target.value)}>
+              {CATEGORIES.map((c) => <option key={c} value={c}>{c}</option>)}
+            </select>
+            <label className="cf-profile-label" htmlFor="cf-prof-gender">Your gender</label>
+            <select id="cf-prof-gender" className="cf-profile-select" value={profGender} onChange={(e) => setProfGender(e.target.value)}>
+              <option value="Female">Female</option>
+              <option value="Male">Male</option>
+            </select>
+            <div className="cf-profile-actions">
+              <button className="cf-profile-apply" onClick={() => { setProfile({ category: profCategory, gender: profGender }); setProfileSkipped(false); setShowProfile(false); }}>
+                Show my chances ✓
+              </button>
+              <button className="cf-profile-skip" onClick={() => { setProfileSkipped(true); setShowProfile(false); }}>
+                Skip
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
