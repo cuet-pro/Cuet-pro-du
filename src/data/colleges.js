@@ -483,7 +483,7 @@ export const colleges = [
       "lng": 77.2099
     },
     "intro": "Founded in 1948, Hansraj College is a premier co-educational college on the North Campus. It is acclaimed for its Science and Commerce programs and counts celebrated figures like Shahrukh Khan among its notable alumni.",
-    "imageUrl": "https://www.hansrajcollege.ac.in/assets/front/images/logo_new.png",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/c/ce/Logo_of_Hansraj_College.png",
     "notableAlumni": [
       {
         "name": "Shah Rukh Khan",
@@ -1000,7 +1000,7 @@ export const colleges = [
       "lng": 77.2153
     },
     "intro": "Founded in 1948, Miranda House is consistently ranked as India's top women's college. Located at North Campus, it is celebrated for its academic excellence across Sciences and Humanities and its distinguished global alumni network.",
-    "imageUrl": "https://www.mirandahouse.ac.in/assets/images/miranda-logo.svg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/9/97/Miranda_House_seal.svg",
     "notableAlumni": [
       {
         "name": "Indira Gandhi",
