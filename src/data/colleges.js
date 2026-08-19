@@ -13,7 +13,7 @@ export const colleges = [
       "lng": 77.2502
     },
     "intro": "Founded in 1991, Acharya Narendra Dev College is located in Govindpuri, South Delhi. Known for its strong Science and Commerce programs, it has produced many distinguished scientists and civil servants.",
-    "imageUrl": "",
+    "imageUrl": "https://www.andcollege.du.ac.in/assets/front/images/logo.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -38,7 +38,7 @@ export const colleges = [
       "lng": 77.1328
     },
     "intro": "Established in 1994, Aditi Mahavidyalaya is a women's college located in Bawana, North Delhi. It is known for its vibrant Arts and Humanities programs and strong community outreach initiatives.",
-    "imageUrl": "",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Aditi_Mahavidyalaya_logo_2022.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -61,7 +61,7 @@ export const colleges = [
       "lng": 77.1901
     },
     "intro": "Founded in 1978, Aryabhatta College is located in Patel Nagar, South Delhi. Named after the renowned mathematician, it is recognised for its Science programs and interdisciplinary research culture.",
-    "imageUrl": "",
+    "imageUrl": "https://web.archive.org/web/2025/http://www.aryabhattacollege.ac.in/images/logoo.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -86,7 +86,7 @@ export const colleges = [
       "lng": 77.1888
     },
     "intro": "Established in 1959, ARSD College is located in Dhaula Kuan, South Delhi. It is well-regarded for its Commerce and Science programs and counts several IAS officers among its alumni.",
-    "imageUrl": "",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/95/Atma_Ram_Sanatan_Dharma_College_Logo.jpg",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -109,7 +109,7 @@ export const colleges = [
       "lng": 77.0726
     },
     "intro": "Founded in 1983, Bhagini Nivedita College is a women's institution in Janakpuri, West Delhi. Named after Sister Nivedita, it focuses on Humanities and Social Sciences with an emphasis on holistic education.",
-    "imageUrl": "",
+    "imageUrl": "https://bhagininiveditadu.ac.in/images/logo.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -178,7 +178,7 @@ export const colleges = [
       "lng": 77.2091
     },
     "intro": "Established in 2011, the Cluster Innovation Centre is an interdisciplinary institution at the North Campus, University of Delhi. It offers unique integrated and innovative programs blending science, humanities, and technology.",
-    "imageUrl": "",
+    "imageUrl": "https://cic.du.ac.in/userfiles/images/logo%20(1).png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -249,7 +249,7 @@ export const colleges = [
       "lng": 77.0688
     },
     "intro": "Founded in 1990, DDU College is located in Dwarka, West Delhi. Named after the eminent social thinker, it offers strong Science and Commerce programs and is known for its discipline and academic rigour.",
-    "imageUrl": "",
+    "imageUrl": "https://dducollegedu.ac.in/icons/DDULogo.jpg",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -272,7 +272,7 @@ export const colleges = [
       "lng": 77.2189
     },
     "intro": "Established in 1987, DCAC is located in North Campus, Delhi. It offers programmes in Commerce, Economics, and Humanities and is recognised for its culturally active campus life.",
-    "imageUrl": "",
+    "imageUrl": "https://dcac.du.ac.in//assets/upload/logo.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -295,7 +295,7 @@ export const colleges = [
       "lng": 77.2091
     },
     "intro": "Established in 2017, the Delhi School of Journalism is located at North Campus, University of Delhi. It is one of the few DU institutions dedicated exclusively to Journalism and Mass Communication education.",
-    "imageUrl": "",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/62/Delhi_University%27s_official_logo.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -318,7 +318,7 @@ export const colleges = [
       "lng": 77.2091
     },
     "intro": "The Department of Germanic and Romance Studies is a postgraduate department of the University of Delhi, North Campus. It offers specialised programs in French, German, Italian, and Spanish language and literature.",
-    "imageUrl": "",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/62/Delhi_University%27s_official_logo.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -341,7 +341,7 @@ export const colleges = [
       "lng": 77.2091
     },
     "intro": "One of India's unique language departments, it is located at the University of Delhi's North Campus. It offers programs in Russian and other Slavic languages, fostering rare linguistic expertise.",
-    "imageUrl": "",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/62/Delhi_University%27s_official_logo.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -387,7 +387,7 @@ export const colleges = [
       "lng": 77.3126
     },
     "intro": "Established in 1991, Dr. Bhim Rao Ambedkar College is located in Yamuna Vihar, East Delhi. Dedicated to the values of social justice espoused by Dr. Ambedkar, it offers Commerce, Science, and Humanities programs.",
-    "imageUrl": "",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/62/Delhi_University%27s_official_logo.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -646,7 +646,7 @@ export const colleges = [
       "lng": 77.1066
     },
     "intro": "Founded in 1959, Janki Devi Memorial College is a women's college located in West Delhi. It offers diverse programs in Arts, Science, and Commerce and is known for its inclusive and supportive campus environment.",
-    "imageUrl": "",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/2/20/Janki_Devi_Memorial_College.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -694,7 +694,7 @@ export const colleges = [
       "lng": 77.2984
     },
     "intro": "Founded in 1967, Kalindi College is a women's institution located in East Delhi. It offers programs in Arts, Science, and Commerce and is named after the ancient name of the Yamuna river.",
-    "imageUrl": "",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/5/52/Logo_of_Kalindi_College.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -717,7 +717,7 @@ export const colleges = [
       "lng": 77.2013
     },
     "intro": "Established in 1964, Kamala Nehru College is a women's college in South Delhi named after Kamala Nehru. It is known for its vibrant student life and strong programs in Commerce and Humanities.",
-    "imageUrl": "",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/f/f7/Kamala_Nehru_College.jpg",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -765,7 +765,7 @@ export const colleges = [
       "lng": 77.2221
     },
     "intro": "Established in 1954, Kirori Mal College is a leading co-educational institution at North Campus. It has a rich tradition in Science and Humanities and counts Nobel-related academic lineages among its faculty heritage.",
-    "imageUrl": "",
+    "imageUrl": "https://www.kmc.du.ac.in/home/officelogo/colllogo_new.fw.png",
     "notableAlumni": [
       {
         "name": "Sanjay Dutt",
@@ -823,7 +823,7 @@ export const colleges = [
       "lng": 77.2185
     },
     "intro": "Founded in 1932, Lady Irwin College is one of DU's oldest women's colleges, located in Central Delhi. It is a leading institution for Home Science, Nutrition, and Education, named after Lady Irwin, wife of the Viceroy.",
-    "imageUrl": "",
+    "imageUrl": "https://ladyirwin.edu.in/LadyIrwin-Logo.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -904,7 +904,7 @@ export const colleges = [
       "lng": 77.1127
     },
     "intro": "Founded in 1965, Lakshmibai College is a women's institution in North-West Delhi named after the Rani of Jhansi. It offers diverse programs in Humanities and Social Sciences with an emphasis on sports and physical education.",
-    "imageUrl": "",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/62/Delhi_University%27s_official_logo.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -975,7 +975,7 @@ export const colleges = [
       "lng": 77.2401
     },
     "intro": "Established in 1967, Mata Sundri College is a Sikh-minority women's institution in Central Delhi. It offers programs in Arts, Commerce, and Science and is known for its cultural events and community service.",
-    "imageUrl": "",
+    "imageUrl": "https://mscw.ac.in/assets_web/images/msc_logo.jpg",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -1057,7 +1057,7 @@ export const colleges = [
       "lng": 77.1941
     },
     "intro": "Established in 1964, Motilal Nehru College is located in South-West Delhi. Named after Pandit Motilal Nehru, it offers programs in Science, Commerce, and Humanities and is known for its diverse student community.",
-    "imageUrl": "",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b2/Logo_of_Motilal_Nehru_College.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -1080,7 +1080,7 @@ export const colleges = [
       "lng": 77.1941
     },
     "intro": "The Evening shift of Motilal Nehru College serves working students in South-West Delhi. It offers programs in Commerce and Humanities, providing flexible higher education access to a wider student base.",
-    "imageUrl": "",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b2/Logo_of_Motilal_Nehru_College.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -1220,7 +1220,7 @@ export const colleges = [
       "lng": 77.2163
     },
     "intro": "Established in 1917, Ramjas College is one of Delhi University's oldest colleges, located at North Campus. It has a distinguished academic tradition and notable alumni spanning literature, politics, and public service.",
-    "imageUrl": "",
+    "imageUrl": "https://web.archive.org/web/2025/https://ramjas.du.ac.in/college/web/images/logo-wide.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -1243,7 +1243,7 @@ export const colleges = [
       "lng": 77.1986
     },
     "intro": "Founded in 1972, Satyawati College is located in Ashok Vihar, North Delhi. Named after freedom fighter Satyawati, it offers programs in Humanities and Commerce and is known for its socially conscious campus culture.",
-    "imageUrl": "",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/62/Delhi_University%27s_official_logo.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -1266,7 +1266,7 @@ export const colleges = [
       "lng": 77.1986
     },
     "intro": "The Evening shift of Satyawati College in North Delhi caters to working students and offers programs in Commerce and Humanities, extending higher education opportunities in the Ashok Vihar area.",
-    "imageUrl": "",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/62/Delhi_University%27s_official_logo.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -1335,7 +1335,7 @@ export const colleges = [
       "lng": 77.1512
     },
     "intro": "Established in 1989, SRCASW is a women's college in Vasant Vihar, North Delhi. It specialises in Applied Sciences and is known for its modern laboratories and strong technical education for women.",
-    "imageUrl": "",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/62/Delhi_University%27s_official_logo.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -1358,7 +1358,7 @@ export const colleges = [
       "lng": 77.3111
     },
     "intro": "Founded in 1987, SSCBS is located in Vivek Vihar, East Delhi. It is one of India's premier business colleges, exclusively offering BBA (Financial Investment Analysis) and is known for its exceptional placement record.",
-    "imageUrl": "",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/d/d4/Logo_of_Shaheed_Sukhdev_College_of_Business_Studies.jpg",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -1381,7 +1381,7 @@ export const colleges = [
       "lng": 77.0773
     },
     "intro": "Established in 1961, Shivaji College is located in Rajouri Garden, West Delhi. Named after Chhatrapati Shivaji Maharaj, it offers programs in Science and Humanities and has a particularly vibrant cultural and sports scene.",
-    "imageUrl": "",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/62/Delhi_University%27s_official_logo.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -1463,7 +1463,7 @@ export const colleges = [
       "lng": 77.3089
     },
     "intro": "Established in 1964, Shyam Lal College is located in Shahdara, East Delhi. It offers programs in Science, Commerce, and Humanities and serves as a key higher education institution for students from East Delhi.",
-    "imageUrl": "",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/1/10/Shyam_Lal_College_logo.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -1486,7 +1486,7 @@ export const colleges = [
       "lng": 77.3089
     },
     "intro": "The Evening shift of Shyam Lal College in Shahdara, East Delhi, offers Science and Commerce programs to working professionals and students, expanding access to quality education in the region.",
-    "imageUrl": "",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/1/10/Shyam_Lal_College_logo.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -1509,7 +1509,7 @@ export const colleges = [
       "lng": 77.1857
     },
     "intro": "Founded in 1967, SPM College is a women's institution in South-West Delhi. Named after Dr. Shyama Prasad Mukherji, it offers Humanities and Commerce programs in a supportive, women-centred environment.",
-    "imageUrl": "",
+    "imageUrl": "https://spm.du.ac.in/assets/central_logo_3-DaFToSDf.jpeg",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -1532,7 +1532,7 @@ export const colleges = [
       "lng": 77.1775
     },
     "intro": "Established in 1972, Sri Aurobindo College (Day) is located in Malviya Nagar, South Delhi. Named after the philosopher-poet Sri Aurobindo, it is known for its Science programs and philosophical ethos.",
-    "imageUrl": "",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/62/Delhi_University%27s_official_logo.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -1555,7 +1555,7 @@ export const colleges = [
       "lng": 77.1775
     },
     "intro": "The Evening shift of Sri Aurobindo College in South Delhi offers Commerce and Humanities programs and is known for accommodating a diverse student body including working professionals.",
-    "imageUrl": "",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/62/Delhi_University%27s_official_logo.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -1603,7 +1603,7 @@ export const colleges = [
       "lng": 77.2002
     },
     "intro": "Established in 1971, SGND Khalsa College is a minority institution in North Delhi. It offers diverse programs in Science, Commerce, and Humanities and is known for its warm campus community and Sikh heritage.",
-    "imageUrl": "",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/62/Delhi_University%27s_official_logo.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -1653,7 +1653,7 @@ export const colleges = [
       "lng": 77.1734
     },
     "intro": "Established in 1961, Sri Venkateswara College is located in Dhaula Kuan, South Delhi. Run by the Tirumala Tirupati Devasthanams, it is renowned for its Science programs and distinguished faculty.",
-    "imageUrl": "",
+    "imageUrl": "https://www.svc.ac.in/svc_home/img/main_top.fw.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -1730,7 +1730,7 @@ export const colleges = [
       "lng": 77.1162
     },
     "intro": "Established in 1987, Swami Shardhanand College is located in Alipur, North Delhi. Named after the Arya Samaj reformer, it offers Science and Humanities programs and serves students from North-West Delhi and beyond.",
-    "imageUrl": "",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/62/Delhi_University%27s_official_logo.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -1776,7 +1776,7 @@ export const colleges = [
       "lng": 77.2373
     },
     "intro": "Established in 1692 (as Madrasa-i-Rahimiya), Zakir Husain Delhi College is one of Delhi's oldest educational institutions. Located in Central Delhi, it is known for its historic legacy and strong Humanities and Science programs.",
-    "imageUrl": "",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/62/Delhi_University%27s_official_logo.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -1799,7 +1799,7 @@ export const colleges = [
       "lng": 77.2373
     },
     "intro": "The Evening shift of Zakir Husain Delhi College in Central Delhi offers Commerce and Humanities programs in the historic premises of one of Delhi's oldest educational institutions.",
-    "imageUrl": "",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/62/Delhi_University%27s_official_logo.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -1847,7 +1847,7 @@ export const colleges = [
       "lng": 77.207
     },
     "intro": "Established in 1944, NCWEB enables women students of Delhi to pursue University of Delhi degrees through special weekend classes.",
-    "imageUrl": "",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/62/Delhi_University%27s_official_logo.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -1874,7 +1874,7 @@ export const colleges = [
       "lng": 77.2403
     },
     "intro": "A premier medical college in Delhi, affiliated with DU, known for its excellent medical programs and attached Lok Nayak Hospital.",
-    "imageUrl": "",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/4/43/Maulana_Azad_Medical_College_logo.svg",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -1901,7 +1901,7 @@ export const colleges = [
       "lng": 77.2132
     },
     "intro": "Established in 1916, it is a renowned medical college exclusively for women, associated with Smt. Sucheta Kriplani Hospital.",
-    "imageUrl": "",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/c/cb/Lady_Hardinge_Medical_College_logo.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -1928,7 +1928,7 @@ export const colleges = [
       "lng": 77.3182
     },
     "intro": "Founded in 1971, UCMS is a leading medical institution affiliated with GTB Hospital, offering top-tier medical education and research.",
-    "imageUrl": "",
+    "imageUrl": "https://ucms.ac.in/assets/img/ucms_new_logo.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -1981,7 +1981,7 @@ export const colleges = [
       "lng": 77.2025
     },
     "intro": "A unique postgraduate medical institution devoted to research, teaching, and patient care in the field of chest diseases.",
-    "imageUrl": "",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/62/Delhi_University%27s_official_logo.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -2007,7 +2007,7 @@ export const colleges = [
       "lng": 77.2435
     },
     "intro": "A pioneer institute in nursing education in India, established in 1946, offering leading B.Sc and M.Sc Nursing programs.",
-    "imageUrl": "",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/62/Delhi_University%27s_official_logo.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -2033,7 +2033,7 @@ export const colleges = [
       "lng": 77.1945
     },
     "intro": "A historic institution established by Hakim Ajmal Khan, offering degrees in Ayurvedic and Unani medicine.",
-    "imageUrl": "",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/62/Delhi_University%27s_official_logo.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -2059,7 +2059,7 @@ export const colleges = [
       "lng": 77.2355
     },
     "intro": "A leading homoeopathic medical college in Delhi, providing quality education and patient care in homoeopathy.",
-    "imageUrl": "",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/62/Delhi_University%27s_official_logo.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -2111,7 +2111,7 @@ export const colleges = [
       "lng": 77.2755
     },
     "intro": "A reputed nursing college attached to Holy Family Hospital, known for its high standards of nursing education and clinical training.",
-    "imageUrl": "",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/62/Delhi_University%27s_official_logo.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -2137,7 +2137,7 @@ export const colleges = [
       "lng": 77.3175
     },
     "intro": "Attached to GTB Hospital, it is a premier institute for nursing education serving the healthcare needs of East Delhi.",
-    "imageUrl": "",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/62/Delhi_University%27s_official_logo.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -2163,7 +2163,7 @@ export const colleges = [
       "lng": 77.2405
     },
     "intro": "Located within the Lok Nayak Hospital campus, offering excellent clinical exposure and nursing programs.",
-    "imageUrl": "",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/62/Delhi_University%27s_official_logo.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -2189,7 +2189,7 @@ export const colleges = [
       "lng": 77.3005
     },
     "intro": "A leading institute offering undergraduate and postgraduate degrees in physiotherapy with a focus on rehabilitation.",
-    "imageUrl": "",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/62/Delhi_University%27s_official_logo.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -2215,7 +2215,7 @@ export const colleges = [
       "lng": 77.24
     },
     "intro": "An apex autonomous institute under the Govt. of India, offering specialized programs in Prosthetics & Orthotics and Physiotherapy.",
-    "imageUrl": "",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/62/Delhi_University%27s_official_logo.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -2241,7 +2241,7 @@ export const colleges = [
       "lng": 77.315
     },
     "intro": "A premier institute for mental health and neurosciences, offering specialized postgraduate and doctoral programs.",
-    "imageUrl": "",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/62/Delhi_University%27s_official_logo.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -2266,7 +2266,7 @@ export const colleges = [
       "lng": 77.202
     },
     "intro": "An advanced research institute in economics and social sciences, recognized for its significant policy contributions.",
-    "imageUrl": "",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/62/Delhi_University%27s_official_logo.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -2291,7 +2291,7 @@ export const colleges = [
       "lng": 77.205
     },
     "intro": "A specialized centre focusing on agricultural economics research and policy studies in India.",
-    "imageUrl": "",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/62/Delhi_University%27s_official_logo.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -2316,7 +2316,7 @@ export const colleges = [
       "lng": 77.206
     },
     "intro": "The Department of Education at DU, offering B.Ed, M.Ed and doctoral programs, widely regarded as a premier teacher training institute.",
-    "imageUrl": "",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/62/Delhi_University%27s_official_logo.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -2342,7 +2342,7 @@ export const colleges = [
       "lng": 77.2065
     },
     "intro": "One of India's most prestigious law schools, offering the LLB degree and producing countless eminent jurists and legal luminaries.",
-    "imageUrl": "",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/62/Delhi_University%27s_official_logo.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -2368,7 +2368,7 @@ export const colleges = [
       "lng": 77.207
     },
     "intro": "A premier institution for legal education under the Faculty of Law, University of Delhi, offering evening and day programs.",
-    "imageUrl": "",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/62/Delhi_University%27s_official_logo.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -2394,7 +2394,7 @@ export const colleges = [
       "lng": 77.2075
     },
     "intro": "Part of DU's Faculty of Law, it offers the LLB program and is known for its distinguished faculty and dynamic legal environment.",
-    "imageUrl": "",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/62/Delhi_University%27s_official_logo.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -2420,7 +2420,7 @@ export const colleges = [
       "lng": 77.17
     },
     "intro": "An apex technical institute under the Ministry of Health, offering PG programs in health administration and related fields.",
-    "imageUrl": "",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/62/Delhi_University%27s_official_logo.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
