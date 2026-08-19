@@ -663,6 +663,9 @@
 }
 .ce-rank-tab:hover {
   color: #334155;
+  background-color: #e2e8f0;
+  transform: none;
+  box-shadow: none;
 }
 .ce-rank-tab.on {
   background: #fff;
