@@ -600,7 +600,7 @@ export const colleges = [
       "lng": 77.2198
     },
     "intro": "Founded in 1924, Indraprastha College is one of DU's oldest women's colleges, located at North Campus. It offers strong programs in Humanities and Social Sciences and has a rich legacy of empowering women through education.",
-    "imageUrl": "https://ipcollege.ac.in/assets/front/images/Logo.svg",
+    "imageUrl": "/ip-college-crest.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -848,7 +848,7 @@ export const colleges = [
       "lng": 77.2398
     },
     "intro": "Established in 1956, LSR is widely considered one of India's finest women's colleges, located in South Delhi. It has produced an extraordinary range of alumni including politicians, journalists, and entrepreneurs.",
-    "imageUrl": "https://lsr.edu.in/wp-content/uploads/2019/07/lsr-logo-2019-1.png",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/75/Lady_Shri_Ram_College_for_Women.svg",
     "notableAlumni": [
       {
         "name": "Shazia Ilmi",
