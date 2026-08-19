@@ -204,10 +204,63 @@ export function getRank(collegeId) {
   return RANK_BY_ID[collegeId] ?? null;
 }
 
+// --- NIRF rank lookup (by college id) ---
+// Built from NIRF_DATA (2025 Colleges category). Only 32 DU colleges appear
+// in the NIRF list; the rest show no NIRF badge and sort after ranked ones.
+export const NIRF_RANK_BY_ID = {
+  "hindu-college": 1,
+  "miranda-house-w": 2,
+  "hansraj-college": 3,
+  "kirori-mal-college": 4,
+  "st-stephen-s-college": 5,
+  "atma-ram-sanatan-dharma-college": 6,
+  "sri-venketeswara-college": 7,
+  "deshbandhu-college": 8,
+  "lady-shri-ram-college-for-women-w": 9,
+  "shri-ram-college-of-commerce": 10,
+  "acharya-narendra-dev-college": 11,
+  "daulat-ram-college-w": 12,
+  "deen-dayal-upadhyaya-college": 13,
+  "ramjas-college": 14,
+  "sri-guru-tegh-bahadur-khalsa-college": 15,
+  "delhi-college-of-arts-and-commerce": 16,
+  "lady-irwin-college-w": 17,
+  "sri-guru-gobind-singh-college-of-commerce": 18,
+  "gargi-college-w": 19,
+  "dyal-singh-college": 20,
+  "dyal-singh-college-evening": 20,
+  "ramanujan-college": 21,
+  "maitreyi-college-w": 22,
+  "shaheed-bhagat-singh-college": 23,
+  "shaheed-bhagat-singh-college-evening": 23,
+  "shyam-lal-college": 24,
+  "shyam-lal-college-evening": 24,
+  "bhaskaracharya-college-of-applied-sciences": 25,
+  "kamala-nehru-college-w": 26,
+  "shaheed-rajguru-college-of-applied-sciences-for-women-w": 27,
+  "shivaji-college": 28,
+  "jesus-mary-college-w": 29,
+  "ram-lal-anand-college": 30,
+  "keshav-mahavidyalaya": 31,
+  "p-g-d-a-v-college": 32,
+};
+
+export function getNirfRank(collegeId) {
+  return NIRF_RANK_BY_ID[collegeId] ?? null;
+}
+
 // Sort colleges: ranked first (by rank), then unranked alphabetically.
 export function byRanking(a, b) {
   const ra = RANK_BY_ID[a.id] ?? Number.MAX_SAFE_INTEGER;
   const rb = RANK_BY_ID[b.id] ?? Number.MAX_SAFE_INTEGER;
+  if (ra !== rb) return ra - rb;
+  return (a.name || '').localeCompare(b.name || '');
+}
+
+// Sort colleges by NIRF rank: ranked first, then unranked alphabetically.
+export function byNirfRanking(a, b) {
+  const ra = NIRF_RANK_BY_ID[a.id] ?? Number.MAX_SAFE_INTEGER;
+  const rb = NIRF_RANK_BY_ID[b.id] ?? Number.MAX_SAFE_INTEGER;
   if (ra !== rb) return ra - rb;
   return (a.name || '').localeCompare(b.name || '');
 }

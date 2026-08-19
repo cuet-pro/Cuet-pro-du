@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { colleges } from '../data/colleges';
 import { programs } from '../data/programs';
 import { offerings, sportsQuota } from '../data/cutoffsData';
-import { byRanking, getRank } from '../data/rankingsData';
+import { byRanking, byNirfRanking, getRank, getNirfRank } from '../data/rankingsData';
 import './CollegeExplorer.css';
 
 function getMedal(rank) {
@@ -37,6 +37,7 @@ export function CollegeExplorer() {
   const [sportFilter, setSportFilter] = useState('All');
   const [isFiltersOpen, setIsFiltersOpen] = useState(false);
   const [viewMode, setViewMode] = useState('list'); // 'list' | 'grid'
+  const [rankMode, setRankMode] = useState('market'); // 'market' | 'nirf'
 
   const [visibleCount, setVisibleCount] = useState(15);
   const [isLoadingMore, setIsLoadingMore] = useState(false);
@@ -74,12 +75,12 @@ export function CollegeExplorer() {
       }
       return true;
     });
-    return list.slice().sort(byRanking);
-  }, [searchQuery, campusFilter, typeFilter, streamFilter, sportFilter, collegeStreams]);
+    return list.slice().sort(rankMode === 'nirf' ? byNirfRanking : byRanking);
+  }, [searchQuery, campusFilter, typeFilter, streamFilter, sportFilter, collegeStreams, rankMode]);
 
   useEffect(() => {
     setVisibleCount(15);
-  }, [searchQuery, campusFilter, typeFilter, streamFilter, sportFilter]);
+  }, [searchQuery, campusFilter, typeFilter, streamFilter, sportFilter, rankMode]);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -111,6 +112,29 @@ export function CollegeExplorer() {
         <div className="ce-hero" style={{ textAlign: 'left', marginBottom: 0 }}>
           <h1 className="ce-title" style={{ fontSize: '2rem' }}>Colleges &amp; Rankings</h1>
           <p className="ce-subtitle" style={{ margin: 0, maxWidth: '100%' }}>All DU colleges with market/NIRF rankings, quota seats and campus info. Tap any college for full details.</p>
+        </div>
+
+        <div className="ce-rank-tabs" role="tablist" aria-label="Ranking type" style={{ display: 'flex', gap: '0.5rem', background: '#f1f5f9', padding: '0.35rem', borderRadius: '12px' }}>
+          <button
+            type="button"
+            role="tab"
+            aria-selected={rankMode === 'market'}
+            className={`ce-rank-tab ${rankMode === 'market' ? 'on' : ''}`}
+            onClick={() => setRankMode('market')}
+          >
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M3 3v18h18"></path><path d="M18 17V9"></path><path d="M13 17V5"></path><path d="M8 17v-3"></path></svg>
+            Market
+          </button>
+          <button
+            type="button"
+            role="tab"
+            aria-selected={rankMode === 'nirf'}
+            className={`ce-rank-tab ${rankMode === 'nirf' ? 'on' : ''}`}
+            onClick={() => setRankMode('nirf')}
+          >
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M12 6v6l4 2"></path></svg>
+            NIRF
+          </button>
         </div>
 
         <div className="ce-search-wrapper" style={{ flex: '1', minWidth: '280px', maxWidth: '420px' }}>
@@ -213,7 +237,7 @@ export function CollegeExplorer() {
           {viewMode === 'list' ? (
             <div className="ce-list">
               {filteredColleges.slice(0, visibleCount).map(college => {
-                const rank = getRank(college.id);
+                const rank = rankMode === 'nirf' ? getNirfRank(college.id) : getRank(college.id);
                 return (
                   <Link to={`/college/${college.id}`} key={college.id} className="ce-row">
                     {rank ? <div className="ce-row-rank">{getMedal(rank)}</div> : <div className="ce-row-rank ce-row-rank-none">—</div>}
@@ -233,7 +257,7 @@ export function CollegeExplorer() {
           ) : (
             <div className="ce-grid ce-grid-compact">
               {filteredColleges.slice(0, visibleCount).map(college => {
-                const rank = getRank(college.id);
+                const rank = rankMode === 'nirf' ? getNirfRank(college.id) : getRank(college.id);
                 return (
                   <Link to={`/college/${college.id}`} key={college.id} className="ce-card ce-card-compact">
                     <div className="ce-card-top">

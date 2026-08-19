@@ -635,6 +635,41 @@
   box-shadow: 0 1px 4px rgba(0,0,0,0.12);
 }
 
+/* ===== Market / NIRF rank tabs ===== */
+.ce-rank-tabs {
+  display: flex;
+  gap: 0.35rem;
+  background: #f1f5f9;
+  padding: 0.3rem;
+  border-radius: 12px;
+  flex-shrink: 0;
+}
+.ce-rank-tab {
+  border: none;
+  background: transparent;
+  color: #64748b;
+  padding: 0.45rem 1.1rem;
+  border-radius: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-size: 0.85rem;
+  font-weight: 700;
+  font-family: inherit;
+  white-space: nowrap;
+}
+.ce-rank-tab:hover {
+  color: #334155;
+}
+.ce-rank-tab.on {
+  background: #fff;
+  color: #D94F1E;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.12);
+}
+
 /* ===== Compact Grid (5 per row) ===== */
 .ce-grid-compact {
   grid-template-columns: repeat(5, 1fr);
