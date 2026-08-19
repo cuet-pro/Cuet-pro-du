@@ -132,7 +132,7 @@ export const colleges = [
       "lng": 77.0741
     },
     "intro": "Established in 1975, Bharati College for Women is located in Janakpuri, West Delhi. It offers a broad range of Arts and Science programs and is known for its active student cultural scene.",
-    "imageUrl": "https://www.bharaticollege.du.ac.in/assets/front/images/bhartilogo.svg",
+    "imageUrl": "/bharati-college-crest.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -740,7 +740,7 @@ export const colleges = [
       "lng": 77.1471
     },
     "intro": "Founded in 1984, Keshav Mahavidyalaya is located in Pitampura, North Delhi. It offers programs in Science, Commerce, and Humanities and is known for its active NCC and NSS units.",
-    "imageUrl": "https://keshav.du.ac.in/img/logo.png",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/0/09/Keshav_logo.jpg",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
