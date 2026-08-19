@@ -201,7 +201,7 @@ export const colleges = [
       "lng": 77.1756
     },
     "intro": "Founded in 1972, CVS is located in Sheikh Sarai, South Delhi. It was one of India's first colleges to offer vocational programs and continues to bridge the gap between education and employability.",
-    "imageUrl": "https://www.cvs.du.ac.in/images/logo.png",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e1/College_of_Vocational_Studies.jpg",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -1406,7 +1406,7 @@ export const colleges = [
       "lng": 77.2072
     },
     "intro": "Founded in 1926, SRCC is India's most celebrated Commerce college, located at North Campus. It is consistently ranked among the top colleges in India and has produced leaders across finance, business, and public policy.",
-    "imageUrl": "https://www.srcc.edu/sites/default/files/srcc.png",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/5/55/The_Official_Logo_of_Shri_Ram_College_of_Commerce%28SRCC%29.png",
     "heroImage": "https://placehold.co/1200x400/0F1E3C/FFFFFF?text=SRCC+-+Shri+Ram+College+of+Commerce&font=montserrat",
     "notableAlumni": [
       {
