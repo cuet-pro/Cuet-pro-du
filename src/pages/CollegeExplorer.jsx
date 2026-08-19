@@ -3,16 +3,8 @@ import { Link } from 'react-router-dom';
 import { colleges } from '../data/colleges';
 import { programs } from '../data/programs';
 import { offerings, sportsQuota, getSportsForCollege, getEcaForCollege } from '../data/cutoffsData';
-import { byRanking, getRank, NIRF_DATA, MARKET_RANKING_DATA, TOP_SCIENCE, TOP_COMMERCE, TOP_HUMANITIES } from '../data/rankingsData';
+import { byRanking, getRank } from '../data/rankingsData';
 import './CollegeExplorer.css';
-
-const TIER_COLORS = {
-  'Tier 1': { color: '#b8860b', bg: 'rgba(184, 134, 11, 0.1)' },
-  'Tier 2': { color: '#1e90ff', bg: 'rgba(30, 144, 255, 0.1)' },
-  'Tier 3': { color: '#2e8b57', bg: 'rgba(46, 139, 87, 0.1)' },
-  'Tier 4': { color: '#808080', bg: 'rgba(128, 128, 128, 0.1)' },
-  'Tier 5': { color: '#a9a9a9', bg: 'rgba(169, 169, 169, 0.1)' },
-};
 
 function getMedal(rank) {
   if (rank === 1) return <div className="rank-number rank-1">1</div>;
@@ -34,113 +26,6 @@ function CollegeImg({ src, alt, className }) {
         if (e.currentTarget.src !== fallback) e.currentTarget.src = fallback;
       }}
     />
-  );
-}
-
-function normName(s) {
-  return (s || '')
-    .toLowerCase()
-    .replace(/[()&,.'’]/g, ' ')
-    .replace(/\s+/g, ' ')
-    .trim();
-}
-
-function levenshtein(a, b) {
-  if (a === b) return 0;
-  const m = a.length, n = b.length;
-  if (!m) return n;
-  if (!n) return m;
-  const dp = Array.from({ length: m + 1 }, (_, i) => [i, ...Array(n).fill(0)]);
-  for (let j = 0; j <= n; j++) dp[0][j] = j;
-  for (let i = 1; i <= m; i++) {
-    for (let j = 1; j <= n; j++) {
-      dp[i][j] = Math.min(
-        dp[i - 1][j] + 1,
-        dp[i][j - 1] + 1,
-        dp[i - 1][j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1)
-      );
-    }
-  }
-  return dp[m][n];
-}
-
-function wordMatches(w, list) {
-  // exact, prefix, or edit distance <= 1 (handles Venkateswara vs Venketeswara)
-  return list.some(x => x === w || (w.length > 4 && (x.startsWith(w) || w.startsWith(x))) || (w.length > 4 && levenshtein(w, x) <= 1));
-}
-
-function findCollegeByName(name) {
-  const target = normName(name);
-  return colleges.find(col => {
-    const c = normName(col.name);
-    if (c === target) return true;
-    const targetWords = target.split(' ');
-    const cWords = c.split(' ');
-    const shorter = targetWords.length <= cWords.length ? targetWords : cWords;
-    const longer = targetWords.length <= cWords.length ? cWords : targetWords;
-    // "lsr" is an abbreviation — allow it to match a word it abbreviates
-    const abbrOk = shorter.every(w => wordMatches(w, longer) || (w.length === 3 && longer.some(l => l.startsWith(w) && l.length >= 4)));
-    return shorter.length >= 2 && abbrOk;
-  }) || null;
-}
-
-function RankingsStrip() {
-  const [tab, setTab] = useState('market'); // 'nirf' | 'market'
-
-  const data = tab === 'nirf' ? NIRF_DATA.slice(0, 10) : MARKET_RANKING_DATA.slice(0, 10);
-
-  return (
-    <div className="ce-rankings-strip">
-      <div className="ce-rankings-head">
-        <div className="ce-rankings-title">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ color: '#b45309' }}>
-            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-          </svg>
-          Top Ranked Colleges
-        </div>
-        <div className="ce-rankings-tabs">
-          <button className={`ce-rtab ${tab === 'market' ? 'on' : ''}`} onClick={() => setTab('market')}>Market</button>
-          <button className={`ce-rtab ${tab === 'nirf' ? 'on' : ''}`} onClick={() => setTab('nirf')}>NIRF</button>
-        </div>
-      </div>
-      <div className="ce-rankings-scroll">
-        {data.map((item) => {
-          const c = findCollegeByName(item.college);
-          const id = c ? c.id : null;
-          const tier = TIER_COLORS[item.tier?.split(' ')[0]];
-          const row = (
-            <div className="ce-rank-item" key={item.rank}>
-              {getMedal(item.rank)}
-              <CollegeImg src={`https://placehold.co/40x40?text=${encodeURIComponent(item.college.charAt(0))}`} alt={item.college} className="ce-rank-img" />
-              <div className="ce-rank-info">
-                <div className="ce-rank-name">{item.college.split(' (')[0]}</div>
-                <div className="ce-rank-sub">
-                  {tab === 'nirf' ? `#${item.indiaRank} India · ${item.score}` : item.tier}
-                </div>
-              </div>
-            </div>
-          );
-          return id ? <Link key={item.rank} to={`/college/${id}`} className="ce-rank-item-link">{row}</Link> : <div key={item.rank} className="ce-rank-item-wrap">{row}</div>;
-        })}
-      </div>
-      <div className="ce-bif-row">
-        {[
-          { label: 'Top Science', ids: TOP_SCIENCE, cls: 'bif-science' },
-          { label: 'Top Commerce', ids: TOP_COMMERCE, cls: 'bif-commerce' },
-          { label: 'Top Humanities', ids: TOP_HUMANITIES, cls: 'bif-humanities' },
-        ].map(b => (
-          <div className={`ce-bif-group ${b.cls}`} key={b.label}>
-            <span className="ce-bif-label">{b.label}</span>
-            <div className="ce-bif-chips">
-              {b.ids.map(id => {
-                const c = colleges.find(col => col.id === id);
-                return c ? <Link key={id} to={`/college/${id}`} className="ce-bif-chip">{c.name.split(' (')[0]}</Link> : null;
-              })}
-            </div>
-          </div>
-        ))}
-      </div>
-    </div>
   );
 }
 
@@ -243,8 +128,6 @@ export function CollegeExplorer() {
         </div>
       </div>
 
-      <RankingsStrip />
-
       <div className="ce-controls-container" style={{ padding: '1rem 1.5rem' }}>
 
         <div className="ce-filters-section">
@@ -259,9 +142,11 @@ export function CollegeExplorer() {
               <div className="ce-view-toggle" onClick={(e) => e.stopPropagation()}>
                 <button className={`ce-view-btn ${viewMode === 'list' ? 'on' : ''}`} onClick={() => setViewMode('list')} title="List view">
                   <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="8" y1="6" x2="21" y2="6"></line><line x1="8" y1="12" x2="21" y2="12"></line><line x1="8" y1="18" x2="21" y2="18"></line><line x1="3" y1="6" x2="3.01" y2="6"></line><line x1="3" y1="12" x2="3.01" y2="12"></line><line x1="3" y1="18" x2="3.01" y2="18"></line></svg>
+                  <span className="ce-view-label">List</span>
                 </button>
-                <button className={`ce-view-btn ${viewMode === 'grid' ? 'on' : ''}`} onClick={() => setViewMode('grid')} title="Grid view">
+                <button className={`ce-view-btn ${viewMode === 'grid' ? 'on' : ''}`} onClick={() => setViewMode('grid')} title="Thumbnail view">
                   <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
+                  <span className="ce-view-label">Thumbnail</span>
                 </button>
               </div>
               <svg 
