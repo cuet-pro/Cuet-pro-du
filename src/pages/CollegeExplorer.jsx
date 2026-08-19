@@ -2,7 +2,7 @@ import React, { useState, useMemo, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { colleges } from '../data/colleges';
 import { programs } from '../data/programs';
-import { offerings, sportsQuota, getSportsForCollege, getEcaForCollege } from '../data/cutoffsData';
+import { offerings, sportsQuota } from '../data/cutoffsData';
 import { byRanking, getRank } from '../data/rankingsData';
 import './CollegeExplorer.css';
 
@@ -214,10 +214,6 @@ export function CollegeExplorer() {
             <div className="ce-list">
               {filteredColleges.slice(0, visibleCount).map(college => {
                 const rank = getRank(college.id);
-                const sp = getSportsForCollege(college.id);
-                const ec = getEcaForCollege(college.id);
-                const sportsSeats = sp.reduce((s, r) => s + r.men + r.women, 0);
-                const ecaSeats = ec.reduce((s, e) => s + e.seats, 0);
                 return (
                   <Link to={`/college/${college.id}`} key={college.id} className="ce-row">
                     {rank ? <div className="ce-row-rank">{getMedal(rank)}</div> : <div className="ce-row-rank ce-row-rank-none">—</div>}
@@ -228,14 +224,6 @@ export function CollegeExplorer() {
                         <span className="ce-badge ce-badge-type">{college.type}</span>
                         <span className="ce-badge ce-badge-campus">{college.campus} Campus</span>
                       </div>
-                      <div className="ce-row-sub">
-                        {college.intro ? (college.intro.length > 90 ? college.intro.substring(0, 90) + '...' : college.intro) : '—'}
-                      </div>
-                    </div>
-                    <div className="ce-row-stats">
-                      {(sportsSeats > 0 || ecaSeats > 0) && (
-                        <span className="ce-row-seats">🏅 {sportsSeats} · 🎭 {ecaSeats}</span>
-                      )}
                     </div>
                     <div className="ce-row-go">›</div>
                   </Link>
@@ -246,10 +234,6 @@ export function CollegeExplorer() {
             <div className="ce-grid ce-grid-compact">
               {filteredColleges.slice(0, visibleCount).map(college => {
                 const rank = getRank(college.id);
-                const sp = getSportsForCollege(college.id);
-                const ec = getEcaForCollege(college.id);
-                const sportsSeats = sp.reduce((s, r) => s + r.men + r.women, 0);
-                const ecaSeats = ec.reduce((s, e) => s + e.seats, 0);
                 return (
                   <Link to={`/college/${college.id}`} key={college.id} className="ce-card ce-card-compact">
                     <div className="ce-card-top">
@@ -258,9 +242,6 @@ export function CollegeExplorer() {
                     </div>
                     <h3 className="ce-card-cname">{college.name.split(' (')[0]}</h3>
                     <div className="ce-card-meta">{college.campus} · {college.type}</div>
-                    {(sportsSeats > 0 || ecaSeats > 0) && (
-                      <div className="ce-card-seats">🏅 {sportsSeats} · 🎭 {ecaSeats}</div>
-                    )}
                     <span className="ce-card-link">View Details ›</span>
                   </Link>
                 );
