@@ -275,7 +275,7 @@ export function CollegeDetail() {
                                       <tr>
                                         {CATEGORIES.map(cat => {
                                           const v = getCutoff(offering, cat, round);
-                                          return <td key={cat}>{v !== null ? v.toFixed(1) : '-'}</td>;
+                                          return <td key={cat}>{v !== null ? v.toFixed(1) : '- -'}</td>;
                                         })}
                                       </tr>
                                     </tbody>

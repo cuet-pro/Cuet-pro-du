@@ -1,4 +1,5 @@
 import React, { useState, useMemo, useEffect } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import { colleges } from '../data/colleges';
 import { programs } from '../data/programs';
 import {
@@ -93,6 +94,7 @@ function DetailModal({ open, onClose, mode, item, indices }) {
       name: o.college ? o.college.name : o.collegeName,
       campus: o.college?.campus,
       women: o.college?.type === 'Women' || o.gender === 'Female',
+      top: getCutoff(o, 'UR', 1) || 0,
       cutoffs: CATEGORIES.map((cat) => getCutoff(o, cat, round)),
       seats: CATEGORIES.map((cat) => (cat === 'PwBD' ? null : getSeats(o, cat))),
     }));
@@ -105,6 +107,7 @@ function DetailModal({ open, onClose, mode, item, indices }) {
       key: o.programId,
       name: o.program ? o.program.name : o.programName,
       group: o.program?.subjectGroup,
+      top: getCutoff(o, 'UR', 1) || 0,
       cutoffs: CATEGORIES.map((cat) => getCutoff(o, cat, round)),
       seats: CATEGORIES.map((cat) => (cat === 'PwBD' ? null : getSeats(o, cat))),
     }));
@@ -112,7 +115,10 @@ function DetailModal({ open, onClose, mode, item, indices }) {
 
   const eligCombinations = mode === 'program' ? (getEligibilityForProgram(item.name) || []) : [];
 
-  rows.sort((a, b) => (b.cutoffs[0] || 0) - (a.cutoffs[0] || 0));
+  // Order stays stable across rounds: rank by the round-1 UR cutoff so colleges
+  // that never reached a later round (e.g. SRCC in round 3) stay visible instead
+  // of sinking out of view; their cells render as "- -".
+  rows.sort((a, b) => (b.top || 0) - (a.top || 0));
 
   // Heatmap: compute min/max per column for cutoffs and seats view
   const colStats = CATEGORIES.map((_, ci) => {
@@ -144,18 +150,20 @@ function DetailModal({ open, onClose, mode, item, indices }) {
       <div className="cf-modal" onClick={(e) => e.stopPropagation()} role="dialog" aria-modal="true" style={{ '--maccent': accent }}>
         <div className="cf-modal-head">
           <div className="cf-modal-title">{title}</div>
-          <button className="cf-x" onClick={onClose} aria-label="Close">×</button>
-        </div>
-        <div className="cf-diff-range" aria-hidden="true">
-          <span className="cf-diff-label">{view === 'cutoffs' ? 'Easy' : 'More'}</span>
-          <div className="cf-diff-track">
-            <span className="cf-diff-seg cf-heat-5" />
-            <span className="cf-diff-seg cf-heat-4" />
-            <span className="cf-diff-seg cf-heat-3" />
-            <span className="cf-diff-seg cf-heat-2" />
-            <span className="cf-diff-seg cf-heat-1" />
+          <div className="cf-modal-head-right">
+            <div className="cf-diff-range" aria-hidden="true">
+              <span className="cf-diff-label">{view === 'cutoffs' ? 'Low' : 'More'}</span>
+              <div className="cf-diff-track">
+                <span className="cf-diff-seg cf-heat-5" />
+                <span className="cf-diff-seg cf-heat-4" />
+                <span className="cf-diff-seg cf-heat-3" />
+                <span className="cf-diff-seg cf-heat-2" />
+                <span className="cf-diff-seg cf-heat-1" />
+              </div>
+              <span className="cf-diff-label">{view === 'cutoffs' ? 'High' : 'Less'}</span>
+            </div>
+            <button className="cf-x" onClick={onClose} aria-label="Close">×</button>
           </div>
-          <span className="cf-diff-label">{view === 'cutoffs' ? 'Hard' : 'Less'}</span>
         </div>
         {eligCombinations.length > 0 && (
           <div className="cf-elig-card">
@@ -202,15 +210,21 @@ function DetailModal({ open, onClose, mode, item, indices }) {
                 inputMode="numeric"
                 placeholder="Enter your CUET score (0–1000)"
                 value={score}
-                onChange={(e) => {
-                  setScore(e.target.value);
-                  if (e.target.value && !profile && !profileSkipped) setShowProfile(true);
-                }}
-                onFocus={() => { if (!profile && !profileSkipped) setShowProfile(true); }}
+                onChange={(e) => setScore(e.target.value)}
                 onWheel={(e) => e.target.blur()}
                 max={1000}
                 min={0}
               />
+              {!profile && !profileSkipped && (
+                <button
+                  className="cf-profile-pers"
+                  onClick={() => setShowProfile(true)}
+                  title="Filter results by your category & gender"
+                >
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="8" r="5"></circle><path d="M3 21v-2a7 7 0 0 1 14 0v2"></path></svg>
+                  Personalize
+                </button>
+              )}
             </div>
           )}
           {view === 'cutoffs' && profile && (
@@ -271,7 +285,7 @@ function DetailModal({ open, onClose, mode, item, indices }) {
                       const heat = isCut && !q ? heatClass(v, i, true) : !isCut && v !== null ? heatClass(v, i, false) : '';
                       return (
                         <td key={i} className={'cf-num-cell ' + heat + (q ? ' cf-q' : '')}>
-                          {v === null || v === undefined ? <span className="cf-dash">-</span> : (isCut ? v.toFixed(1) : v)}
+                          {v === null || v === undefined ? <span className="cf-dash">- -</span> : (isCut ? v.toFixed(1) : v)}
                           {q && <i className="cf-tick">✓</i>}
                         </td>
                       );
@@ -318,12 +332,29 @@ function DetailModal({ open, onClose, mode, item, indices }) {
 }
 
 export function Cutoffs() {
-  const [mode, setMode] = useState('program');
+  const [searchParams] = useSearchParams();
+
+  // Deep links like /cutoffs?program=b-com-hons (from the home search) or
+  // /cutoffs?college=srcc open straight into the matching detail modal.
+  const deepTarget = (() => {
+    const pId = searchParams.get('program');
+    if (pId) {
+      const p = programs.find((x) => x.id === pId);
+      if (p) return { mode: 'program', item: p };
+    }
+    const cId = searchParams.get('college');
+    if (cId) {
+      const c = colleges.find((x) => x.id === cId);
+      if (c) return { mode: 'college', item: c };
+    }
+    return null;
+  })();
+  const [mode, setMode] = useState(deepTarget?.mode || 'program');
   const [query, setQuery] = useState('');
   const [group, setGroup] = useState('all');
   const [campus, setCampus] = useState('all');
   const [sort, setSort] = useState('seats');
-  const [selected, setSelected] = useState(null);
+  const [selected, setSelected] = useState(deepTarget);
 
   const indices = useMemo(() => buildIndices(offerings), []);
 
@@ -608,13 +639,16 @@ export function Cutoffs() {
         <p>Official CSAS 2026 seat matrix and cutoff scores (Round 1-3 allocation, selectable in the detail view). "Highest cutoff" shown on each row is the UR (Unreserved) category cutoff at the toughest college or program in that group — tap a row to see every category and college. A "-" means that figure wasn't reported in the official data.</p>
       </footer>
 
-      <DetailModal
-        open={!!selected}
-        onClose={() => setSelected(null)}
-        mode={selected?.mode}
-        item={selected?.item}
-        indices={indices}
-      />
+      {selected && (
+        <DetailModal
+          key={selected.item.id}
+          open
+          onClose={() => setSelected(null)}
+          mode={selected.mode}
+          item={selected.item}
+          indices={indices}
+        />
+      )}
     </div>
   );
 }

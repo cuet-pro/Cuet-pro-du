@@ -179,17 +179,20 @@ function Modal({ open, onClose, payload }) {
   if (mode === "program") {
     const p = item; accent = STREAMS[p.stream].color; title = "Colleges offering " + p.name;
     const myOffs = offerings.filter(o => o.programId === p.id);
-    rows = myOffs.map((o) => ({ key: o.collegeId, name: o.college?.short || o.collegeName, campus: o.college?.campus, women: o.college?.type === "Women" || o.gender === "Women" || o.gender === "Female", cutoffs: CATEGORIES.map((cat) => getCutoff(o, cat, round)), seats: CATEGORIES.map((cat) => getSeats(o, cat)) }));
+    rows = myOffs.map((o) => ({ key: o.collegeId, name: o.college?.short || o.collegeName, campus: o.college?.campus, women: o.college?.type === "Women" || o.gender === "Women" || o.gender === "Female", top: getCutoff(o, "UR", 1) || 0, cutoffs: CATEGORIES.map((cat) => getCutoff(o, cat, round)), seats: CATEGORIES.map((cat) => getSeats(o, cat)) }));
   } else {
     const c = item; accent = "#2563eb"; title = "Your courses at " + c.name;
     const myOffs = offerings.filter(o => o.collegeId === c.id);
     rows = myOffs.filter((o) => !eligibleIds || eligibleIds.has(o.programId)).map(o => {
       const p = PROGRAMS.find(px => px.id === o.programId);
       if (!p) return null;
-      return { key: p.id, name: p.name, stream: p.stream, cutoffs: CATEGORIES.map((cat) => getCutoff(o, cat, round)), seats: CATEGORIES.map((cat) => getSeats(o, cat)) };
+      return { key: p.id, name: p.name, stream: p.stream, top: getCutoff(o, "UR", 1) || 0, cutoffs: CATEGORIES.map((cat) => getCutoff(o, cat, round)), seats: CATEGORIES.map((cat) => getSeats(o, cat)) };
     }).filter(Boolean);
   }
-  rows.sort((a, b) => (b.cutoffs[0] || 0) - (a.cutoffs[0] || 0));
+  // Order stays stable across rounds: rank by the round-1 UR cutoff so colleges
+  // that never reached a later round (e.g. SRCC in round 3) stay visible instead
+  // of sinking out of view; their cells render as "- -".
+  rows.sort((a, b) => (b.top || 0) - (a.top || 0));
 
   const colStats = CATEGORIES.map((_, ci) => {
     const vals = rows.map(r => r.cutoffs[ci]).filter(v => v !== null && v !== undefined);
@@ -218,17 +221,22 @@ function Modal({ open, onClose, payload }) {
   return (
     <div className="cf-overlay" onClick={onClose}>
       <div className="cf-modal" onClick={(e) => e.stopPropagation()} role="dialog" aria-modal="true" style={{ "--maccent": accent }}>
-        <div className="cf-modal-head"><div className="cf-modal-title">{title}</div><button className="cf-x" onClick={onClose} aria-label="Close">×</button></div>
-        <div className="cf-diff-range" aria-hidden="true">
-          <span className="cf-diff-label">{view === "cutoffs" ? "Easy" : "More"}</span>
-          <div className="cf-diff-track">
-            <span className="cf-diff-seg cf-heat-5" />
-            <span className="cf-diff-seg cf-heat-4" />
-            <span className="cf-diff-seg cf-heat-3" />
-            <span className="cf-diff-seg cf-heat-2" />
-            <span className="cf-diff-seg cf-heat-1" />
+        <div className="cf-modal-head">
+          <div className="cf-modal-title">{title}</div>
+          <div className="cf-modal-head-right">
+            <div className="cf-diff-range" aria-hidden="true">
+              <span className="cf-diff-label">{view === "cutoffs" ? "Low" : "More"}</span>
+              <div className="cf-diff-track">
+                <span className="cf-diff-seg cf-heat-5" />
+                <span className="cf-diff-seg cf-heat-4" />
+                <span className="cf-diff-seg cf-heat-3" />
+                <span className="cf-diff-seg cf-heat-2" />
+                <span className="cf-diff-seg cf-heat-1" />
+              </div>
+              <span className="cf-diff-label">{view === "cutoffs" ? "High" : "Less"}</span>
+            </div>
+            <button className="cf-x" onClick={onClose} aria-label="Close">×</button>
           </div>
-          <span className="cf-diff-label">{view === "cutoffs" ? "Hard" : "Less"}</span>
         </div>
         {eligCombinations.length > 0 && (
           <div className="cf-elig-card">
@@ -269,10 +277,17 @@ function Modal({ open, onClose, payload }) {
               <svg className="cf-score-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                 <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
               </svg>
-              <input className="cf-scorein" type="number" inputMode="numeric" placeholder="Enter your CUET score (0–1000)" value={score} onChange={(e) => {
-                setScore(e.target.value);
-                if (e.target.value && !profile && !profileSkipped) setShowProfile(true);
-              }} onFocus={() => { if (!profile && !profileSkipped) setShowProfile(true); }} onWheel={(e) => e.target.blur()} max={1000} min={0} />
+              <input className="cf-scorein" type="number" inputMode="numeric" placeholder="Enter your CUET score (0–1000)" value={score} onChange={(e) => setScore(e.target.value)} onWheel={(e) => e.target.blur()} max={1000} min={0} />
+              {!profile && !profileSkipped && (
+                <button
+                  className="cf-profile-pers"
+                  onClick={() => setShowProfile(true)}
+                  title="Filter results by your category & gender"
+                >
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="8" r="5"></circle><path d="M3 21v-2a7 7 0 0 1 14 0v2"></path></svg>
+                  Personalize
+                </button>
+              )}
             </div>
           )}
           {view === "cutoffs" && profile && (
@@ -323,7 +338,7 @@ function Modal({ open, onClose, payload }) {
                       const q = isCut && numScore !== null && v !== null && numScore >= v && catOk && genderOk;
                       const heat = isCut && !q ? heatClass(v, i, true) : !isCut && v !== null ? heatClass(v, i, false) : '';
                       return (
-                        <td key={i} className={"cf-num-cell " + heat + (q ? " cf-q" : "")}>{v === null ? <span className="cf-dash">—</span> : (isCut ? v.toFixed(1) : v)}{q && <i className="cf-tick">✓</i>}</td>
+                        <td key={i} className={"cf-num-cell " + heat + (q ? " cf-q" : "")}>{v === null || v === undefined ? <span className="cf-dash">- -</span> : (isCut ? v.toFixed(1) : v)}{q && <i className="cf-tick">✓</i>}</td>
                       );
                     })}
                   </tr>
@@ -675,7 +690,14 @@ export function SubjectCombination() {
         </div>
       )}
 
-      <Modal open={!!selected} onClose={() => setSelected(null)} payload={selected} />
+      {selected && (
+        <Modal
+          key={selected.item.id}
+          open
+          onClose={() => setSelected(null)}
+          payload={selected}
+        />
+      )}
     </div>
   );
 }
