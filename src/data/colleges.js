@@ -458,7 +458,7 @@ export const colleges = [
       "lng": 77.204
     },
     "intro": "Established in 1967, Gargi College is a leading women's institution in South Delhi. Named after the Vedic philosopher Gargi, it is renowned for its excellent programs in Science, Commerce, and Humanities.",
-    "imageUrl": "https://www.gargicollege.in/assets/front/images/logo.png",
+    "imageUrl": "/logos/gargi.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -671,7 +671,7 @@ export const colleges = [
       "lng": 77.1985
     },
     "intro": "Established in 1968, Jesus & Mary College is a minority-run women's institution located in South Delhi. Managed by the Congregation of Jesus, it is known for holistic education across Humanities and Social Sciences.",
-    "imageUrl": "https://www.jmc.ac.in/assets-new/front/images/main_logo.svg",
+    "imageUrl": "/logos/jmc.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -975,7 +975,7 @@ export const colleges = [
       "lng": 77.2401
     },
     "intro": "Established in 1967, Mata Sundri College is a Sikh-minority women's institution in Central Delhi. It offers programs in Arts, Commerce, and Science and is known for its cultural events and community service.",
-    "imageUrl": "https://mscw.ac.in/assets_web/images/msc_logo.jpg",
+    "imageUrl": "/logos/mata-sundri.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -1220,7 +1220,7 @@ export const colleges = [
       "lng": 77.2163
     },
     "intro": "Established in 1917, Ramjas College is one of Delhi University's oldest colleges, located at North Campus. It has a distinguished academic tradition and notable alumni spanning literature, politics, and public service.",
-    "imageUrl": "https://web.archive.org/web/20200918231413im_/http://ramjas.du.ac.in/images/logo.png",
+    "imageUrl": "/logos/ramjas.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -1653,7 +1653,7 @@ export const colleges = [
       "lng": 77.1734
     },
     "intro": "Established in 1961, Sri Venkateswara College is located in Dhaula Kuan, South Delhi. Run by the Tirumala Tirupati Devasthanams, it is renowned for its Science programs and distinguished faculty.",
-    "imageUrl": "https://www.svc.ac.in/svc_home/img/main_top.fw.png",
+    "imageUrl": "/logos/svc.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
