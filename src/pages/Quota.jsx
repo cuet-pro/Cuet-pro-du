@@ -22,6 +22,7 @@ export function Quota() {
   const [sport, setSport] = useState('');
   const [activity, setActivity] = useState('');
   const [search, setSearch] = useState('');
+  const [filterOpen, setFilterOpen] = useState(false);
 
   const college = colleges.find((c) => c.id === collegeId);
 
@@ -96,10 +97,7 @@ export function Quota() {
       {/* Stats strip */}
       <div className="q-stats">
         <div className="q-kpi"><b>{collegesWithSports.length}</b><span>Colleges with Sports quota</span></div>
-        <div className="q-kpi"><b>{sportsList.length}</b><span>Sports</span></div>
         <div className="q-kpi"><b>{nf(totalSportsSeats)}</b><span>Sports seats</span></div>
-        <div className="q-kpi"><b>{collegesWithEca.length}</b><span>Colleges with ECA quota</span></div>
-        <div className="q-kpi"><b>{activityList.length}</b><span>ECA activities</span></div>
         <div className="q-kpi"><b>{nf(totalEcaSeats)}</b><span>ECA seats</span></div>
       </div>
 
@@ -114,22 +112,40 @@ export function Quota() {
       {/* Tab: By College */}
       {tab === 'college' && (
         <div className="q-panel">
-          <div className="q-controls">
-            <div className="q-search-wrap">
-              <svg className="q-search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
-              <input
-                className="q-search"
-                placeholder="Search college by name…"
-                value={search}
-                onChange={(e) => setSearch(e.target.value)}
-              />
-            </div>
-            <select className="q-select" value={collegeId} onChange={(e) => setCollegeId(e.target.value)}>
-              {filteredColleges.map((c) => (
-                <option key={c.id} value={c.id}>{c.name}</option>
-              ))}
-            </select>
+          {/* Main college filter — collapsed by default, expands on click */}
+          <div
+            className="q-filter-toggle"
+            onClick={() => setFilterOpen((o) => !o)}
+            aria-expanded={filterOpen}
+            role="button"
+            tabIndex={0}
+            onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); setFilterOpen((o) => !o); } }}
+          >
+            <span className="q-filter-toggle-icon">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon></svg>
+            </span>
+            <span className="q-filter-toggle-label">College Filter</span>
+            <span className="q-filter-toggle-arrow">{filterOpen ? '▲' : '▼'}</span>
           </div>
+
+          {filterOpen && (
+            <div className="q-controls">
+              <div className="q-search-wrap">
+                <svg className="q-search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                <input
+                  className="q-search"
+                  placeholder="Search college by name…"
+                  value={search}
+                  onChange={(e) => setSearch(e.target.value)}
+                />
+              </div>
+              <select className="q-select" value={collegeId} onChange={(e) => setCollegeId(e.target.value)}>
+                {filteredColleges.map((c) => (
+                  <option key={c.id} value={c.id}>{c.name}</option>
+                ))}
+              </select>
+            </div>
+          )}
 
           {college && (
             <>
