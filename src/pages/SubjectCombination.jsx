@@ -19,7 +19,6 @@ const STREAMS = {
 import rawEligibility from '../data/course_requirements.json';
 import { programs as ALL_PROGRAMS } from '../data/programs';
 import { getScoreBreakdown } from '../lib/scoreEngine';
-import { Quota } from './Quota';
 
 // Market ranking order — lower rank = better
 const MARKET_RANK = {
@@ -393,7 +392,6 @@ export function SubjectCombination() {
   const [group, setGroup] = useState("all");
   const [campus, setCampus] = useState("all");
   const [sort, setSort] = useState("market");
-  const [showQuota, setShowQuota] = useState(false);
 
   const handleTabChange = (newTab) => {
     setTab(newTab);
@@ -579,22 +577,6 @@ export function SubjectCombination() {
         {totalPicked > 0 && <button className="cp-reset" onClick={reset}>Clear all</button>}
       </div>
 
-      {/* Sports & ECA Quota — always accessible without picking subjects */}
-      <div className="cp-quota-section">
-        <button className="cp-quota-toggle" onClick={() => setShowQuota(!showQuota)} aria-expanded={showQuota}>
-          <span className="cp-quota-toggle-icon">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path><line x1="2" y1="12" x2="22" y2="12"></line></svg>
-          </span>
-          <span className="cp-quota-toggle-label">Sports & ECA Quota</span>
-          <span className="cp-quota-toggle-arrow">{showQuota ? '▲' : '▼'}</span>
-        </button>
-        {showQuota && (
-          <div className="cp-quota-body">
-            <Quota />
-          </div>
-        )}
-      </div>
-
       {shown && totalPicked > 0 && (
         <div className="cf-results" style={{ marginTop: "2rem" }}>
           <div className="cf-seg" data-on={tab === "eligible" ? "program" : "college"}>
@@ -702,7 +684,7 @@ export function SubjectCombination() {
 
 const CSS = `
 @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap');
-.cp-wrap{--bg:#FFFFFF;--card:#f8fafc;--ink:#0f172a;--muted:#64748b;--line:#e2e8f0;--mari:#2563eb;--ok:#059669;font-family:'Inter',system-ui,sans-serif;color:var(--ink);background:var(--bg);max-width:1200px;margin:20px auto 100px;padding:32px 32px 48px;border-radius:24px;box-shadow:0 10px 30px -10px rgba(0,0,0,0.1);-webkit-font-smoothing:antialiased}
+.cp-wrap{--bg:#FFFFFF;--card:#f8fafc;--ink:#0f172a;--muted:#64748b;--line:#e2e8f0;--mari:#2563eb;--ok:#059669;font-family:'Inter',system-ui,sans-serif;color:var(--ink);background:var(--bg);max-width:1100px;margin:20px auto 100px;padding:32px 32px 48px;border-radius:24px;box-shadow:0 10px 30px -10px rgba(0,0,0,0.1);-webkit-font-smoothing:antialiased}
 .cp-wrap *{box-sizing:border-box}
 .cp-stat b,.cp-num-cell,.cp-scorein,.cp-ring-num{font-variant-numeric:tabular-nums}
 .cp-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px}
@@ -710,7 +692,7 @@ const CSS = `
 .cp-logo{width:42px;height:42px;border-radius:13px;background:linear-gradient(135deg,#3b82f6,#7c3aed);color:#fff;display:grid;place-items:center;font-family:'Figtree';font-weight:800;font-size:17px}
 .cp-brand-name{font-family:'Figtree';font-weight:800;font-size:17px;line-height:1}.cp-brand-sub{font-size:11.5px;color:var(--muted);margin-top:3px}
 .cp-demo{font-size:11px;font-weight:600;color:var(--mari);background:#eff6ff;padding:5px 11px;border-radius:20px;border:1px solid #bfdbfe}
-.cp-hero-new { position:relative; background:linear-gradient(125deg,#1e3a8a 0%,#1d4ed8 45%,#2563eb 70%,#3b82f6 100%); border-radius:18px; padding:2.5rem 2rem 2.25rem 2.5rem; margin-bottom:16px; display:flex; align-items:center; justify-content:space-between; gap:1.5rem; overflow:hidden; min-height:200px; box-shadow:0 8px 32px rgba(37,99,235,0.3),0 2px 8px rgba(37,99,235,0.2) }
+.cp-hero-new { position:relative; background:linear-gradient(125deg,#1e3a8a 0%,#1d4ed8 45%,#2563eb 70%,#3b82f6 100%); border-radius:20px; padding:2.5rem 2.5rem; margin:1.5rem 0 2rem; display:flex; align-items:center; justify-content:space-between; gap:1.5rem; overflow:hidden; min-height:200px; box-shadow:0 8px 32px rgba(37,99,235,0.3),0 2px 8px rgba(37,99,235,0.2); background-image:radial-gradient(circle at 85% 20%,rgba(255,255,255,0.12) 0,transparent 45%),radial-gradient(circle at 15% 90%,rgba(52,211,153,0.10) 0,transparent 45%),linear-gradient(125deg,#1e3a8a 0%,#1d4ed8 45%,#2563eb 70%,#3b82f6 100%) }
 .cp-hero-bg { position:absolute; inset:0; pointer-events:none; z-index:0 }
 .cp-hero-blob { position:absolute; border-radius:50%; filter:blur(40px) }
 .cp-hero-blob-1 { width:260px; height:260px; background:rgba(99,179,237,0.25); top:-80px; right:160px }
@@ -720,7 +702,7 @@ const CSS = `
 .cp-hero-content { flex:1; min-width:0; position:relative; z-index:1 }
 .cp-herobadge-new { display:inline-block; background:rgba(255,255,255,0.18); color:#fff; font-size:11.5px; font-weight:700; padding:4.5px 11px; border-radius:6px; letter-spacing:0.4px; margin-bottom:13px; border:1px solid rgba(255,255,255,0.25); backdrop-filter:blur(4px) }
 .cp-hero-new h1 { font-family:'Figtree'; font-size:38px; font-weight:800; letter-spacing:-1px; margin:0 0 10px; color:#ffffff; line-height:1.1; text-shadow:0 1px 4px rgba(0,0,0,0.15) }
-.cp-hero-new p { font-size:15px; line-height:1.55; color:rgba(255,255,255,0.8); margin:0; max-width:44ch }
+.cp-hero-new p { font-size:15px; line-height:1.55; color:rgba(255,255,255,0.82); margin:0; max-width:44ch }
 .cp-hero-illustration { flex-shrink:0; width:220px; position:relative; z-index:1; filter:drop-shadow(0 8px 24px rgba(0,0,0,0.2)) }
 .cp-hero-illustration svg { width:100%; height:auto; display:block }
 @media(max-width:640px){ .cp-hero-new { padding: 1.75rem 1.25rem; min-height:auto; flex-direction: column; } .cp-hero-illustration { display:none } .cp-hero-new h1 { font-size:1.85rem; } }
@@ -744,13 +726,6 @@ const CSS = `
 .cp-cta:disabled{background:#e2e8f0;color:#94a3b8;cursor:not-allowed;box-shadow:none}
 .cp-reset{border:0;background:none;color:var(--mari);font-weight:700;font-size:12.5px;cursor:pointer;font-family:inherit}
 .cp-reset:hover{background-color:transparent;color:#1d4ed8;box-shadow:none;transform:none}
-.cp-quota-section{background:var(--card);border:1px solid var(--line);border-radius:16px;margin-bottom:20px;overflow:hidden}
-.cp-quota-toggle{display:flex;align-items:center;gap:10px;width:100%;border:0;background:linear-gradient(135deg,#fefce8,#fffbeb);color:#78350f;font-family:'Figtree';font-weight:800;font-size:14.5px;padding:15px 18px;cursor:pointer;text-align:left;transition:background .15s ease}
-.cp-quota-toggle:hover{background:linear-gradient(135deg,#fef9c3,#fef3c7)}
-.cp-quota-toggle-icon{display:grid;place-items:center;width:30px;height:30px;border-radius:9px;background:#fef3c7;color:#ca8a04;flex-shrink:0}
-.cp-quota-toggle-label{flex:1}
-.cp-quota-toggle-arrow{font-size:11px;color:#a16207}
-.cp-quota-body{padding:18px;border-top:1px solid var(--line)}
 .cp-selected-summary{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px 18px;margin-bottom:20px}
 .cp-selected-head{font-family:'Figtree';font-weight:700;font-size:14px;margin-bottom:12px;color:var(--ink)}
 .cp-selected-chips{display:flex;flex-wrap:wrap;gap:8px}
