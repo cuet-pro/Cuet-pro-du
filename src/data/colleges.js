@@ -272,7 +272,7 @@ export const colleges = [
       "lng": 77.2189
     },
     "intro": "Established in 1987, DCAC is located in North Campus, Delhi. It offers programmes in Commerce, Economics, and Humanities and is recognised for its culturally active campus life.",
-    "imageUrl": "https://dcac.du.ac.in//assets/upload/logo.png",
+    "imageUrl": "/logos/dcac.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -364,7 +364,7 @@ export const colleges = [
       "lng": 77.2596
     },
     "intro": "Founded in 1952, Deshbandhu College is located in Kalkaji, South Delhi. Named after freedom fighter Chittaranjan Das, it is well-known for its Science programs and has produced notable researchers and professionals.",
-    "imageUrl": "https://www.deshbandhucollege.ac.in/images/logonew.jpg",
+    "imageUrl": "/logos/deshbandhu.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -410,7 +410,7 @@ export const colleges = [
       "lng": 77.2194
     },
     "intro": "Founded in 1959, Dyal Singh College is located in Lodi Road, South Delhi. Endowed by the philanthropist Sardar Dyal Singh Majithia, it is known for its vibrant academic environment across Arts and Science streams.",
-    "imageUrl": "https://www.dsce.du.ac.in/assets/front/images/logo.svg",
+    "imageUrl": "/logos/dyal-singh.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -433,7 +433,7 @@ export const colleges = [
       "lng": 77.2194
     },
     "intro": "The Evening shift of Dyal Singh College caters to working students and those seeking a second opportunity at quality higher education in Arts and Science programs in South Delhi.",
-    "imageUrl": "https://www.dsce.du.ac.in/assets/front/images/logo.svg",
+    "imageUrl": "/logos/dyal-singh.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -1358,7 +1358,7 @@ export const colleges = [
       "lng": 77.3111
     },
     "intro": "Founded in 1987, SSCBS is located in Vivek Vihar, East Delhi. It is one of India's premier business colleges, exclusively offering BBA (Financial Investment Analysis) and is known for its exceptional placement record.",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/d/d4/Logo_of_Shaheed_Sukhdev_College_of_Business_Studies.jpg",
+    "imageUrl": "/logos/sscbs.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
