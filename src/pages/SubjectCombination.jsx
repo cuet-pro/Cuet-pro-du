@@ -684,7 +684,7 @@ export function SubjectCombination() {
 
 const CSS = `
 @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap');
-.cp-wrap{--bg:#FFFFFF;--card:#f8fafc;--ink:#0f172a;--muted:#64748b;--line:#e2e8f0;--mari:#2563eb;--ok:#059669;font-family:'Inter',system-ui,sans-serif;color:var(--ink);background:var(--bg);max-width:1100px;margin:20px auto 100px;padding:32px 32px 48px;border-radius:24px;box-shadow:0 10px 30px -10px rgba(0,0,0,0.1);-webkit-font-smoothing:antialiased}
+.cp-wrap{--bg:#FFFFFF;--card:#f8fafc;--ink:#0f172a;--muted:#64748b;--line:#e2e8f0;--mari:#2563eb;--ok:#059669;font-family:'Inter',system-ui,sans-serif;color:var(--ink);background:var(--bg);max-width:1100px;margin:20px auto 100px;padding:32px 24px 48px;border-radius:24px;box-shadow:0 10px 30px -10px rgba(0,0,0,0.1);-webkit-font-smoothing:antialiased}
 .cp-wrap *{box-sizing:border-box}
 .cp-stat b,.cp-num-cell,.cp-scorein,.cp-ring-num{font-variant-numeric:tabular-nums}
 .cp-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px}
@@ -692,7 +692,7 @@ const CSS = `
 .cp-logo{width:42px;height:42px;border-radius:13px;background:linear-gradient(135deg,#3b82f6,#7c3aed);color:#fff;display:grid;place-items:center;font-family:'Figtree';font-weight:800;font-size:17px}
 .cp-brand-name{font-family:'Figtree';font-weight:800;font-size:17px;line-height:1}.cp-brand-sub{font-size:11.5px;color:var(--muted);margin-top:3px}
 .cp-demo{font-size:11px;font-weight:600;color:var(--mari);background:#eff6ff;padding:5px 11px;border-radius:20px;border:1px solid #bfdbfe}
-.cp-hero-new { position:relative; background:linear-gradient(125deg,#1e3a8a 0%,#1d4ed8 45%,#2563eb 70%,#3b82f6 100%); border-radius:20px; padding:2.5rem 2.5rem; margin:1.5rem 0 2rem; display:flex; align-items:center; justify-content:space-between; gap:1.5rem; overflow:hidden; min-height:200px; box-shadow:0 8px 32px rgba(37,99,235,0.3),0 2px 8px rgba(37,99,235,0.2); background-image:radial-gradient(circle at 85% 20%,rgba(255,255,255,0.12) 0,transparent 45%),radial-gradient(circle at 15% 90%,rgba(52,211,153,0.10) 0,transparent 45%),linear-gradient(125deg,#1e3a8a 0%,#1d4ed8 45%,#2563eb 70%,#3b82f6 100%) }
+.cp-hero-new { position:relative; background:linear-gradient(125deg,#1e3a8a 0%,#1d4ed8 45%,#2563eb 70%,#3b82f6 100%); border-radius:20px; padding:2.5rem 2.5rem; margin:1.5rem 0 2rem; display:flex; align-items:center; justify-content:space-between; gap:1.5rem; overflow:hidden; min-height:240px; box-shadow:0 8px 32px rgba(37,99,235,0.3),0 2px 8px rgba(37,99,235,0.2); background-image:radial-gradient(circle at 85% 20%,rgba(255,255,255,0.12) 0,transparent 45%),radial-gradient(circle at 15% 90%,rgba(52,211,153,0.10) 0,transparent 45%),linear-gradient(125deg,#1e3a8a 0%,#1d4ed8 45%,#2563eb 70%,#3b82f6 100%) }
 .cp-hero-bg { position:absolute; inset:0; pointer-events:none; z-index:0 }
 .cp-hero-blob { position:absolute; border-radius:50%; filter:blur(40px) }
 .cp-hero-blob-1 { width:260px; height:260px; background:rgba(99,179,237,0.25); top:-80px; right:160px }
