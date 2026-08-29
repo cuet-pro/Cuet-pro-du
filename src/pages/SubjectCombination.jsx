@@ -166,7 +166,6 @@ function Modal({ open, onClose, payload }) {
   const [round, setRound] = useState(1);
   const [score, setScore] = useState("");
   const [profile, setProfile] = useState(null); // { category, gender }
-  const [profileSkipped, setProfileSkipped] = useState(false);
   const [showProfile, setShowProfile] = useState(false);
   const [profCategory, setProfCategory] = useState("UR");
   const [profGender, setProfGender] = useState("Female");
@@ -278,14 +277,14 @@ function Modal({ open, onClose, payload }) {
                 <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
               </svg>
               <input className="cf-scorein" type="number" inputMode="numeric" placeholder="Enter your CUET score (0–1000)" value={score} onChange={(e) => setScore(e.target.value)} onWheel={(e) => e.target.blur()} max={1000} min={0} />
-              {!profile && !profileSkipped && (
+              {!profile && (
                 <button
-                  className="cf-profile-pers"
+                  className="cf-check-btn"
                   onClick={() => setShowProfile(true)}
-                  title="Filter results by your category & gender"
+                  title="Set your category & gender for accurate results"
                 >
-                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="8" r="5"></circle><path d="M3 21v-2a7 7 0 0 1 14 0v2"></path></svg>
-                  Personalize
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  Check
                 </button>
               )}
             </div>
@@ -356,7 +355,6 @@ function Modal({ open, onClose, payload }) {
             <div className="cf-profile-title">Personalize your chances 🎯</div>
             <p className="cf-profile-sub">
               Add your <b>category</b> and <b>gender</b> for a more accurate result.
-              Green ✓ sirf aapki category aur gender ke hisaab se dikhega.
             </p>
             <label className="cf-profile-label" htmlFor="cf-prof-cat">Your category</label>
             <select id="cf-prof-cat" className="cf-profile-select" value={profCategory} onChange={(e) => setProfCategory(e.target.value)}>
@@ -368,10 +366,10 @@ function Modal({ open, onClose, payload }) {
               <option value="Male">Male</option>
             </select>
             <div className="cf-profile-actions">
-              <button className="cf-profile-apply" onClick={() => { setProfile({ category: profCategory, gender: profGender }); setProfileSkipped(false); setShowProfile(false); }}>
+              <button className="cf-profile-apply" onClick={() => { setProfile({ category: profCategory, gender: profGender }); setShowProfile(false); }}>
                 Show my chances ✓
               </button>
-              <button className="cf-profile-skip" onClick={() => { setProfileSkipped(true); setShowProfile(false); }}>
+              <button className="cf-profile-skip" onClick={() => { setProfile(null); setShowProfile(false); }}>
                 Skip
               </button>
             </div>

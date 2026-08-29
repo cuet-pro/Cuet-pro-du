@@ -1219,11 +1219,11 @@
   "college": "Aditi Mahavidyalaya (W)",
   "collegeId": "aditi-mahavidyalaya-w",
   "program": "B.A Program (Community Science + Hindi / Sociology)",
-  "programId": null,
+  "programId": "b-a-program-community-science-hindi-sociology",
   "cutoffs": {
    "UR": {
-    "round1": 242.4865,
-    "round2": 148.6619,
+    "round1": 438.4971,
+    "round2": 374.9511,
     "round3": 427.438
    },
    "OBC": {
@@ -1232,8 +1232,8 @@
     "round3": 294.5989
    },
    "SC": {
-    "round1": 213.5778,
-    "round2": 173.8867,
+    "round1": 146.2662,
+    "round2": 184.8914,
     "round3": 185.4089
    },
    "ST": {
@@ -1242,7 +1242,7 @@
     "round3": 236.4251
    },
    "EWS": {
-    "round1": 261.2173,
+    "round1": 135.5988,
     "round2": 301.6644,
     "round3": null
    },
@@ -1262,8 +1262,8 @@
     "round3": null
    },
    "SGC": {
-    "round1": 443.4269,
-    "round2": 324.9086,
+    "round1": 431.8959,
+    "round2": 213.4354,
     "round3": 342.4537
    },
    "ORPHAN_FEMALE": {
@@ -3499,7 +3499,7 @@
   "college": "Atma Ram Sanatan Dharma College",
   "collegeId": "atma-ram-sanatan-dharma-college",
   "program": "B.A Program (Any two disciplines from (History/Political Science/Economics))",
-  "programId": null,
+  "programId": "b-a-program-any-two-disciplines-from-history-political-science-economics",
   "cutoffs": {
    "UR": {
     "round1": 743.4734,
@@ -4639,11 +4639,11 @@
   "college": "Bhagini Nivedita College (W)",
   "collegeId": "bhagini-nivedita-college-w",
   "program": "B.A Program (Community Science + Political Science)",
-  "programId": null,
+  "programId": "b-a-program-community-science-political-science",
   "cutoffs": {
    "UR": {
-    "round1": 459.3548,
-    "round2": 416.1399,
+    "round1": 470.3067,
+    "round2": 421.2551,
     "round3": 467.3965
    },
    "OBC": {
@@ -4652,7 +4652,7 @@
     "round3": 84.414
    },
    "SC": {
-    "round1": 149.7592,
+    "round1": 177.521,
     "round2": 155.7531,
     "round3": 268.4131
    },
@@ -4662,7 +4662,7 @@
     "round3": null
    },
    "EWS": {
-    "round1": 283.5617,
+    "round1": 209.0632,
     "round2": 283.5617,
     "round3": null
    },
@@ -4682,8 +4682,8 @@
     "round3": null
    },
    "SGC": {
-    "round1": 435.9516,
-    "round2": 320.7675,
+    "round1": 443.368,
+    "round2": 391.1696,
     "round3": 274.3476
    },
    "ORPHAN_FEMALE": {
@@ -6539,7 +6539,7 @@
   "college": "Bharati College (W)",
   "collegeId": "bharati-college-w",
   "program": "B.A Program (Community Science + Political Science)",
-  "programId": null,
+  "programId": "b-a-program-community-science-political-science",
   "cutoffs": {
    "UR": {
     "round1": 534.848,
@@ -8971,7 +8971,7 @@
   "college": "College of Vocational Studies",
   "collegeId": "college-of-vocational-studies",
   "program": "B.A Program (Commerce + Hindi)",
-  "programId": null,
+  "programId": "b-a-program-commerce-hindi",
   "cutoffs": {
    "UR": {
     "round1": 605.9905,
@@ -10035,11 +10035,11 @@
   "college": "Daulat Ram College (W)",
   "collegeId": "daulat-ram-college-w",
   "program": "B.A Program (Commerce + Community Science)",
-  "programId": null,
+  "programId": "b-a-program-commerce-community-science",
   "cutoffs": {
    "UR": {
-    "round1": 579.599,
-    "round2": 511.1462,
+    "round1": 710.0676,
+    "round2": 707.4631,
     "round3": null
    },
    "OBC": {
@@ -10048,18 +10048,18 @@
     "round3": 197.4131
    },
    "SC": {
-    "round1": 394.4618,
-    "round2": 343.9122,
+    "round1": 508.333,
+    "round2": 494.8881,
     "round3": null
    },
    "ST": {
-    "round1": 274.3247,
+    "round1": 312.4505,
     "round2": 338.3963,
     "round3": 245.8896
    },
    "EWS": {
-    "round1": 412.32,
-    "round2": 320.8172,
+    "round1": 670.1864,
+    "round2": 670.1864,
     "round3": 260.3238
    },
    "PwBD": {
@@ -10078,7 +10078,7 @@
     "round3": null
    },
    "SGC": {
-    "round1": 478.4694,
+    "round1": 686.9063,
     "round2": 478.4694,
     "round3": 276.8064
    },
@@ -13969,7 +13969,19 @@
     "round3": null
    }
   },
-  "seats": null
+  "seats": {
+   "UR": 40,
+   "OBC": 27,
+   "SC": 15,
+   "ST": 8,
+   "EWS": 10,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 5,
+   "CW": 5,
+   "KM": 0,
+   "total": 100
+  }
  },
  {
   "college": "Department of Germanic and Romance Studies",
@@ -14033,7 +14045,19 @@
     "round3": null
    }
   },
-  "seats": null
+  "seats": {
+   "UR": 19,
+   "OBC": 13,
+   "SC": 7,
+   "ST": 4,
+   "EWS": 6,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 2,
+   "CW": 2,
+   "KM": 2,
+   "total": 49
+  }
  },
  {
   "college": "Department of Germanic and Romance Studies",
@@ -14097,7 +14121,19 @@
     "round3": null
    }
   },
-  "seats": null
+  "seats": {
+   "UR": 19,
+   "OBC": 13,
+   "SC": 7,
+   "ST": 4,
+   "EWS": 6,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 2,
+   "CW": 2,
+   "KM": 2,
+   "total": 49
+  }
  },
  {
   "college": "Department of Germanic and Romance Studies",
@@ -14161,7 +14197,19 @@
     "round3": null
    }
   },
-  "seats": null
+  "seats": {
+   "UR": 19,
+   "OBC": 13,
+   "SC": 7,
+   "ST": 4,
+   "EWS": 6,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 2,
+   "CW": 2,
+   "KM": 2,
+   "total": 49
+  }
  },
  {
   "college": "Department of Germanic and Romance Studies",
@@ -14225,7 +14273,19 @@
     "round3": null
    }
   },
-  "seats": null
+  "seats": {
+   "UR": 19,
+   "OBC": 13,
+   "SC": 7,
+   "ST": 4,
+   "EWS": 6,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 2,
+   "CW": 2,
+   "KM": 2,
+   "total": 49
+  }
  },
  {
   "college": "Department of Slavonic and Finno Ugrian Studies",
@@ -14289,7 +14349,19 @@
     "round3": null
    }
   },
-  "seats": null
+  "seats": {
+   "UR": 19,
+   "OBC": 13,
+   "SC": 7,
+   "ST": 4,
+   "EWS": 6,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 2,
+   "CW": 2,
+   "KM": 2,
+   "total": 49
+  }
  },
  {
   "college": "Deshbandhu College",
@@ -18475,7 +18547,7 @@
   "college": "Dr. Bhim Rao Ambedkar College",
   "collegeId": "dr-bhim-rao-ambedkar-college",
   "program": "B.A Program (Commerce + Political Science)",
-  "programId": null,
+  "programId": "b-a-program-commerce-political-science",
   "cutoffs": {
    "UR": {
     "round1": 610.9185,
@@ -23263,11 +23335,11 @@
   "college": "Dyal Singh College (Evening)",
   "collegeId": "dyal-singh-college-evening",
   "program": "B.A Program (Commerce + History)",
-  "programId": null,
+  "programId": "b-a-program-commerce-history",
   "cutoffs": {
    "UR": {
-    "round1": 232.5352,
-    "round2": 132.361,
+    "round1": 577.2386,
+    "round2": 534.7986,
     "round3": 413.5876
    },
    "OBC": {
@@ -23276,7 +23348,7 @@
     "round3": 307.8751
    },
    "SC": {
-    "round1": 147.8919,
+    "round1": 325.859,
     "round2": 246.8823,
     "round3": 246.2528
    },
@@ -31243,11 +31315,11 @@
   "college": "Indraprastha College for Women (W)",
   "collegeId": "indraprastha-college-for-women-w",
   "program": "B.A Program (Community Science + Philosophy)",
-  "programId": null,
+  "programId": "b-a-program-community-science-philosophy",
   "cutoffs": {
    "UR": {
-    "round1": 697.5276,
-    "round2": 678.1788,
+    "round1": 679.485,
+    "round2": 650.8228,
     "round3": null
    },
    "OBC": {
@@ -31256,18 +31328,18 @@
     "round3": null
    },
    "SC": {
-    "round1": 509.8198,
-    "round2": 422.6182,
+    "round1": 459.4165,
+    "round2": 416.0221,
     "round3": null
    },
    "ST": {
-    "round1": 504.9699,
-    "round2": 353.4041,
-    "round3": 323.1896
+    "round1": 427.999,
+    "round2": 201.1783,
+    "round3": 376.3955
    },
    "EWS": {
-    "round1": 593.2265,
-    "round2": 564.0517,
+    "round1": 564.0517,
+    "round2": 515.6401,
     "round3": null
    },
    "PwBD": {
@@ -31286,7 +31358,7 @@
     "round3": null
    },
    "SGC": {
-    "round1": 661.1038,
+    "round1": 661.4522,
     "round2": 621.0543,
     "round3": null
    },
@@ -32897,7 +32969,19 @@
     "round3": null
    }
   },
-  "seats": null
+  "seats": {
+   "UR": 27,
+   "OBC": 19,
+   "SC": 10,
+   "ST": 5,
+   "EWS": 7,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 3,
+   "CW": 3,
+   "KM": 3,
+   "total": 68
+  }
  },
  {
   "college": "Janki Devi Memorial College (W)",
@@ -32961,7 +33045,19 @@
     "round3": null
    }
   },
-  "seats": null
+  "seats": {
+   "UR": 27,
+   "OBC": 19,
+   "SC": 10,
+   "ST": 5,
+   "EWS": 7,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 3,
+   "CW": 3,
+   "KM": 3,
+   "total": 68
+  }
  },
  {
   "college": "Janki Devi Memorial College (W)",
@@ -33025,7 +33121,19 @@
     "round3": null
    }
   },
-  "seats": null
+  "seats": {
+   "UR": 23,
+   "OBC": 15,
+   "SC": 9,
+   "ST": 4,
+   "EWS": 6,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 3,
+   "CW": 3,
+   "KM": 3,
+   "total": 57
+  }
  },
  {
   "college": "Janki Devi Memorial College (W)",
@@ -33089,7 +33197,19 @@
     "round3": null
    }
   },
-  "seats": null
+  "seats": {
+   "UR": 39,
+   "OBC": 26,
+   "SC": 14,
+   "ST": 7,
+   "EWS": 10,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 5,
+   "CW": 5,
+   "KM": 5,
+   "total": 96
+  }
  },
  {
   "college": "Janki Devi Memorial College (W)",
@@ -33153,7 +33273,19 @@
     "round3": null
    }
   },
-  "seats": null
+  "seats": {
+   "UR": 15,
+   "OBC": 11,
+   "SC": 6,
+   "ST": 3,
+   "EWS": 4,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 2,
+   "CW": 2,
+   "KM": 2,
+   "total": 39
+  }
  },
  {
   "college": "Janki Devi Memorial College (W)",
@@ -33217,7 +33349,19 @@
     "round3": null
    }
   },
-  "seats": null
+  "seats": {
+   "UR": 47,
+   "OBC": 31,
+   "SC": 17,
+   "ST": 9,
+   "EWS": 11,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 6,
+   "CW": 6,
+   "KM": 6,
+   "total": 115
+  }
  },
  {
   "college": "Janki Devi Memorial College (W)",
@@ -33281,7 +33425,19 @@
     "round3": null
    }
   },
-  "seats": null
+  "seats": {
+   "UR": 16,
+   "OBC": 10,
+   "SC": 6,
+   "ST": 3,
+   "EWS": 4,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 2,
+   "CW": 2,
+   "KM": 2,
+   "total": 39
+  }
  },
  {
   "college": "Janki Devi Memorial College (W)",
@@ -33345,17 +33501,29 @@
     "round3": null
    }
   },
-  "seats": null
+  "seats": {
+   "UR": 23,
+   "OBC": 15,
+   "SC": 9,
+   "ST": 4,
+   "EWS": 6,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 3,
+   "CW": 3,
+   "KM": 3,
+   "total": 57
+  }
  },
  {
   "college": "Janki Devi Memorial College (W)",
   "collegeId": "janki-devi-memorial-college-w",
   "program": "B.A Program (Community Science + Philosophy)",
-  "programId": null,
+  "programId": "b-a-program-community-science-philosophy",
   "cutoffs": {
    "UR": {
-    "round1": 572.3598,
-    "round2": 566.9474,
+    "round1": 551.2884,
+    "round2": 511.6086,
     "round3": 373.4243
    },
    "OBC": {
@@ -33364,18 +33532,18 @@
     "round3": 211.7533
    },
    "SC": {
-    "round1": 308.0429,
-    "round2": 280.8609,
+    "round1": 331.5522,
+    "round2": 202.5112,
     "round3": 222.3418
    },
    "ST": {
-    "round1": 323.4792,
+    "round1": 422.3562,
     "round2": 323.4792,
     "round3": 375.3761
    },
    "EWS": {
-    "round1": 442.6666,
-    "round2": 289.7484,
+    "round1": 384.4421,
+    "round2": 307.0216,
     "round3": 384.4421
    },
    "PwBD": {
@@ -33394,7 +33562,7 @@
     "round3": null
    },
    "SGC": {
-    "round1": 551.9552,
+    "round1": 484.1813,
     "round2": 477.5205,
     "round3": 380.2599
    },
@@ -33409,7 +33577,19 @@
     "round3": null
    }
   },
-  "seats": null
+  "seats": {
+   "UR": 6,
+   "OBC": 3,
+   "SC": 2,
+   "ST": 1,
+   "EWS": 1,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 1,
+   "CW": 1,
+   "KM": 1,
+   "total": 13
+  }
  },
  {
   "college": "Janki Devi Memorial College (W)",
@@ -33473,7 +33653,19 @@
     "round3": null
    }
   },
-  "seats": null
+  "seats": {
+   "UR": 5,
+   "OBC": 3,
+   "SC": 1,
+   "ST": 1,
+   "EWS": 1,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 1,
+   "CW": 1,
+   "KM": 1,
+   "total": 11
+  }
  },
  {
   "college": "Janki Devi Memorial College (W)",
@@ -33537,7 +33729,19 @@
     "round3": null
    }
   },
-  "seats": null
+  "seats": {
+   "UR": 6,
+   "OBC": 3,
+   "SC": 2,
+   "ST": 1,
+   "EWS": 1,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 1,
+   "CW": 1,
+   "KM": 1,
+   "total": 13
+  }
  },
  {
   "college": "Janki Devi Memorial College (W)",
@@ -33601,7 +33805,19 @@
     "round3": null
    }
   },
-  "seats": null
+  "seats": {
+   "UR": 2,
+   "OBC": 1,
+   "SC": 1,
+   "ST": 1,
+   "EWS": 1,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 1,
+   "CW": 1,
+   "KM": 1,
+   "total": 6
+  }
  },
  {
   "college": "Janki Devi Memorial College (W)",
@@ -33665,7 +33881,19 @@
     "round3": null
    }
   },
-  "seats": null
+  "seats": {
+   "UR": 2,
+   "OBC": 1,
+   "SC": 1,
+   "ST": 1,
+   "EWS": 1,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 1,
+   "CW": 1,
+   "KM": 1,
+   "total": 6
+  }
  },
  {
   "college": "Janki Devi Memorial College (W)",
@@ -33729,7 +33957,19 @@
     "round3": null
    }
   },
-  "seats": null
+  "seats": {
+   "UR": 5,
+   "OBC": 3,
+   "SC": 1,
+   "ST": 1,
+   "EWS": 1,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 1,
+   "CW": 1,
+   "KM": 1,
+   "total": 11
+  }
  },
  {
   "college": "Janki Devi Memorial College (W)",
@@ -33793,7 +34033,19 @@
     "round3": null
    }
   },
-  "seats": null
+  "seats": {
+   "UR": 5,
+   "OBC": 3,
+   "SC": 1,
+   "ST": 1,
+   "EWS": 1,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 1,
+   "CW": 1,
+   "KM": 1,
+   "total": 11
+  }
  },
  {
   "college": "Janki Devi Memorial College (W)",
@@ -33857,7 +34109,19 @@
     "round3": null
    }
   },
-  "seats": null
+  "seats": {
+   "UR": 4,
+   "OBC": 2,
+   "SC": 1,
+   "ST": 1,
+   "EWS": 1,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 1,
+   "CW": 1,
+   "KM": 1,
+   "total": 9
+  }
  },
  {
   "college": "Janki Devi Memorial College (W)",
@@ -33921,7 +34185,19 @@
     "round3": null
    }
   },
-  "seats": null
+  "seats": {
+   "UR": 2,
+   "OBC": 1,
+   "SC": 1,
+   "ST": 1,
+   "EWS": 1,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 1,
+   "CW": 1,
+   "KM": 1,
+   "total": 6
+  }
  },
  {
   "college": "Janki Devi Memorial College (W)",
@@ -33985,7 +34261,19 @@
     "round3": null
    }
   },
-  "seats": null
+  "seats": {
+   "UR": 2,
+   "OBC": 1,
+   "SC": 1,
+   "ST": 1,
+   "EWS": 1,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 1,
+   "CW": 1,
+   "KM": 1,
+   "total": 6
+  }
  },
  {
   "college": "Janki Devi Memorial College (W)",
@@ -34049,7 +34337,19 @@
     "round3": null
    }
   },
-  "seats": null
+  "seats": {
+   "UR": 5,
+   "OBC": 3,
+   "SC": 1,
+   "ST": 1,
+   "EWS": 1,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 1,
+   "CW": 1,
+   "KM": 1,
+   "total": 11
+  }
  },
  {
   "college": "Janki Devi Memorial College (W)",
@@ -34113,7 +34413,19 @@
     "round3": null
    }
   },
-  "seats": null
+  "seats": {
+   "UR": 2,
+   "OBC": 1,
+   "SC": 1,
+   "ST": 1,
+   "EWS": 1,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 1,
+   "CW": 1,
+   "KM": 1,
+   "total": 6
+  }
  },
  {
   "college": "Janki Devi Memorial College (W)",
@@ -34177,7 +34489,19 @@
     "round3": null
    }
   },
-  "seats": null
+  "seats": {
+   "UR": 5,
+   "OBC": 3,
+   "SC": 1,
+   "ST": 1,
+   "EWS": 1,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 1,
+   "CW": 1,
+   "KM": 1,
+   "total": 11
+  }
  },
  {
   "college": "Janki Devi Memorial College (W)",
@@ -34241,7 +34565,19 @@
     "round3": null
    }
   },
-  "seats": null
+  "seats": {
+   "UR": 4,
+   "OBC": 2,
+   "SC": 1,
+   "ST": 1,
+   "EWS": 1,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 1,
+   "CW": 1,
+   "KM": 1,
+   "total": 9
+  }
  },
  {
   "college": "Janki Devi Memorial College (W)",
@@ -34305,7 +34641,19 @@
     "round3": null
    }
   },
-  "seats": null
+  "seats": {
+   "UR": 3,
+   "OBC": 2,
+   "SC": 1,
+   "ST": 1,
+   "EWS": 1,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 1,
+   "CW": 1,
+   "KM": 1,
+   "total": 8
+  }
  },
  {
   "college": "Janki Devi Memorial College (W)",
@@ -34369,7 +34717,19 @@
     "round3": null
    }
   },
-  "seats": null
+  "seats": {
+   "UR": 30,
+   "OBC": 20,
+   "SC": 11,
+   "ST": 5,
+   "EWS": 7,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 4,
+   "CW": 4,
+   "KM": 4,
+   "total": 73
+  }
  },
  {
   "college": "Janki Devi Memorial College (W)",
@@ -34433,7 +34793,19 @@
     "round3": null
    }
   },
-  "seats": null
+  "seats": {
+   "UR": 2,
+   "OBC": 1,
+   "SC": 1,
+   "ST": 1,
+   "EWS": 1,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 1,
+   "CW": 1,
+   "KM": 1,
+   "total": 6
+  }
  },
  {
   "college": "Janki Devi Memorial College (W)",
@@ -34497,7 +34869,19 @@
     "round3": null
    }
   },
-  "seats": null
+  "seats": {
+   "UR": 2,
+   "OBC": 2,
+   "SC": 1,
+   "ST": 1,
+   "EWS": 1,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 1,
+   "CW": 1,
+   "KM": 1,
+   "total": 7
+  }
  },
  {
   "college": "Janki Devi Memorial College (W)",
@@ -34561,7 +34945,19 @@
     "round3": null
    }
   },
-  "seats": null
+  "seats": {
+   "UR": 5,
+   "OBC": 3,
+   "SC": 1,
+   "ST": 1,
+   "EWS": 1,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 1,
+   "CW": 1,
+   "KM": 1,
+   "total": 11
+  }
  },
  {
   "college": "Janki Devi Memorial College (W)",
@@ -34625,7 +35021,19 @@
     "round3": null
    }
   },
-  "seats": null
+  "seats": {
+   "UR": 2,
+   "OBC": 1,
+   "SC": 1,
+   "ST": 1,
+   "EWS": 1,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 1,
+   "CW": 1,
+   "KM": 1,
+   "total": 6
+  }
  },
  {
   "college": "Janki Devi Memorial College (W)",
@@ -34689,7 +35097,19 @@
     "round3": null
    }
   },
-  "seats": null
+  "seats": {
+   "UR": 2,
+   "OBC": 1,
+   "SC": 1,
+   "ST": 0,
+   "EWS": 1,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 1,
+   "CW": 1,
+   "KM": 1,
+   "total": 5
+  }
  },
  {
   "college": "Janki Devi Memorial College (W)",
@@ -34753,7 +35173,19 @@
     "round3": null
    }
   },
-  "seats": null
+  "seats": {
+   "UR": 4,
+   "OBC": 3,
+   "SC": 1,
+   "ST": 1,
+   "EWS": 1,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 1,
+   "CW": 1,
+   "KM": 1,
+   "total": 10
+  }
  },
  {
   "college": "Janki Devi Memorial College (W)",
@@ -34817,7 +35249,19 @@
     "round3": null
    }
   },
-  "seats": null
+  "seats": {
+   "UR": 47,
+   "OBC": 31,
+   "SC": 17,
+   "ST": 9,
+   "EWS": 11,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 6,
+   "CW": 6,
+   "KM": 6,
+   "total": 115
+  }
  },
  {
   "college": "Janki Devi Memorial College (W)",
@@ -34881,7 +35325,19 @@
     "round3": null
    }
   },
-  "seats": null
+  "seats": {
+   "UR": 70,
+   "OBC": 46,
+   "SC": 26,
+   "ST": 13,
+   "EWS": 17,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 9,
+   "CW": 9,
+   "KM": 9,
+   "total": 172
+  }
  },
  {
   "college": "Janki Devi Memorial College (W)",
@@ -34945,7 +35401,19 @@
     "round3": null
    }
   },
-  "seats": null
+  "seats": {
+   "UR": 51,
+   "OBC": 34,
+   "SC": 19,
+   "ST": 9,
+   "EWS": 12,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 6,
+   "CW": 6,
+   "KM": 6,
+   "total": 125
+  }
  },
  {
   "college": "Jesus & Mary College (W)",
@@ -35635,7 +36103,7 @@
   "college": "Jesus & Mary College (W)",
   "collegeId": "jesus-mary-college-w",
   "program": "B.A Program (Commerce + Spanish)",
-  "programId": null,
+  "programId": "b-a-program-commerce-spanish",
   "cutoffs": {
    "UR": {
     "round1": 574.8322,
@@ -37915,11 +38383,11 @@
   "college": "Kalindi College (W)",
   "collegeId": "kalindi-college-w",
   "program": "B.A Program (Commerce + Geography)",
-  "programId": null,
+  "programId": "b-a-program-commerce-geography",
   "cutoffs": {
    "UR": {
-    "round1": 602.2477,
-    "round2": 546.0804,
+    "round1": 605.3842,
+    "round2": 560.7667,
     "round3": null
    },
    "OBC": {
@@ -37928,9 +38396,9 @@
     "round3": 292.2725
    },
    "SC": {
-    "round1": 321.7074,
-    "round2": 248.5715,
-    "round3": 244.5969
+    "round1": 321.3863,
+    "round2": 227.709,
+    "round3": 214.1918
    },
    "ST": {
     "round1": 251.7598,
@@ -37938,8 +38406,8 @@
     "round3": null
    },
    "EWS": {
-    "round1": 437.7362,
-    "round2": 270.1138,
+    "round1": 416.634,
+    "round2": 338.6772,
     "round3": 197.3554
    },
    "PwBD": {
@@ -37958,8 +38426,8 @@
     "round3": null
    },
    "SGC": {
-    "round1": 560.9116,
-    "round2": 440.1791,
+    "round1": 579.641,
+    "round2": 428.1441,
     "round3": null
    },
    "ORPHAN_FEMALE": {
@@ -41107,7 +41575,7 @@
   "college": "Kamala Nehru College (W)",
   "collegeId": "kamala-nehru-college-w",
   "program": "B.A Program (Commerce + English)",
-  "programId": null,
+  "programId": "b-a-program-commerce-english",
   "cutoffs": {
    "UR": {
     "round1": 740.7168,
@@ -46807,7 +47275,7 @@
   "college": "Lady Shri Ram College for Women (W)",
   "collegeId": "lady-shri-ram-college-for-women-w",
   "program": "B.A Program (History + Psychology)",
-  "programId": null,
+  "programId": "b-a-program-history-psychology",
   "cutoffs": {
    "UR": {
     "round1": 880.3989,
@@ -48175,11 +48643,11 @@
   "college": "Lakshmibai College (W)",
   "collegeId": "lakshmibai-college-w",
   "program": "B.A Program (Community Science + Philosophy)",
-  "programId": null,
+  "programId": "b-a-program-community-science-philosophy",
   "cutoffs": {
    "UR": {
-    "round1": 539.6169,
-    "round2": 485.4758,
+    "round1": 547.072,
+    "round2": 495.8639,
     "round3": 628.5921
    },
    "OBC": {
@@ -48188,8 +48656,8 @@
     "round3": 137.7998
    },
    "SC": {
-    "round1": 279.9374,
-    "round2": 202.0612,
+    "round1": 310.6829,
+    "round2": 183.5989,
     "round3": 232.2525
    },
    "ST": {
@@ -48198,8 +48666,8 @@
     "round3": null
    },
    "EWS": {
-    "round1": 247.2284,
-    "round2": 271.3624,
+    "round1": 327.022,
+    "round2": 356.1744,
     "round3": 424.7547
    },
    "PwBD": {
@@ -48218,8 +48686,8 @@
     "round3": null
    },
    "SGC": {
-    "round1": 488.8058,
-    "round2": 440.3645,
+    "round1": 465.8203,
+    "round2": 398.2558,
     "round3": 367.4225
    },
    "ORPHAN_FEMALE": {
@@ -49847,11 +50315,11 @@
   "college": "Maharaja Agrasen College",
   "collegeId": "maharaja-agrasen-college",
   "program": "B.A Program (Commerce + History)",
-  "programId": null,
+  "programId": "b-a-program-commerce-history",
   "cutoffs": {
    "UR": {
-    "round1": 628.9084,
-    "round2": 603.9289,
+    "round1": 608.7985,
+    "round2": 586.4746,
     "round3": null
    },
    "OBC": {
@@ -49860,18 +50328,18 @@
     "round3": null
    },
    "SC": {
-    "round1": 389.0983,
-    "round2": 361.8249,
+    "round1": 406.3501,
+    "round2": 333.0091,
     "round3": 349.2468
    },
    "ST": {
-    "round1": 280.7982,
-    "round2": 377.9585,
+    "round1": 281.3549,
+    "round2": 431.5709,
     "round3": null
    },
    "EWS": {
-    "round1": 517.3837,
-    "round2": 474.9463,
+    "round1": 511.3717,
+    "round2": 392.2089,
     "round3": null
    },
    "PwBD": {
@@ -49890,7 +50358,7 @@
     "round3": null
    },
    "SGC": {
-    "round1": 533.57,
+    "round1": 604.2465,
     "round2": 526.2596,
     "round3": 533.2308
    },
@@ -54103,12 +54571,12 @@
   "college": "Mata Sundri College for Women (W)",
   "collegeId": "mata-sundri-college-for-women-w",
   "program": "B.A Program (Psychology + Punjabi)",
-  "programId": null,
+  "programId": "b-a-program-psychology-punjabi",
   "cutoffs": {
    "UR": {
-    "round1": 413.4313,
+    "round1": 577.0379,
     "round2": 487.2237,
-    "round3": 415.9216
+    "round3": 487.147
    },
    "OBC": {
     "round1": null,
@@ -54138,7 +54606,7 @@
    "SIKH": {
     "round1": 321.2505,
     "round2": null,
-    "round3": 379.6552
+    "round3": 462.8889
    },
    "KM": {
     "round1": null,
@@ -55757,7 +56225,19 @@
     "round3": null
    }
   },
-  "seats": null
+  "seats": {
+   "UR": 3,
+   "OBC": 3,
+   "SC": 2,
+   "ST": 1,
+   "EWS": 1,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 0,
+   "CW": 0,
+   "KM": 0,
+   "total": 10
+  }
  },
  {
   "college": "Miranda House (W)",
@@ -55821,7 +56301,19 @@
     "round3": null
    }
   },
-  "seats": null
+  "seats": {
+   "UR": 31,
+   "OBC": 21,
+   "SC": 12,
+   "ST": 6,
+   "EWS": 8,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 4,
+   "CW": 4,
+   "KM": 4,
+   "total": 78
+  }
  },
  {
   "college": "Miranda House (W)",
@@ -55885,7 +56377,19 @@
     "round3": null
    }
   },
-  "seats": null
+  "seats": {
+   "UR": 31,
+   "OBC": 21,
+   "SC": 12,
+   "ST": 6,
+   "EWS": 8,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 4,
+   "CW": 4,
+   "KM": 4,
+   "total": 78
+  }
  },
  {
   "college": "Miranda House (W)",
@@ -55949,7 +56453,19 @@
     "round3": null
    }
   },
-  "seats": null
+  "seats": {
+   "UR": 23,
+   "OBC": 16,
+   "SC": 9,
+   "ST": 4,
+   "EWS": 6,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 3,
+   "CW": 3,
+   "KM": 3,
+   "total": 58
+  }
  },
  {
   "college": "Miranda House (W)",
@@ -56013,7 +56529,19 @@
     "round3": null
    }
   },
-  "seats": null
+  "seats": {
+   "UR": 31,
+   "OBC": 21,
+   "SC": 12,
+   "ST": 6,
+   "EWS": 8,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 4,
+   "CW": 4,
+   "KM": 4,
+   "total": 78
+  }
  },
  {
   "college": "Miranda House (W)",
@@ -56077,7 +56605,19 @@
     "round3": null
    }
   },
-  "seats": null
+  "seats": {
+   "UR": 23,
+   "OBC": 16,
+   "SC": 9,
+   "ST": 4,
+   "EWS": 6,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 3,
+   "CW": 3,
+   "KM": 3,
+   "total": 58
+  }
  },
  {
   "college": "Miranda House (W)",
@@ -56141,7 +56681,19 @@
     "round3": null
    }
   },
-  "seats": null
+  "seats": {
+   "UR": 23,
+   "OBC": 16,
+   "SC": 9,
+   "ST": 4,
+   "EWS": 6,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 3,
+   "CW": 3,
+   "KM": 3,
+   "total": 58
+  }
  },
  {
   "college": "Miranda House (W)",
@@ -56205,7 +56757,19 @@
     "round3": null
    }
   },
-  "seats": null
+  "seats": {
+   "UR": 28,
+   "OBC": 18,
+   "SC": 10,
+   "ST": 5,
+   "EWS": 7,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 3,
+   "CW": 3,
+   "KM": 3,
+   "total": 68
+  }
  },
  {
   "college": "Miranda House (W)",
@@ -56269,7 +56833,19 @@
     "round3": null
    }
   },
-  "seats": null
+  "seats": {
+   "UR": 15,
+   "OBC": 11,
+   "SC": 6,
+   "ST": 3,
+   "EWS": 4,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 2,
+   "CW": 2,
+   "KM": 2,
+   "total": 39
+  }
  },
  {
   "college": "Miranda House (W)",
@@ -56333,17 +56909,29 @@
     "round3": null
    }
   },
-  "seats": null
+  "seats": {
+   "UR": 26,
+   "OBC": 18,
+   "SC": 10,
+   "ST": 5,
+   "EWS": 6,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 3,
+   "CW": 3,
+   "KM": 3,
+   "total": 65
+  }
  },
  {
   "college": "Miranda House (W)",
   "collegeId": "miranda-house-w",
   "program": "B.A Program (Bengali/Tamil/Punjabi + Geography/History/Political Science)",
-  "programId": null,
+  "programId": "b-a-program-bengali-tamil-punjabi-geography-history-political-science",
   "cutoffs": {
    "UR": {
-    "round1": 794.6547,
-    "round2": 794.6547,
+    "round1": 715.2989,
+    "round2": 715.2989,
     "round3": null
    },
    "OBC": {
@@ -56352,18 +56940,18 @@
     "round3": null
    },
    "SC": {
-    "round1": 649.0397,
-    "round2": 646.6562,
+    "round1": 624.4547,
+    "round2": 624.4547,
     "round3": null
    },
    "ST": {
-    "round1": 516.0115,
-    "round2": 516.0115,
+    "round1": 303.4226,
+    "round2": 255.0909,
     "round3": 217.3783
    },
    "EWS": {
-    "round1": 759.3299,
-    "round2": 751.6585,
+    "round1": 513.9698,
+    "round2": 513.9698,
     "round3": null
    },
    "PwBD": {
@@ -56382,7 +56970,7 @@
     "round3": null
    },
    "SGC": {
-    "round1": 757.2211,
+    "round1": 650.8086,
     "round2": 838.3649,
     "round3": null
    },
@@ -56397,7 +56985,19 @@
     "round3": null
    }
   },
-  "seats": null
+  "seats": {
+   "UR": 3,
+   "OBC": 3,
+   "SC": 2,
+   "ST": 1,
+   "EWS": 1,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 0,
+   "CW": 0,
+   "KM": 0,
+   "total": 10
+  }
  },
  {
   "college": "Miranda House (W)",
@@ -56461,7 +57061,19 @@
     "round3": null
    }
   },
-  "seats": null
+  "seats": {
+   "UR": 7,
+   "OBC": 5,
+   "SC": 3,
+   "ST": 1,
+   "EWS": 2,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 1,
+   "CW": 1,
+   "KM": 1,
+   "total": 18
+  }
  },
  {
   "college": "Miranda House (W)",
@@ -56525,7 +57137,19 @@
     "round3": null
    }
   },
-  "seats": null
+  "seats": {
+   "UR": 14,
+   "OBC": 9,
+   "SC": 5,
+   "ST": 3,
+   "EWS": 4,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 2,
+   "CW": 2,
+   "KM": 2,
+   "total": 35
+  }
  },
  {
   "college": "Miranda House (W)",
@@ -56589,7 +57213,19 @@
     "round3": null
    }
   },
-  "seats": null
+  "seats": {
+   "UR": 7,
+   "OBC": 5,
+   "SC": 3,
+   "ST": 1,
+   "EWS": 2,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 1,
+   "CW": 1,
+   "KM": 1,
+   "total": 18
+  }
  },
  {
   "college": "Miranda House (W)",
@@ -56653,7 +57289,19 @@
     "round3": null
    }
   },
-  "seats": null
+  "seats": {
+   "UR": 7,
+   "OBC": 5,
+   "SC": 3,
+   "ST": 1,
+   "EWS": 2,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 1,
+   "CW": 1,
+   "KM": 1,
+   "total": 18
+  }
  },
  {
   "college": "Miranda House (W)",
@@ -56717,7 +57365,19 @@
     "round3": null
    }
   },
-  "seats": null
+  "seats": {
+   "UR": 7,
+   "OBC": 5,
+   "SC": 3,
+   "ST": 1,
+   "EWS": 2,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 1,
+   "CW": 1,
+   "KM": 1,
+   "total": 18
+  }
  },
  {
   "college": "Miranda House (W)",
@@ -56781,7 +57441,19 @@
     "round3": null
    }
   },
-  "seats": null
+  "seats": {
+   "UR": 14,
+   "OBC": 9,
+   "SC": 5,
+   "ST": 2,
+   "EWS": 3,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 2,
+   "CW": 2,
+   "KM": 2,
+   "total": 33
+  }
  },
  {
   "college": "Miranda House (W)",
@@ -56845,7 +57517,19 @@
     "round3": null
    }
   },
-  "seats": null
+  "seats": {
+   "UR": 15,
+   "OBC": 11,
+   "SC": 6,
+   "ST": 3,
+   "EWS": 4,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 2,
+   "CW": 2,
+   "KM": 2,
+   "total": 39
+  }
  },
  {
   "college": "Miranda House (W)",
@@ -56909,7 +57593,19 @@
     "round3": null
    }
   },
-  "seats": null
+  "seats": {
+   "UR": 31,
+   "OBC": 21,
+   "SC": 12,
+   "ST": 6,
+   "EWS": 8,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 4,
+   "CW": 4,
+   "KM": 4,
+   "total": 78
+  }
  },
  {
   "college": "Miranda House (W)",
@@ -56973,7 +57669,19 @@
     "round3": null
    }
   },
-  "seats": null
+  "seats": {
+   "UR": 35,
+   "OBC": 24,
+   "SC": 13,
+   "ST": 7,
+   "EWS": 9,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 4,
+   "CW": 4,
+   "KM": 4,
+   "total": 88
+  }
  },
  {
   "college": "Miranda House (W)",
@@ -57037,7 +57745,19 @@
     "round3": null
    }
   },
-  "seats": null
+  "seats": {
+   "UR": 35,
+   "OBC": 23,
+   "SC": 13,
+   "ST": 6,
+   "EWS": 9,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 4,
+   "CW": 4,
+   "KM": 4,
+   "total": 86
+  }
  },
  {
   "college": "Miranda House (W)",
@@ -57101,7 +57821,19 @@
     "round3": null
    }
   },
-  "seats": null
+  "seats": {
+   "UR": 15,
+   "OBC": 11,
+   "SC": 6,
+   "ST": 3,
+   "EWS": 4,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 2,
+   "CW": 2,
+   "KM": 2,
+   "total": 39
+  }
  },
  {
   "college": "Miranda House (W)",
@@ -57165,7 +57897,19 @@
     "round3": null
    }
   },
-  "seats": null
+  "seats": {
+   "UR": 18,
+   "OBC": 12,
+   "SC": 7,
+   "ST": 3,
+   "EWS": 4,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 2,
+   "CW": 2,
+   "KM": 2,
+   "total": 44
+  }
  },
  {
   "college": "Miranda House (W)",
@@ -57229,7 +57973,19 @@
     "round3": null
    }
   },
-  "seats": null
+  "seats": {
+   "UR": 18,
+   "OBC": 12,
+   "SC": 6,
+   "ST": 3,
+   "EWS": 4,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 2,
+   "CW": 2,
+   "KM": 2,
+   "total": 43
+  }
  },
  {
   "college": "Miranda House (W)",
@@ -57293,7 +58049,19 @@
     "round3": null
    }
   },
-  "seats": null
+  "seats": {
+   "UR": 25,
+   "OBC": 17,
+   "SC": 9,
+   "ST": 5,
+   "EWS": 7,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 3,
+   "CW": 3,
+   "KM": 3,
+   "total": 63
+  }
  },
  {
   "college": "Motilal Nehru College",
@@ -61251,11 +62019,11 @@
   "college": "P.G.D.A.V. College",
   "collegeId": "p-g-d-a-v-college",
   "program": "B.A Program (Computer Applications + Economics/Mathematics)",
-  "programId": null,
+  "programId": "b-a-program-computer-applications-economics-mathematics",
   "cutoffs": {
    "UR": {
-    "round1": 440.8424,
-    "round2": 427.8451,
+    "round1": 636.3857,
+    "round2": 597.4276,
     "round3": null
    },
    "OBC": {
@@ -61264,8 +62032,8 @@
     "round3": 359.6426
    },
    "SC": {
-    "round1": 429.0791,
-    "round2": 392.6088,
+    "round1": 353.7185,
+    "round2": 287.3283,
     "round3": 236.8247
    },
    "ST": {
@@ -61274,8 +62042,8 @@
     "round3": 411.601
    },
    "EWS": {
-    "round1": 417.9777,
-    "round2": 255.9064,
+    "round1": 475.8124,
+    "round2": 415.9573,
     "round3": 215.1126
    },
    "PwBD": {
@@ -61294,9 +62062,9 @@
     "round3": null
    },
    "SGC": {
-    "round1": 553.667,
-    "round2": 443.2251,
-    "round3": 573.1055
+    "round1": 548.1931,
+    "round2": 494.942,
+    "round3": 582.391
    },
    "ORPHAN_FEMALE": {
     "round1": null,
@@ -68851,11 +69619,11 @@
   "college": "Ramjas College",
   "collegeId": "ramjas-college",
   "program": "B.A Program (Any two discipline from these (English/Hindi/History/Political Science/Economics/Mathematics))",
-  "programId": null,
+  "programId": "b-a-program-any-two-discipline-from-these-english-hindi-history-political-science-economics-mathematics",
   "cutoffs": {
    "UR": {
-    "round1": 767.6032,
-    "round2": 767.6032,
+    "round1": 853.4546,
+    "round2": 850.2364,
     "round3": null
    },
    "OBC": {
@@ -68864,22 +69632,22 @@
     "round3": null
    },
    "SC": {
-    "round1": 643.5907,
-    "round2": 525.4825,
+    "round1": 724.9485,
+    "round2": 713.4939,
     "round3": null
    },
    "ST": {
-    "round1": 489.0771,
-    "round2": 482.3311,
+    "round1": 703.6074,
+    "round2": 698.3993,
     "round3": null
    },
    "EWS": {
-    "round1": 730.4814,
-    "round2": 730.4814,
+    "round1": 799.8843,
+    "round2": 799.8843,
     "round3": null
    },
    "PwBD": {
-    "round1": 570.4492,
+    "round1": 620.1302,
     "round2": 636.9155,
     "round3": null
    },
@@ -68894,8 +69662,8 @@
     "round3": null
    },
    "SGC": {
-    "round1": 726.1309,
-    "round2": 808.6816,
+    "round1": 817.6982,
+    "round2": 817.6982,
     "round3": null
    },
    "ORPHAN_FEMALE": {
@@ -81771,11 +82539,11 @@
   "college": "Shyama Prasad Mukherji College For Women (W)",
   "collegeId": "shyama-prasad-mukherji-college-for-women-w",
   "program": "B.A Program (Community Science + Political Science)",
-  "programId": null,
+  "programId": "b-a-program-community-science-political-science",
   "cutoffs": {
    "UR": {
-    "round1": 559.4415,
-    "round2": 529.2623,
+    "round1": 533.0025,
+    "round2": 484.68,
     "round3": null
    },
    "OBC": {
@@ -81784,8 +82552,8 @@
     "round3": 303.248
    },
    "SC": {
-    "round1": 284.0154,
-    "round2": 291.1186,
+    "round1": 290.3029,
+    "round2": 186.8947,
     "round3": 151.361
    },
    "ST": {
@@ -81794,8 +82562,8 @@
     "round3": null
    },
    "EWS": {
-    "round1": 358.382,
-    "round2": 188.5856,
+    "round1": 179.0528,
+    "round2": 362.1201,
     "round3": 348.6206
    },
    "PwBD": {
@@ -81814,8 +82582,8 @@
     "round3": null
    },
    "SGC": {
-    "round1": 549.1778,
-    "round2": 397.4847,
+    "round1": 501.2344,
+    "round2": 443.368,
     "round3": 346.8019
    },
    "ORPHAN_FEMALE": {
@@ -91727,7 +92495,7 @@
   "college": "Sri Venketeswara College",
   "collegeId": "sri-venketeswara-college",
   "program": "B.A Program (Economics + Statistics)",
-  "programId": null,
+  "programId": "b-a-program-economics-statistics",
   "cutoffs": {
    "UR": {
     "round1": 849.9409,
@@ -93626,12 +94394,12 @@
  {
   "college": "St. Stephen's College",
   "collegeId": "st-stephen-s-college",
-  "program": "B.A Program (Urdu + Any other discipline subject from",
-  "programId": null,
+  "program": "B.A. Program (Urdu + Any other discipline subject from (Economics/History/Political Science/Philosophy))",
+  "programId": "b-a-program-urdu-any-other-discipline-subject-from-economics-history-political-science-philosophy",
   "cutoffs": {
    "UR": {
     "round1": 787.0759,
-    "round2": null,
+    "round2": 785.6057,
     "round3": null
    },
    "OBC": {
@@ -93646,7 +94414,7 @@
    },
    "ST": {
     "round1": 649.9705,
-    "round2": null,
+    "round2": 649.9705,
     "round3": null
    },
    "EWS": {
@@ -93671,7 +94439,7 @@
    },
    "SGC": {
     "round1": 730.4299,
-    "round2": null,
+    "round2": 730.4299,
     "round3": null
    },
    "ORPHAN_FEMALE": {
@@ -93685,7 +94453,19 @@
     "round3": null
    }
   },
-  "seats": null
+  "seats": {
+   "UR": 5,
+   "OBC": 0,
+   "SC": 0,
+   "ST": 1,
+   "EWS": 0,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 0,
+   "CW": 0,
+   "KM": 0,
+   "total": 6
+  }
  },
  {
   "college": "St. Stephen's College",
@@ -95059,7 +95839,7 @@
   "college": "Swami Shardhanand College",
   "collegeId": "swami-shardhanand-college",
   "program": "B.A Program (Mathematics + Sanskrit)",
-  "programId": null,
+  "programId": "b-a-program-mathematics-sanskrit",
   "cutoffs": {
    "UR": {
     "round1": 449.5762,
@@ -96579,11 +97359,11 @@
   "college": "Vivekananda College (W)",
   "collegeId": "vivekananda-college-w",
   "program": "B.A Program (Community science + English)",
-  "programId": null,
+  "programId": "b-a-program-community-science-english",
   "cutoffs": {
    "UR": {
-    "round1": 517.9593,
-    "round2": 476.8604,
+    "round1": 578.5906,
+    "round2": 551.8391,
     "round3": null
    },
    "OBC": {
@@ -96592,8 +97372,8 @@
     "round3": 128.5805
    },
    "SC": {
-    "round1": 308.3326,
-    "round2": 229.8041,
+    "round1": 449.4273,
+    "round2": 351.3328,
     "round3": 345.9451
    },
    "ST": {
@@ -96602,8 +97382,8 @@
     "round3": null
    },
    "EWS": {
-    "round1": 218.0595,
-    "round2": 218.0595,
+    "round1": 342.4877,
+    "round2": 305.8416,
     "round3": null
    },
    "PwBD": {
@@ -96622,8 +97402,8 @@
     "round3": null
    },
    "SGC": {
-    "round1": 434.6174,
-    "round2": 405.4014,
+    "round1": 570.0238,
+    "round2": 534.9925,
     "round3": 426.9249
    },
    "ORPHAN_FEMALE": {
@@ -99923,11 +100703,11 @@
   "college": "Zakir Husain Delhi College",
   "collegeId": "zakir-husain-delhi-college",
   "program": "B.A Program (History + Psychology)",
-  "programId": null,
+  "programId": "b-a-program-history-psychology",
   "cutoffs": {
    "UR": {
-    "round1": 485.161,
-    "round2": 446.5616,
+    "round1": 725.0097,
+    "round2": 692.5751,
     "round3": null
    },
    "OBC": {
@@ -99936,8 +100716,8 @@
     "round3": null
    },
    "SC": {
-    "round1": 179.6744,
-    "round2": 268.5318,
+    "round1": 537.8204,
+    "round2": 492.5248,
     "round3": 187.0959
    },
    "ST": {
@@ -99946,8 +100726,8 @@
     "round3": null
    },
    "EWS": {
-    "round1": 237.9263,
-    "round2": 276.5589,
+    "round1": 501.1966,
+    "round2": 471.0757,
     "round3": null
    },
    "PwBD": {
@@ -100741,7 +101521,19 @@
     "round3": null
    }
   },
-  "seats": null
+  "seats": {
+   "UR": 35,
+   "OBC": 23,
+   "SC": 13,
+   "ST": 6,
+   "EWS": 9,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 4,
+   "CW": 4,
+   "KM": 4,
+   "total": 86
+  }
  },
  {
   "college": "Zakir Husain Delhi College (Evening)",
@@ -101279,11 +102071,11 @@
   "college": "Zakir Husain Delhi College (Evening)",
   "collegeId": "zakir-husain-delhi-college-evening",
   "program": "B.A Program (Arabic + History/Political Science)",
-  "programId": null,
+  "programId": "b-a-program-arabic-history-political-science",
   "cutoffs": {
    "UR": {
-    "round1": 446.4239,
-    "round2": 380.254,
+    "round1": 467.5229,
+    "round2": 411.8165,
     "round3": 359.3766
    },
    "OBC": {
@@ -101292,9 +102084,9 @@
     "round3": 331.06
    },
    "SC": {
-    "round1": 170.9304,
-    "round2": 170.9304,
-    "round3": 301.6968
+    "round1": 353.9331,
+    "round2": 353.9331,
+    "round3": 243.1795
    },
    "ST": {
     "round1": 297.4825,
@@ -101808,86 +102600,10 @@
   }
  },
  {
-  "college": "St. Stephen's College",
-  "collegeId": "st-stephen-s-college",
-  "program": "B.A. Program (Urdu + Any other discipline subject from (Economics/History/Political Science/Philosophy))",
-  "programId": "b-a-program-urdu-any-other-discipline-subject-from-economics-history-political-science-philosophy",
-  "cutoffs": {
-   "UR": {
-    "round1": null,
-    "round2": 785.6057,
-    "round3": null
-   },
-   "OBC": {
-    "round1": null,
-    "round2": null,
-    "round3": null
-   },
-   "SC": {
-    "round1": null,
-    "round2": null,
-    "round3": null
-   },
-   "ST": {
-    "round1": null,
-    "round2": 649.9705,
-    "round3": null
-   },
-   "EWS": {
-    "round1": null,
-    "round2": null,
-    "round3": null
-   },
-   "PwBD": {
-    "round1": null,
-    "round2": null,
-    "round3": null
-   },
-   "SIKH": {
-    "round1": null,
-    "round2": null,
-    "round3": null
-   },
-   "KM": {
-    "round1": null,
-    "round2": null,
-    "round3": null
-   },
-   "SGC": {
-    "round1": null,
-    "round2": 730.4299,
-    "round3": null
-   },
-   "ORPHAN_FEMALE": {
-    "round1": null,
-    "round2": null,
-    "round3": null
-   },
-   "ORPHAN_MALE": {
-    "round1": null,
-    "round2": null,
-    "round3": null
-   }
-  },
-  "seats": {
-   "UR": 5,
-   "OBC": 0,
-   "SC": 0,
-   "ST": 1,
-   "EWS": 0,
-   "SIKH": 0,
-   "CHRISTIAN": 0,
-   "PwBD": 0,
-   "CW": 0,
-   "KM": 0,
-   "total": 6
-  }
- },
- {
   "college": "College of Art",
   "collegeId": "college-of-art",
   "program": "Bachelor of Fine Arts",
-  "programId": null,
+  "programId": "bachelor-of-fine-arts",
   "cutoffs": {
    "UR": {
     "round1": null,
@@ -102419,7 +103135,7 @@
   "college": "Hindu College",
   "collegeId": "hindu-college",
   "program": "B.A. (Hons.) Hindustani Music",
-  "programId": null,
+  "programId": "b-a-hons-hindustani-music",
   "cutoffs": {
    "UR": {
     "round1": null,
@@ -102493,9 +103209,9 @@
  },
  {
   "college": "Indira Gandhi Institute of Physical Education and Sports Sciences",
-  "collegeId": null,
+  "collegeId": "indira-gandhi-institute-of-physical-education-and-sports-sciences",
   "program": "B.Sc in Physical Education, Health Education and Sports (B.Sc.[P.E,H.E&S])",
-  "programId": null,
+  "programId": "b-sc-in-physical-education-health-education-and-sports-b-sc-p-e-h-e-s",
   "cutoffs": {
    "UR": {
     "round1": null,
@@ -103178,8 +103894,8 @@
  {
   "college": "Institute of Home Economics (W)",
   "collegeId": "institute-of-home-economics-w",
-  "program": "B.A. Program (Community Science + Philosophy)",
-  "programId": null,
+  "program": "B.A Program (Community Science + Philosophy)",
+  "programId": "b-a-program-community-science-philosophy",
   "cutoffs": {
    "UR": {
     "round1": null,
@@ -106061,6 +106777,3350 @@
    "CW": 2,
    "KM": 2,
    "total": 43
+  }
+ },
+ {
+  "college": "Aditi Mahavidyalaya (W)",
+  "collegeId": "aditi-mahavidyalaya-w",
+  "program": "B.A Program (Education + Sociology)",
+  "programId": "b-a-program-education-sociology",
+  "cutoffs": {
+   "UR": {
+    "round1": 472.3839,
+    "round2": 417.7069,
+    "round3": 497.914
+   },
+   "OBC": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SC": {
+    "round1": 233.4483,
+    "round2": 88.1923,
+    "round3": 87.2792
+   },
+   "ST": {
+    "round1": 304.3209,
+    "round2": null,
+    "round3": 236.4251
+   },
+   "EWS": {
+    "round1": 223.8043,
+    "round2": 301.6644,
+    "round3": null
+   },
+   "SIKH": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "PwBD": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "KM": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SGC": {
+    "round1": 433.246,
+    "round2": 392.037,
+    "round3": 383.5274
+   },
+   "ORPHAN_FEMALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "ORPHAN_MALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   }
+  },
+  "seats": {
+   "UR": 24,
+   "OBC": 16,
+   "SC": 9,
+   "ST": 5,
+   "EWS": 6,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 3,
+   "CW": 3,
+   "KM": 3,
+   "total": 60
+  }
+ },
+ {
+  "college": "Aditi Mahavidyalaya (W)",
+  "collegeId": "aditi-mahavidyalaya-w",
+  "program": "B.A Program (Music + Hindi / Political Science / Sociology)",
+  "programId": "b-a-program-music-hindi-political-science-sociology",
+  "cutoffs": {
+   "UR": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "OBC": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SC": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "ST": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "EWS": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SIKH": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "PwBD": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "KM": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SGC": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "ORPHAN_FEMALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "ORPHAN_MALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   }
+  },
+  "seats": {
+   "UR": 12,
+   "OBC": 8,
+   "SC": 5,
+   "ST": 2,
+   "EWS": 3,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 1,
+   "CW": 1,
+   "KM": 1,
+   "total": 30
+  }
+ },
+ {
+  "college": "Aditi Mahavidyalaya (W)",
+  "collegeId": "aditi-mahavidyalaya-w",
+  "program": "B.A Program (Sanskrit + Community Science/ Political Science/ Sociology)",
+  "programId": "b-a-program-sanskrit-community-science-political-science-sociology",
+  "cutoffs": {
+   "UR": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "OBC": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SC": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "ST": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "EWS": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SIKH": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "PwBD": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "KM": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SGC": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "ORPHAN_FEMALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "ORPHAN_MALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   }
+  },
+  "seats": {
+   "UR": 16,
+   "OBC": 11,
+   "SC": 6,
+   "ST": 3,
+   "EWS": 4,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 2,
+   "CW": 2,
+   "KM": 0,
+   "total": 40
+  }
+ },
+ {
+  "college": "Atma Ram Sanatan Dharma College",
+  "collegeId": "atma-ram-sanatan-dharma-college",
+  "program": "B.A Program (Any two disciplines from (History/Political Sc./Economics))",
+  "programId": "b-a-program-any-two-disciplines-from-history-political-sc-economics",
+  "cutoffs": {
+   "UR": {
+    "round1": 793.1361,
+    "round2": 782.3236,
+    "round3": null
+   },
+   "OBC": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SC": {
+    "round1": 663.7223,
+    "round2": 649.4989,
+    "round3": null
+   },
+   "ST": {
+    "round1": 638.1971,
+    "round2": 638.1971,
+    "round3": null
+   },
+   "EWS": {
+    "round1": 725.3297,
+    "round2": 725.3297,
+    "round3": null
+   },
+   "SIKH": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "PwBD": {
+    "round1": 473.6014,
+    "round2": null,
+    "round3": null
+   },
+   "KM": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SGC": {
+    "round1": 743.8218,
+    "round2": null,
+    "round3": null
+   },
+   "ORPHAN_FEMALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "ORPHAN_MALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   }
+  },
+  "seats": {
+   "UR": 30,
+   "OBC": 17,
+   "SC": 8,
+   "ST": 4,
+   "EWS": 4,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 1,
+   "CW": 1,
+   "KM": 1,
+   "total": 63
+  }
+ },
+ {
+  "college": "Atma Ram Sanatan Dharma College",
+  "collegeId": "atma-ram-sanatan-dharma-college",
+  "program": "B.A Program (Computer Applications + Any other discipline subject from (English/Hindi/Sanskrit/Political Sc./Economics/Mathematics/Comp. App./History))",
+  "programId": "b-a-program-computer-applications-any-other",
+  "cutoffs": {
+   "UR": {
+    "round1": 789.0098,
+    "round2": 781.6293,
+    "round3": null
+   },
+   "OBC": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SC": {
+    "round1": 575.2198,
+    "round2": 560.1044,
+    "round3": null
+   },
+   "ST": {
+    "round1": 430.2581,
+    "round2": 426.9213,
+    "round3": null
+   },
+   "EWS": {
+    "round1": 695.0747,
+    "round2": 694.2022,
+    "round3": null
+   },
+   "SIKH": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "PwBD": {
+    "round1": 298.5113,
+    "round2": null,
+    "round3": null
+   },
+   "KM": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SGC": {
+    "round1": 711.3811,
+    "round2": 711.3811,
+    "round3": null
+   },
+   "ORPHAN_FEMALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "ORPHAN_MALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   }
+  },
+  "seats": {
+   "UR": 3,
+   "OBC": 3,
+   "SC": 2,
+   "ST": 1,
+   "EWS": 2,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 1,
+   "CW": 1,
+   "KM": 1,
+   "total": 11
+  }
+ },
+ {
+  "college": "Atma Ram Sanatan Dharma College",
+  "collegeId": "atma-ram-sanatan-dharma-college",
+  "program": "B.A Program (English + Any other discipline subject from (English/Hindi/Sanskrit/Political Sc./Economics/Mathematics/Comp. App./History))",
+  "programId": "b-a-program-english-any-other",
+  "cutoffs": {
+   "UR": {
+    "round1": 805.6257,
+    "round2": 790.6609,
+    "round3": null
+   },
+   "OBC": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SC": {
+    "round1": 657.1825,
+    "round2": 649.4865,
+    "round3": null
+   },
+   "ST": {
+    "round1": 613.6934,
+    "round2": 608.1669,
+    "round3": null
+   },
+   "EWS": {
+    "round1": 714.0896,
+    "round2": 713.0284,
+    "round3": null
+   },
+   "SIKH": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "PwBD": {
+    "round1": 513.9705,
+    "round2": 371.7594,
+    "round3": null
+   },
+   "KM": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SGC": {
+    "round1": 767.7917,
+    "round2": null,
+    "round3": null
+   },
+   "ORPHAN_FEMALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "ORPHAN_MALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   }
+  },
+  "seats": {
+   "UR": 3,
+   "OBC": 3,
+   "SC": 2,
+   "ST": 1,
+   "EWS": 2,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 1,
+   "CW": 1,
+   "KM": 1,
+   "total": 11
+  }
+ },
+ {
+  "college": "Atma Ram Sanatan Dharma College",
+  "collegeId": "atma-ram-sanatan-dharma-college",
+  "program": "B.A Program (Hindi + Any other discipline subject from (English/Hindi/Sanskrit/Political Sc./Economics/Mathematics/Comp. App./History))",
+  "programId": "b-a-program-hindi-any-other",
+  "cutoffs": {
+   "UR": {
+    "round1": 768.8575,
+    "round2": 765.9535,
+    "round3": null
+   },
+   "OBC": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SC": {
+    "round1": 635.2383,
+    "round2": 583.5722,
+    "round3": null
+   },
+   "ST": {
+    "round1": 562.061,
+    "round2": 458.045,
+    "round3": null
+   },
+   "EWS": {
+    "round1": 660.8178,
+    "round2": 660.8178,
+    "round3": null
+   },
+   "SIKH": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "PwBD": {
+    "round1": 326.6427,
+    "round2": 296.1243,
+    "round3": null
+   },
+   "KM": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SGC": {
+    "round1": 581.2584,
+    "round2": null,
+    "round3": null
+   },
+   "ORPHAN_FEMALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "ORPHAN_MALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   }
+  },
+  "seats": {
+   "UR": 3,
+   "OBC": 3,
+   "SC": 2,
+   "ST": 1,
+   "EWS": 2,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 1,
+   "CW": 1,
+   "KM": 1,
+   "total": 11
+  }
+ },
+ {
+  "college": "Atma Ram Sanatan Dharma College",
+  "collegeId": "atma-ram-sanatan-dharma-college",
+  "program": "B.A Program (Sanskrit + Any other discipline subject from (English/Hindi/Sanskrit/Political Sc./Economics/Mathematics/Comp. App./History))",
+  "programId": "b-a-program-sanskrit-any-other",
+  "cutoffs": {
+   "UR": {
+    "round1": 743.4734,
+    "round2": 709.2631,
+    "round3": null
+   },
+   "OBC": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SC": {
+    "round1": 448.2902,
+    "round2": 448.2902,
+    "round3": null
+   },
+   "ST": {
+    "round1": 432.1264,
+    "round2": 432.1264,
+    "round3": null
+   },
+   "EWS": {
+    "round1": 627.6357,
+    "round2": 536.2967,
+    "round3": null
+   },
+   "SIKH": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "PwBD": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "KM": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SGC": {
+    "round1": 545.1935,
+    "round2": 545.1935,
+    "round3": null
+   },
+   "ORPHAN_FEMALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "ORPHAN_MALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   }
+  },
+  "seats": {
+   "UR": 3,
+   "OBC": 3,
+   "SC": 2,
+   "ST": 1,
+   "EWS": 2,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 1,
+   "CW": 1,
+   "KM": 1,
+   "total": 11
+  }
+ },
+ {
+  "college": "Bhagini Nivedita College (W)",
+  "collegeId": "bhagini-nivedita-college-w",
+  "program": "B.A Program (Community Science + Sanskrit)",
+  "programId": "b-a-program-community-science-sanskrit",
+  "cutoffs": {
+   "UR": {
+    "round1": 321.4559,
+    "round2": 84.7691,
+    "round3": 226.8181
+   },
+   "OBC": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SC": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "ST": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "EWS": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SIKH": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "PwBD": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "KM": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SGC": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "ORPHAN_FEMALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "ORPHAN_MALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   }
+  },
+  "seats": {
+   "UR": 6,
+   "OBC": 4,
+   "SC": 2,
+   "ST": 1,
+   "EWS": 2,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 1,
+   "CW": 1,
+   "KM": 0,
+   "total": 15
+  }
+ },
+ {
+  "college": "Bhagini Nivedita College (W)",
+  "collegeId": "bhagini-nivedita-college-w",
+  "program": "B.A Program (Economics + Community Science)",
+  "programId": "b-a-program-economics-community-science",
+  "cutoffs": {
+   "UR": {
+    "round1": 518.9912,
+    "round2": 471.7293,
+    "round3": 542.6206
+   },
+   "OBC": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SC": {
+    "round1": 202.5112,
+    "round2": 230.6756,
+    "round3": 191.011
+   },
+   "ST": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "EWS": {
+    "round1": 319.925,
+    "round2": 146.3977,
+    "round3": null
+   },
+   "SIKH": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "PwBD": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "KM": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SGC": {
+    "round1": 483.1591,
+    "round2": 436.6633,
+    "round3": 328.836
+   },
+   "ORPHAN_FEMALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "ORPHAN_MALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   }
+  },
+  "seats": {
+   "UR": 10,
+   "OBC": 7,
+   "SC": 4,
+   "ST": 2,
+   "EWS": 2,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 1,
+   "CW": 1,
+   "KM": 2,
+   "total": 25
+  }
+ },
+ {
+  "college": "Bhagini Nivedita College (W)",
+  "collegeId": "bhagini-nivedita-college-w",
+  "program": "B.A Program (History + Community Science)",
+  "programId": "b-a-program-history-community-science",
+  "cutoffs": {
+   "UR": {
+    "round1": 459.3548,
+    "round2": 416.1399,
+    "round3": 467.1818
+   },
+   "OBC": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SC": {
+    "round1": 149.7592,
+    "round2": 155.7531,
+    "round3": null
+   },
+   "ST": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "EWS": {
+    "round1": 283.5617,
+    "round2": 283.5617,
+    "round3": null
+   },
+   "SIKH": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "PwBD": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "KM": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SGC": {
+    "round1": 435.9516,
+    "round2": 320.7675,
+    "round3": null
+   },
+   "ORPHAN_FEMALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "ORPHAN_MALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   }
+  },
+  "seats": {
+   "UR": 12,
+   "OBC": 8,
+   "SC": 5,
+   "ST": 2,
+   "EWS": 3,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 2,
+   "CW": 2,
+   "KM": 1,
+   "total": 30
+  }
+ },
+ {
+  "college": "Daulat Ram College (W)",
+  "collegeId": "daulat-ram-college-w",
+  "program": "B.A Program (Community Science + Music)",
+  "programId": "b-a-program-community-science-music",
+  "cutoffs": {
+   "UR": {
+    "round1": 579.599,
+    "round2": 511.1462,
+    "round3": null
+   },
+   "OBC": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SC": {
+    "round1": 394.4618,
+    "round2": 343.9122,
+    "round3": null
+   },
+   "ST": {
+    "round1": 274.3247,
+    "round2": 338.3963,
+    "round3": null
+   },
+   "EWS": {
+    "round1": 412.32,
+    "round2": 320.8172,
+    "round3": 260.3238
+   },
+   "SIKH": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "PwBD": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "KM": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SGC": {
+    "round1": 478.4694,
+    "round2": 478.4694,
+    "round3": 276.8064
+   },
+   "ORPHAN_FEMALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "ORPHAN_MALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   }
+  },
+  "seats": {
+   "UR": 9,
+   "OBC": 6,
+   "SC": 3,
+   "ST": 2,
+   "EWS": 2,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 1,
+   "CW": 2,
+   "KM": 2,
+   "total": 22
+  }
+ },
+ {
+  "college": "Dyal Singh College (Evening)",
+  "collegeId": "dyal-singh-college-evening",
+  "program": "B.A Program (English + Tamil)",
+  "programId": "b-a-program-english-tamil",
+  "cutoffs": {
+   "UR": {
+    "round1": 232.5352,
+    "round2": 132.361,
+    "round3": 413.5876
+   },
+   "OBC": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SC": {
+    "round1": 147.8919,
+    "round2": null,
+    "round3": 315.661
+   },
+   "ST": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "EWS": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SIKH": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "PwBD": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "KM": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SGC": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "ORPHAN_FEMALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "ORPHAN_MALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   }
+  },
+  "seats": {
+   "UR": 12,
+   "OBC": 8,
+   "SC": 5,
+   "ST": 2,
+   "EWS": 3,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 1,
+   "CW": 1,
+   "KM": 1,
+   "total": 30
+  }
+ },
+ {
+  "college": "Indraprastha College for Women (W)",
+  "collegeId": "indraprastha-college-for-women-w",
+  "program": "B.A Program (Community Science + Psychology)",
+  "programId": "b-a-program-community-science-psychology",
+  "cutoffs": {
+   "UR": {
+    "round1": 806.2505,
+    "round2": 802.0756,
+    "round3": null
+   },
+   "OBC": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SC": {
+    "round1": 598.6017,
+    "round2": 540.7015,
+    "round3": null
+   },
+   "ST": {
+    "round1": 530.365,
+    "round2": 526.7828,
+    "round3": null
+   },
+   "EWS": {
+    "round1": 670.0156,
+    "round2": 669.3899,
+    "round3": null
+   },
+   "SIKH": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "PwBD": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "KM": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SGC": {
+    "round1": 784.1997,
+    "round2": null,
+    "round3": null
+   },
+   "ORPHAN_FEMALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "ORPHAN_MALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   }
+  },
+  "seats": {
+   "UR": 8,
+   "OBC": 5,
+   "SC": 3,
+   "ST": 2,
+   "EWS": 2,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 1,
+   "CW": 1,
+   "KM": 1,
+   "total": 20
+  }
+ },
+ {
+  "college": "Indraprastha College for Women (W)",
+  "collegeId": "indraprastha-college-for-women-w",
+  "program": "B.A Program (Community Science + Sociology)",
+  "programId": "b-a-program-community-science-sociology",
+  "cutoffs": {
+   "UR": {
+    "round1": 697.5276,
+    "round2": 678.1788,
+    "round3": null
+   },
+   "OBC": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SC": {
+    "round1": 509.8198,
+    "round2": 422.6182,
+    "round3": null
+   },
+   "ST": {
+    "round1": 504.9699,
+    "round2": 353.4041,
+    "round3": 323.1896
+   },
+   "EWS": {
+    "round1": 593.2265,
+    "round2": 564.0517,
+    "round3": null
+   },
+   "SIKH": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "PwBD": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "KM": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SGC": {
+    "round1": 661.1038,
+    "round2": null,
+    "round3": null
+   },
+   "ORPHAN_FEMALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "ORPHAN_MALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   }
+  },
+  "seats": {
+   "UR": 7,
+   "OBC": 4,
+   "SC": 2,
+   "ST": 1,
+   "EWS": 1,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 1,
+   "CW": 1,
+   "KM": 0,
+   "total": 15
+  }
+ },
+ {
+  "college": "Janki Devi Memorial College (W)",
+  "collegeId": "janki-devi-memorial-college-w",
+  "program": "B.A Program (Community Science + Political Science)",
+  "programId": "b-a-program-community-science-political-science",
+  "cutoffs": {
+   "UR": {
+    "round1": 556.7341,
+    "round2": 497.8766,
+    "round3": null
+   },
+   "OBC": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SC": {
+    "round1": 347.3452,
+    "round2": 165.3204,
+    "round3": null
+   },
+   "ST": {
+    "round1": 264.3894,
+    "round2": 377.2967,
+    "round3": null
+   },
+   "EWS": {
+    "round1": 200.4084,
+    "round2": 289.7484,
+    "round3": null
+   },
+   "SIKH": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "PwBD": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "KM": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SGC": {
+    "round1": 514.2597,
+    "round2": 433.246,
+    "round3": null
+   },
+   "ORPHAN_FEMALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "ORPHAN_MALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   }
+  },
+  "seats": {
+   "UR": 8,
+   "OBC": 6,
+   "SC": 3,
+   "ST": 2,
+   "EWS": 2,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 1,
+   "CW": 1,
+   "KM": 1,
+   "total": 21
+  }
+ },
+ {
+  "college": "Janki Devi Memorial College (W)",
+  "collegeId": "janki-devi-memorial-college-w",
+  "program": "B.A Program (Community Science + Sanskrit)",
+  "programId": "b-a-program-community-science-sanskrit",
+  "cutoffs": {
+   "UR": {
+    "round1": 390.3521,
+    "round2": 289.9054,
+    "round3": 373.4243
+   },
+   "OBC": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SC": {
+    "round1": 226.9424,
+    "round2": null,
+    "round3": 226.9424
+   },
+   "ST": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "EWS": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SIKH": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "PwBD": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "KM": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SGC": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "ORPHAN_FEMALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "ORPHAN_MALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   }
+  },
+  "seats": {
+   "UR": 2,
+   "OBC": 1,
+   "SC": 1,
+   "ST": 0,
+   "EWS": 0,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 1,
+   "CW": 1,
+   "KM": 1,
+   "total": 4
+  }
+ },
+ {
+  "college": "Janki Devi Memorial College (W)",
+  "collegeId": "janki-devi-memorial-college-w",
+  "program": "B.A Program (Economics + Community Science)",
+  "programId": "b-a-program-economics-community-science",
+  "cutoffs": {
+   "UR": {
+    "round1": 572.3598,
+    "round2": 566.9474,
+    "round3": null
+   },
+   "OBC": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SC": {
+    "round1": 308.0429,
+    "round2": 280.8609,
+    "round3": null
+   },
+   "ST": {
+    "round1": 323.4792,
+    "round2": 323.4792,
+    "round3": null
+   },
+   "EWS": {
+    "round1": 442.6666,
+    "round2": null,
+    "round3": 471.8995
+   },
+   "SIKH": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "PwBD": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "KM": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SGC": {
+    "round1": 551.9552,
+    "round2": 477.5205,
+    "round3": 380.2599
+   },
+   "ORPHAN_FEMALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "ORPHAN_MALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   }
+  },
+  "seats": {
+   "UR": 4,
+   "OBC": 2,
+   "SC": 1,
+   "ST": 1,
+   "EWS": 1,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 1,
+   "CW": 1,
+   "KM": 1,
+   "total": 9
+  }
+ },
+ {
+  "college": "Kalindi College (W)",
+  "collegeId": "kalindi-college-w",
+  "program": "B.A Program (Commerce + History)",
+  "programId": "b-a-program-commerce-history",
+  "cutoffs": {
+   "UR": {
+    "round1": 616.7263,
+    "round2": 547.7229,
+    "round3": null
+   },
+   "OBC": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SC": {
+    "round1": 319.2086,
+    "round2": 240.2462,
+    "round3": 224.3117
+   },
+   "ST": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "EWS": {
+    "round1": 455.6913,
+    "round2": 257.4722,
+    "round3": null
+   },
+   "SIKH": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "PwBD": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "KM": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SGC": {
+    "round1": 576.722,
+    "round2": 404.8072,
+    "round3": null
+   },
+   "ORPHAN_FEMALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "ORPHAN_MALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   }
+  },
+  "seats": {
+   "UR": 2,
+   "OBC": 2,
+   "SC": 1,
+   "ST": 0,
+   "EWS": 1,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 0,
+   "CW": 0,
+   "KM": 0,
+   "total": 6
+  }
+ },
+ {
+  "college": "Kalindi College (W)",
+  "collegeId": "kalindi-college-w",
+  "program": "B.A Program (Commerce + Political Science)",
+  "programId": "b-a-program-commerce-political-science",
+  "cutoffs": {
+   "UR": {
+    "round1": 602.2477,
+    "round2": 546.0804,
+    "round3": null
+   },
+   "OBC": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SC": {
+    "round1": 321.7074,
+    "round2": 248.5715,
+    "round3": 244.5969
+   },
+   "ST": {
+    "round1": 251.7598,
+    "round2": null,
+    "round3": null
+   },
+   "EWS": {
+    "round1": 437.7362,
+    "round2": 270.1138,
+    "round3": 197.3554
+   },
+   "SIKH": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "PwBD": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "KM": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SGC": {
+    "round1": 560.9116,
+    "round2": 440.1791,
+    "round3": null
+   },
+   "ORPHAN_FEMALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "ORPHAN_MALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   }
+  },
+  "seats": {
+   "UR": 5,
+   "OBC": 3,
+   "SC": 2,
+   "ST": 1,
+   "EWS": 1,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 1,
+   "CW": 1,
+   "KM": 1,
+   "total": 12
+  }
+ },
+ {
+  "college": "Lakshmibai College (W)",
+  "collegeId": "lakshmibai-college-w",
+  "program": "B.A Program (Community Science + Political Science)",
+  "programId": "b-a-program-community-science-political-science",
+  "cutoffs": {
+   "UR": {
+    "round1": 539.6169,
+    "round2": 485.4758,
+    "round3": null
+   },
+   "OBC": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SC": {
+    "round1": 279.9374,
+    "round2": 202.0612,
+    "round3": 86.2915
+   },
+   "ST": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "EWS": {
+    "round1": 247.2284,
+    "round2": 271.3624,
+    "round3": null
+   },
+   "SIKH": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "PwBD": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "KM": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SGC": {
+    "round1": 488.8058,
+    "round2": 440.3645,
+    "round3": null
+   },
+   "ORPHAN_FEMALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "ORPHAN_MALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   }
+  },
+  "seats": {
+   "UR": 10,
+   "OBC": 7,
+   "SC": 4,
+   "ST": 2,
+   "EWS": 1,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 1,
+   "CW": 1,
+   "KM": 1,
+   "total": 24
+  }
+ },
+ {
+  "college": "Maharaja Agrasen College",
+  "collegeId": "maharaja-agrasen-college",
+  "program": "B.A Program (Commerce + Political Science)",
+  "programId": "b-a-program-commerce-political-science",
+  "cutoffs": {
+   "UR": {
+    "round1": 628.9084,
+    "round2": 603.9289,
+    "round3": null
+   },
+   "OBC": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SC": {
+    "round1": 389.0983,
+    "round2": 361.8249,
+    "round3": 349.2468
+   },
+   "ST": {
+    "round1": 280.7982,
+    "round2": 377.9585,
+    "round3": null
+   },
+   "EWS": {
+    "round1": 517.3837,
+    "round2": 474.9463,
+    "round3": null
+   },
+   "SIKH": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "PwBD": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "KM": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SGC": {
+    "round1": 533.57,
+    "round2": null,
+    "round3": null
+   },
+   "ORPHAN_FEMALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "ORPHAN_MALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   }
+  },
+  "seats": {
+   "UR": 5,
+   "OBC": 3,
+   "SC": 2,
+   "ST": 1,
+   "EWS": 1,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 1,
+   "CW": 0,
+   "KM": 1,
+   "total": 12
+  }
+ },
+ {
+  "college": "Mata Sundri College for Women (W)",
+  "collegeId": "mata-sundri-college-for-women-w",
+  "program": "B.A Program (English + Punjabi)",
+  "programId": "b-a-program-english-punjabi",
+  "cutoffs": {
+   "UR": {
+    "round1": 413.4313,
+    "round2": 243.4604,
+    "round3": 415.9216
+   },
+   "OBC": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SC": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "ST": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "EWS": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SIKH": {
+    "round1": null,
+    "round2": null,
+    "round3": 379.6552
+   },
+   "PwBD": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "KM": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SGC": {
+    "round1": 280.7315,
+    "round2": null,
+    "round3": null
+   },
+   "ORPHAN_FEMALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "ORPHAN_MALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   }
+  },
+  "seats": {
+   "UR": 5,
+   "OBC": 0,
+   "SC": 0,
+   "ST": 0,
+   "EWS": 0,
+   "SIKH": 5,
+   "CHRISTIAN": 0,
+   "PwBD": 1,
+   "CW": 1,
+   "KM": 1,
+   "total": 5
+  }
+ },
+ {
+  "college": "Miranda House (W)",
+  "collegeId": "miranda-house-w",
+  "program": "B.A Program (English + History/Political Science)",
+  "programId": "b-a-program-english-history-political-science",
+  "cutoffs": {
+   "UR": {
+    "round1": 857.2885,
+    "round2": 857.2885,
+    "round3": null
+   },
+   "OBC": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SC": {
+    "round1": 742.8215,
+    "round2": 742.8215,
+    "round3": null
+   },
+   "ST": {
+    "round1": 704.2163,
+    "round2": 703.6074,
+    "round3": null
+   },
+   "EWS": {
+    "round1": 800.189,
+    "round2": 800.189,
+    "round3": null
+   },
+   "SIKH": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "PwBD": {
+    "round1": 734.7124,
+    "round2": 734.7124,
+    "round3": null
+   },
+   "KM": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SGC": {
+    "round1": 838.3649,
+    "round2": 838.3649,
+    "round3": null
+   },
+   "ORPHAN_FEMALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "ORPHAN_MALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   }
+  },
+  "seats": {
+   "UR": 8,
+   "OBC": 6,
+   "SC": 3,
+   "ST": 2,
+   "EWS": 2,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 1,
+   "CW": 1,
+   "KM": 1,
+   "total": 21
+  }
+ },
+ {
+  "college": "Miranda House (W)",
+  "collegeId": "miranda-house-w",
+  "program": "B.A Program (Philosophy/Physical Education/Sociology + Geography/History/Political Science)",
+  "programId": "b-a-program-philosophy-physical-education-sociology-geography-history-political-science",
+  "cutoffs": {
+   "UR": {
+    "round1": 848.9771,
+    "round2": 847.481,
+    "round3": null
+   },
+   "OBC": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SC": {
+    "round1": 734.9628,
+    "round2": 734.9628,
+    "round3": null
+   },
+   "ST": {
+    "round1": 751.8772,
+    "round2": 751.8772,
+    "round3": null
+   },
+   "EWS": {
+    "round1": 777.9338,
+    "round2": 770.6714,
+    "round3": null
+   },
+   "SIKH": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "PwBD": {
+    "round1": 458.9982,
+    "round2": null,
+    "round3": null
+   },
+   "KM": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SGC": {
+    "round1": 818.9951,
+    "round2": null,
+    "round3": null
+   },
+   "ORPHAN_FEMALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "ORPHAN_MALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   }
+  },
+  "seats": {
+   "UR": 16,
+   "OBC": 11,
+   "SC": 6,
+   "ST": 3,
+   "EWS": 4,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 2,
+   "CW": 2,
+   "KM": 2,
+   "total": 40
+  }
+ },
+ {
+  "college": "Miranda House (W)",
+  "collegeId": "miranda-house-w",
+  "program": "B.A Program (Sanskrit/Hindi + Geography/History/Political Science)",
+  "programId": "b-a-program-sanskrit-hindi-geography-history-political-science",
+  "cutoffs": {
+   "UR": {
+    "round1": 794.6547,
+    "round2": 794.6547,
+    "round3": null
+   },
+   "OBC": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SC": {
+    "round1": 649.0397,
+    "round2": 646.6562,
+    "round3": null
+   },
+   "ST": {
+    "round1": 516.0115,
+    "round2": 516.0115,
+    "round3": null
+   },
+   "EWS": {
+    "round1": 759.3299,
+    "round2": 751.6585,
+    "round3": null
+   },
+   "SIKH": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "PwBD": {
+    "round1": 218.8648,
+    "round2": null,
+    "round3": null
+   },
+   "KM": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SGC": {
+    "round1": 757.2211,
+    "round2": null,
+    "round3": null
+   },
+   "ORPHAN_FEMALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "ORPHAN_MALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   }
+  },
+  "seats": {
+   "UR": 8,
+   "OBC": 5,
+   "SC": 3,
+   "ST": 2,
+   "EWS": 2,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 1,
+   "CW": 1,
+   "KM": 1,
+   "total": 20
+  }
+ },
+ {
+  "college": "P.G.D.A.V. College",
+  "collegeId": "p-g-d-a-v-college",
+  "program": "B.A Program (Economics + Mathematics / Political Sciences)",
+  "programId": "b-a-program-economics-mathematics-political-sciences",
+  "cutoffs": {
+   "UR": {
+    "round1": 623.6884,
+    "round2": 588.7156,
+    "round3": null
+   },
+   "OBC": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SC": {
+    "round1": 312.7277,
+    "round2": 108.3295,
+    "round3": null
+   },
+   "ST": {
+    "round1": 177.3787,
+    "round2": null,
+    "round3": null
+   },
+   "EWS": {
+    "round1": 428.3984,
+    "round2": 254.663,
+    "round3": 243.8906
+   },
+   "SIKH": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "PwBD": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "KM": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SGC": {
+    "round1": 577.809,
+    "round2": 354.1406,
+    "round3": null
+   },
+   "ORPHAN_FEMALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "ORPHAN_MALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   }
+  },
+  "seats": {
+   "UR": 12,
+   "OBC": 8,
+   "SC": 4,
+   "ST": 2,
+   "EWS": 3,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 1,
+   "CW": 1,
+   "KM": 1,
+   "total": 29
+  }
+ },
+ {
+  "college": "P.G.D.A.V. College",
+  "collegeId": "p-g-d-a-v-college",
+  "program": "B.A Program (English + History/Political Science)",
+  "programId": "b-a-program-english-history-political-science",
+  "cutoffs": {
+   "UR": {
+    "round1": 624.1198,
+    "round2": 599.0516,
+    "round3": null
+   },
+   "OBC": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SC": {
+    "round1": 466.1117,
+    "round2": 402.3684,
+    "round3": null
+   },
+   "ST": {
+    "round1": 429.7343,
+    "round2": 310.2596,
+    "round3": 411.601
+   },
+   "EWS": {
+    "round1": 488.5597,
+    "round2": 404.118,
+    "round3": 215.1126
+   },
+   "SIKH": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "PwBD": {
+    "round1": 232.0286,
+    "round2": null,
+    "round3": null
+   },
+   "KM": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SGC": {
+    "round1": 613.7245,
+    "round2": 592.0722,
+    "round3": 573.1055
+   },
+   "ORPHAN_FEMALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "ORPHAN_MALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   }
+  },
+  "seats": {
+   "UR": 10,
+   "OBC": 6,
+   "SC": 3,
+   "ST": 2,
+   "EWS": 2,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 2,
+   "CW": 1,
+   "KM": 1,
+   "total": 23
+  }
+ },
+ {
+  "college": "P.G.D.A.V. College",
+  "collegeId": "p-g-d-a-v-college",
+  "program": "B.A Program (Hindi + History / Political Science)",
+  "programId": "b-a-program-hindi-history-political-science",
+  "cutoffs": {
+   "UR": {
+    "round1": 563.9903,
+    "round2": 524.8706,
+    "round3": null
+   },
+   "OBC": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SC": {
+    "round1": 429.0791,
+    "round2": 392.6088,
+    "round3": null
+   },
+   "ST": {
+    "round1": 344.7979,
+    "round2": 224.5437,
+    "round3": null
+   },
+   "EWS": {
+    "round1": 417.9777,
+    "round2": 255.9064,
+    "round3": null
+   },
+   "SIKH": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "PwBD": {
+    "round1": 333.309,
+    "round2": null,
+    "round3": null
+   },
+   "KM": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SGC": {
+    "round1": 553.667,
+    "round2": 443.2251,
+    "round3": null
+   },
+   "ORPHAN_FEMALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "ORPHAN_MALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   }
+  },
+  "seats": {
+   "UR": 7,
+   "OBC": 5,
+   "SC": 2,
+   "ST": 2,
+   "EWS": 2,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 2,
+   "CW": 0,
+   "KM": 0,
+   "total": 18
+  }
+ },
+ {
+  "college": "P.G.D.A.V. College",
+  "collegeId": "p-g-d-a-v-college",
+  "program": "B.A Program (Sanskrit + History/Political Science)",
+  "programId": "b-a-program-sanskrit-history-political-science",
+  "cutoffs": {
+   "UR": {
+    "round1": 440.8424,
+    "round2": 427.8451,
+    "round3": null
+   },
+   "OBC": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SC": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "ST": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "EWS": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SIKH": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "PwBD": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "KM": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SGC": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "ORPHAN_FEMALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "ORPHAN_MALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   }
+  },
+  "seats": {
+   "UR": 9,
+   "OBC": 6,
+   "SC": 4,
+   "ST": 2,
+   "EWS": 2,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 1,
+   "CW": 2,
+   "KM": 2,
+   "total": 23
+  }
+ },
+ {
+  "college": "Ramjas College",
+  "collegeId": "ramjas-college",
+  "program": "B.A Program (Philosophy + Any one out of these (English/Hindi/History/Political Science/Economics/Mathematics/Sanskrit))",
+  "programId": "b-a-program-philosophy-any-one-out-of-these-english-hindi-history-political-science-economics-mathematics-sanskrit",
+  "cutoffs": {
+   "UR": {
+    "round1": 828.8411,
+    "round2": 822.8053,
+    "round3": null
+   },
+   "OBC": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SC": {
+    "round1": 691.1688,
+    "round2": 684.4389,
+    "round3": null
+   },
+   "ST": {
+    "round1": 682.2774,
+    "round2": 677.4798,
+    "round3": null
+   },
+   "EWS": {
+    "round1": 784.6782,
+    "round2": 777.9079,
+    "round3": null
+   },
+   "SIKH": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "PwBD": {
+    "round1": 570.4492,
+    "round2": null,
+    "round3": null
+   },
+   "KM": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SGC": {
+    "round1": 808.6816,
+    "round2": 808.6816,
+    "round3": null
+   },
+   "ORPHAN_FEMALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "ORPHAN_MALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   }
+  },
+  "seats": {
+   "UR": 13,
+   "OBC": 9,
+   "SC": 5,
+   "ST": 2,
+   "EWS": 3,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 2,
+   "CW": 2,
+   "KM": 2,
+   "total": 32
+  }
+ },
+ {
+  "college": "Ramjas College",
+  "collegeId": "ramjas-college",
+  "program": "B.A Program (Sanskrit + Any one out of these (English/Hindi/History/Political Science/Economics/Mathematics/Philosophy))",
+  "programId": "b-a-program-sanskrit-any-one-out-of-these-english-hindi-history-political-science-economics-mathematics-philosophy",
+  "cutoffs": {
+   "UR": {
+    "round1": 767.6032,
+    "round2": 767.6032,
+    "round3": null
+   },
+   "OBC": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SC": {
+    "round1": 643.5907,
+    "round2": 525.4825,
+    "round3": null
+   },
+   "ST": {
+    "round1": 489.0771,
+    "round2": 482.3311,
+    "round3": null
+   },
+   "EWS": {
+    "round1": 730.4814,
+    "round2": 730.4814,
+    "round3": null
+   },
+   "SIKH": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "PwBD": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "KM": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SGC": {
+    "round1": 726.1309,
+    "round2": null,
+    "round3": null
+   },
+   "ORPHAN_FEMALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "ORPHAN_MALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   }
+  },
+  "seats": {
+   "UR": 7,
+   "OBC": 4,
+   "SC": 2,
+   "ST": 1,
+   "EWS": 2,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 1,
+   "CW": 1,
+   "KM": 1,
+   "total": 16
+  }
+ },
+ {
+  "college": "Shyama Prasad Mukherji College For Women (W)",
+  "collegeId": "shyama-prasad-mukherji-college-for-women-w",
+  "program": "B.A Program (Economics + Community Science)",
+  "programId": "b-a-program-economics-community-science",
+  "cutoffs": {
+   "UR": {
+    "round1": 559.4415,
+    "round2": 529.2623,
+    "round3": null
+   },
+   "OBC": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SC": {
+    "round1": 284.0154,
+    "round2": 291.1186,
+    "round3": 203.8157
+   },
+   "ST": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "EWS": {
+    "round1": 358.382,
+    "round2": 188.5856,
+    "round3": 348.6206
+   },
+   "SIKH": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "PwBD": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "KM": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SGC": {
+    "round1": 549.1778,
+    "round2": 397.4847,
+    "round3": 376.5038
+   },
+   "ORPHAN_FEMALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "ORPHAN_MALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   }
+  },
+  "seats": {
+   "UR": 10,
+   "OBC": 6,
+   "SC": 3,
+   "ST": 2,
+   "EWS": 2,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 1,
+   "CW": 1,
+   "KM": 1,
+   "total": 23
+  }
+ },
+ {
+  "college": "Vivekananda College (W)",
+  "collegeId": "vivekananda-college-w",
+  "program": "B.A Program (Community Science + Political Science)",
+  "programId": "b-a-program-community-science-political-science",
+  "cutoffs": {
+   "UR": {
+    "round1": 555.2202,
+    "round2": 509.2252,
+    "round3": null
+   },
+   "OBC": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SC": {
+    "round1": 336.6546,
+    "round2": 226.9424,
+    "round3": null
+   },
+   "ST": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "EWS": {
+    "round1": 327.4268,
+    "round2": 152.766,
+    "round3": null
+   },
+   "SIKH": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "PwBD": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "KM": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SGC": {
+    "round1": 534.2798,
+    "round2": 407.9165,
+    "round3": 430.8026
+   },
+   "ORPHAN_FEMALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "ORPHAN_MALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   }
+  },
+  "seats": {
+   "UR": 3,
+   "OBC": 3,
+   "SC": 2,
+   "ST": 1,
+   "EWS": 1,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 1,
+   "CW": 1,
+   "KM": 1,
+   "total": 10
+  }
+ },
+ {
+  "college": "Vivekananda College (W)",
+  "collegeId": "vivekananda-college-w",
+  "program": "B.A Program (History + Community Science)",
+  "programId": "b-a-program-history-community-science",
+  "cutoffs": {
+   "UR": {
+    "round1": 517.9593,
+    "round2": 476.8604,
+    "round3": null
+   },
+   "OBC": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SC": {
+    "round1": 308.3326,
+    "round2": 229.8041,
+    "round3": 307.1645
+   },
+   "ST": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "EWS": {
+    "round1": 218.0595,
+    "round2": 218.0595,
+    "round3": null
+   },
+   "SIKH": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "PwBD": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "KM": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SGC": {
+    "round1": 434.6174,
+    "round2": 405.4014,
+    "round3": 405.4014
+   },
+   "ORPHAN_FEMALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "ORPHAN_MALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   }
+  },
+  "seats": {
+   "UR": 5,
+   "OBC": 3,
+   "SC": 2,
+   "ST": 1,
+   "EWS": 1,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 1,
+   "CW": 1,
+   "KM": 1,
+   "total": 12
+  }
+ },
+ {
+  "college": "Zakir Husain Delhi College",
+  "collegeId": "zakir-husain-delhi-college",
+  "program": "B.A Program (Philosophy + Arabic/Bengali/Persian/Sanskrit/Urdu )",
+  "programId": "b-a-program-philosophy-arabic-bengali-persian-sanskrit-urdu",
+  "cutoffs": {
+   "UR": {
+    "round1": null,
+    "round2": 446.5616,
+    "round3": null
+   },
+   "OBC": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SC": {
+    "round1": null,
+    "round2": 268.5318,
+    "round3": 187.0959
+   },
+   "ST": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "EWS": {
+    "round1": null,
+    "round2": 276.5589,
+    "round3": null
+   },
+   "SIKH": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "PwBD": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "KM": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SGC": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "ORPHAN_FEMALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "ORPHAN_MALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   }
+  },
+  "seats": {
+   "UR": 12,
+   "OBC": 8,
+   "SC": 5,
+   "ST": 2,
+   "EWS": 3,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 0,
+   "CW": 0,
+   "KM": 0,
+   "total": 30
+  }
+ },
+ {
+  "college": "Zakir Husain Delhi College (Evening)",
+  "collegeId": "zakir-husain-delhi-college-evening",
+  "program": "B.A Program (Bengali + History/Political Science)",
+  "programId": "b-a-program-bengali-history-political-science",
+  "cutoffs": {
+   "UR": {
+    "round1": 342.5217,
+    "round2": 210.9481,
+    "round3": 403.4202
+   },
+   "OBC": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SC": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "ST": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "EWS": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SIKH": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "PwBD": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "KM": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SGC": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "ORPHAN_FEMALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "ORPHAN_MALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   }
+  },
+  "seats": {
+   "UR": 3,
+   "OBC": 2,
+   "SC": 1,
+   "ST": 1,
+   "EWS": 1,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 0,
+   "CW": 0,
+   "KM": 0,
+   "total": 8
+  }
+ },
+ {
+  "college": "Zakir Husain Delhi College (Evening)",
+  "collegeId": "zakir-husain-delhi-college-evening",
+  "program": "B.A Program (English + Economics/History/Political Science/Philosophy)",
+  "programId": "b-a-program-english-economics-history-political-science-philosophy",
+  "cutoffs": {
+   "UR": {
+    "round1": 581.6595,
+    "round2": 541.7825,
+    "round3": null
+   },
+   "OBC": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SC": {
+    "round1": 407.6267,
+    "round2": 309.2414,
+    "round3": 301.6968
+   },
+   "ST": {
+    "round1": 411.0145,
+    "round2": 223.6941,
+    "round3": 240.8746
+   },
+   "EWS": {
+    "round1": 434.3627,
+    "round2": 302.9343,
+    "round3": 158.0298
+   },
+   "SIKH": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "PwBD": {
+    "round1": 314.5746,
+    "round2": null,
+    "round3": null
+   },
+   "KM": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SGC": {
+    "round1": 565.876,
+    "round2": 510.9917,
+    "round3": null
+   },
+   "ORPHAN_FEMALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "ORPHAN_MALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   }
+  },
+  "seats": {
+   "UR": 12,
+   "OBC": 8,
+   "SC": 5,
+   "ST": 2,
+   "EWS": 3,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 2,
+   "CW": 2,
+   "KM": 2,
+   "total": 30
+  }
+ },
+ {
+  "college": "Zakir Husain Delhi College (Evening)",
+  "collegeId": "zakir-husain-delhi-college-evening",
+  "program": "B.A Program (Hindi + Economics/History/Political Science)",
+  "programId": "b-a-program-hindi-economics-history-political-science",
+  "cutoffs": {
+   "UR": {
+    "round1": 516.795,
+    "round2": 487.7402,
+    "round3": null
+   },
+   "OBC": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SC": {
+    "round1": 331.079,
+    "round2": 276.804,
+    "round3": 284.5064
+   },
+   "ST": {
+    "round1": 246.6883,
+    "round2": null,
+    "round3": null
+   },
+   "EWS": {
+    "round1": 339.4366,
+    "round2": 158.8436,
+    "round3": null
+   },
+   "SIKH": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "PwBD": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "KM": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SGC": {
+    "round1": 290.3134,
+    "round2": null,
+    "round3": null
+   },
+   "ORPHAN_FEMALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "ORPHAN_MALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   }
+  },
+  "seats": {
+   "UR": 8,
+   "OBC": 5,
+   "SC": 3,
+   "ST": 2,
+   "EWS": 2,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 1,
+   "CW": 1,
+   "KM": 1,
+   "total": 20
+  }
+ },
+ {
+  "college": "Zakir Husain Delhi College (Evening)",
+  "collegeId": "zakir-husain-delhi-college-evening",
+  "program": "B.A Program (Persian + History/Political Science)",
+  "programId": "b-a-program-persian-history-political-science",
+  "cutoffs": {
+   "UR": {
+    "round1": 383.3122,
+    "round2": 339.0707,
+    "round3": 359.3766
+   },
+   "OBC": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SC": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "ST": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "EWS": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SIKH": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "PwBD": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "KM": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SGC": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "ORPHAN_FEMALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "ORPHAN_MALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   }
+  },
+  "seats": {
+   "UR": 3,
+   "OBC": 2,
+   "SC": 1,
+   "ST": 1,
+   "EWS": 1,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 0,
+   "CW": 0,
+   "KM": 0,
+   "total": 8
+  }
+ },
+ {
+  "college": "Zakir Husain Delhi College (Evening)",
+  "collegeId": "zakir-husain-delhi-college-evening",
+  "program": "B.A Program (Philosophy + Economics/Political Science)",
+  "programId": "b-a-program-philosophy-economics-political-science",
+  "cutoffs": {
+   "UR": {
+    "round1": 560.8634,
+    "round2": 509.5683,
+    "round3": null
+   },
+   "OBC": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SC": {
+    "round1": 383.3734,
+    "round2": 279.3765,
+    "round3": 302.4912
+   },
+   "ST": {
+    "round1": 255.7571,
+    "round2": 228.6647,
+    "round3": 220.2305
+   },
+   "EWS": {
+    "round1": 363.7191,
+    "round2": 240.2534,
+    "round3": 225.1082
+   },
+   "SIKH": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "PwBD": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "KM": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SGC": {
+    "round1": 466.166,
+    "round2": 453.1276,
+    "round3": 380.2878
+   },
+   "ORPHAN_FEMALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "ORPHAN_MALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   }
+  },
+  "seats": {
+   "UR": 7,
+   "OBC": 4,
+   "SC": 2,
+   "ST": 1,
+   "EWS": 2,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 1,
+   "CW": 1,
+   "KM": 1,
+   "total": 16
+  }
+ },
+ {
+  "college": "Zakir Husain Delhi College (Evening)",
+  "collegeId": "zakir-husain-delhi-college-evening",
+  "program": "B.A Program (Sanskrit + History/Political Science)",
+  "programId": "b-a-program-sanskrit-history-political-science",
+  "cutoffs": {
+   "UR": {
+    "round1": 390.106,
+    "round2": 343.2922,
+    "round3": null
+   },
+   "OBC": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SC": {
+    "round1": 170.9304,
+    "round2": 170.9304,
+    "round3": null
+   },
+   "ST": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "EWS": {
+    "round1": 202.8571,
+    "round2": null,
+    "round3": null
+   },
+   "SIKH": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "PwBD": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "KM": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SGC": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "ORPHAN_FEMALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "ORPHAN_MALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   }
+  },
+  "seats": {
+   "UR": 3,
+   "OBC": 2,
+   "SC": 1,
+   "ST": 1,
+   "EWS": 1,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 0,
+   "CW": 0,
+   "KM": 0,
+   "total": 8
+  }
+ },
+ {
+  "college": "Zakir Husain Delhi College (Evening)",
+  "collegeId": "zakir-husain-delhi-college-evening",
+  "program": "B.A Program (Urdu + History/Political Science)",
+  "programId": "b-a-program-urdu-history-political-science",
+  "cutoffs": {
+   "UR": {
+    "round1": 446.4239,
+    "round2": 380.254,
+    "round3": null
+   },
+   "OBC": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SC": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "ST": {
+    "round1": 297.4825,
+    "round2": 297.4825,
+    "round3": 260.1142
+   },
+   "EWS": {
+    "round1": 254.2183,
+    "round2": null,
+    "round3": null
+   },
+   "SIKH": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "PwBD": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "KM": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SGC": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "ORPHAN_FEMALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "ORPHAN_MALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   }
+  },
+  "seats": {
+   "UR": 3,
+   "OBC": 2,
+   "SC": 1,
+   "ST": 1,
+   "EWS": 1,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 0,
+   "CW": 0,
+   "KM": 0,
+   "total": 8
+  }
+ },
+ {
+  "college": "Atma Ram Sanatan Dharma College",
+  "collegeId": "atma-ram-sanatan-dharma-college",
+  "program": "B.A Program (Mathematics + Any other discipline subject from (English/Hindi/Sanskrit/Political Science/Economics/Mathematics/Computer Applications/History))",
+  "programId": "b-a-program-mathematics-any-other-discipline-subject-from-english-hindi-sanskrit-political-science-economics-mathematics-computer-applications-history",
+  "cutoffs": {
+   "UR": {
+    "round1": 801.6214,
+    "round2": 786.492,
+    "round3": null
+   },
+   "OBC": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SC": {
+    "round1": 526.941,
+    "round2": 511.3469,
+    "round3": null
+   },
+   "ST": {
+    "round1": 352.78,
+    "round2": 352.78,
+    "round3": null
+   },
+   "EWS": {
+    "round1": 695.8649,
+    "round2": 612.2978,
+    "round3": null
+   },
+   "SIKH": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "PwBD": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "KM": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "SGC": {
+    "round1": 730.1787,
+    "round2": 730.1787,
+    "round3": null
+   },
+   "ORPHAN_FEMALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   },
+   "ORPHAN_MALE": {
+    "round1": null,
+    "round2": null,
+    "round3": null
+   }
+  },
+  "seats": {
+   "UR": 3,
+   "OBC": 3,
+   "SC": 2,
+   "ST": 1,
+   "EWS": 2,
+   "SIKH": 0,
+   "CHRISTIAN": 0,
+   "PwBD": 1,
+   "CW": 1,
+   "KM": 1,
+   "total": 11
   }
  }
 ]

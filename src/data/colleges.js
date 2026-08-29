@@ -2227,6 +2227,32 @@ export const colleges = [
     }
   },
   {
+    "id": "indira-gandhi-institute-of-physical-education-and-sports-sciences",
+    "name": "Indira Gandhi Institute of Physical Education and Sports Sciences",
+    "campus": "Off",
+    "type": "Co-ed",
+    "facilities": [
+      "Sports Complex",
+      "Library"
+    ],
+    "officialWebsite": "https://igipess.du.ac.in",
+    "coordinates": {
+      "lat": 28.562,
+      "lng": 77.115
+    },
+    "intro": "IGIPESS is a premier institute under DU for Physical Education, Health Education and Sports Sciences, offering B.Sc., M.P.Ed. and Ph.D. programs.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/62/Delhi_University%27s_official_logo.png",
+    "notableAlumni": [],
+    "societies": [],
+    "fests": [],
+    "nearestMetro": {
+      "station": "Check college website",
+      "line": "—",
+      "lineColor": "#94a3b8",
+      "walkTime": "—"
+    }
+  },
+  {
     "id": "institute-of-human-behaviour-and-allied-sciences",
     "name": "Institute of Human Behaviour & Allied Sciences (IHBAS)",
     "campus": "Off",

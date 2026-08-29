@@ -518,25 +518,25 @@
 .cf-diff-seg.cf-heat-2 { background: #fb923c; }
 .cf-diff-seg.cf-heat-1 { background: #ef4444; }
 
-/* Compact "Personalize" button next to the score input (opt-in category/gender) */
-.cf-profile-pers {
+/* Compact "Check" button inside the score input (opens category/gender picker) */
+.cf-check-btn {
   display: inline-flex;
   align-items: center;
   gap: 0.35rem;
-  border: 1px dashed #a5b4fc;
-  background: #eef2ff;
-  color: #4338ca;
-  font-size: 0.72rem;
-  font-weight: 700;
-  padding: 0.4rem 0.65rem;
-  border-radius: 999px;
+  border: 0;
+  background: var(--maccent, #2563eb);
+  color: #fff;
+  font-size: 0.78rem;
+  font-weight: 800;
+  padding: 0.45rem 0.95rem;
+  border-radius: 8px;
   cursor: pointer;
   font-family: inherit;
   white-space: nowrap;
-  transition: var(--transition);
   flex-shrink: 0;
+  transition: var(--transition);
 }
-.cf-profile-pers:hover { background: #e0e7ff; border-color: #818cf8; }
+.cf-check-btn:hover { filter: brightness(1.12); }
 
 .cf-elig-card-title {
   font-size: 0.68rem;
@@ -800,9 +800,9 @@
   border: 1px solid var(--border-color);
   background: #fafbff;
   border-radius: 8px;
-  padding: 0 0.75rem;
+  padding: 0.25rem 0.35rem 0.25rem 0.75rem;
   flex: 1;
-  max-width: 360px;
+  min-width: 220px;
 }
 .cf-score-wrap:focus-within { border-color: var(--maccent); }
 
