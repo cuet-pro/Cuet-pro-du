@@ -112,7 +112,7 @@ const DOMAINS = ["Accountancy / Book Keeping", "Agriculture", "Anthropology", "B
 function nf(n) { return n.toLocaleString("en-IN"); }
 function heatBg(v) { if (!v) return "transparent"; const t = Math.max(0, Math.min(1, (v - 650) / 300)); const hue = 145 * (1 - t); return `hsla(${hue},72%,45%,0.20)`; }
 function heatBgSeats(v) { if (v === null || v === undefined) return "transparent"; const t = Math.max(0, Math.min(1, v / 40)); const hue = 145 * t; return `hsla(${hue},72%,45%,0.20)`; }
-function progStats(p) { const myOffs = offerings.filter(o => o.programId === p.id); return { count: myOffs.length, totalSeats: myOffs.reduce((s, o) => s + (o.seats.total || 0), 0), topCutoff: myOffs.reduce((m, o) => Math.max(m, o.cutoffs.UR || 0), 0) }; }
+function progStats(p) { const myOffs = offerings.filter(o => o.programId === p.id); return { count: myOffs.length, totalSeats: myOffs.reduce((s, o) => s + (o.seats.total || 0), 0), topCutoff: myOffs.reduce((m, o) => Math.max(m, getCutoff(o, "UR", 1) || 0, getCutoff(o, "UR", 2) || 0, getCutoff(o, "UR", 3) || 0), 0) }; }
 
 function isEligibleDynamic(programName, langs, domains, gt) {
   const subjectEntries = [
@@ -433,7 +433,7 @@ export function SubjectCombination() {
   const reset = () => { setLangs([]); setDomains([]); setGt(false); setShown(false); setSelectionChanged(false); };
 
   const evaluated = useMemo(() => PROGRAMS.map((p) => ({ p, ok: isEligibleDynamic(p.name, langs, domains, gt) })), [langs, domains, gt]);
-  const eligible = useMemo(() => evaluated.filter((x) => x.ok).map((x) => x.p), [evaluated]);
+  const eligible = useMemo(() => evaluated.filter((x) => x.ok).map((x) => x.p).filter((p) => offerings.some((o) => o.programId === p.id)), [evaluated]);
   const eligibleIds = useMemo(() => new Set(eligible.map((p) => p.id)), [eligible]);
   const openColleges = useMemo(() => {
     return REAL_COLLEGES.map(c => {
@@ -473,7 +473,7 @@ export function SubjectCombination() {
       .map(({ c, eProgs }) => {
         const myOffs = offerings.filter(o => o.collegeId === c.id && eProgs.some(p => p.id === o.programId));
         const totalSeats = myOffs.reduce((s, o) => s + (o.seats.total || 0), 0);
-        const topCutoff = myOffs.reduce((m, o) => Math.max(m, o.cutoffs.UR || 0), 0);
+        const topCutoff = myOffs.reduce((m, o) => Math.max(m, getCutoff(o, "UR", 1) || 0, getCutoff(o, "UR", 2) || 0, getCutoff(o, "UR", 3) || 0), 0);
         return {
           c,
           eProgs,
