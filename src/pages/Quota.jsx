@@ -18,13 +18,10 @@ function nf(n) {
 
 export function Quota() {
   const [tab, setTab] = useState('college');
-  const [collegeId, setCollegeId] = useState(colleges[0]?.id || '');
   const [sport, setSport] = useState('');
   const [activity, setActivity] = useState('');
   const [search, setSearch] = useState('');
-  const [filterOpen, setFilterOpen] = useState(false);
-
-  const college = colleges.find((c) => c.id === collegeId);
+  const [expandedCollege, setExpandedCollege] = useState(null);
 
   const sportsList = useMemo(() => {
     const set = new Set(sportsQuota.map((s) => s.sport));
@@ -41,26 +38,22 @@ export function Quota() {
     return colleges.filter((c) => ids.has(c.id));
   }, []);
 
-  const collegesWithEca = useMemo(() => {
-    const ids = new Set(ecaQuota.map((e) => e.collegeId));
-    return colleges.filter((c) => ids.has(c.id));
+  // Colleges that have sports OR ECA quota — shown as an expandable list
+  const quotaColleges = useMemo(() => {
+    const ids = new Set([
+      ...sportsQuota.map((s) => s.collegeId),
+      ...ecaQuota.map((e) => e.collegeId),
+    ]);
+    return colleges
+      .filter((c) => ids.has(c.id))
+      .sort((a, b) => a.name.localeCompare(b.name));
   }, []);
-
-  const filteredColleges = useMemo(() => {
-    const q = search.trim().toLowerCase();
-    if (!q) return colleges;
-    return colleges.filter((c) => c.name.toLowerCase().includes(q));
-  }, [search]);
 
   const totalSportsSeats = useMemo(
     () => sportsQuota.reduce((s, r) => s + r.men + r.women, 0),
     []
   );
   const totalEcaSeats = useMemo(() => ecaQuota.reduce((s, r) => s + r.seats, 0), []);
-
-  // By-college view
-  const sportsRows = college ? getSportsForCollege(college.id) : [];
-  const ecaRows = college ? getEcaForCollege(college.id) : [];
 
   // By-sport view
   const sportRows = useMemo(() => {
@@ -109,120 +102,128 @@ export function Quota() {
         <span className="q-tabs-knob" />
       </div>
 
-      {/* Tab: By College */}
+      {/* Tab: By College — expandable list of colleges with sports/ECA quota */}
       {tab === 'college' && (
         <div className="q-panel">
-          {/* Main college filter — collapsed by default, expands on click */}
-          <div
-            className="q-filter-toggle"
-            onClick={() => setFilterOpen((o) => !o)}
-            aria-expanded={filterOpen}
-            role="button"
-            tabIndex={0}
-            onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); setFilterOpen((o) => !o); } }}
-          >
-            <span className="q-filter-toggle-icon">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon></svg>
-            </span>
-            <span className="q-filter-toggle-label">College Filter</span>
-            <span className="q-filter-toggle-arrow">{filterOpen ? '▲' : '▼'}</span>
+          <div className="q-list-search">
+            <div className="q-search-wrap">
+              <svg className="q-search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+              <input
+                className="q-search"
+                placeholder="Search college by name…"
+                value={search}
+                onChange={(e) => setSearch(e.target.value)}
+              />
+            </div>
           </div>
 
-          {filterOpen && (
-            <div className="q-controls">
-              <div className="q-search-wrap">
-                <svg className="q-search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
-                <input
-                  className="q-search"
-                  placeholder="Search college by name…"
-                  value={search}
-                  onChange={(e) => setSearch(e.target.value)}
-                />
-              </div>
-              <select className="q-select" value={collegeId} onChange={(e) => setCollegeId(e.target.value)}>
-                {filteredColleges.map((c) => (
-                  <option key={c.id} value={c.id}>{c.name}</option>
-                ))}
-              </select>
-            </div>
-          )}
+          <div className="q-list">
+            {quotaColleges
+              .filter((c) => !search.trim() || c.name.toLowerCase().includes(search.trim().toLowerCase()))
+              .map((c) => {
+                const sp = getSportsForCollege(c.id);
+                const ec = getEcaForCollege(c.id);
+                const open = expandedCollege === c.id;
+                const spTotal = sp.reduce((s, r) => s + r.men + r.women, 0);
+                const ecTotal = ec.reduce((s, r) => s + r.seats, 0);
+                return (
+                  <div key={c.id} className={`q-list-item ${open ? 'open' : ''}`}>
+                    <div
+                      className="q-list-head"
+                      onClick={() => setExpandedCollege(open ? null : c.id)}
+                      role="button"
+                      tabIndex={0}
+                      aria-expanded={open}
+                      onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); setExpandedCollege(open ? null : c.id); } }}
+                    >
+                      <div className="q-list-name-wrap">
+                        <span className="q-list-name">{c.name}</span>
+                        <span className="q-list-meta">{c.campus} Campus · {c.type}</span>
+                      </div>
+                      <div className="q-list-tags">
+                        {sp.length > 0 && <span className="q-tag q-tag-sports">🏅 {nf(spTotal)} sports seats</span>}
+                        {ec.length > 0 && <span className="q-tag q-tag-eca">🎭 {nf(ecTotal)} ECA seats</span>}
+                      </div>
+                      <span className="q-list-arrow">{open ? '▲' : '▼'}</span>
+                    </div>
 
-          {college && (
-            <>
-              <div className="q-college-head">
-                <h2>{college.name}</h2>
-                <div className="q-college-meta">
-                  <span>{college.campus} Campus</span>
-                  <span>{college.type}</span>
-                  <Link to={`/college/${college.id}`} className="q-view-link">View full college →</Link>
-                </div>
-              </div>
+                    {open && (
+                      <div className="q-list-body">
+                        {sp.length > 0 ? (
+                          <div className="q-table-card">
+                            <div className="q-table-head">
+                              <h3>🏅 Sports Quota <SourceBadge date="06 Jul 2026" /></h3>
+                              <span className="q-total">{nf(spTotal)} seats</span>
+                            </div>
+                            <div className="q-table-wrap">
+                              <table className="q-table">
+                                <thead>
+                                  <tr><th>Sport</th><th>Men</th><th>Women</th><th>Total</th></tr>
+                                </thead>
+                                <tbody>
+                                  {sp.map((r) => (
+                                    <tr key={r.sport}>
+                                      <td>{r.sport}</td>
+                                      <td>{r.men}</td>
+                                      <td>{r.women}</td>
+                                      <td><b>{r.men + r.women}</b></td>
+                                    </tr>
+                                  ))}
+                                  <tr className="q-total-row">
+                                    <td><b>Total</b></td>
+                                    <td><b>{sp.reduce((s, r) => s + r.men, 0)}</b></td>
+                                    <td><b>{sp.reduce((s, r) => s + r.women, 0)}</b></td>
+                                    <td><b>{spTotal}</b></td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </div>
+                          </div>
+                        ) : (
+                          <div className="q-empty">No sports quota data for this college.</div>
+                        )}
 
-              {sportsRows.length > 0 ? (
-                <div className="q-table-card">
-                  <div className="q-table-head">
-                    <h3>🏅 Sports Quota <SourceBadge date="06 Jul 2026" /></h3>
-                    <span className="q-total">{nf(sportsRows.reduce((s, r) => s + r.men + r.women, 0))} seats</span>
-                  </div>
-                  <div className="q-table-wrap">
-                    <table className="q-table">
-                      <thead>
-                        <tr><th>Sport</th><th>Men</th><th>Women</th><th>Total</th></tr>
-                      </thead>
-                      <tbody>
-                        {sportsRows.map((r) => (
-                          <tr key={r.sport}>
-                            <td>{r.sport}</td>
-                            <td>{r.men}</td>
-                            <td>{r.women}</td>
-                            <td><b>{r.men + r.women}</b></td>
-                          </tr>
-                        ))}
-                        <tr className="q-total-row">
-                          <td><b>Total</b></td>
-                          <td><b>{sportsRows.reduce((s, r) => s + r.men, 0)}</b></td>
-                          <td><b>{sportsRows.reduce((s, r) => s + r.women, 0)}</b></td>
-                          <td><b>{sportsRows.reduce((s, r) => s + r.men + r.women, 0)}</b></td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-              ) : (
-                <div className="q-empty">No sports quota data for this college.</div>
-              )}
+                        {ec.length > 0 ? (
+                          <div className="q-table-card">
+                            <div className="q-table-head">
+                              <h3>🎭 ECA Quota <SourceBadge date="27 Jun 2026" /></h3>
+                              <span className="q-total">{nf(ecTotal)} seats</span>
+                            </div>
+                            <div className="q-table-wrap">
+                              <table className="q-table">
+                                <thead>
+                                  <tr><th>Activity</th><th>Seats</th></tr>
+                                </thead>
+                                <tbody>
+                                  {ec.map((r) => (
+                                    <tr key={r.activity}>
+                                      <td>{r.activity}</td>
+                                      <td>{r.seats}</td>
+                                    </tr>
+                                  ))}
+                                  <tr className="q-total-row">
+                                    <td><b>Total</b></td>
+                                    <td><b>{ecTotal}</b></td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </div>
+                          </div>
+                        ) : (
+                          <div className="q-empty">No ECA quota data for this college.</div>
+                        )}
 
-              {ecaRows.length > 0 ? (
-                <div className="q-table-card">
-                  <div className="q-table-head">
-                    <h3>🎭 ECA Quota <SourceBadge date="27 Jun 2026" /></h3>
-                    <span className="q-total">{nf(ecaRows.reduce((s, r) => s + r.seats, 0))} seats</span>
+                        <Link to={`/college/${c.id}`} className="q-view-link">View full college →</Link>
+                      </div>
+                    )}
                   </div>
-                  <div className="q-table-wrap">
-                    <table className="q-table">
-                      <thead>
-                        <tr><th>Activity</th><th>Seats</th></tr>
-                      </thead>
-                      <tbody>
-                        {ecaRows.map((r) => (
-                          <tr key={r.activity}>
-                            <td>{r.activity}</td>
-                            <td>{r.seats}</td>
-                          </tr>
-                        ))}
-                        <tr className="q-total-row">
-                          <td><b>Total</b></td>
-                          <td><b>{ecaRows.reduce((s, r) => s + r.seats, 0)}</b></td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-              ) : (
-                <div className="q-empty">No ECA quota data for this college.</div>
-              )}
-            </>
-          )}
+                );
+              })}
+
+            {quotaColleges.filter((c) => !search.trim() || c.name.toLowerCase().includes(search.trim().toLowerCase())).length === 0 && (
+              <div className="q-empty">No colleges match that search.</div>
+            )}
+          </div>
         </div>
       )}
 

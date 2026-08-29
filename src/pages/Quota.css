@@ -42,7 +42,7 @@
   text-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
 }
 .q-hero-accent {
-  color: #bfdbfe;
+  color: #ffffff;
 }
 .q-hero p {
   color: rgba(255, 255, 255, 0.82);
@@ -111,46 +111,94 @@
   box-shadow: 0 2px 6px rgba(15, 23, 42, 0.25);
 }
 
-/* Main college filter toggle (collapsed by default, expands on click) */
-.q-filter-toggle {
+/* Expandable college list (By College tab) */
+.q-list-search {
+  margin-bottom: 0.9rem;
+}
+.q-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+.q-list-item {
+  border: 1px solid var(--border-color, #e2e8f0);
+  border-radius: 0.9rem;
+  background: #fff;
+  overflow: hidden;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+.q-list-item:hover {
+  border-color: #bfdbfe;
+}
+.q-list-item.open {
+  border-color: #93c5fd;
+  box-shadow: 0 4px 14px rgba(37, 99, 235, 0.08);
+}
+.q-list-head {
   display: flex;
   align-items: center;
-  gap: 0.6rem;
-  width: 100%;
-  border: 1px solid #bfdbfe;
-  background: linear-gradient(135deg, #eff6ff, #f8fafc);
-  color: #1e40af;
-  font-weight: 800;
-  font-size: 0.92rem;
-  font-family: inherit;
-  padding: 0.8rem 1rem;
-  border-radius: 0.8rem;
+  gap: 0.9rem;
+  padding: 0.9rem 1.1rem;
   cursor: pointer;
-  margin-bottom: 0.9rem;
-  transition: border-color 0.15s ease, background 0.15s ease;
   -webkit-tap-highlight-color: transparent;
 }
-.q-filter-toggle:hover {
-  border-color: #93c5fd;
-  background: linear-gradient(135deg, #dbeafe, #eff6ff);
+.q-list-name-wrap {
+  flex: 1;
+  min-width: 0;
 }
-.q-filter-toggle-icon {
-  display: grid;
-  place-items: center;
-  width: 28px;
-  height: 28px;
-  border-radius: 8px;
-  background: #dbeafe;
-  color: #2563eb;
+.q-list-name {
+  display: block;
+  font-weight: 800;
+  font-size: 0.98rem;
+  color: #0f172a;
+  line-height: 1.2;
+}
+.q-list-meta {
+  display: block;
+  font-size: 0.72rem;
+  color: #64748b;
+  margin-top: 0.2rem;
+}
+.q-list-tags {
+  display: flex;
+  gap: 0.4rem;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+.q-tag {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 800;
+  padding: 0.28rem 0.6rem;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+.q-tag-sports {
+  background: #ecfdf5;
+  color: #047857;
+  border: 1px solid #a7f3d0;
+}
+.q-tag-eca {
+  background: #eff6ff;
+  color: #1d4ed8;
+  border: 1px solid #bfdbfe;
+}
+.q-list-arrow {
+  font-size: 0.72rem;
+  color: #3b82f6;
   flex-shrink: 0;
 }
-.q-filter-toggle-label {
-  flex: 1;
-  text-align: left;
+.q-list-body {
+  border-top: 1px dashed #e2e8f0;
+  padding: 0.9rem 1.1rem 1.1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  background: #f8fafc;
 }
-.q-filter-toggle-arrow {
-  font-size: 0.7rem;
-  color: #3b82f6;
+.q-list-body .q-view-link {
+  align-self: flex-start;
 }
 
 /* Panels & controls */
