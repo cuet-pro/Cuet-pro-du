@@ -109,7 +109,7 @@ export const colleges = [
       "lng": 77.0726
     },
     "intro": "Founded in 1983, Bhagini Nivedita College is a women's institution in Janakpuri, West Delhi. Named after Sister Nivedita, it focuses on Humanities and Social Sciences with an emphasis on holistic education.",
-    "imageUrl": "https://bhagininiveditadu.ac.in/images/logo.png",
+    "imageUrl": "/logos/bhagini-nivedita.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -132,7 +132,7 @@ export const colleges = [
       "lng": 77.0741
     },
     "intro": "Established in 1975, Bharati College for Women is located in Janakpuri, West Delhi. It offers a broad range of Arts and Science programs and is known for its active student cultural scene.",
-    "imageUrl": "https://www.bharaticollege.du.ac.in/assets/front/images/bhartilogo.svg",
+    "imageUrl": "/logos/bharati.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -178,7 +178,7 @@ export const colleges = [
       "lng": 77.2091
     },
     "intro": "Established in 2011, the Cluster Innovation Centre is an interdisciplinary institution at the North Campus, University of Delhi. It offers unique integrated and innovative programs blending science, humanities, and technology.",
-    "imageUrl": "https://cic.du.ac.in/userfiles/images/logo%20(1).png",
+    "imageUrl": "/logos/cic.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -541,7 +541,7 @@ export const colleges = [
       "lng": 77.2144
     },
     "intro": "Established in 1899, Hindu College is one of Delhi University's oldest and most prestigious institutions. Located at North Campus, it is renowned for its literary tradition and distinguished alumni including several union ministers and authors.",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Logo_of_Hindu_College.jpg",
+    "imageUrl": "/logos/hindu.png",
     "notableAlumni": [
       {
         "name": "Amrita Pritam",
@@ -600,7 +600,7 @@ export const colleges = [
       "lng": 77.2198
     },
     "intro": "Founded in 1924, Indraprastha College is one of DU's oldest women's colleges, located at North Campus. It offers strong programs in Humanities and Social Sciences and has a rich legacy of empowering women through education.",
-    "imageUrl": "https://ipcollege.ac.in/assets/front/images/Logo.svg",
+    "imageUrl": "/logos/indraprastha.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
