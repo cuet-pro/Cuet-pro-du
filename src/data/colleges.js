@@ -61,7 +61,7 @@ export const colleges = [
       "lng": 77.1901
     },
     "intro": "Founded in 1978, Aryabhatta College is located in Patel Nagar, South Delhi. Named after the renowned mathematician, it is recognised for its Science programs and interdisciplinary research culture.",
-    "imageUrl": "https://www.aryabhattacollege.ac.in/images/logoo.png",
+    "imageUrl": "/logos/aryabhatta.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -155,7 +155,7 @@ export const colleges = [
       "lng": 77.0769
     },
     "intro": "Founded in 1999, BCAS is located in Dwarka, West Delhi. Named after the 12th-century mathematician, it specialises in Applied Sciences and Technology and is known for its modern labs and industry collaborations.",
-    "imageUrl": "https://www.bcas.du.ac.in/assets/front/images/main-logo.svg",
+    "imageUrl": "/logos/bcas.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -950,7 +950,7 @@ export const colleges = [
       "lng": 77.1757
     },
     "intro": "Founded in 1967, Maitreyi College is a women's institution in South-West Delhi named after the ancient Indian philosopher. It offers programs in Arts, Science, and Commerce with a strong emphasis on research.",
-    "imageUrl": "https://www.maitreyi.ac.in/assets/front/images/maitreyi_logo_english.svg",
+    "imageUrl": "/logos/maitreyi.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -1103,7 +1103,7 @@ export const colleges = [
       "lng": 77.2539
     },
     "intro": "Established in 1957, PGDAV College is located in Nehru Nagar, South Delhi. Named after Pandit Ganga Dhar Acharya Vaidya, it offers programs in Science, Commerce, and Humanities with a strong academic reputation.",
-    "imageUrl": "https://www.pgdavcollege.in/assets/front/images/logo.svg",
+    "imageUrl": "/logos/pgdav.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -1126,7 +1126,7 @@ export const colleges = [
       "lng": 77.2539
     },
     "intro": "The Evening shift of PGDAV College in South Delhi provides Commerce and Humanities programs for working professionals and students seeking flexible education options.",
-    "imageUrl": "https://www.pgdavcollege.in/assets/front/images/logo.svg",
+    "imageUrl": "/logos/pgdav.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -1335,7 +1335,7 @@ export const colleges = [
       "lng": 77.1512
     },
     "intro": "Established in 1989, SRCASW is a women's college in Vasant Vihar, North Delhi. It specialises in Applied Sciences and is known for its modern laboratories and strong technical education for women.",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/62/Delhi_University%27s_official_logo.png",
+    "imageUrl": "/logos/shaheed-rajguru.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -1532,7 +1532,7 @@ export const colleges = [
       "lng": 77.1775
     },
     "intro": "Established in 1972, Sri Aurobindo College (Day) is located in Malviya Nagar, South Delhi. Named after the philosopher-poet Sri Aurobindo, it is known for its Science programs and philosophical ethos.",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/62/Delhi_University%27s_official_logo.png",
+    "imageUrl": "/logos/sri-aurobindo.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -1555,7 +1555,7 @@ export const colleges = [
       "lng": 77.1775
     },
     "intro": "The Evening shift of Sri Aurobindo College in South Delhi offers Commerce and Humanities programs and is known for accommodating a diverse student body including working professionals.",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/62/Delhi_University%27s_official_logo.png",
+    "imageUrl": "/logos/sri-aurobindo.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -1628,7 +1628,7 @@ export const colleges = [
       "lng": 77.2017
     },
     "intro": "Founded in 1951, SGTB Khalsa College is one of DU's prominent minority institutions at North Campus. It offers broad programs across streams and is known for its strong alumni network in business and public service.",
-    "imageUrl": "https://sgtbkhalsadu.ac.in/assets/front/images/main-logo2.svg",
+    "imageUrl": "/logos/sgtb-khalsa.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
