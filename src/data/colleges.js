@@ -61,7 +61,7 @@ export const colleges = [
       "lng": 77.1901
     },
     "intro": "Founded in 1978, Aryabhatta College is located in Patel Nagar, South Delhi. Named after the renowned mathematician, it is recognised for its Science programs and interdisciplinary research culture.",
-    "imageUrl": "https://web.archive.org/web/2025/http://www.aryabhattacollege.ac.in/images/logoo.png",
+    "imageUrl": "https://www.aryabhattacollege.ac.in/images/logoo.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -132,7 +132,7 @@ export const colleges = [
       "lng": 77.0741
     },
     "intro": "Established in 1975, Bharati College for Women is located in Janakpuri, West Delhi. It offers a broad range of Arts and Science programs and is known for its active student cultural scene.",
-    "imageUrl": "/bharati-college-crest.png",
+    "imageUrl": "https://www.bharaticollege.du.ac.in/assets/front/images/bhartilogo.svg",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -600,7 +600,7 @@ export const colleges = [
       "lng": 77.2198
     },
     "intro": "Founded in 1924, Indraprastha College is one of DU's oldest women's colleges, located at North Campus. It offers strong programs in Humanities and Social Sciences and has a rich legacy of empowering women through education.",
-    "imageUrl": "/ip-college-crest.png",
+    "imageUrl": "https://ipcollege.ac.in/assets/front/images/Logo.svg",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
@@ -1220,7 +1220,7 @@ export const colleges = [
       "lng": 77.2163
     },
     "intro": "Established in 1917, Ramjas College is one of Delhi University's oldest colleges, located at North Campus. It has a distinguished academic tradition and notable alumni spanning literature, politics, and public service.",
-    "imageUrl": "https://web.archive.org/web/2025/https://ramjas.du.ac.in/college/web/images/logo-wide.png",
+    "imageUrl": "https://web.archive.org/web/20200918231413im_/http://ramjas.du.ac.in/images/logo.png",
     "notableAlumni": [],
     "societies": [],
     "fests": [],
